@@ -1,0 +1,54 @@
+<div class="faculty-card">
+
+  <img
+    src="{{ '/images/faculty/' | relative_url }}{{ include.person.photo }}"
+    alt="{{ include.person.name }}"
+    class="faculty-photo">
+
+  <h3 class="faculty-name">
+    {{ include.person.name }}
+  </h3>
+
+  <p class="faculty-designation">
+    {{ include.person.designation }}
+  </p>
+
+  {% if include.person.head %}
+    <p class="faculty-head-role">
+      Head of Department
+    </p>
+  {% endif %}
+
+  <p class="faculty-joined">
+    Joined in {{ include.person.year_joined }}
+  </p>
+
+  {% if include.person.affiliation == "secondary" %}
+    <p class="faculty-secondary">
+      Secondary affiliation
+    </p>
+  {% endif %}
+
+  <div class="faculty-links">
+
+    {% if include.person.iit_url %}
+      <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
+        IIT Profile
+      </a>
+    {% endif %}
+
+    {% if include.person.personal_url != "" %}
+      <a href="{{ include.person.personal_url }}" target="_blank" rel="noopener">
+        Personal Website
+      </a>
+    {% endif %}
+
+    {% if include.person.email %}
+      <a href="mailto:{{ include.person.email }}">
+        Email
+      </a>
+    {% endif %}
+
+  </div>
+
+</div>
