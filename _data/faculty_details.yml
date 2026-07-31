@@ -2,6 +2,7 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation:
+  head: true
   year_joined: 2017
   date_joined: 20170101
   email: uma@iitpkd.ac.in
@@ -13,6 +14,7 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: Adjunct Faculty, IIT Madras 
+  head: false
   year_joined: 2017
   date_joined: 20170202
   email: jayakumar@iitpkd.ac.in
@@ -24,6 +26,7 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  head: false
   year_joined: 2018
   date_joined: 20180101
   email: prithvi@iitpkd.ac.in
@@ -35,6 +38,7 @@
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  head: false
   year_joined: 2018
   date_joined: 20180202
   email: smanni@iitpkd.ac.in
@@ -46,6 +50,7 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  head: false
   year_joined: 2019
   date_joined: 20190902
   email: amit@iitpkd.ac.in
