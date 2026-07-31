@@ -1,0 +1,62 @@
+<div class="person-card">
+
+  <img
+    src="{{ '/images/faculty/' | relative_url }}{{ include.person.photo }}"
+    alt="{{ include.person.name }}">
+
+  <h3>{{ include.person.name }}</h3>
+
+  <p class="designation">
+    {{ include.person.designation }}
+  </p>
+
+  <div class="person-meta">
+
+    {% if include.person.head %}
+      <span class="badge head">
+        <i class="fas fa-star"></i> Head
+      </span>
+    {% endif %}
+
+    {% if include.person.affiliation %}
+      <span class="badge affiliation">
+        <i class="fas fa-user"></i>
+        {{ include.person.affiliation | capitalize }}
+      </span>
+    {% endif %}
+
+    {% if include.person.year_joined %}
+      <span class="badge joined">
+        <i class="far fa-calendar-alt"></i>
+        Since {{ include.person.year_joined }}
+      </span>
+    {% endif %}
+
+  </div>
+
+  <div class="person-links">
+
+    {% if include.person.iit_url %}
+      <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
+        <i class="fas fa-university"></i>
+        IIT Profile
+      </a>
+    {% endif %}
+
+    {% if include.person.personal_url and include.person.personal_url != "" %}
+      <a href="{{ include.person.personal_url }}" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+        Website
+      </a>
+    {% endif %}
+
+    {% if include.person.email %}
+      <a href="mailto:{{ include.person.email }}">
+        <i class="fas fa-envelope"></i>
+        Email
+      </a>
+    {% endif %}
+
+  </div>
+
+</div>
