@@ -9,6 +9,8 @@
   iit_url: "https://iitpkd.ac.in/people/uma/"
   personal_url: 
   photo: uma.png
+  research: "Non-equilibrium dynamics, quantum phase transitions, quantum Information"
+           
 
 - name: Jayakumar Balakrishnan
   designation: Associate Professor
@@ -21,6 +23,7 @@
   iit_url: "https://iitpkd.ac.in/people/jayakumar/"
   personal_url: "https://sites.google.com/iitpkd.ac.in/2dmaterialsgroup/home/"
   photo: jayakumar.png  
+  research: "Experimental condensed matter physics, 2D materials and perovskites"
 
 - name: Prithvi Narayan P
   designation: Associate Professor
@@ -33,6 +36,7 @@
   iit_url: "https://iitpkd.ac.in/people/prithvi/"
   personal_url: 
   photo: prithvi.png    
+  research: "Quantum field theory, string theory"
 
 - name: Soham Manni
   designation: Assistant Professor
@@ -44,7 +48,8 @@
   email: smanni@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/smanni/"
   personal_url: "https://sites.google.com/view/cem-lab/home/"
-  photo: soham.png   
+  photo: soham.png  
+  research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
 
 - name: Kusum Dhochak
   designation: Assistant Professor
@@ -57,18 +62,7 @@
   iit_url: "https://iitpkd.ac.in/people/kdhochak/"
   personal_url: 
   photo: kusum.png     
-
-- name: Projjwal Banerjee
-  designation: Associate Professor
-  affiliation: primary
-  other_affiliation: 
-  head: false
-  year_joined: 2019
-  date_joined: 20190606
-  email: projjwal@iitpkd.ac.in
-  iit_url: "https://iitpkd.ac.in/people/projjwal/"
-  personal_url: 
-  photo: projjwal.png   
+  research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
 
 - name: Bibhu Ranjan Sarangi
   designation: Associate Professor
@@ -76,11 +70,28 @@
   other_affiliation: 
   head: false
   year_joined: 2019
-  date_joined: 20190707
+  date_joined: 20190606
   email: bibhu@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/bibhu/"
   personal_url: 
   photo: bibhu.png
+  research: "Soft-matter physics, active matter systems, mechanobiology"
+  
+
+- name: Projjwal Banerjee
+  designation: Associate Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2019
+  date_joined: 20190707
+  email: projjwal@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/projjwal/"
+  personal_url: 
+  photo: projjwal.png   
+  research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
+
+
 
 - name: Amit Kumar Pal
   designation: Associate Professor
@@ -93,6 +104,7 @@
   iit_url: "https://iitpkd.ac.in/people/amit/"
   personal_url: "https://amitkpal.github.io/"
   photo: amit.png
+  research: "Quantum information theory, quantum thermodynamics, quantum many-body physics, open quantum systems" 
 
 - name: Vishwas V
   designation: Assistant Professor
@@ -105,6 +117,7 @@
   iit_url: "https://iitpkd.ac.in/people/vishwas/"
   personal_url: 
   photo: vishwas.png
+  research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
 
 
 - name: Ajeesh M. Omanakuttan
@@ -118,6 +131,7 @@
   iit_url: "https://iitpkd.ac.in/people/ajeesh/"
   personal_url: 
   photo: ajeesh.png
+  research: "Experimental condensed matter physics, quantum materials under extreme conditions"
 
 
 - name: Manoj Gopalkrishnan
@@ -131,6 +145,7 @@
   iit_url: "https://iitpkd.ac.in/people/manojgopal/"
   personal_url: 
   photo: manoj.png
+  research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
 
 
 - name: Akanksha Bhardwaj
@@ -144,6 +159,7 @@
   iit_url: "https://iitpkd.ac.in/people/akankshab/"
   personal_url: 
   photo: akanksha.png
+  research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
 
 - name: Resmi PK
   designation: Assistant Professor
@@ -156,6 +172,8 @@
   iit_url: "https://iitpkd.ac.in/people/resmipk/"
   personal_url: 
   photo: resmi.png
+  research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
 
-  
+
+
   
