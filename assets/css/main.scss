@@ -39,6 +39,7 @@
 ;
 
 
+
 /* ==========================================================
    Faculty Grid
    ========================================================== */
@@ -132,9 +133,9 @@
     margin-top: 1.5rem;
 
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45rem;
 }
 
 .faculty-links a {
