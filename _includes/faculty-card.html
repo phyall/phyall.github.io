@@ -1,3 +1,5 @@
+{% assign website = include.person.personal_url | default: "" | strip %}
+
 <div class="faculty-card">
 
   <img
@@ -37,8 +39,8 @@
       </a>
     {% endif %}
 
-    {% if include.person.personal_url and include.person.personal_url != "" %}
-      <a href="{{ include.person.personal_url }}" target="_blank" rel="noopener">
+    {% if website != "" %}
+      <a href="{{ website }}" target="_blank" rel="noopener">
         Personal Website
       </a>
     {% endif %}
