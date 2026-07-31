@@ -15,9 +15,35 @@
       {{ include.person.name }}
     </h3>
 
-    <p class="faculty-designation">
-      {{ include.person.designation }}
-    </p>
+    <div class="faculty-header">
+
+      <p class="faculty-designation">
+        {{ include.person.designation }}
+      </p>
+
+      <div class="faculty-links">
+
+        {% if include.person.iit_url %}
+          <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
+            IIT
+          </a>
+        {% endif %}
+
+        {% if website != "" %}
+          <a href="{{ website }}" target="_blank" rel="noopener">
+            Website
+          </a>
+        {% endif %}
+
+        {% if include.person.email %}
+          <a href="mailto:{{ include.person.email }}">
+            Email
+          </a>
+        {% endif %}
+
+      </div>
+
+    </div>
 
     {% if include.person.head %}
       <p class="faculty-head-role">
@@ -40,28 +66,6 @@
         <strong>Research:</strong> {{ include.person.research }}
       </p>
     {% endif %}
-
-    <div class="faculty-links">
-
-      {% if include.person.iit_url %}
-        <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
-          IIT
-        </a>
-      {% endif %}
-
-      {% if website != "" %}
-        <a href="{{ website }}" target="_blank" rel="noopener">
-          Website
-        </a>
-      {% endif %}
-
-      {% if include.person.email %}
-        <a href="mailto:{{ include.person.email }}">
-          Email
-        </a>
-      {% endif %}
-
-    </div>
 
   </div>
 
