@@ -1,9 +1,57 @@
+- name: Uma Divakaran
+  designation: Associate Professor
+  affiliation: primary
+  other_affiliation:
+  year_joined: 2017
+  date_joined: 20170101
+  email: uma@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/uma/"
+  personal_url: 
+  photo: uma.png
+
+- name: Jayakumar Balakrishnan
+  designation: Associate Professor
+  affiliation: primary
+  other_affiliation: Adjunct Faculty, IIT Madras 
+  year_joined: 2017
+  date_joined: 20170202
+  email: jayakumar@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/jayakumar/"
+  personal_url: "https://sites.google.com/iitpkd.ac.in/2dmaterialsgroup/home/"
+  photo: jayakumar.png  
+
+- name: Prithvi Narayan P
+  designation: Associate Professor
+  affiliation: primary
+  other_affiliation: 
+  year_joined: 2018
+  date_joined: 20180101
+  email: prithvi@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/prithvi/"
+  personal_url: "https://sites.google.com/iitpkd.ac.in/2dmaterialsgroup/home/"
+  photo: prithvi.png    
+
+- name: Soham Manni
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  year_joined: 2018
+  date_joined: 20180202
+  email: smanni@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/smanni/"
+  personal_url: "https://sites.google.com/view/cem-lab/home/"
+  photo: soham.png   
+
 - name: Amit Kumar Pal
   designation: Associate Professor
   affiliation: primary
+  other_affiliation: 
   year_joined: 2019
   date_joined: 20190902
-  iit_url: 
-  personal_url: 
-  photo: akp.png
+  email: amit@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/amit/"
+  personal_url: "https://amitkpal.github.io/"
+  photo: amit.png
+
+  
   
