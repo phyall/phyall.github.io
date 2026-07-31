@@ -46,6 +46,42 @@
   personal_url: "https://sites.google.com/view/cem-lab/home/"
   photo: soham.png   
 
+- name: Kusum Dhochak
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2018
+  date_joined: 20180303
+  email: kdhochak@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/kdhochak/"
+  personal_url: 
+  photo: kusum.png     
+
+- name: Projjwal Banerjee
+  designation: Associate Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2019
+  date_joined: 20190606
+  email: projjwal@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/projjwal/"
+  personal_url: 
+  photo: projjwal.png   
+
+- name: Bibhu Ranjan Sarangi
+  designation: Associate Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2019
+  date_joined: 20190707
+  email: bibhu@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/bibhu/"
+  personal_url: 
+  photo: bibhu.png
+
 - name: Amit Kumar Pal
   designation: Associate Professor
   affiliation: primary
@@ -57,6 +93,69 @@
   iit_url: "https://iitpkd.ac.in/people/amit/"
   personal_url: "https://amitkpal.github.io/"
   photo: amit.png
+
+- name: Vishwas V
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2019
+  date_joined: 20191001
+  email: vishwas@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/vishwas/"
+  personal_url: 
+  photo: vishwas.png
+
+
+- name: Ajeesh M. Omanakuttan
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2024
+  date_joined: 20240101
+  email: ajeesh@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/ajeesh/"
+  personal_url: 
+  photo: ajeesh.png
+
+
+- name: Manoj Gopalkrishnan
+  designation: Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2024
+  date_joined: 20240202
+  email: manojgopal@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/manojgopal/"
+  personal_url: 
+  photo: manoj.png
+
+
+- name: Akanksha Bhardwaj
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2025
+  date_joined: 20250101
+  email: akankshab@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/akankshab/"
+  personal_url: 
+  photo: akanksha.png
+
+- name: Resmi PK
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  head: false
+  year_joined: 2025
+  date_joined: 20250202
+  email: resmipk@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/resmipk/"
+  personal_url: 
+  photo: resmi.png
 
   
   
