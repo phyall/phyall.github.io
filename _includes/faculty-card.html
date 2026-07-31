@@ -2,60 +2,66 @@
 
 <div class="faculty-card">
 
-  <img
-    src="{{ '/images/faculty/' | relative_url }}{{ include.person.photo }}"
-    alt="{{ include.person.name }}"
-    class="faculty-photo">
+  <div class="faculty-photo-container">
+    <img
+      src="{{ '/images/faculty/' | relative_url }}{{ include.person.photo }}"
+      alt="{{ include.person.name }}"
+      class="faculty-photo">
+  </div>
 
-  <h3 class="faculty-name">
-    {{ include.person.name }}
-  </h3>
+  <div class="faculty-content">
 
-  <p class="faculty-designation">
-    {{ include.person.designation }}
-  </p>
+    <h3 class="faculty-name">
+      {{ include.person.name }}
+    </h3>
 
-  {% if include.person.head %}
-    <p class="faculty-head-role">
-      Head of Department
+    <p class="faculty-designation">
+      {{ include.person.designation }}
     </p>
-  {% endif %}
 
-  <p class="faculty-joined">
-    Joined in {{ include.person.year_joined }}
-  </p>
-
-  {% if include.person.research %}
-    <p class="faculty-research">
-      <strong>Research:</strong> {{ include.person.research }}
-    </p>
-  {% endif %}  
-
-  {% if include.person.affiliation == "secondary" %}
-    <p class="faculty-secondary">
-      Secondary affiliation
-    </p>
-  {% endif %}
-
-  <div class="faculty-links">
-
-    {% if include.person.iit_url %}
-      <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
-        IIT Profile
-      </a>
+    {% if include.person.head %}
+      <p class="faculty-head-role">
+        Head of Department
+      </p>
     {% endif %}
 
-    {% if website != "" %}
-      <a href="{{ website }}" target="_blank" rel="noopener">
-        Personal Website
-      </a>
+    <p class="faculty-joined">
+      <strong>Joined:</strong> {{ include.person.year_joined }}
+    </p>
+
+    {% if include.person.affiliation == "secondary" %}
+      <p class="faculty-secondary">
+        <strong>Secondary affiliation</strong>
+      </p>
     {% endif %}
 
-    {% if include.person.email %}
-      <a href="mailto:{{ include.person.email }}">
-        Email
-      </a>
+    {% if include.person.research %}
+      <p class="faculty-research">
+        <strong>Research:</strong> {{ include.person.research }}
+      </p>
     {% endif %}
+
+    <div class="faculty-links">
+
+      {% if include.person.iit_url %}
+        <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
+          IIT Profile
+        </a>
+      {% endif %}
+
+      {% if website != "" %}
+        <a href="{{ website }}" target="_blank" rel="noopener">
+          Personal Website
+        </a>
+      {% endif %}
+
+      {% if include.person.email %}
+        <a href="mailto:{{ include.person.email }}">
+          Email
+        </a>
+      {% endif %}
+
+    </div>
 
   </div>
 
