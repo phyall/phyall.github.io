@@ -37,3 +37,99 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+
+/* ===========================================================
+   Person Card
+   =========================================================== */
+
+.person-card {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,.08);
+    transition: all .25s ease;
+}
+
+.person-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 28px rgba(0,0,0,.14);
+}
+
+.person-card img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 4px solid #f3f3f3;
+}
+
+.person-card h3 {
+    margin: .4rem 0;
+    font-size: 1.35rem;
+}
+
+.person-card .designation {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.person-meta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .45rem;
+    margin-bottom: 1rem;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .35rem .8rem;
+    border-radius: 50px;
+    font-size: .82rem;
+    font-weight: 600;
+}
+
+.badge.head {
+    background: #d9534f;
+    color: white;
+}
+
+.badge.affiliation {
+    background: #0d6efd;
+    color: white;
+}
+
+.badge.joined {
+    background: #198754;
+    color: white;
+}
+
+.person-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .6rem;
+}
+
+.person-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .45rem .9rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: .9rem;
+    background: #f8f9fa;
+    transition: all .2s ease;
+}
+
+.person-links a:hover {
+    background: #0d6efd;
+    color: white;
+    text-decoration: none;
+}
