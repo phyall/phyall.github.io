@@ -25,6 +25,12 @@
     Joined in {{ include.person.year_joined }}
   </p>
 
+  {% if include.person.research %}
+    <p class="faculty-research">
+      {{ include.person.research }}
+    </p>
+  {% endif %}
+
   {% if include.person.affiliation == "secondary" %}
     <p class="faculty-secondary">
       Secondary affiliation
