@@ -37,7 +37,7 @@
       </a>
     {% endif %}
 
-    {% if include.person.personal_url != "" %}
+    {% if include.person.personal_url and include.person.personal_url != "" %}
       <a href="{{ include.person.personal_url }}" target="_blank" rel="noopener">
         Personal Website
       </a>
