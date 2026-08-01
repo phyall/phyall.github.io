@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Faculty and Staff"
-permalink: /people/
+title: "Faculty"
+permalink: /faculty/
 sidebar: quicklinks
 author_profile: true
 ---
@@ -14,7 +14,6 @@ author_profile: true
    | where: "affiliation", "secondary"
    | sort: "date_joined" %}
 
-<h2>Faculty</h2>
 
 <div class="faculty-grid">
 {% for person in primary_faculty %}
