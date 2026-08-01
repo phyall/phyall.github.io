@@ -18,7 +18,8 @@
     <p class="faculty-designation">
       {{ include.person.designation }}
       {% if include.person.head %}
-        and <strong>Head</strong>
+        <span class="faculty-separator">&middot;</span>
+        <span class="faculty-head-inline">Head</span>
       {% endif %}
     </p>
 
