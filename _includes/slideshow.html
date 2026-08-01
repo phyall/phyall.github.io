@@ -1,27 +1,25 @@
-<div class="hero-slideshow">
+<div class="swiper hero-swiper">
 
-  {% for slide in site.data.slideshow.slides %}
-  <div
-    class="slide {% if forloop.first %}active{% endif %}"
-    style="background-image:url('{{ slide.image | relative_url }}');">
-  </div>
-  {% endfor %}
+  <div class="swiper-wrapper">
 
-  <button class="slide-prev" aria-label="Previous slide">
-    &#10094;
-  </button>
-
-  <button class="slide-next" aria-label="Next slide">
-    &#10095;
-  </button>
-
-  <div class="slide-dots">
     {% for slide in site.data.slideshow.slides %}
-      <span
-        class="dot {% if forloop.first %}active{% endif %}"
-        data-slide="{{ forloop.index0 }}">
-      </span>
+
+      <div class="swiper-slide">
+
+        <img
+          src="{{ slide.image | relative_url }}"
+          alt="Department image">
+
+      </div>
+
     {% endfor %}
+
   </div>
+
+  <div class="swiper-pagination"></div>
+
+  <div class="swiper-button-prev"></div>
+
+  <div class="swiper-button-next"></div>
 
 </div>
