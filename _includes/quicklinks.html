@@ -1,0 +1,28 @@
+<aside class="quicklinks">
+
+    <h2>{{ site.data.quicklinks.title }}</h2>
+
+    <ul>
+
+    {% for item in site.data.quicklinks.links %}
+
+        <li>
+
+            <a
+              href="{{ item.url }}"
+              {% if item.url contains "http" %}
+              target="_blank" rel="noopener"
+              {% endif %}
+            >
+
+                {{ item.title }}
+
+            </a>
+
+        </li>
+
+    {% endfor %}
+
+    </ul>
+
+</aside>
