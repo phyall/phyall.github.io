@@ -176,4 +176,30 @@
 
 
 
+- name: Debarati Chatterjee
+  designation: Associate Professor
+  affiliation: secondary
+  other_affiliation: 
+  head: false
+  year_joined: 2017
+  date_joined: 30000101
+  email: debarati@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/debarati/"
+  personal_url: 
+  photo: debarati.png
+  research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
+
+
+- name: Swaroop Sahoo
+  designation: Associate Professor
+  affiliation: secondary
+  other_affiliation: 
+  head: false
+  year_joined: 2017
+  date_joined: 30000202
+  email: swaroop@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/swaroop/"
+  personal_url: 
+  photo: swaroop.png
+  research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
   
