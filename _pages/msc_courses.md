@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "M.Sc. Course Catalogue"
-permalink: /msc/courses/
+permalink: /msccourses/
 sidebar: quicklinks
 ---
 
