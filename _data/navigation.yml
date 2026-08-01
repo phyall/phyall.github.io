@@ -50,10 +50,10 @@ main:
   - title: Academics
     children:
       - title: M.Sc. Courses
-        url: /msc/courses/
+        url: /msccourses/
 
       - title: B.Tech. Courses
-        url: /btech/courses/
+        url: /btechcourses/
 
   - title: People
     children:
