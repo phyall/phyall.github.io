@@ -5,10 +5,30 @@ permalink: /people/
 author_profile: true
 ---
 
-{% assign faculty = site.data.faculty_details | sort: "date_joined" %}
+{% assign primary_faculty = site.data.faculty_details
+   | where: "affiliation", "primary"
+   | sort: "date_joined" %}
+
+{% assign secondary_faculty = site.data.faculty_details
+   | where: "affiliation", "secondary"
+   | sort: "date_joined" %}
+
+<h2>Primary Faculty</h2>
 
 <div class="faculty-grid">
-  {% for person in faculty %}
+{% for person in primary_faculty %}
     {% include faculty-card.html person=person %}
-  {% endfor %}
+{% endfor %}
 </div>
+
+{% if secondary_faculty.size > 0 %}
+
+<h2 style="margin-top:3rem;">Secondary Affiliation</h2>
+
+<div class="faculty-grid">
+{% for person in secondary_faculty %}
+    {% include faculty-card.html person=person %}
+{% endfor %}
+</div>
+
+{% endif %}
