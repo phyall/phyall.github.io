@@ -41,23 +41,7 @@ sections:
         url: https://iitpkd.ac.in/careers
       - title: Project Positions
         url: https://iitpkd.ac.in/careers
-  - title: Quick Links
-    type: links
-    items:
-      - title: Home
-        url: /
-      - title: Faculty
-        url: /people/
-      - title: Research
-        url: /research/
-      - title: Students
-        url: /students/
-      - title: Publications
-        url: /publications/
-      - title: News
-        url: /news/
-      - title: Events
-        url: /events/
+        
   - title: IIT Palakkad
     type: links
     items:
