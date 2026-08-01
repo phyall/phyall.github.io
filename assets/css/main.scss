@@ -261,3 +261,23 @@
     }
 
 }
+
+
+
+/* ====================================================
+   Remove Academic Pages sidebar layout 
+   ==================================================== */
+
+.sidebar {
+    display: none !important;
+}
+
+.page,
+.archive,
+.page__inner-wrap,
+.initial-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
