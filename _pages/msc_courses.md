@@ -5,17 +5,17 @@ permalink: /msccourses/
 sidebar: quicklinks
 ---
 
-{% assign msc = site.data.courses | where: "program", "msc" %}
+{% assign msc = site.data.msc_courses | where: "program", "msc" %}
 
-# Core Courses
+## Core Courses
 
 {% assign core = msc | where: "category", "core" %}
 
 {% include course_table.html courses=core %}
 
-# Elective Courses
+## Elective Courses
 
-## Department Electives
+**Department Electives**
 
 {% assign dept = msc
    | where: "category", "elective"
@@ -23,7 +23,7 @@ sidebar: quicklinks
 
 {% include course_table.html courses=dept %}
 
-## NPTEL Electives
+**NPTEL Electives**
 
 {% assign nptel = msc
    | where: "category", "elective"
