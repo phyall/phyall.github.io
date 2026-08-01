@@ -1,0 +1,46 @@
+/* ======================================================
+   Course Tables
+   ====================================================== */
+
+.course-table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin:1.5rem 0 3rem;
+
+    font-size:.95rem;
+}
+
+.course-table thead{
+
+    background:#163b63;
+    color:white;
+}
+
+.course-table th{
+
+    padding:.75rem .9rem;
+    text-align:left;
+}
+
+.course-table td{
+
+    padding:.75rem .9rem;
+    border-bottom:1px solid #e6e6e6;
+}
+
+.course-table tbody tr:hover{
+
+    background:#f7f9fc;
+}
+
+.course-table a{
+
+    color:#0056b3;
+    text-decoration:none;
+}
+
+.course-table a:hover{
+
+    text-decoration:underline;
+}
