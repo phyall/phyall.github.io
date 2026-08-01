@@ -9,6 +9,7 @@
   iit_url: "https://iitpkd.ac.in/people/uma/"
   personal_url: 
   photo: uma.png
+  area: quantum
   research: "Non-equilibrium dynamics, quantum phase transitions, quantum Information"
            
 
@@ -23,6 +24,7 @@
   iit_url: "https://iitpkd.ac.in/people/jayakumar/"
   personal_url: "https://sites.google.com/iitpkd.ac.in/2dmaterialsgroup/home/"
   photo: jayakumar.png  
+  area: cmp_experiment
   research: "Experimental condensed matter physics, 2D materials and perovskites"
 
 - name: Prithvi Narayan P
@@ -36,6 +38,7 @@
   iit_url: "https://iitpkd.ac.in/people/prithvi/"
   personal_url: 
   photo: prithvi.png    
+  area: string
   research: "Quantum field theory, string theory"
 
 - name: Soham Manni
@@ -48,7 +51,8 @@
   email: smanni@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/smanni/"
   personal_url: "https://sites.google.com/view/cem-lab/home/"
-  photo: soham.png  
+  photo: soham.png
+  area: cmp_experiment
   research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
 
 - name: Kusum Dhochak
@@ -61,7 +65,8 @@
   email: kdhochak@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/kdhochak/"
   personal_url: 
-  photo: kusum.png     
+  photo: kusum.png    
+  area: cmp_theory
   research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
 
 - name: Bibhu Ranjan Sarangi
@@ -75,6 +80,7 @@
   iit_url: "https://iitpkd.ac.in/people/bibhu/"
   personal_url: 
   photo: bibhu.png
+  area: softmat_experiment
   research: "Soft-matter physics, active matter systems, mechanobiology"
   
 
@@ -89,6 +95,7 @@
   iit_url: "https://iitpkd.ac.in/people/projjwal/"
   personal_url: 
   photo: projjwal.png   
+  area: astro_theory
   research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
 
 
@@ -104,6 +111,7 @@
   iit_url: "https://iitpkd.ac.in/people/amit/"
   personal_url: "https://amitkpal.github.io/"
   photo: amit.png
+  area: quantum
   research: "Quantum information theory, quantum thermodynamics, quantum many-body physics, open quantum systems" 
 
 - name: Vishwas V
@@ -117,6 +125,7 @@
   iit_url: "https://iitpkd.ac.in/people/vishwas/"
   personal_url: 
   photo: vishwas.png
+  area: softmat_theory
   research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
 
 
@@ -131,6 +140,7 @@
   iit_url: "https://iitpkd.ac.in/people/ajeesh/"
   personal_url: 
   photo: ajeesh.png
+  area: cmp_experiment
   research: "Experimental condensed matter physics, quantum materials under extreme conditions"
 
 
@@ -145,6 +155,7 @@
   iit_url: "https://iitpkd.ac.in/people/manojgopal/"
   personal_url: 
   photo: manoj.png
+  area: softmat_theory
   research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
 
 
@@ -159,6 +170,7 @@
   iit_url: "https://iitpkd.ac.in/people/akankshab/"
   personal_url: 
   photo: akanksha.png
+  area: hep_theory
   research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
 
 - name: Resmi PK
@@ -172,6 +184,7 @@
   iit_url: "https://iitpkd.ac.in/people/resmipk/"
   personal_url: 
   photo: resmi.png
+  area: hep_experiment
   research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
 
 
@@ -187,6 +200,7 @@
   iit_url: "https://iitpkd.ac.in/people/debarati/"
   personal_url: 
   photo: debarati.png
+  area: softmat_theory
   research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
 
 
@@ -201,5 +215,6 @@
   iit_url: "https://iitpkd.ac.in/people/swaroop/"
   personal_url: 
   photo: swaroop.png
+  area: electronics
   research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
   
