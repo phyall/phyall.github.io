@@ -1,0 +1,76 @@
+/* ==========================================================
+   Department Navigation
+   ========================================================== */
+
+.dept-nav {
+
+    background: #17406d;
+
+    border-top: 1px solid rgba(255,255,255,.08);
+
+    border-bottom: 1px solid rgba(0,0,0,.12);
+
+}
+
+.dept-nav-container {
+
+    width: min(1300px,95%);
+
+    margin: 0 auto;
+
+}
+
+.dept-nav-list {
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+.dept-nav-item {
+
+    margin: 0;
+
+}
+
+.dept-nav-item a {
+
+    display: block;
+
+    padding: 1rem 1.3rem;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 0.95rem;
+
+    font-weight: 500;
+
+    transition: background .2s ease;
+
+}
+
+.dept-nav-item a:hover {
+
+    background: rgba(255,255,255,.12);
+
+}
+
+.dept-nav-item a.active {
+
+    background: rgba(255,255,255,.18);
+
+    font-weight: 600;
+
+}
