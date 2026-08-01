@@ -13,14 +13,52 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% comment %}
-  {% include sidebar.html %}
-  {% endcomment %}
-  
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-    {{ content }}
-  </div>
+
+  {% if page.sidebar %}
+
+    <div class="page-layout">
+
+      <aside class="page-sidebar">
+
+        {% case page.sidebar %}
+
+          {% when "quicklinks" %}
+            {% include quicklinks.html %}
+
+          {% when "research" %}
+            {% include research-sidebar.html %}
+
+          {% when "courses" %}
+            {% include courses-sidebar.html %}
+
+        {% endcase %}
+
+      </aside>
+
+      <div class="archive page-content">
+
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+          <h1 class="page__title">{{ page.title }}</h1>
+        {% endunless %}
+
+        {{ content }}
+
+      </div>
+
+    </div>
+
+  {% else %}
+
+    <div class="archive">
+
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
+
+      {{ content }}
+
+    </div>
+
+  {% endif %}
+
 </div>
