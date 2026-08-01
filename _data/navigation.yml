@@ -22,6 +22,11 @@ main:
 
   - title: Students and Alumni
     url: /students/
+      - title: Students
+        url: /students/
+
+      - title: Alumni
+        url: /alumni/
 
   - title: Facilities
     url: /facilities/
