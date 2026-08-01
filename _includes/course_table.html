@@ -1,0 +1,32 @@
+<table class="course-table">
+  <thead>
+    <tr>
+      <th style="width:18%">Code</th>
+      <th>Course Title</th>
+      <th style="width:12%">Type</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% for course in include.courses %}
+    <tr>
+
+      <td>
+        {% if course.link %}
+          <a href="{{ course.link }}">{{ course.code }}</a>
+        {% else %}
+          {{ course.code }}
+        {% endif %}
+      </td>
+
+      <td>{{ course.title }}</td>
+
+      <td>{{ course.type | capitalize }}</td>
+
+    </tr>
+  {% endfor %}
+
+  </tbody>
+
+</table>
