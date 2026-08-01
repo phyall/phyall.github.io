@@ -1,0 +1,43 @@
+<header class="dept-header">
+
+  <div class="dept-header-container">
+
+    <a href="{{ site.data.department.homepage | relative_url }}"
+       class="dept-logo-link">
+
+      <img
+        src="{{ site.data.department.logo | relative_url }}"
+        alt="{{ site.data.department.institution }}"
+        class="dept-logo">
+
+    </a>
+
+    <div class="dept-title">
+
+      <h1>
+
+        {{ site.data.department.name }}
+
+      </h1>
+
+      <h2>
+
+        {{ site.data.department.institution }}
+
+      </h2>
+
+      {% if site.data.department.tagline %}
+
+      <p>
+
+        {{ site.data.department.tagline }}
+
+      </p>
+
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</header>
