@@ -1,0 +1,77 @@
+/* ==========================================================
+   Department Header
+   ========================================================== */
+
+.dept-header {
+
+    background: white;
+
+    border-bottom: 1px solid #e6e6e6;
+
+}
+
+.dept-header-container {
+
+    width: min(1300px,95%);
+
+    margin: auto;
+
+    padding: 1.25rem 0;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 1.5rem;
+
+}
+
+.dept-logo {
+
+    width: 82px;
+
+    height: auto;
+
+    display: block;
+
+}
+
+.dept-title {
+
+    flex: 1;
+
+}
+
+.dept-title h1 {
+
+    margin: 0;
+
+    font-size: 2rem;
+
+    font-weight: 600;
+
+    color: #163b63;
+
+}
+
+.dept-title h2 {
+
+    margin: .2rem 0 0;
+
+    font-size: 1.1rem;
+
+    font-weight: 400;
+
+    color: #555;
+
+}
+
+.dept-title p {
+
+    margin-top: .45rem;
+
+    color: #777;
+
+    font-size: .95rem;
+
+}
