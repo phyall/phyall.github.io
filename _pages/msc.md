@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /faculty/
+permalink: /msc/
 title: "M.Sc. in Physics"
 sidebar: quicklinks
 ---
