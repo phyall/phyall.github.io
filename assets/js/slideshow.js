@@ -1,80 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    const slideshow = document.querySelector(".hero-slideshow");
+    new Swiper(".hero-swiper", {
 
-    if (!slideshow) return;
+        loop: true,
 
-    const slides = slideshow.querySelectorAll(".slide");
-    const dots = slideshow.querySelectorAll(".dot");
-    const nextBtn = slideshow.querySelector(".slide-next");
-    const prevBtn = slideshow.querySelector(".slide-prev");
+        speed: 1200,
 
-    let current = 0;
-    let timer;
+        effect: "fade",
 
-    function showSlide(index) {
+        fadeEffect: {
+            crossFade: true
+        },
 
-        slides.forEach((slide) => {
-            slide.classList.remove("active");
-        });
+        autoplay: {
 
-        dots.forEach((dot) => {
-            dot.classList.remove("active");
-        });
+            delay: 5000,
 
-        slides[index].classList.add("active");
-        dots[index].classList.add("active");
+            disableOnInteraction: false,
 
-        current = index;
-    }
+            pauseOnMouseEnter: true
 
-    function nextSlide() {
-        showSlide((current + 1) % slides.length);
-    }
+        },
 
-    function previousSlide() {
-        showSlide((current - 1 + slides.length) % slides.length);
-    }
+        pagination: {
 
-    function startTimer() {
-        timer = setInterval(nextSlide, 5000);
-    }
+            el: ".swiper-pagination",
 
-    function resetTimer() {
-        clearInterval(timer);
-        startTimer();
-    }
+            clickable: true
 
-    if (nextBtn) {
-        nextBtn.addEventListener("click", function () {
-            nextSlide();
-            resetTimer();
-        });
-    }
+        },
 
-    if (prevBtn) {
-        prevBtn.addEventListener("click", function () {
-            previousSlide();
-            resetTimer();
-        });
-    }
+        navigation: {
 
-    dots.forEach((dot, index) => {
-        dot.addEventListener("click", function () {
-            showSlide(index);
-            resetTimer();
-        });
+            nextEl: ".swiper-button-next",
+
+            prevEl: ".swiper-button-prev"
+
+        }
+
     });
-
-    slideshow.addEventListener("mouseenter", function () {
-        clearInterval(timer);
-    });
-
-    slideshow.addEventListener("mouseleave", function () {
-        startTimer();
-    });
-
-    showSlide(0);
-    startTimer();
 
 });
