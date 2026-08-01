@@ -1,31 +1,31 @@
 <div class="hero-slideshow">
 
   {% for slide in site.data.slideshow.slides %}
-  <div class="slide {% if forloop.first %}active{% endif %}"
-       style="background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('{{ slide.image | relative_url }}');">
+  <div
+    class="slide {% if forloop.first %}active{% endif %}"
+    style="background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('{{ slide.image | relative_url }}');">
 
     <div class="slide-content">
 
       {% if slide.title %}
-      <h1>{{ slide.title }}</h1>
+        <h1>{{ slide.title }}</h1>
       {% endif %}
 
       {% if slide.subtitle %}
-      <p>{{ slide.subtitle }}</p>
+        <p>{{ slide.subtitle }}</p>
       {% endif %}
 
       {% if slide.buttons %}
       <div class="slide-buttons">
 
         {% for button in slide.buttons %}
+          <a
+            href="{{ button.url | relative_url }}"
+            class="slide-button">
 
-        <a href="{{ button.url | relative_url }}"
-           class="slide-button">
+            {{ button.title }}
 
-          {{ button.title }}
-
-        </a>
-
+          </a>
         {% endfor %}
 
       </div>
@@ -36,14 +36,25 @@
   </div>
   {% endfor %}
 
-  <!-- Previous -->
-  <button class="slide-prev">&#10094;</button>
+  <!-- Previous button -->
+  <button
+    class="slide-prev"
+    aria-label="Previous slide">
 
-  <!-- Next -->
-  <button class="slide-next">&#10095;</button>
+    &#10094;
 
-  <!-- Dots -->
+  </button>
 
+  <!-- Next button -->
+  <button
+    class="slide-next"
+    aria-label="Next slide">
+
+    &#10095;
+
+  </button>
+
+  <!-- Navigation dots -->
   <div class="slide-dots">
 
     {% for slide in site.data.slideshow.slides %}
@@ -59,59 +70,3 @@
   </div>
 
 </div>
-
-<script>
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    const slides = document.querySelectorAll(".slide");
-    const dots = document.querySelectorAll(".dot");
-
-    const next = document.querySelector(".slide-next");
-    const prev = document.querySelector(".slide-prev");
-
-    let current = 0;
-
-    function showSlide(index){
-
-        slides.forEach(slide => slide.classList.remove("active"));
-        dots.forEach(dot => dot.classList.remove("active"));
-
-        slides[index].classList.add("active");
-        dots[index].classList.add("active");
-
-        current = index;
-
-    }
-
-    next.addEventListener("click", function(){
-
-        showSlide((current+1)%slides.length);
-
-    });
-
-    prev.addEventListener("click", function(){
-
-        showSlide((current-1+slides.length)%slides.length);
-
-    });
-
-    dots.forEach((dot,index)=>{
-
-        dot.addEventListener("click",function(){
-
-            showSlide(index);
-
-        });
-
-    });
-
-    setInterval(function(){
-
-        showSlide((current+1)%slides.length);
-
-    },5000);
-
-});
-
-</script>
