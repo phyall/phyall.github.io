@@ -1,7 +1,8 @@
 ---
 layout: archive
-sidebar: quicklinks
+permalink: /faculty/
 title: "M.Sc. in Physics"
+sidebar: quicklinks
 ---
 
 The M.Sc. curriculum provides students with a strong foundation in modern physics while exposing them to cutting-edge topics 
