@@ -4,16 +4,31 @@ layout: default
 
 <div class="page-layout">
 
+  {% if page.sidebar %}
+
     <aside class="page-sidebar">
 
+      {% case page.sidebar %}
+
+      {% when "quicklinks" %}
         {% include quicklinks.html %}
+
+      {% when "research" %}
+        {% include research-sidebar.html %}
+
+      {% when "courses" %}
+        {% include courses-sidebar.html %}
+
+      {% endcase %}
 
     </aside>
 
-    <main class="page-content">
+  {% endif %}
 
-        {{ content }}
+  <main class="page-content">
 
-    </main>
+    {{ content }}
+
+  </main>
 
 </div>
