@@ -7,27 +7,72 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
+#main:
+#  - title: Home
+#    url: /
+
+#  - title: Programs
+#    url: /programs/
+
+#  - title: People
+#    url: /people/
+
+#  - title: Research
+#    url: /research/
+
+#  - title: Students and Alumni
+#    url: /students/
+
+#  - title: Facilities
+#    url: /facilities/
+
+#  - title: News
+#    url: /news/
+
+#  - title: Contact
+#    url: /contact/
+
+
 main:
+
   - title: Home
     url: /
 
   - title: Programs
-    url: /programs/
+    children:
+      - title: M.Sc.
+        url: /msc/
+
+      - title: Ph.D.
+        url: /phd/
 
   - title: People
-    url: /people/
+    children:
+      - title: Faculty
+        url: /faculty/
+        
+      - title: Staff
+        url: /staff/
+
+      - title: Students
+        url: /students/
+
+      - title: Alumni
+        url: /alumni/
 
   - title: Research
     url: /research/
 
-  - title: Students and Alumni
-    url: /students/
-
-  - title: Facilities
-    url: /facilities/
-
   - title: News
-    url: /news/
+    children:
+      - title: Announcements
+        url: /news/
+
+      - title: Seminars
+        url: /seminars/
+
+      - title: Events
+        url: /events/
 
   - title: Contact
     url: /contact/
