@@ -1,13 +1,333 @@
-- code: PH5007
-  title: Quantum Mechanics 1
-  program: msc
-  type: core
-  link: 
+#======================
+# Department Core
+#======================
 
 - code: PH5001
-  title: Quantum Mechanics 1
+  title: Classical Mechanics
   program: msc
-  type: core
-  link: 
-    
-  
+  category: core
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5003
+  title: Electromagnetic Theory
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5005
+  title: Applicable Mathematics
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5007
+  title: Quantum Mechanics I
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5002
+  title: Atomic and Molecular Physics
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+
+- code: PH5004
+  title: Electronics and Instrumentation
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+
+- code: PH5006
+  title: Statistical Mechanics
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+
+- code: PH5008
+  title: Quantum Mechanics II
+  program: msc
+  category: core
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+
+- code: PH5009
+  title: Condensed Matter Physics
+  program: msc
+  category: core
+  type: theory
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+
+- code: PH5011
+  title: Nuclear and Particle Physics
+  program: msc
+  category: core
+  type: theory
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+
+- code: PH5102
+  title: Thermal Physics and Atomic Spectroscopy
+  program: msc
+  category: core
+  type: lab
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5103
+  title: Mechanics and Electromagnetic Theory
+  program: msc
+  category: core
+  type: lab
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+
+- code: PH5105
+  title: Advanced Physics
+  program: msc
+  category: core
+  type: lab
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+
+#======================
+# Department Elective
+#======================
+
+
+- code: PH5606
+  title: Quantum Information and Computation
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH5610
+  title: Quantum Information and Many-Body Systems
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH5611
+  title: Soft Matter Physics
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH5618
+  title: Introduction to Computational Physics
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH5619
+  title: Theory and Applications of Stochastic Processes
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH5622
+  title: Introduction to Astrophysics
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH5623
+  title: Many Body Physics: Techniques and Applications
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH6001
+  title: Experimental Techniques in Physics
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH6002
+  title: General Relativity
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH6003
+  title: Magnetism in Materials
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH6005
+  title: Quantum Optics
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+- code: PH6602
+  title: Particle Physics and Gauge Theory
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+
+#======================
+# NPTEL
+#======================
+
+
+- code: PH5612
+  title: Group Theory Methods in Physics
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+
+- code: PH5613
+  title: Introduction To Atmospheric And Space Sciences
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+
+- code: PH5614
+  title: Introduction to LASER
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+
+- code: PH5615
+  title: Physics of Biological Systems
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+
+- code: PH5616
+  title: Quantum Transport
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+
+- code: PH5617
+  title: The Joy of Computing using Python
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+
+- code: PH5620M
+  title: Introduction to Quantum Field Theory
+  program: msc
+  category: elective
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
