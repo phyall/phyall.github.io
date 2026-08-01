@@ -1,0 +1,228 @@
+/* ==========================================================
+   Faculty Grid
+   ========================================================== */
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+
+/* ==========================================================
+   Faculty Card
+   ========================================================== */
+
+.faculty-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.5rem;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,.05);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+}
+
+.faculty-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,.12);
+}
+
+
+/* ==========================================================
+   Photo
+   ========================================================== */
+
+.faculty-photo-container {
+    flex-shrink: 0;
+}
+
+.faculty-photo {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+    border: 1px solid #e6e6e6;
+
+    display: block;
+}
+
+
+/* ==========================================================
+   Content
+   ========================================================== */
+
+.faculty-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.faculty-name {
+    margin: 0 0 .3rem 0;
+    font-size: 1.20rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #222;
+}
+
+
+/* ==========================================================
+   Header
+   ========================================================== */
+
+.faculty-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 1rem;
+
+    flex-wrap: wrap;
+
+    margin-bottom: .6rem;
+
+}
+
+.faculty-designation {
+
+    margin: 0;
+
+    color: #333;
+
+    font-size: 1.02rem;
+
+}
+
+.faculty-separator {
+    color: #888;
+    margin: 0 0.25rem;
+}
+
+.faculty-head-inline {
+    color: #2d6fb8;
+    font-weight: 600;
+}
+
+
+/* ==========================================================
+   Badges
+   ========================================================== */
+
+.faculty-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+
+    margin-top: 0.45rem;
+    margin-bottom: 0.7rem;
+}
+
+.faculty-links a {
+
+    display: inline-block;
+
+    padding: .18rem .55rem;
+
+    border-radius: 4px;
+
+    background: #eef2f6;
+
+    border: 1px solid #d8dee6;
+
+    color: #444;
+
+    text-decoration: none;
+
+    font-size: .76rem;
+
+    font-weight: 600;
+
+    letter-spacing: .02em;
+
+    transition: all .2s ease;
+
+}
+
+.faculty-links a:hover {
+
+    background: #1d5fa7;
+
+    border-color: #1d5fa7;
+
+    color: white;
+
+}
+
+
+/* ==========================================================
+   Remaining text
+   ========================================================== */
+
+.faculty-head-role {
+
+    margin: .35rem 0;
+
+    color: #8b0000;
+
+    font-weight: 600;
+
+}
+
+.faculty-joined,
+.faculty-secondary,
+.faculty-research {
+
+    margin: .3rem 0;
+
+    color: #555;
+
+    font-size: .95rem;
+
+    line-height: 1.45;
+
+}
+
+.faculty-joined strong,
+.faculty-research strong {
+
+    color: #333;
+
+}
+
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width:700px){
+
+    .faculty-grid{
+        grid-template-columns:1fr;
+    }
+
+    .faculty-card{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .faculty-content{
+        text-align:center;
+    }
+
+    .faculty-header{
+        justify-content:center;
+    }
+
+}
