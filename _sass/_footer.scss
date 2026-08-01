@@ -1,74 +1,93 @@
 /* ==========================================================
-   Footer
+   Department Footer
    ========================================================== */
 
 .dept-footer {
-    margin-top: 4rem;
     background: #163b63;
-    color: #dce5ef;
+    color: #dfe8f2;
+    margin-top: 3rem;
+    font-size: 0.90rem;
 }
 
-
+/* Overall footer centred on the page */
 .footer-container {
+
     max-width: 1400px;
     margin: 0 auto;
-    padding: 2.5rem 0;
+    padding: 2.5rem 1.5rem;
 
     display: grid;
+
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
     gap: 2.5rem;
+
     align-items: start;
 }
 
+/* Individual columns are left aligned */
 .footer-column {
-    min-width: 0;
+
+    text-align: left;
+
 }
 
 .footer-column h3 {
-    margin: 0 0 0.9rem;
 
-    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+    color: white;
+
     font-size: 1rem;
+
     font-weight: 600;
 }
 
-.footer-column p,
-.footer-column li {
-    margin: 0.25rem 0;
+.footer-column p {
 
-    color: #dce5ef;
-    font-size: 0.88rem;
-    line-height: 1.55;
+    margin: 0 0 0.55rem;
+
+    line-height: 1.6;
 }
 
 .footer-column ul {
-    margin: 0;
-    padding: 0;
+
     list-style: none;
+
+    padding: 0;
+
+    margin: 0;
 }
 
 .footer-column li {
-    margin-bottom: 0.35rem;
+
+    margin-bottom: 0.55rem;
 }
 
 .footer-column a {
-    color: #dce5ef;
+
+    color: #dfe8f2;
+
     text-decoration: none;
-    transition: color .2s ease;
+
+    transition: color 0.2s ease;
 }
 
 .footer-column a:hover {
-    color: #ffffff;
+
+    color: white;
 }
 
 .footer-bottom {
-    border-top: 1px solid rgba(255,255,255,.15);
-
-    margin-top: 1rem;
-    padding: 1rem 0;
 
     text-align: center;
 
-    font-size: 0.8rem;
-    color: #bfcbd8;
+    border-top: 1px solid rgba(255,255,255,.15);
+
+    padding: 1rem;
+
+    font-size: 0.82rem;
+
+    color: #bfcfe0;
 }
