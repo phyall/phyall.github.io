@@ -1,6 +1,7 @@
 ---
-layout: page_with_sidebar
+layout: archive
 permalink: /
+sidebar: quicklinks
 title: "Home"
 redirect_from: 
   - /about/
