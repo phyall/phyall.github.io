@@ -1,0 +1,27 @@
+<nav class="dept-nav">
+
+  <div class="dept-nav-container">
+
+    <ul class="dept-nav-list">
+
+      {% for item in site.data.navigation.main %}
+
+      <li class="dept-nav-item">
+
+        <a
+          href="{{ item.url | relative_url }}"
+          class="{% if page.url == item.url %}active{% endif %}">
+
+          {{ item.title }}
+
+        </a>
+
+      </li>
+
+      {% endfor %}
+
+    </ul>
+
+  </div>
+
+</nav>
