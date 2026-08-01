@@ -46,6 +46,15 @@ main:
       - title: Ph.D.
         url: /phd/
 
+
+  - title: Academics
+    children:
+      - title: M.Sc. Courses
+        url: /msc/courses/
+
+      - title: B.Tech. Courses
+        url: /btech/courses/
+
   - title: People
     children:
       - title: Faculty
