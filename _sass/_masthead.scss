@@ -1,0 +1,25 @@
+/* ==========================================================
+   Masthead styling
+   ========================================================== */
+
+.masthead {
+    background: #163b63;
+    border-bottom: none;
+}
+
+.greedy-nav {
+    background: #163b63;
+}
+
+.greedy-nav a {
+    color: white !important;
+    font-weight: 500;
+}
+
+.greedy-nav a:hover {
+    color: #dbe9f6 !important;
+}
+
+.greedy-nav .visible-links > li > a {
+    padding: 0.9rem 1.2rem;
+}
