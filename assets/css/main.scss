@@ -155,13 +155,12 @@
    ========================================================== */
 
 .faculty-links {
-
     display: flex;
-
-    gap: .35rem;
-
     flex-wrap: wrap;
+    gap: 0.35rem;
 
+    margin-top: 0.45rem;
+    margin-bottom: 0.7rem;
 }
 
 .faculty-links a {
