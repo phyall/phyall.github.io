@@ -13,7 +13,7 @@ author_profile: true
    | where: "affiliation", "secondary"
    | sort: "date_joined" %}
 
-<h2>Primary Faculty</h2>
+<h2>Faculty</h2>
 
 <div class="faculty-grid">
 {% for person in primary_faculty %}
@@ -23,7 +23,7 @@ author_profile: true
 
 {% if secondary_faculty.size > 0 %}
 
-<h2 style="margin-top:3rem;">Secondary Affiliation</h2>
+<h3 style="margin-top:3rem;">Secondary Affiliation</h3>
 
 <div class="faculty-grid">
 {% for person in secondary_faculty %}
