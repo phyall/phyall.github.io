@@ -3,70 +3,25 @@
   {% for slide in site.data.slideshow.slides %}
   <div
     class="slide {% if forloop.first %}active{% endif %}"
-    style="background-image: linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), url('{{ slide.image | relative_url }}');">
-
-    <div class="slide-content">
-
-      {% if slide.title %}
-        <h1>{{ slide.title }}</h1>
-      {% endif %}
-
-      {% if slide.subtitle %}
-        <p>{{ slide.subtitle }}</p>
-      {% endif %}
-
-      {% if slide.buttons %}
-      <div class="slide-buttons">
-
-        {% for button in slide.buttons %}
-          <a
-            href="{{ button.url | relative_url }}"
-            class="slide-button">
-
-            {{ button.title }}
-
-          </a>
-        {% endfor %}
-
-      </div>
-      {% endif %}
-
-    </div>
-
+    style="background-image:url('{{ slide.image | relative_url }}');">
   </div>
   {% endfor %}
 
-  <!-- Previous button -->
-  <button
-    class="slide-prev"
-    aria-label="Previous slide">
-
+  <button class="slide-prev" aria-label="Previous slide">
     &#10094;
-
   </button>
 
-  <!-- Next button -->
-  <button
-    class="slide-next"
-    aria-label="Next slide">
-
+  <button class="slide-next" aria-label="Next slide">
     &#10095;
-
   </button>
 
-  <!-- Navigation dots -->
   <div class="slide-dots">
-
     {% for slide in site.data.slideshow.slides %}
-
       <span
         class="dot {% if forloop.first %}active{% endif %}"
         data-slide="{{ forloop.index0 }}">
-
       </span>
-
     {% endfor %}
-
   </div>
 
 </div>
