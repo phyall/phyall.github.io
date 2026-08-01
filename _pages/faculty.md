@@ -3,7 +3,6 @@ layout: archive
 title: "Faculty"
 permalink: /faculty/
 sidebar: quicklinks
-author_profile: true
 ---
 
 {% assign primary_faculty = site.data.faculty_details
