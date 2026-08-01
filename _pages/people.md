@@ -1,7 +1,8 @@
 ---
 layout: archive
-title: "People"
+title: "Faculty and Staff"
 permalink: /people/
+sidebar: quicklinks
 author_profile: true
 ---
 
