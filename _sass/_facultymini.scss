@@ -136,61 +136,71 @@
    ========================================================================== */
 
 .faculty-mini-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+
+    margin-top: 0.45rem;
+
 }
 
 .faculty-mini-badge {
 
-  display: inline-block;
+    display: inline-block;
 
-  padding: 3px 10px;
+    padding: .18rem .55rem;
 
-  font-size: 0.80rem;
-  font-weight: 600;
+    border-radius: 4px;
 
-  color: #337ab7;
+    background: #eef2f6;
 
-  background: #eef2f6;
+    border: 1px solid #d8dee6;
 
-  border: 1px solid #cfd8e3;
+    color: #444;
 
-  border-radius: 6px;
+    text-decoration: none;
 
-  text-decoration: none;
+    font-size: .76rem;
 
-  transition:
-      background-color .18s ease,
-      border-color .18s ease,
-      color .18s ease;
+    font-weight: 600;
+
+    letter-spacing: .02em;
+
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        color .2s ease;
+
 }
 
 .faculty-mini-badge:visited {
-  color: #337ab7;
-  text-decoration: none;
+
+    color: #444;
+    text-decoration: none;
+
 }
 
 .faculty-mini-badge:hover,
 .faculty-mini-badge:focus {
 
-  background: #337ab7;
+    background: #1d5fa7;
 
-  border-color: #337ab7;
+    border-color: #1d5fa7;
 
-  color: #ffffff;
+    color: white;
 
-  text-decoration: underline;
+    text-decoration: underline;
+
 }
 
 .faculty-mini-badge:active {
 
-  background: #2865a8;
+    background: #174c85;
 
-  border-color: #2865a8;
+    border-color: #174c85;
 
-  color: #ffffff;
+    color: white;
 
 }
 
