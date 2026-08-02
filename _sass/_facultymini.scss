@@ -138,42 +138,60 @@
 .faculty-mini-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 8px;
   margin-top: 10px;
 }
 
 .faculty-mini-badge {
+
   display: inline-block;
 
-  padding: 2px 7px;
+  padding: 3px 10px;
 
-  font-size: 0.78rem;
+  font-size: 0.80rem;
   font-weight: 600;
-  line-height: 1.5;
 
   color: #337ab7;
-  background: #f5f5f5;
-  border: 1px solid #dcdcdc;
-  border-radius: 3px;
 
-  text-decoration: none !important;
+  background: #eef2f6;
+
+  border: 1px solid #cfd8e3;
+
+  border-radius: 6px;
+
+  text-decoration: none;
 
   transition:
-      background .15s ease,
-      color .15s ease,
-      border-color .15s ease;
+      background-color .18s ease,
+      border-color .18s ease,
+      color .18s ease;
+}
+
+.faculty-mini-badge:visited {
+  color: #337ab7;
+  text-decoration: none;
 }
 
 .faculty-mini-badge:hover,
-.faculty-mini-badge:focus,
-.faculty-mini-badge:visited {
-  text-decoration: none !important;
+.faculty-mini-badge:focus {
+
+  background: #337ab7;
+
+  border-color: #337ab7;
+
+  color: #ffffff;
+
+  text-decoration: underline;
 }
 
-.faculty-mini-badge:hover {
-  background: #337ab7;
-  border-color: #337ab7;
-  color: #fff;
+.faculty-mini-badge:active {
+
+  background: #2865a8;
+
+  border-color: #2865a8;
+
+  color: #ffffff;
+
 }
 
 
