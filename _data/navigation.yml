@@ -41,11 +41,15 @@ main:
       - title: Staff
         url: /staff/
 
+      - title: Postdocs
+        url: /postdocs/        
+
       - title: PhD Students
         url: /phdstudents/
+
+      - title: MSc Students
+        url: /mscstudents/        
         
-      - title: Postdocs
-        url: /postdocs/
 
   - title: Research
     url: /research/
