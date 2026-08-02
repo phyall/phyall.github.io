@@ -12,6 +12,6 @@ sidebar: quicklinks
 
 <div class="faculty-grid">
 {% for faculty in former_faculty %}
-    {% include faculty-card-simple.html faculty=faculty %}
+    {% include faculty-card-former.html faculty=faculty %}
 {% endfor %}
 </div>
