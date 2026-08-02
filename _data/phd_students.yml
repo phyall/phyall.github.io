@@ -28,7 +28,7 @@
   status: finished
   program: PhD
   joining_year: 2019
-  graduation_year:
+  graduation_year: 2026
   supervisor: Prithvi Narayan
   joint_supervisor:
   cycle: December
@@ -90,10 +90,10 @@
   next_position:
 
 - name: Indrajit Bhattacherjee
-  status: ongoing
+  status: finished
   program: PhD
-  joining_year: 2020
-  graduation_year:
+  joining_year: 2021
+  graduation_year: 2026
   supervisor: Bibhu Ranjan Sarangi
   joint_supervisor:
   cycle: August
@@ -105,7 +105,7 @@
 - name: Jithin G. Krishnan
   status: finished
   program: PhD
-  joining_year: 2020
+  joining_year: 2021
   graduation_year: 2026
   supervisor: Amit Kumar Pal
   joint_supervisor:
