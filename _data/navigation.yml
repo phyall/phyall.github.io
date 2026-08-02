@@ -63,6 +63,17 @@ main:
 
       - title: Events
         url: /events/
+        
+  - title: Recruitments
+    children:
+      - title: Staff positions
+        url: /staffrecruits/
+  
+      - title: Postdoctoral fellowships
+        url: /pdfrecruits/
+
+      - title: Faculty positions
+        url: /facrecruits/
 
   - title: Contact
     url: /contact/
