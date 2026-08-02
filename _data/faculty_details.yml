@@ -1,7 +1,9 @@
 - name: PB Sunil Kumar
+  gender: male
   designation: Professor
   affiliation: primary
   other_affiliation:
+  position: regular
   status: former
   now: Professor, IIT Madras
   head: false
@@ -19,9 +21,11 @@
 
 
 - name: Uma Divakaran
+  gender: female
   designation: Associate Professor
   affiliation: primary
   other_affiliation:
+  position: regular
   status: current
   now:
   head: true
@@ -39,9 +43,11 @@
            
 
 - name: Jayakumar Balakrishnan
+  gender: male
   designation: Associate Professor
   affiliation: primary
   other_affiliation: Adjunct Faculty, IIT Madras 
+  position: regular
   status: current
   now:
   head: false
@@ -58,9 +64,11 @@
   phone: 
 
 - name: Prithvi Narayan P
+  gender: male
   designation: Associate Professor
   affiliation: primary
-  other_affiliation: 
+  other_affiliation:
+  position: regular
   status: current
   now:
   head: false
@@ -77,9 +85,11 @@
   phone: 
 
 - name: Soham Manni
+  gender: male
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -96,9 +106,11 @@
   phone: 
 
 - name: Kusum Dhochak
+  gender: female
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -115,9 +127,11 @@
   phone: 
 
 - name: Bibhu Ranjan Sarangi
+  gender: male
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -135,9 +149,11 @@
   
 
 - name: Projjwal Banerjee
+  gender: male
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -156,9 +172,11 @@
 
 
 - name: Amit Kumar Pal
+  gender: male
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -175,9 +193,11 @@
   phone: 
 
 - name: Vishwas V
+  gender: male
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -194,9 +214,11 @@
   phone: 
 
 - name: Anil Kumar Dasanna
+  gender: male
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: former
   now: Assistant Professor, IISER Mohali
   head: false
@@ -214,9 +236,11 @@
 
 
 - name: Akshyay Bhatnagar
+  gender: male
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: former
   now: Assistant Professor, IIT Roorkee
   head: false
@@ -234,9 +258,11 @@
 
 
 - name: Ajeesh M. Omanakuttan
+  gender: male
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -254,9 +280,11 @@
 
 
 - name: Manoj Gopalkrishnan
+  gender: male
   designation: Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -274,9 +302,11 @@
 
 
 - name: Akanksha Bhardwaj
+  gender: female
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -293,9 +323,11 @@
   phone: 
 
 - name: Resmi PK
+  gender: female
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -314,9 +346,11 @@
 
 
 - name: Debarati Chatterjee
+  gender: female
   designation: Associate Professor
   affiliation: secondary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
@@ -334,9 +368,11 @@
 
 
 - name: Swaroop Sahoo
+  gender: female
   designation: Associate Professor
   affiliation: secondary
   other_affiliation: 
+  position: regular
   status: current
   now:
   head: false
