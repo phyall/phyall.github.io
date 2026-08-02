@@ -7,9 +7,9 @@ sidebar: quicklinks
 
 {% for group in site.data.research_groups %}
 
-<h2 class="faculty-mini-group-title">
+<h3 class="faculty-mini-group-title">
   {{ group.title }}
-</h2>
+</h3>
 
 {% assign primary = site.data.faculty_details
   | where: "area", group.id
@@ -35,9 +35,9 @@ sidebar: quicklinks
 
 {% if secondary.size > 0 %}
 
-<h3 class="faculty-mini-associated-title">
+<h4 class="faculty-mini-associated-title">
   Associated Faculty
-</h3>
+</h4>
 
 <div class="faculty-mini-grid">
 
