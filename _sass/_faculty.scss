@@ -165,6 +165,28 @@
 
 }
 
+/* ==========================================================
+   Contact
+   ========================================================== */
+
+.faculty-contact {
+    margin: 0.5rem 0 0.8rem;
+    font-size: 0.90rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+.faculty-contact i {
+    color: #888;
+    width: 1rem;
+    margin-right: 0.25rem;
+}
+
+.faculty-office,
+.faculty-phone {
+    white-space: nowrap;
+}
+
 
 /* ==========================================================
    Remaining text
