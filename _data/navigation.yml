@@ -7,31 +7,6 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
-#main:
-#  - title: Home
-#    url: /
-
-#  - title: Programs
-#    url: /programs/
-
-#  - title: People
-#    url: /people/
-
-#  - title: Research
-#    url: /research/
-
-#  - title: Students and Alumni
-#    url: /students/
-
-#  - title: Facilities
-#    url: /facilities/
-
-#  - title: News
-#    url: /news/
-
-#  - title: Contact
-#    url: /contact/
-
 
 main:
 
