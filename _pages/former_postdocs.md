@@ -8,4 +8,4 @@ sidebar: quicklinks
 
 {% assign current = site.data.postdocs | where: "status", "finished" %}
 
-{% include postdoc_table.html postdocs=current %}
+{% include former-postdoc-table.html postdocs=current %}
