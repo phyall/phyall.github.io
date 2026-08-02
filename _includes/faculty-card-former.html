@@ -1,0 +1,74 @@
+{% assign website = faculty.personal_url | default: "" | strip %}
+
+<div class="faculty-card">
+
+  <!-- ======================================================
+       Faculty Photo
+       ====================================================== -->
+
+  <div class="faculty-photo-container">
+    <img
+      src="{{ '/images/faculty/' | relative_url }}{{ faculty.photo }}"
+      alt="{{ faculty.name }}"
+      class="faculty-photo"
+      loading="lazy">
+  </div>
+
+  <!-- ======================================================
+       Faculty Information
+       ====================================================== -->
+
+  <div class="faculty-content">
+
+    <h3 class="faculty-name">
+      {{ faculty.name }}
+    </h3>
+
+    <p class="faculty-designation">
+      {{ faculty.designation }}
+    </p>
+
+    {% if faculty.year_joined or faculty.year_left %}
+    <p class="faculty-joined">
+      <strong>At IIT Palakkad:</strong>
+      {{ faculty.year_joined }}&ndash;{{ faculty.year_left }}
+    </p>
+    {% endif %}
+
+    {% if faculty.now %}
+    <p class="faculty-research">
+      <strong>Now:</strong> {{ faculty.now }}
+    </p>
+    {% endif %}
+
+    <div class="faculty-links">
+
+      {% if faculty.iit_url %}
+        <a
+          href="{{ faculty.iit_url }}"
+          target="_blank"
+          rel="noopener">
+          IIT
+        </a>
+      {% endif %}
+
+      {% if website != "" %}
+        <a
+          href="{{ website }}"
+          target="_blank"
+          rel="noopener">
+          Website
+        </a>
+      {% endif %}
+
+      {% if faculty.email %}
+        <a href="mailto:{{ faculty.email }}">
+          Email
+        </a>
+      {% endif %}
+
+    </div>
+
+  </div>
+
+</div>
