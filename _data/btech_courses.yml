@@ -1,0 +1,87 @@
+#======================
+# Core
+#======================
+
+- code: PH1030
+  title: Physics
+  program: btech
+  category: core
+  credit: "2-1-0-3"
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link: 
+
+- code: PH1130
+  title: Physics Lab
+  program: btech
+  category: core
+  credit: "0-0-3-2"
+  type: lab
+  year: 1
+  semester: 
+  offered_by: dop
+  link:
+
+#======================
+# Elective
+#======================  
+
+- code: PH3601
+  title: Quantum Mechanics for Engineers
+  program: btech
+  category: elective
+  credit: "3-0-0-3"
+  type: theory
+  year: 
+  semester: 
+  offered_by: dop
+  link:
+
+- code: PH3602
+  title: Basics of Quantum Information, Communication, and Computation
+  program: btech
+  category: elective
+  credit: "3-0-0-3"
+  type: theory
+  year: 
+  semester: 
+  offered_by: dop
+  link:
+
+- code: PH3603
+  title: Electromagnetic Theory
+  program: btech
+  category: elective
+  credit: "3-0-0-3"
+  type: theory
+  year: 
+  semester: 
+  offered_by: dop
+  link:
+
+- code: PH4601
+  title: Magnetic Materials and its Applications
+  program: btech
+  category: elective
+  credit: "3-0-0-3"
+  type: theory
+  year: 
+  semester: 
+  offered_by: dop
+  link:
+
+- code: PH4602
+  title: Introduction to Special Relativity
+  program: btech
+  category: elective
+  credit: "3-0-0-3"
+  type: theory
+  year: 
+  semester: 
+  offered_by: dop
+  link:
+  
+
+  
