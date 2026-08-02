@@ -6,7 +6,7 @@
   supervisor: P. B. Sunil Kumar
   joint_supervisor:
   cycle:
-  research_area: Theoretical Soft Condensed Matter
+  research_area: Theoretical Soft Matter
   email: 221704005@smail.iitpkd.ac.in
   thesis_title:
   next_position:
@@ -103,16 +103,16 @@
   next_position:
 
 - name: Jithin G. Krishnan
-  status: ongoing
+  status: finished
   program: PhD
   joining_year: 2020
-  graduation_year:
+  graduation_year: 2026
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: December
   research_area: Quantum Entanglement
   email: 222104001@smail.iitpkd.ac.in
-  thesis_title:
+  thesis_title: "Localizable entanglement: Bounds and special features"
   next_position:
 
 - name: Harikrishnan K J
@@ -136,7 +136,7 @@
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: March
-  research_area: Quantum Protocols using Logical Qubits
+  research_area: "Measurement-assisted Quantum Protocols"
   email: 222204004@smail.iitpkd.ac.in
   thesis_title:
   next_position:
@@ -162,7 +162,7 @@
   supervisor: Debarati Chatterjee
   joint_supervisor:
   cycle: January
-  research_area: Soft Matter physics
+  research_area: Theoretical Soft Matter 
   email: 222204001@smail.iitpkd.ac.in
   thesis_title:
   next_position:
@@ -502,7 +502,7 @@
   cycle:
   research_area:
   email:
-  thesis_title: Thermal transport and temperature induced optical responses in 2D materials: A study on modified graphene and molybdenum disulfide
+  thesis_title: "Thermal transport and temperature induced optical responses in 2D materials: A study on modified graphene and molybdenum disulfide"
   next_position: PostDoc, IISER Pune
 
 - name: Jeena S. K.
