@@ -1,0 +1,45 @@
+<div class="staff-card">
+
+    <div class="staff-photo-container">
+        <img
+            src="{{ include.person.photo | relative_url }}"
+            alt="{{ include.person.name }}"
+            class="staff-photo">
+    </div>
+
+    <div class="staff-content">
+
+        <h3 class="staff-name">
+            {{ include.person.name }}
+        </h3>
+
+        <p class="staff-position">
+            {{ include.person.position }}
+        </p>
+
+        {% if include.person.email %}
+        <div class="staff-contact">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:{{ include.person.email }}">
+                {{ include.person.email }}
+            </a>
+        </div>
+        {% endif %}
+
+        {% if include.person.phone %}
+        <div class="staff-contact">
+            <i class="fas fa-phone"></i>
+            {{ include.person.phone }}
+        </div>
+        {% endif %}
+
+        {% if include.person.office %}
+        <div class="staff-contact">
+            <i class="fas fa-map-marker-alt"></i>
+            {{ include.person.office }}
+        </div>
+        {% endif %}
+
+    </div>
+
+</div>
