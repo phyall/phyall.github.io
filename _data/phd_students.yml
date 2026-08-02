@@ -1,4 +1,6 @@
 - name: Siji S. Saju
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year:
@@ -12,6 +14,8 @@
   next_position:
 
 - name: Manju C.
+  gender: female
+  funding: htra
   status: finished
   program: PhD
   joining_year: 2019
@@ -25,6 +29,8 @@
   next_position:
 
 - name: Swathi T. S.
+  gender: female
+  funding: htra
   status: finished
   program: PhD
   joining_year: 2019
@@ -38,6 +44,8 @@
   next_position:
 
 - name: Reshna Elsa Philip
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2019
@@ -51,6 +59,8 @@
   next_position:
 
 - name: Asha Ann Abraham
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2019
@@ -64,6 +74,8 @@
   next_position:
 
 - name: Nikhil Joseph Joy
+  gender: male
+  funding: htra
   status: finished
   program: PhD
   joining_year: 2019
@@ -77,6 +89,8 @@
   next_position:
 
 - name: Shivadas P.
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2019
@@ -90,6 +104,8 @@
   next_position:
 
 - name: Indrajit Bhattacherjee
+  gender: male
+  funding: htra
   status: finished
   program: PhD
   joining_year: 2021
@@ -103,6 +119,8 @@
   next_position:
 
 - name: Jithin G. Krishnan
+  gender: male
+  funding: htra
   status: finished
   program: PhD
   joining_year: 2021
@@ -116,6 +134,8 @@
   next_position:
 
 - name: Harikrishnan K J
+  gender: male
+  funding: pmrf
   status: ongoing
   program: PhD
   joining_year: 2021
@@ -129,6 +149,8 @@
   next_position:
 
 - name: Chandrima B. Pushpan
+  gender: female
+  funding: htra
   status: ongoing
   program: MSc-PhD Dual Degree
   joining_year: 2022
@@ -142,6 +164,8 @@
   next_position:
 
 - name: Olivia Vincent
+  gender: female
+  funding: htra
   status: ongoing
   program: MSc-PhD Dual Degree
   joining_year: 2022
@@ -155,6 +179,8 @@
   next_position:
 
 - name: Athul Krishna P. V.
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2022
@@ -168,6 +194,8 @@
   next_position:
 
 - name: Sathishkumar M.
+  gender: male
+  funding: htra
   status: ongoing
   program: MSc-PhD Dual Degree
   joining_year: 2023
@@ -181,6 +209,8 @@
   next_position:
 
 - name: Souvik Kumar Rana
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2023
@@ -194,6 +224,8 @@
   next_position:
 
 - name: Greeshma R
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2023
@@ -207,6 +239,8 @@
   next_position:
 
 - name: Pranav U S
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2023
@@ -220,6 +254,8 @@
   next_position:
 
 - name: Elsa Baby
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2023
@@ -233,6 +269,8 @@
   next_position:
 
 - name: Athira K
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2023
@@ -247,6 +285,8 @@
 
 
 - name: Muhammed Anees K T
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2024
@@ -260,6 +300,8 @@
   next_position:
 
 - name: Anjaly C
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2024
@@ -273,6 +315,8 @@
   next_position:
 
 - name: Ashique T
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2024
@@ -286,6 +330,8 @@
   next_position:
 
 - name: Lakshmija N K
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2024
@@ -299,6 +345,8 @@
   next_position:
 
 - name: Mechelo Mero
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2024
@@ -312,6 +360,8 @@
   next_position:
 
 - name: Athira S
+  gender: female
+  funding: htra
   status: ongoing
   program: MSc-PhD Dual Degree
   joining_year: 2024
@@ -325,6 +375,8 @@
   next_position:
 
 - name: Mahima Chaudhary
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2025
@@ -338,6 +390,8 @@
   next_position:
 
 - name: Jishnu P
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2025
@@ -351,6 +405,8 @@
   next_position:
 
 - name: Medha R
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2025
@@ -364,6 +420,8 @@
   next_position:
 
 - name: Vimal Sreekanth
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2026
@@ -377,6 +435,8 @@
   next_position:
 
 - name: Najma Nazrin
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2026
@@ -390,6 +450,8 @@
   next_position:
 
 - name: Abhishek Das
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2026
@@ -403,6 +465,8 @@
   next_position:
 
 - name: Nandana P
+  gender: female
+  funding: htra
   status: ongoing
   program:
   joining_year:
@@ -416,6 +480,8 @@
   next_position:
 
 - name: Vishnupriya K
+  gender: female
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2026
@@ -429,6 +495,8 @@
   next_position:
 
 - name: Nirupam Sen
+  gender: male
+  funding: htra
   status: ongoing
   program: PhD
   joining_year: 2026
@@ -442,6 +510,8 @@
   next_position:
 
 - name: Revathy B. S.
+  gender: female
+  funding: htra
   status: finished
   program: PhD
   joining_year:
@@ -455,6 +525,8 @@
   next_position: PostDoc, RRI, Bengaluru
 
 - name: Aathira Murali
+  gender: female
+  funding: htra
   status: finished
   program: PhD
   joining_year:
@@ -468,6 +540,8 @@
   next_position: Employed
 
 - name: Diljith T.
+  gender: male
+  funding: htra
   status: finished
   program: PhD
   joining_year:
@@ -481,6 +555,8 @@
   next_position:
 
 - name: Ranjuna M. K.
+  gender: female
+  funding: htra
   status: finished
   program: PhD
   joining_year:
@@ -494,6 +570,8 @@
   next_position: PostDoc, IISER Pune
 
 - name: Jeena S. K.
+  gender: female
+  funding: csir
   status: finished
   program: PhD
   joining_year: 2019
