@@ -63,17 +63,19 @@ main:
         
   - title: Alumni
     children:
-      - title: Former MSc
-        url: /formermsc/
-            
-      - title: Former PhD
+      - title: Former Faculty
+        url: /formerfaculty/
+
+       - title: Former PhD
         url: /formerphd/
 
       - title: Former Postdocs
-        url: /formerpostdocs/
+        url: /formerpostdocs/       
+        
+      - title: Former MSc
+        url: /formermsc/
+          
 
-      - title: Former Faculty
-        url: /formerfaculty/
         
   - title: Recruitments
     children:
