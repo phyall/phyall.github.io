@@ -1,0 +1,55 @@
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th style="width:22%">Name</th>
+      <th style="width:10%">Joined</th>
+      <th style="width:10%">Graduated</th>
+      <th style="width:18%">Supervisor</th>
+      <th style="width:18%">Joint Supervisor</th>
+      <th style="width:22%">Current Position</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    {% assign alumni = include.students
+        | where: "status", "finished"
+        | sort: "graduation_year"
+        | reverse %}
+
+    {% for student in alumni %}
+
+      <tr>
+
+        <td>{{ student.name }}</td>
+
+        <td>{{ student.joining_year }}</td>
+
+        <td>{{ student.graduation_year }}</td>
+
+        <td>{{ student.supervisor }}</td>
+
+        <td>
+          {% if student.joint_supervisor %}
+            {{ student.joint_supervisor }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+
+        <td>
+          {% if student.next_position %}
+            {{ student.next_position }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+
+      </tr>
+
+    {% endfor %}
+
+  </tbody>
+
+</table>
