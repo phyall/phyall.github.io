@@ -41,7 +41,7 @@ main:
       - title: Staff
         url: /staff/
 
-      - title: Students
+      - title: Students and Postdocs
         url: /students/
 
       - title: Alumni
