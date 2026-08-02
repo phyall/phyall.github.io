@@ -2,12 +2,10 @@
 
   <thead>
     <tr>
-      <th style="width:22%">Name</th>
-      <th style="width:10%">Joined</th>
-      <th style="width:10%">Graduated</th>
-      <th style="width:18%">Supervisor</th>
-      <th style="width:18%">Joint Supervisor</th>
-      <th style="width:22%">Current Position</th>
+      <th style="width:28%">Name</th>
+      <th style="width:12%">Graduated</th>
+      <th style="width:30%">Supervisor</th>
+      <th style="width:30%">Current Position</th>
     </tr>
   </thead>
 
@@ -24,19 +22,9 @@
 
         <td>{{ student.name }}</td>
 
-        <td>{{ student.joining_year }}</td>
-
         <td>{{ student.graduation_year }}</td>
 
         <td>{{ student.supervisor }}</td>
-
-        <td>
-          {% if student.joint_supervisor %}
-            {{ student.joint_supervisor }}
-          {% else %}
-            &mdash;
-          {% endif %}
-        </td>
 
         <td>
           {% if student.next_position %}
