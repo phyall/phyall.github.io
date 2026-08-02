@@ -5,8 +5,7 @@ title: "Ph.D. Students"
 sidebar: quicklinks
 ---
 
-Current students
-------
+**Current PhD students in the Departments**
 
 {% assign current = site.data.phd_students
     | where: "status", "ongoing" %}
