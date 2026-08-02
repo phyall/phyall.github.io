@@ -14,18 +14,29 @@
    Former Faculty Grid
    ========================================================== */
 
-.former-faculty-grid {
+/*.former-faculty-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     gap: 2rem;
     margin: 3rem 0;
-}
+}*/
 
 /* Slightly narrower cards */
 
-.former-faculty-grid .faculty-card {
+/*.former-faculty-grid .faculty-card {
     max-width: 460px;
     margin: 0 auto;
+}*/
+
+.former-faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 1.8rem;
+    margin: 3rem 0;
+}
+
+.former-faculty-grid .faculty-card {
+    max-width: none;
 }
 
 
