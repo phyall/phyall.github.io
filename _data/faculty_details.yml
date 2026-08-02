@@ -1,9 +1,32 @@
+- name: PB Sunil Kumar
+  designation: Professor
+  affiliation: primary
+  other_affiliation:
+  status: former
+  now: Professor, IIT Madras
+  head: false
+  year_joined: 2015
+  year_left: 2022
+  date_joined: 20150101
+  email: sunil@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/sunil/"
+  personal_url: 
+  photo: sunil.png
+  area: softmat_theory
+  research: 
+  office:
+  phone: 
+
+
 - name: Uma Divakaran
   designation: Associate Professor
   affiliation: primary
   other_affiliation:
+  status: current
+  now:
   head: true
   year_joined: 2017
+  year_left:
   date_joined: 20170101
   email: uma@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/uma/"
@@ -19,8 +42,11 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: Adjunct Faculty, IIT Madras 
+  status: current
+  now:
   head: false
   year_joined: 2017
+  year_left:
   date_joined: 20170202
   email: jayakumar@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/jayakumar/"
@@ -35,8 +61,11 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2018
+  year_left:
   date_joined: 20180101
   email: prithvi@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/prithvi/"
@@ -51,8 +80,11 @@
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2018
+  year_left:
   date_joined: 20180202
   email: smanni@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/smanni/"
@@ -67,8 +99,11 @@
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2018
+  year_left:
   date_joined: 20180303
   email: kdhochak@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/kdhochak/"
@@ -83,8 +118,11 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2019
+  year_left:
   date_joined: 20190606
   email: bibhu@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/bibhu/"
@@ -100,8 +138,11 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2019
+  year_left:
   date_joined: 20190707
   email: projjwal@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/projjwal/"
@@ -118,8 +159,11 @@
   designation: Associate Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2019
+  year_left:
   date_joined: 20190902
   email: amit@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/amit/"
@@ -134,8 +178,11 @@
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2019
+  year_left:
   date_joined: 20191001
   email: vishwas@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/vishwas/"
@@ -146,13 +193,55 @@
   office: 
   phone: 
 
+- name: Anil Kumar Dasanna
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  status: former
+  now: Assistant Professor, IISER Mohali
+  head: false
+  year_joined: 2023
+  year_left: 2023
+  date_joined: 20230101
+  email: 
+  iit_url: 
+  personal_url: 
+  photo: anil.png
+  area: softmat_theory
+  research: 
+  office: 
+  phone:   
+
+
+- name: Akshyay Bhatnagar
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  status: former
+  now: Assistant Professor, IIT Roorkee
+  head: false
+  year_joined: 2023
+  year_left: 2024
+  date_joined: 20230202
+  email: 
+  iit_url: 
+  personal_url: 
+  photo: akshyay.png
+  area: softmat_theory
+  research: 
+  office: 
+  phone:    
+
 
 - name: Ajeesh M. Omanakuttan
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2024
+  year_left:
   date_joined: 20240101
   email: ajeesh@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/ajeesh/"
@@ -168,8 +257,11 @@
   designation: Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2024
+  year_left:
   date_joined: 20240202
   email: manojgopal@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/manojgopal/"
@@ -185,8 +277,11 @@
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2025
+  year_left:
   date_joined: 20250101
   email: akankshab@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/akankshab/"
@@ -201,8 +296,11 @@
   designation: Assistant Professor
   affiliation: primary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2025
+  year_left:
   date_joined: 20250202
   email: resmipk@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/resmipk/"
@@ -219,8 +317,11 @@
   designation: Associate Professor
   affiliation: secondary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2017
+  year_left:
   date_joined: 30000101
   email: debarati@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/debarati/"
@@ -236,8 +337,11 @@
   designation: Associate Professor
   affiliation: secondary
   other_affiliation: 
+  status: current
+  now:
   head: false
   year_joined: 2017
+  year_left:
   date_joined: 30000202
   email: swaroop@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/swaroop/"
