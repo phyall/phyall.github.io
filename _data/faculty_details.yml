@@ -11,6 +11,8 @@
   photo: uma.png
   area: quantum
   research: "Non-equilibrium dynamics, quantum phase transitions, quantum Information"
+  office: 
+  phone: 
            
 
 - name: Jayakumar Balakrishnan
@@ -26,6 +28,8 @@
   photo: jayakumar.png  
   area: cmp_experiment
   research: "Experimental condensed matter physics, 2D materials and perovskites"
+  office: 
+  phone: 
 
 - name: Prithvi Narayan P
   designation: Associate Professor
@@ -40,6 +44,8 @@
   photo: prithvi.png    
   area: string
   research: "Quantum field theory, string theory"
+  office: 
+  phone: 
 
 - name: Soham Manni
   designation: Assistant Professor
@@ -54,6 +60,8 @@
   photo: soham.png
   area: cmp_experiment
   research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
+  office: 
+  phone: 
 
 - name: Kusum Dhochak
   designation: Assistant Professor
@@ -68,6 +76,8 @@
   photo: kusum.png    
   area: cmp_theory
   research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
+  office: 
+  phone: 
 
 - name: Bibhu Ranjan Sarangi
   designation: Associate Professor
@@ -82,6 +92,8 @@
   photo: bibhu.png
   area: softmat_experiment
   research: "Soft-matter physics, active matter systems, mechanobiology"
+  office: 
+  phone: 
   
 
 - name: Projjwal Banerjee
@@ -97,6 +109,8 @@
   photo: projjwal.png   
   area: astro_theory
   research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
+  office: 
+  phone: 
 
 
 
@@ -113,6 +127,8 @@
   photo: amit.png
   area: quantum
   research: "Quantum information theory, quantum thermodynamics, quantum many-body physics, open quantum systems" 
+  office: 
+  phone: 
 
 - name: Vishwas V
   designation: Assistant Professor
@@ -127,6 +143,8 @@
   photo: vishwas.png
   area: softmat_theory
   research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
+  office: 
+  phone: 
 
 
 - name: Ajeesh M. Omanakuttan
@@ -142,6 +160,8 @@
   photo: ajeesh.png
   area: cmp_experiment
   research: "Experimental condensed matter physics, quantum materials under extreme conditions"
+  office: 
+  phone: 
 
 
 - name: Manoj Gopalkrishnan
@@ -157,6 +177,8 @@
   photo: manoj.png
   area: softmat_theory
   research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
+  office: 
+  phone: 
 
 
 - name: Akanksha Bhardwaj
@@ -172,6 +194,8 @@
   photo: akanksha.png
   area: hep_theory
   research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
+  office: 
+  phone: 
 
 - name: Resmi PK
   designation: Assistant Professor
@@ -186,6 +210,8 @@
   photo: resmi.png
   area: hep_experiment
   research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
+  office: 
+  phone: 
 
 
 
@@ -202,6 +228,8 @@
   photo: debarati.png
   area: softmat_theory
   research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
+  office: 
+  phone: 
 
 
 - name: Swaroop Sahoo
@@ -217,4 +245,6 @@
   photo: swaroop.png
   area: electronics
   research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
+  office: 
+  phone: 
   
