@@ -66,17 +66,15 @@ main:
       - title: Former Faculty
         url: /formerfaculty/
 
-       - title: Former PhD
-        url: /formerphd/
-
       - title: Former Postdocs
-        url: /formerpostdocs/       
-        
+        url: /formerpostdocs/    
+
+      - title: Former PhD
+        url: /formerphd/
+   
       - title: Former MSc
         url: /formermsc/
           
-
-        
   - title: Recruitments
     children:
       - title: Staff positions
