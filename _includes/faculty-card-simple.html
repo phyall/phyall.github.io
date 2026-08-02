@@ -1,40 +1,55 @@
-{% assign website = include.person.personal_url | default: "" | strip %}
+{% assign website = faculty.personal_url | default: "" | strip %}
 
 <div class="faculty-card">
 
+  <!-- ======================================================
+       Faculty Photo
+       ====================================================== -->
+
   <div class="faculty-photo-container">
     <img
-      src="{{ '/images/faculty/' | relative_url }}{{ include.person.photo }}"
-      alt="{{ include.person.name }}"
-      class="faculty-photo">
+      src="{{ '/images/faculty/' | relative_url }}{{ faculty.photo }}"
+      alt="{{ faculty.name }}"
+      class="faculty-photo"
+      loading="lazy">
   </div>
+
+  <!-- ======================================================
+       Faculty Information
+       ====================================================== -->
 
   <div class="faculty-content">
 
     <h3 class="faculty-name">
-      {{ include.person.name }}
+      {{ faculty.name }}
     </h3>
 
     <p class="faculty-designation">
-      {{ include.person.designation }}
+      {{ faculty.designation }}
     </p>
 
     <div class="faculty-links">
 
-      {% if include.person.iit_url %}
-        <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
+      {% if faculty.iit_url %}
+        <a
+          href="{{ faculty.iit_url }}"
+          target="_blank"
+          rel="noopener">
           IIT
         </a>
       {% endif %}
 
       {% if website != "" %}
-        <a href="{{ website }}" target="_blank" rel="noopener">
+        <a
+          href="{{ website }}"
+          target="_blank"
+          rel="noopener">
           Website
         </a>
       {% endif %}
 
-      {% if include.person.email %}
-        <a href="mailto:{{ include.person.email }}">
+      {% if faculty.email %}
+        <a href="mailto:{{ faculty.email }}">
           Email
         </a>
       {% endif %}
