@@ -51,12 +51,14 @@
     {% endfor %}
   </div>
   <div class="footer-bottom">
-    © {{ site.time | date: "%Y" }}
-    {{ site.data.footer.copyright.text }}
-  </div>
-  <div class="footer-last-updated">
-    Last updated:
-    {{ site.time | date: "%d %B %Y" }}
+    <div>
+      © {{ site.time | date: "%Y" }}
+      {{ site.data.footer.copyright.text }}
+    </div>
+    <div class="footer-last-updated">
+      Last updated:
+      {{ site.time | date: "%d %B %Y" }}
+    </div>
   </div>
 </footer>
 
