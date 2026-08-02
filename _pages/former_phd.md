@@ -7,3 +7,5 @@ sidebar: quicklinks
 
 
 {% include former_phd_table.html students=site.data.phd_students %}
+
+(Year implies graduation year)
