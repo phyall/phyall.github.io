@@ -5,6 +5,8 @@ permalink: /faculty/
 sidebar: quicklinks
 ---
 
+See [here](research.md) for a research area-wise grouping of faculty. 
+
 {% assign primary_faculty = site.data.faculty_details
    | where: "affiliation", "primary"
    | where: "status", "current"
