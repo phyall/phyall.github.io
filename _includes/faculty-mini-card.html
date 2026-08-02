@@ -1,18 +1,15 @@
 <div class="faculty-mini-card">
 
-  <!-- =======================================================
-       Faculty Photo
-  ======================================================== -->
-
+  <!-- Faculty Photo -->
   <div class="faculty-mini-photo">
 
     {% if faculty.iit_url %}
       <a href="{{ faculty.iit_url }}">
     {% endif %}
 
-      <img
-        src="{{ site.baseurl }}/images/profile/{{ faculty.photo }}"
-        alt="{{ faculty.name }}">
+    <img
+      src="{{ '/images/faculty/' | relative_url }}{{ faculty.photo }}"
+      alt="{{ faculty.name }}">
 
     {% if faculty.iit_url %}
       </a>
@@ -20,15 +17,10 @@
 
   </div>
 
-
-  <!-- =======================================================
-       Faculty Information
-  ======================================================== -->
-
+  <!-- Faculty Information -->
   <div class="faculty-mini-info">
 
     <!-- Name -->
-
     <h3 class="faculty-mini-name">
 
       {% if faculty.iit_url %}
@@ -41,86 +33,55 @@
 
     </h3>
 
-
     <!-- Designation -->
-
     <div class="faculty-mini-designation">
-
       {{ faculty.designation }}
-
-      {% if faculty.head %}
-        <span class="faculty-mini-role">
-          • Head of Department
-        </span>
-      {% endif %}
-
     </div>
 
-
     <!-- Secondary Affiliation -->
-
-    {% if faculty.affiliation == "secondary" %}
-
-      {% if faculty.other_affiliation %}
-
-        <div class="faculty-mini-secondary">
-
-          {{ faculty.other_affiliation }}
-
-        </div>
-
-      {% endif %}
-
+    {% if faculty.affiliation == "secondary" and faculty.other_affiliation %}
+      <div class="faculty-mini-secondary">
+        {{ faculty.other_affiliation }}
+      </div>
     {% endif %}
 
-
     <!-- Email -->
-
     {% if faculty.email %}
-
       <div class="faculty-mini-email">
-
         <a href="mailto:{{ faculty.email }}">
-
           {{ faculty.email }}
-
         </a>
+      </div>
+    {% endif %}
+
+    <!-- Links -->
+    {% if faculty.iit_url or faculty.personal_url %}
+
+      <div class="faculty-mini-links">
+
+        {% if faculty.iit_url %}
+          <a
+            class="faculty-mini-badge"
+            href="{{ faculty.iit_url }}"
+            target="_blank"
+            rel="noopener">
+            IIT Profile
+          </a>
+        {% endif %}
+
+        {% if faculty.personal_url %}
+          <a
+            class="faculty-mini-badge"
+            href="{{ faculty.personal_url }}"
+            target="_blank"
+            rel="noopener">
+            Personal Website
+          </a>
+        {% endif %}
 
       </div>
 
     {% endif %}
-
-
-    <!-- Badges -->
-
-    <div class="faculty-mini-links">
-
-      {% if faculty.iit_url %}
-
-        <a
-          class="faculty-mini-badge"
-          href="{{ faculty.iit_url }}">
-
-          IIT Profile
-
-        </a>
-
-      {% endif %}
-
-
-      {% if faculty.personal_url %}
-
-        <a
-          class="faculty-mini-badge"
-          href="{{ faculty.personal_url }}">
-
-          Personal Website
-
-        </a>
-
-      {% endif %}
-
-    </div>
 
   </div>
 
