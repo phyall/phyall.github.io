@@ -1,0 +1,519 @@
+- name: Siji S. Saju
+  status: ongoing
+  program: PhD
+  joining_year:
+  graduation_year:
+  supervisor: P. B. Sunil Kumar
+  joint_supervisor:
+  cycle:
+  research_area: Theoretical Soft Condensed Matter
+  email: 221704005@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Manju C.
+  status: finished
+  program: PhD
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle: December
+  research_area: Quantum Chaos
+  email: 222004003@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Swathi T. S.
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Prithvi Narayan
+  joint_supervisor:
+  cycle: December
+  research_area: Theoretical High Energy Physics
+  email: 222004008@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Reshna Elsa Philip
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor: Soham Manni
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  email: 222004005@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Asha Ann Abraham
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  email: 222004001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Nikhil Joseph Joy
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  email: 222004004@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Shivadas P.
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Sovan Lal Das (ME)
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Biophysics
+  email: 222004006@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Indrajit Bhattacherjee
+  status: ongoing
+  program: PhD
+  joining_year: 2020
+  graduation_year:
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: August
+  research_area: Experimental Biophysics
+  email: 222014001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Jithin G. Krishnan
+  status: ongoing
+  program: PhD
+  joining_year: 2020
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: December
+  research_area: Quantum Entanglement
+  email: 222104001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Harikrishnan K J
+  status: ongoing
+  program: PhD
+  joining_year: 2021
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: December
+  research_area: Topological Quantum Codes
+  email: 222204002@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Chandrima B. Pushpan
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2022
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: March
+  research_area: Quantum Protocols using Logical Qubits
+  email: 222204004@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Olivia Vincent
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2022
+  graduation_year:
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: March
+  research_area: Experimental Biophysics
+  email: 222204005@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Athul Krishna P. V.
+  status: ongoing
+  program: PhD
+  joining_year: 2022
+  graduation_year:
+  supervisor: Debarati Chatterjee
+  joint_supervisor:
+  cycle: January
+  research_area: Soft Matter physics
+  email: 222204001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Sathishkumar M.
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2023
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor:
+  cycle: April
+  research_area: Experimental Condensed Matter Physics
+  email: 222304002@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Souvik Kumar Rana
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor: Moumita Nandi
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  email: 222314007@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Greeshma R
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  email: 222314005@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Pranav U S
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle: July
+  research_area: Nonequilibrium quantum dynamics
+  email: 222314006@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Elsa Baby
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Vishwas V
+  joint_supervisor:
+  cycle: July
+  research_area: Nonequilibrium Statistical Physics
+  email: 222314004@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Athira K
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Biophysics
+  email: 222314003@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Easwaran C E
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  email: 222414001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Muhammed Anees K T
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Moumita Nandi
+  joint_supervisor: Soham Manni
+  cycle: January
+  research_area: Experimental Condensed Matter Physics
+  email: 222404006@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Anjaly C
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Vishwas V
+  joint_supervisor:
+  cycle: January
+  research_area: Rheology of Amorphous Solids
+  email: 222404003@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Ashique T
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Projjwal Banerjee
+  joint_supervisor:
+  cycle: January
+  research_area: Theoretical Astrophysics
+  email: 222404005@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Lakshmija N K
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle: July
+  research_area: Quantum Batteries
+  email: 222414004@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Mechelo Mero
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  email: 222504001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Athira S
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Swaroop Sahoo
+  joint_supervisor:
+  cycle: August
+  research_area:
+  email: 222414005@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Mahima Chaudhary
+  status: ongoing
+  program: PhD
+  joining_year: 2025
+  graduation_year:
+  supervisor: Projjwal Banerjee
+  joint_supervisor:
+  cycle: April
+  research_area: Theoretical Astrophysics
+  email: 222504002@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Jishnu P
+  status: ongoing
+  program: PhD
+  joining_year: 2025
+  graduation_year:
+  supervisor: Ajeesh M O
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  email: 222514001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Medha R
+  status: ongoing
+  program: PhD
+  joining_year: 2025
+  graduation_year:
+  supervisor: Debarati Chatterjee
+  joint_supervisor:
+  cycle: July
+  research_area:
+  email: 222514002@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Vimal Sreekanth
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: January
+  research_area: Quantum Information 
+  email: 222604002@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Najma Nazrin
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Dr. Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: January
+  research_area: 
+  email: 222604001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Abhishek Das
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Vishwas V
+  joint_supervisor:
+  cycle: April
+  research_area:
+  email: 222614001@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Nandana P
+  status: ongoing
+  program:
+  joining_year:
+  graduation_year:
+  supervisor:
+  joint_supervisor:
+  cycle:
+  research_area:
+  email: 222614004@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Vishnupriya K
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: August
+  research_area: Quantum Information
+  email: 222614006@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Nirupam Sen
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: August
+  research_area: Quantum Information
+  email: 222614007@smail.iitpkd.ac.in
+  thesis_title:
+  next_position:
+
+- name: Revathy B. S.
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2022
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle:
+  research_area:
+  email:
+  thesis_title: Quantum Engines close to criticality
+  next_position: PostDoc, RRI, Bengaluru
+
+- name: Aathira Murali
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2024
+  supervisor: P. B. Sunil Kumar
+  joint_supervisor:
+  cycle:
+  research_area:
+  email:
+  thesis_title: Shape morphism and swelling kinetics of vapor responsive polymer
+  next_position: Employed
+
+- name: Diljith T.
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2024
+  supervisor: Debarati Chatterjee
+  joint_supervisor:
+  cycle:
+  research_area:
+  email:
+  thesis_title:
+  next_position:
+
+- name: Ranjuna M. K.
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2024
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle:
+  research_area:
+  email:
+  thesis_title: Thermal transport and temperature induced optical responses in 2D materials: A study on modified graphene and molybdenum disulfide
+  next_position: PostDoc, IISER Pune
+
+- name: Jeena S. K.
+  status: finished
+  program: PhD
+  joining_year: 2019
+  graduation_year: 2025
+  supervisor: Projjwal Banerjee
+  joint_supervisor:
+  cycle:
+  research_area:
+  email:
+  thesis_title: Origin of elements in the early galaxy
+  next_position: PostDoc, IIA, Bengaluru
