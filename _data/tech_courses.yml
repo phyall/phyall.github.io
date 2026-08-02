@@ -1,0 +1,58 @@
+#======================
+# Core
+#======================
+
+- code: PH1030
+  title: Physics
+  program: btech
+  category: core
+  credit: "2-1-0-3"
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link: 
+
+- code: PH1130
+  title: Electromagnetic Theory
+  program: msc
+  category: core
+  credit: "3-1-0-4"
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5005
+  title: Applicable Mathematics
+  program: msc
+  category: core
+  credit: "3-0-2-4"
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5007
+  title: Quantum Mechanics I
+  program: msc
+  category: core
+  credit: "3-1-0-4"
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+
+- code: PH5002
+  title: Atomic and Molecular Physics
+  program: msc
+  category: core
+  credit: "3-0-0-3"
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
