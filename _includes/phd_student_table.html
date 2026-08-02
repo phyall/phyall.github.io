@@ -2,10 +2,11 @@
 
   <thead>
     <tr>
-      <th style="width:38%">Name</th>
-      <th style="width:18%">Roll No.</th>
-      <th style="width:12%">Joined</th>
-      <th>Supervisor</th>
+      <th style="width:28%">Name</th>
+      <th style="width:14%">Roll No.</th>
+      <th style="width:10%">Joined</th>
+      <th style="width:24%">Supervisor</th>
+      <th style="width:24%">Joint Supervisor</th>
     </tr>
   </thead>
 
@@ -16,10 +17,31 @@
     {% for student in students %}
 
       <tr>
-        <td>{{ student.name }}</td>
-        <td>{{ student.roll }}</td>
-        <td>{{ student.joining_year }}</td>
-        <td>{{ student.supervisor }}</td>
+
+        <td>
+          {{ student.name }}
+        </td>
+
+        <td>
+          {{ student.roll }}
+        </td>
+
+        <td>
+          {{ student.joining_year }}
+        </td>
+
+        <td>
+          {{ student.supervisor }}
+        </td>
+
+        <td>
+          {% if student.joint_supervisor %}
+            {{ student.joint_supervisor }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+
       </tr>
 
     {% endfor %}
