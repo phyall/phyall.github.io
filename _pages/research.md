@@ -16,6 +16,7 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
 {% assign primary = site.data.faculty_details
   | where: "area", group.id
   | where: "affiliation", "primary"
+  | where: "status", "current"
   | sort: "date_joined" %}
 
 {% if primary.size > 0 %}
@@ -33,6 +34,7 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
 {% assign secondary = site.data.faculty_details
   | where: "area", group.id
   | where: "affiliation", "secondary"
+  | where: "status", "current"
   | sort: "name" %}
 
 {% if secondary.size > 0 %}
