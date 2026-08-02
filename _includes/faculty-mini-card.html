@@ -1,0 +1,24 @@
+<div class="faculty-mini">
+
+  <a href="{{ faculty.iit_url }}">
+    <img src="{{ site.baseurl }}/images/faculty/{{ faculty.photo }}"
+         alt="{{ faculty.name }}">
+  </a>
+
+  <div class="faculty-mini-name">
+    <a href="{{ faculty.iit_url }}">
+      {{ faculty.name }}
+    </a>
+  </div>
+
+  <div class="faculty-mini-designation">
+    {{ faculty.designation }}
+  </div>
+
+  <div class="faculty-mini-email">
+    <a href="mailto:{{ faculty.email }}">
+      {{ faculty.email }}
+    </a>
+  </div>
+
+</div>
