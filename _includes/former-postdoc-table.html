@@ -1,0 +1,36 @@
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th style="width:38%">Name</th>
+      <th style="width:12%">From</th>
+      <th style="width:12%">To</th>
+      <th style="width:38%">Host Faculty</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    {% assign postdocs = include.postdocs
+        | where: "status", "finished"
+        | sort: "joining_year" %}
+
+    {% for postdoc in postdocs %}
+
+      <tr>
+
+        <td>{{ postdoc.name }}</td>
+
+        <td>{{ postdoc.joining_year }}</td>
+
+        <td>{{ postdoc.finishing_year }}</td>
+
+        <td>{{ postdoc.with }}</td>
+
+      </tr>
+
+    {% endfor %}
+
+  </tbody>
+
+</table>
