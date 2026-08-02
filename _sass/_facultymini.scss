@@ -1,0 +1,49 @@
+.faculty-mini-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+    gap:28px;
+    margin:20px 0 50px;
+}
+
+.faculty-mini{
+    text-align:center;
+}
+
+.faculty-mini img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #eee;
+    transition:.2s;
+}
+
+.faculty-mini img:hover{
+    transform:scale(1.05);
+}
+
+.faculty-mini-name{
+    margin-top:12px;
+    font-weight:600;
+    font-size:1.05rem;
+}
+
+.faculty-mini-name a{
+    text-decoration:none;
+}
+
+.faculty-mini-designation{
+    color:#666;
+    font-size:.92rem;
+    margin-top:4px;
+}
+
+.faculty-mini-email{
+    margin-top:6px;
+    font-size:.88rem;
+}
+
+.faculty-mini-email a{
+    color:#666;
+    text-decoration:none;
+}
