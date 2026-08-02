@@ -50,7 +50,7 @@
   title: Atomic and Molecular Physics
   program: msc
   category: core
-  credit: "3-1-0-4"
+  credit: "3-0-0-3"
   type: theory
   year: 1
   semester: 2
@@ -61,6 +61,7 @@
   title: Electronics and Instrumentation
   program: msc
   category: core
+  credit: "2-0-3-4"
   type: theory
   year: 1
   semester: 2
@@ -71,6 +72,7 @@
   title: Statistical Mechanics
   program: msc
   category: core
+  credit: "3-0-0-3"
   type: theory
   year: 1
   semester: 2
@@ -81,6 +83,7 @@
   title: Quantum Mechanics II
   program: msc
   category: core
+  credit: "3-0-0-3"
   type: theory
   year: 1
   semester: 2
@@ -91,6 +94,7 @@
   title: Condensed Matter Physics
   program: msc
   category: core
+  credit: "3-1-0-4"
   type: theory
   year: 2
   semester: 3
@@ -101,6 +105,7 @@
   title: Nuclear and Particle Physics
   program: msc
   category: core
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester: 3
@@ -111,6 +116,7 @@
   title: Thermal Physics and Atomic Spectroscopy
   program: msc
   category: core
+  credit: "0-0-3-2"
   type: lab
   year: 1
   semester: 1
@@ -121,6 +127,7 @@
   title: Mechanics and Electromagnetic Theory
   program: msc
   category: core
+  credit: "0-0-3-2"
   type: lab
   year: 1
   semester: 2
@@ -131,6 +138,7 @@
   title: Advanced Physics
   program: msc
   category: core
+  credit: "0-0-5-3"
   type: lab
   year: 2
   semester: 3
@@ -146,6 +154,7 @@
   title: Quantum Information and Computation
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -156,6 +165,7 @@
   title: Quantum Information and Many-Body Systems
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -166,6 +176,7 @@
   title: Soft Matter Physics
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -176,6 +187,7 @@
   title: Introduction to Computational Physics
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -196,6 +208,7 @@
   title: Introduction to Astrophysics
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -206,6 +219,7 @@
   title: "Many Body Physics: Techniques and Applications"
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -216,6 +230,7 @@
   title: Experimental Techniques in Physics
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -226,6 +241,7 @@
   title: General Relativity
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -236,6 +252,7 @@
   title: Magnetism in Materials
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -246,6 +263,7 @@
   title: Quantum Optics
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -256,6 +274,7 @@
   title: Particle Physics and Gauge Theory
   program: msc
   category: elective
+  credit: "3-0-0-3"
   type: theory
   year: 2
   semester:
@@ -271,6 +290,7 @@
   title: Group Theory Methods in Physics
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
@@ -281,6 +301,7 @@
   title: Introduction To Atmospheric And Space Sciences
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
@@ -291,6 +312,7 @@
   title: Introduction to LASER
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
@@ -301,6 +323,7 @@
   title: Physics of Biological Systems
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
@@ -311,6 +334,7 @@
   title: Quantum Transport
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
@@ -321,6 +345,7 @@
   title: The Joy of Computing using Python
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
@@ -331,6 +356,7 @@
   title: Introduction to Quantum Field Theory
   program: msc
   category: elective
+  credit: 
   type: theory
   year: 2
   semester:
