@@ -1,49 +1,331 @@
-.faculty-mini-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
-    gap:28px;
-    margin:20px 0 50px;
+/* ==========================================================================
+   FACULTY MINI GRID
+   ========================================================================== */
+
+.faculty-mini-group-title {
+
+  margin: 3.5rem 0 1.5rem;
+
+  padding-bottom: 0.45rem;
+
+  border-bottom: 2px solid #e8e8e8;
+
+  font-size: 1.8rem;
+
+  font-weight: 600;
+
+  color: #222;
+
 }
 
-.faculty-mini{
-    text-align:center;
+
+.faculty-mini-associated-title {
+
+  margin: 2.5rem 0 1rem;
+
+  font-size: 1.15rem;
+
+  font-weight: 600;
+
+  color: #666;
+
 }
 
-.faculty-mini img{
-    width:150px;
-    height:150px;
-    border-radius:50%;
-    object-fit:cover;
-    border:3px solid #eee;
-    transition:.2s;
+
+/* ==========================================================================
+   GRID
+   ========================================================================== */
+
+.faculty-mini-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+
+  gap: 24px;
+
+  margin-bottom: 3.5rem;
+
 }
 
-.faculty-mini img:hover{
-    transform:scale(1.05);
+
+/* ==========================================================================
+   CARD
+   ========================================================================== */
+
+.faculty-mini-card {
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 18px;
+
+  padding: 18px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e5e5;
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+
+  height: 100%;
+
+  transition:
+      transform 0.22s ease,
+      box-shadow 0.22s ease,
+      border-color 0.22s ease;
+
 }
 
-.faculty-mini-name{
-    margin-top:12px;
-    font-weight:600;
-    font-size:1.05rem;
+
+.faculty-mini-card:hover {
+
+  transform: translateY(-3px);
+
+  border-color: #d6d6d6;
+
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+
 }
 
-.faculty-mini-name a{
-    text-decoration:none;
+
+/* ==========================================================================
+   PHOTO
+   ========================================================================== */
+
+.faculty-mini-photo {
+
+  flex-shrink: 0;
+
 }
 
-.faculty-mini-designation{
-    color:#666;
-    font-size:.92rem;
-    margin-top:4px;
+
+.faculty-mini-photo img {
+
+  width: 115px;
+
+  height: 115px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 3px solid #f2f2f2;
+
+  display: block;
+
+  transition: transform .25s ease;
+
 }
 
-.faculty-mini-email{
-    margin-top:6px;
-    font-size:.88rem;
+
+.faculty-mini-card:hover .faculty-mini-photo img {
+
+  transform: scale(1.04);
+
 }
 
-.faculty-mini-email a{
-    color:#666;
-    text-decoration:none;
+
+/* ==========================================================================
+   INFORMATION
+   ========================================================================== */
+
+.faculty-mini-info {
+
+  flex: 1;
+
+  min-width: 0;
+
+}
+
+
+.faculty-mini-name {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-size: 1.22rem;
+
+  font-weight: 600;
+
+  line-height: 1.3;
+
+}
+
+
+.faculty-mini-name a {
+
+  color: #222;
+
+  text-decoration: none;
+
+}
+
+
+.faculty-mini-name a:hover {
+
+  color: #0056b3;
+
+}
+
+
+.faculty-mini-designation {
+
+  margin-top: 5px;
+
+  color: #666;
+
+  font-size: 0.95rem;
+
+  line-height: 1.4;
+
+}
+
+
+.faculty-mini-role {
+
+  color: #b22222;
+
+  font-weight: 600;
+
+}
+
+
+.faculty-mini-secondary {
+
+  margin-top: 6px;
+
+  font-size: 0.90rem;
+
+  color: #777;
+
+  font-style: italic;
+
+}
+
+
+.faculty-mini-email {
+
+  margin-top: 12px;
+
+  font-size: 0.92rem;
+
+}
+
+
+.faculty-mini-email a {
+
+  color: #555;
+
+  text-decoration: none;
+
+  word-break: break-word;
+
+}
+
+
+.faculty-mini-email a:hover {
+
+  color: #0056b3;
+
+}
+
+
+/* ==========================================================================
+   BUTTONS
+   ========================================================================== */
+
+.faculty-mini-links {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+
+  margin-top: 15px;
+
+}
+
+
+.faculty-mini-badge {
+
+  display: inline-block;
+
+  padding: 5px 12px;
+
+  border-radius: 999px;
+
+  border: 1px solid #d7dee7;
+
+  background: #f7f9fc;
+
+  color: #2d5c9c;
+
+  font-size: 0.82rem;
+
+  text-decoration: none;
+
+  transition:
+      background .2s,
+      color .2s,
+      border-color .2s;
+
+}
+
+
+.faculty-mini-badge:hover {
+
+  background: #2d5c9c;
+
+  border-color: #2d5c9c;
+
+  color: #fff;
+
+}
+
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+
+@media (max-width: 950px) {
+
+  .faculty-mini-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .faculty-mini-card {
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+  }
+
+  .faculty-mini-info {
+
+    text-align: center;
+
+  }
+
+  .faculty-mini-links {
+
+    justify-content: center;
+
+  }
+
 }
