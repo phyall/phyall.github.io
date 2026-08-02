@@ -1,50 +1,40 @@
 <div class="faculty-mini-card">
 
-  <!-- =========================
+  <!-- ======================================================
        Faculty Photo
-  ========================== -->
+       ====================================================== -->
 
   <div class="faculty-mini-photo">
 
-    {% if faculty.iit_url %}
-      <a href="{{ faculty.iit_url }}">
-    {% endif %}
-
-      <img
-        src="{{ '/images/faculty/' | relative_url }}{{ faculty.photo }}"
-        alt="{{ faculty.name }}"
-        loading="lazy">
-
-    {% if faculty.iit_url %}
-      </a>
-    {% endif %}
+    <img
+      src="{{ '/images/faculty/' | relative_url }}{{ faculty.photo }}"
+      alt="{{ faculty.name }}"
+      loading="lazy">
 
   </div>
 
 
-  <!-- =========================
+  <!-- ======================================================
        Faculty Information
-  ========================== -->
+       ====================================================== -->
 
   <div class="faculty-mini-info">
 
+    <!-- Name -->
+
     <h3 class="faculty-mini-name">
-
-      {% if faculty.iit_url %}
-        <a href="{{ faculty.iit_url }}">
-          {{ faculty.name }}
-        </a>
-      {% else %}
-        {{ faculty.name }}
-      {% endif %}
-
+      {{ faculty.name }}
     </h3>
 
+
+    <!-- Designation -->
 
     <div class="faculty-mini-designation">
       {{ faculty.designation }}
     </div>
 
+
+    <!-- Secondary affiliation -->
 
     {% if faculty.affiliation == "secondary" and faculty.other_affiliation %}
 
@@ -55,6 +45,8 @@
     {% endif %}
 
 
+    <!-- Email -->
+
     {% if faculty.email %}
 
       <div class="faculty-mini-email">
@@ -62,6 +54,46 @@
         <a href="mailto:{{ faculty.email }}">
           {{ faculty.email }}
         </a>
+
+      </div>
+
+    {% endif %}
+
+
+    <!-- Links -->
+
+    {% if faculty.iit_url or faculty.personal_url %}
+
+      <div class="faculty-mini-links">
+
+        {% if faculty.iit_url %}
+
+          <a
+            class="faculty-mini-badge"
+            href="{{ faculty.iit_url }}"
+            target="_blank"
+            rel="noopener">
+
+            IIT
+
+          </a>
+
+        {% endif %}
+
+
+        {% if faculty.personal_url %}
+
+          <a
+            class="faculty-mini-badge"
+            href="{{ faculty.personal_url }}"
+            target="_blank"
+            rel="noopener">
+
+            Website
+
+          </a>
+
+        {% endif %}
 
       </div>
 
