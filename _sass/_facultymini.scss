@@ -3,32 +3,19 @@
    ========================================================================== */
 
 .faculty-mini-group-title {
-
-  margin: 3.5rem 0 1.5rem;
-
+  margin: 3rem 0 1.25rem;
   padding-bottom: 0.45rem;
-
-  border-bottom: 2px solid #e8e8e8;
-
-  font-size: 1.8rem;
-
+  border-bottom: 2px solid #e6e6e6;
+  font-size: 1.75rem;
   font-weight: 600;
-
   color: #222;
-
 }
 
-
 .faculty-mini-associated-title {
-
-  margin: 2.5rem 0 1rem;
-
+  margin: 2rem 0 1rem;
   font-size: 1.15rem;
-
   font-weight: 600;
-
   color: #666;
-
 }
 
 
@@ -42,9 +29,9 @@
 
   grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
 
-  gap: 24px;
+  gap: 22px;
 
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 
 }
 
@@ -59,13 +46,13 @@
 
   align-items: flex-start;
 
-  gap: 18px;
+  gap: 16px;
 
-  padding: 18px;
+  padding: 16px;
 
-  background: #ffffff;
+  background: #fff;
 
-  border: 1px solid #e5e5e5;
+  border: 1px solid #e4e4e4;
 
   border-radius: 12px;
 
@@ -74,20 +61,19 @@
   height: 100%;
 
   transition:
-      transform 0.22s ease,
-      box-shadow 0.22s ease,
-      border-color 0.22s ease;
+      box-shadow .2s ease,
+      border-color .2s ease,
+      transform .2s ease;
 
 }
 
-
 .faculty-mini-card:hover {
 
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 
-  border-color: #d6d6d6;
+  border-color: #d7d7d7;
 
-  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
 
 }
 
@@ -102,29 +88,19 @@
 
 }
 
-
 .faculty-mini-photo img {
 
-  width: 115px;
+  width: 95px;
 
-  height: 115px;
+  height: 95px;
 
   object-fit: cover;
 
   border-radius: 50%;
 
-  border: 3px solid #f2f2f2;
+  border: 3px solid #f3f3f3;
 
   display: block;
-
-  transition: transform .25s ease;
-
-}
-
-
-.faculty-mini-card:hover .faculty-mini-photo img {
-
-  transform: scale(1.04);
 
 }
 
@@ -141,21 +117,17 @@
 
 }
 
-
 .faculty-mini-name {
 
   margin: 0;
 
-  padding: 0;
-
-  font-size: 1.22rem;
+  font-size: 1.15rem;
 
   font-weight: 600;
 
   line-height: 1.3;
 
 }
-
 
 .faculty-mini-name a {
 
@@ -165,57 +137,41 @@
 
 }
 
-
 .faculty-mini-name a:hover {
 
   color: #0056b3;
 
 }
 
-
 .faculty-mini-designation {
 
-  margin-top: 5px;
+  margin-top: 4px;
 
   color: #666;
 
-  font-size: 0.95rem;
-
-  line-height: 1.4;
+  font-size: .95rem;
 
 }
-
-
-.faculty-mini-role {
-
-  color: #b22222;
-
-  font-weight: 600;
-
-}
-
 
 .faculty-mini-secondary {
 
-  margin-top: 6px;
-
-  font-size: 0.90rem;
+  margin-top: 5px;
 
   color: #777;
 
   font-style: italic;
 
-}
+  font-size: .90rem;
 
+}
 
 .faculty-mini-email {
 
-  margin-top: 12px;
+  margin-top: 10px;
 
-  font-size: 0.92rem;
+  font-size: .90rem;
 
 }
-
 
 .faculty-mini-email a {
 
@@ -227,7 +183,6 @@
 
 }
 
-
 .faculty-mini-email a:hover {
 
   color: #0056b3;
@@ -236,7 +191,7 @@
 
 
 /* ==========================================================================
-   BUTTONS
+   BADGES
    ========================================================================== */
 
 .faculty-mini-links {
@@ -245,46 +200,46 @@
 
   flex-wrap: wrap;
 
-  gap: 8px;
+  gap: 6px;
 
-  margin-top: 15px;
+  margin-top: 12px;
 
 }
-
 
 .faculty-mini-badge {
 
   display: inline-block;
 
-  padding: 5px 12px;
+  padding: 4px 10px;
 
   border-radius: 999px;
 
-  border: 1px solid #d7dee7;
+  border: 1px solid #d9dfe7;
 
   background: #f7f9fc;
 
   color: #2d5c9c;
 
-  font-size: 0.82rem;
-
   text-decoration: none;
 
+  font-size: .78rem;
+
+  font-weight: 500;
+
   transition:
-      background .2s,
-      color .2s,
-      border-color .2s;
+      background .2s ease,
+      color .2s ease,
+      border-color .2s ease;
 
 }
-
 
 .faculty-mini-badge:hover {
 
   background: #2d5c9c;
 
-  border-color: #2d5c9c;
+  color: white;
 
-  color: #fff;
+  border-color: #2d5c9c;
 
 }
 
@@ -293,7 +248,7 @@
    RESPONSIVE
    ========================================================================== */
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
 
   .faculty-mini-grid {
 
@@ -302,7 +257,6 @@
   }
 
 }
-
 
 @media (max-width: 600px) {
 
