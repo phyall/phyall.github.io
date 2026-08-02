@@ -48,7 +48,18 @@ main:
         url: /postdocs/
 
       - title: Alumni
-        url: /alumni/
+        children:
+          - title: Former MSc
+            url: /formermsc/
+            
+          - title: Former PhD
+            url: /formerphd/
+
+          - title: Former Postdocs
+            url: /formerpostdocs/
+
+          - title: Former Faculty
+            url: /formerfaculty/
 
   - title: Research
     url: /research/
