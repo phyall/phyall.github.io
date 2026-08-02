@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /formerphd/
-title: "Permer Ph.D. Students"
+title: "Former Ph.D. Students"
 sidebar: quicklinks
 ---
 
