@@ -6,6 +6,8 @@
 #
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
+  #- title: Research
+  #  url: /research/
 
 
 main:
@@ -49,10 +51,6 @@ main:
 
       - title: MSc Students
         url: /mscstudents/        
-        
-
-  - title: Research
-    url: /research/
 
   - title: News
     children:
