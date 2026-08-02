@@ -1,29 +1,29 @@
-- id: quantum
-  title: Quantum Physics
-
-- id: cmp_theory
-  title: Condensed Matter Physics (Theory)
-
-- id: cmp_experiment
-  title: Condensed Matter Physics (Experiment)
-
-- id: softmat_theory
-  title: Soft Matter Physics (Theory)
-
-- id: softmat_experiment
-  title: Soft Matter Physics (Experiment)
-
-- id: hep_theory
-  title: High Energy Physics (Theory)
-
-- id: hep_experiment
-  title: High Energy Physics (Experiment)
-
-- id: astro_theory
-  title: Astrophysics
-
 - id: string
   title: String Theory
 
+- id: astro_theory
+  title: Theoretical Astrophysics  
+
+- id: hep_theory
+  title: Theoretical High Energy Physics
+  
+- id: quantum
+  title: Quantum Information Theory
+
+- id: cmp_theory
+  title: Theoretical Condensed Matter Physics
+
+- id: softmat_theory
+  title: Theoretical Soft-Matter and Statistical Physics
+  
+- id: cmp_experiment
+  title: Experimental Condensed Matter Physics
+
+- id: softmat_experiment
+  title: Experimental Soft-Matter and Bio Physics
+
+- id: hep_experiment
+  title: Experimental High Energy Physics
+
 - id: electronics
-  title: Electronics & Photonics
+  title: Electronics and Electrical Engineering
