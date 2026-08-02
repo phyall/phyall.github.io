@@ -7,10 +7,12 @@ sidebar: quicklinks
 
 {% assign primary_faculty = site.data.faculty_details
    | where: "affiliation", "primary"
+   | where: "status", "current"
    | sort: "date_joined" %}
 
 {% assign secondary_faculty = site.data.faculty_details
    | where: "affiliation", "secondary"
+   | where: "status", "current"
    | sort: "date_joined" %}
 
 
