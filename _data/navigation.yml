@@ -33,7 +33,7 @@ main:
       - title: Timetable and Schedule
         url: /timetable/
 
-  - title: People
+  - title: Members
     children:
       - title: Faculty
         url: /faculty/
@@ -46,20 +46,6 @@ main:
         
       - title: Postdocs
         url: /postdocs/
-
-      - title: Alumni
-        children:
-          - title: Former MSc
-            url: /formermsc/
-            
-          - title: Former PhD
-            url: /formerphd/
-
-          - title: Former Postdocs
-            url: /formerpostdocs/
-
-          - title: Former Faculty
-            url: /formerfaculty/
 
   - title: Research
     url: /research/
@@ -74,6 +60,20 @@ main:
 
       - title: Events
         url: /events/
+        
+  - title: Alumni
+    children:
+      - title: Former MSc
+        url: /formermsc/
+            
+      - title: Former PhD
+        url: /formerphd/
+
+      - title: Former Postdocs
+        url: /formerpostdocs/
+
+      - title: Former Faculty
+        url: /formerfaculty/
         
   - title: Recruitments
     children:
