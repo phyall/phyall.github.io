@@ -1,0 +1,22 @@
+<div class="staff-card">
+
+  <img class="staff-photo"
+       src="{{ member.photo | default: '/images/staff/default.png' }}"
+       alt="{{ member.name }}">
+
+  <div class="staff-name">
+    {{ member.name }}
+  </div>
+
+  <div class="staff-position">
+    {{ member.position }}
+  </div>
+
+  <div class="staff-links">
+    <a href="mailto:{{ member.email }}">
+      <i class="fas fa-envelope"></i>
+      Email
+    </a>
+  </div>
+
+</div>
