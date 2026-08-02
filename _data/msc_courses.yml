@@ -6,6 +6,7 @@
   title: Classical Mechanics
   program: msc
   category: core
+  credit: "3-1-0-4"
   type: theory
   year: 1
   semester: 1
@@ -16,6 +17,7 @@
   title: Electromagnetic Theory
   program: msc
   category: core
+  credit: "3-1-0-4"
   type: theory
   year: 1
   semester: 1
@@ -26,6 +28,7 @@
   title: Applicable Mathematics
   program: msc
   category: core
+  credit: "3-0-2-4"
   type: theory
   year: 1
   semester: 1
@@ -36,6 +39,7 @@
   title: Quantum Mechanics I
   program: msc
   category: core
+  credit: "3-1-0-4"
   type: theory
   year: 1
   semester: 1
@@ -46,6 +50,7 @@
   title: Atomic and Molecular Physics
   program: msc
   category: core
+  credit: "3-1-0-4"
   type: theory
   year: 1
   semester: 2
