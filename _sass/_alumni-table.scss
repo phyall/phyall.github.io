@@ -26,6 +26,7 @@
     border-bottom: 1px solid #eceff1;
     vertical-align: top;
     text-align: left;
+    word-wrap: break-word;
 }
 
 .alumni-table tbody tr:nth-child(even) {
@@ -34,4 +35,36 @@
 
 .alumni-table tbody tr:hover {
     background: #f5f9ff;
+}
+
+/* ----------------------------------------------------------
+   Typography
+   ---------------------------------------------------------- */
+
+.alumni-table td:first-child {
+    font-weight: 500;
+    color: #222;
+}
+
+.alumni-table td:nth-child(2),
+.alumni-table td:nth-child(3),
+.alumni-table td:nth-child(4) {
+    color: #555;
+}
+
+/* ----------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+    .alumni-table {
+        font-size: 0.88rem;
+    }
+
+    .alumni-table th,
+    .alumni-table td {
+        padding: 0.65rem;
+    }
+
 }
