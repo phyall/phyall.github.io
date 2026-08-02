@@ -6,16 +6,17 @@
     width: 100%;
     margin: 2rem 0;
     border-collapse: collapse;
-    border-spacing: 0;
-    font-size: 0.95rem;
+    table-layout: fixed;
     background: #fff;
+    font-size: 0.95rem;
+    line-height: 1.45;
 }
 
 .student-table thead th {
     padding: 0.9rem 1rem;
     text-align: left;
     font-weight: 600;
-    color: #333;
+    color: #2c3e50;
     background: #f6f8fa;
     border-bottom: 2px solid #d8dee4;
 }
@@ -23,7 +24,8 @@
 .student-table tbody td {
     padding: 0.85rem 1rem;
     border-bottom: 1px solid #eceff1;
-    vertical-align: middle;
+    vertical-align: top;
+    word-wrap: break-word;
 }
 
 .student-table tbody tr:nth-child(even) {
@@ -34,21 +36,35 @@
     background: #f5f9ff;
 }
 
-/* Alignment */
+/* ----------------------------------------------------------
+   Column alignment
+   ---------------------------------------------------------- */
 
-.student-table td:nth-child(2),
-.student-table td:nth-child(3),
 .student-table th:nth-child(2),
-.student-table th:nth-child(3) {
+.student-table th:nth-child(3),
+.student-table td:nth-child(2),
+.student-table td:nth-child(3) {
     text-align: center;
     white-space: nowrap;
 }
 
+/* ----------------------------------------------------------
+   Typography
+   ---------------------------------------------------------- */
+
 .student-table td:first-child {
     font-weight: 500;
+    color: #222;
 }
 
-/* Responsive */
+.student-table td:nth-child(4),
+.student-table td:nth-child(5) {
+    color: #555;
+}
+
+/* ----------------------------------------------------------
+   Responsive
+   ---------------------------------------------------------- */
 
 @media (max-width: 768px) {
 
