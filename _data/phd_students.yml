@@ -7,7 +7,7 @@
   joint_supervisor:
   cycle:
   research_area: Theoretical Soft Matter
-  email: 221704005@smail.iitpkd.ac.in
+  roll: 221704005
   thesis_title:
   next_position:
 
@@ -20,12 +20,12 @@
   joint_supervisor:
   cycle: December
   research_area: Quantum Chaos
-  email: 222004003@smail.iitpkd.ac.in
+  roll: 222004003
   thesis_title:
   next_position:
 
 - name: Swathi T. S.
-  status: ongoing
+  status: finished
   program: PhD
   joining_year: 2019
   graduation_year:
@@ -33,7 +33,7 @@
   joint_supervisor:
   cycle: December
   research_area: Theoretical High Energy Physics
-  email: 222004008@smail.iitpkd.ac.in
+  roll: 222004008
   thesis_title:
   next_position:
 
@@ -46,7 +46,7 @@
   joint_supervisor: Soham Manni
   cycle: December
   research_area: Experimental Condensed Matter Physics
-  email: 222004005@smail.iitpkd.ac.in
+  roll: 222004005
   thesis_title:
   next_position:
 
@@ -59,7 +59,7 @@
   joint_supervisor:
   cycle: December
   research_area: Experimental Condensed Matter Physics
-  email: 222004001@smail.iitpkd.ac.in
+  roll: 222004001
   thesis_title:
   next_position:
 
@@ -72,7 +72,7 @@
   joint_supervisor:
   cycle: December
   research_area: Experimental Condensed Matter Physics
-  email: 222004004@smail.iitpkd.ac.in
+  roll: 222004004
   thesis_title:
   next_position:
 
@@ -85,7 +85,7 @@
   joint_supervisor:
   cycle: December
   research_area: Experimental Biophysics
-  email: 222004006@smail.iitpkd.ac.in
+  roll: 222004006
   thesis_title:
   next_position:
 
@@ -98,7 +98,7 @@
   joint_supervisor:
   cycle: August
   research_area: Experimental Biophysics
-  email: 222014001@smail.iitpkd.ac.in
+  roll: 222014001
   thesis_title:
   next_position:
 
@@ -111,7 +111,7 @@
   joint_supervisor:
   cycle: December
   research_area: Quantum Entanglement
-  email: 222104001@smail.iitpkd.ac.in
+  roll: 222104001
   thesis_title: "Localizable entanglement: Bounds and special features"
   next_position:
 
@@ -124,7 +124,7 @@
   joint_supervisor:
   cycle: December
   research_area: Topological Quantum Codes
-  email: 222204002@smail.iitpkd.ac.in
+  roll: 222204002
   thesis_title:
   next_position:
 
@@ -137,7 +137,7 @@
   joint_supervisor:
   cycle: March
   research_area: "Measurement-assisted Quantum Protocols"
-  email: 222204004@smail.iitpkd.ac.in
+  roll: 222204004
   thesis_title:
   next_position:
 
@@ -150,7 +150,7 @@
   joint_supervisor:
   cycle: March
   research_area: Experimental Biophysics
-  email: 222204005@smail.iitpkd.ac.in
+  roll: 222204005
   thesis_title:
   next_position:
 
@@ -163,7 +163,7 @@
   joint_supervisor:
   cycle: January
   research_area: Theoretical Soft Matter 
-  email: 222204001@smail.iitpkd.ac.in
+  roll: 222204001
   thesis_title:
   next_position:
 
@@ -176,7 +176,7 @@
   joint_supervisor:
   cycle: April
   research_area: Experimental Condensed Matter Physics
-  email: 222304002@smail.iitpkd.ac.in
+  roll: 222304002
   thesis_title:
   next_position:
 
@@ -189,7 +189,7 @@
   joint_supervisor: Moumita Nandi
   cycle: July
   research_area: Experimental Condensed Matter Physics
-  email: 222314007@smail.iitpkd.ac.in
+  roll: 222314007
   thesis_title:
   next_position:
 
@@ -202,7 +202,7 @@
   joint_supervisor:
   cycle: July
   research_area: Experimental Condensed Matter Physics
-  email: 222314005@smail.iitpkd.ac.in
+  roll: 222314005
   thesis_title:
   next_position:
 
@@ -215,7 +215,7 @@
   joint_supervisor:
   cycle: July
   research_area: Nonequilibrium quantum dynamics
-  email: 222314006@smail.iitpkd.ac.in
+  roll: 222314006
   thesis_title:
   next_position:
 
@@ -228,7 +228,7 @@
   joint_supervisor:
   cycle: July
   research_area: Nonequilibrium Statistical Physics
-  email: 222314004@smail.iitpkd.ac.in
+  roll: 222314004
   thesis_title:
   next_position:
 
@@ -241,22 +241,10 @@
   joint_supervisor:
   cycle: July
   research_area: Experimental Biophysics
-  email: 222314003@smail.iitpkd.ac.in
+  roll: 222314003
   thesis_title:
   next_position:
 
-- name: Easwaran C E
-  status: ongoing
-  program: PhD
-  joining_year: 2024
-  graduation_year:
-  supervisor: Jayakumar Balakrishnan
-  joint_supervisor:
-  cycle: July
-  research_area: Experimental Condensed Matter Physics
-  email: 222414001@smail.iitpkd.ac.in
-  thesis_title:
-  next_position:
 
 - name: Muhammed Anees K T
   status: ongoing
@@ -267,7 +255,7 @@
   joint_supervisor: Soham Manni
   cycle: January
   research_area: Experimental Condensed Matter Physics
-  email: 222404006@smail.iitpkd.ac.in
+  roll: 222404006
   thesis_title:
   next_position:
 
@@ -280,7 +268,7 @@
   joint_supervisor:
   cycle: January
   research_area: Rheology of Amorphous Solids
-  email: 222404003@smail.iitpkd.ac.in
+  roll: 222404003
   thesis_title:
   next_position:
 
@@ -293,7 +281,7 @@
   joint_supervisor:
   cycle: January
   research_area: Theoretical Astrophysics
-  email: 222404005@smail.iitpkd.ac.in
+  roll: 222404005
   thesis_title:
   next_position:
 
@@ -306,7 +294,7 @@
   joint_supervisor:
   cycle: July
   research_area: Quantum Batteries
-  email: 222414004@smail.iitpkd.ac.in
+  roll: 222414004
   thesis_title:
   next_position:
 
@@ -319,7 +307,7 @@
   joint_supervisor:
   cycle: December
   research_area: Experimental Condensed Matter Physics
-  email: 222504001@smail.iitpkd.ac.in
+  roll: 222504001
   thesis_title:
   next_position:
 
@@ -332,7 +320,7 @@
   joint_supervisor:
   cycle: August
   research_area:
-  email: 222414005@smail.iitpkd.ac.in
+  roll: 222414005
   thesis_title:
   next_position:
 
@@ -345,7 +333,7 @@
   joint_supervisor:
   cycle: April
   research_area: Theoretical Astrophysics
-  email: 222504002@smail.iitpkd.ac.in
+  roll: 222504002
   thesis_title:
   next_position:
 
@@ -358,7 +346,7 @@
   joint_supervisor:
   cycle: July
   research_area: Experimental Condensed Matter Physics
-  email: 222514001@smail.iitpkd.ac.in
+  roll: 222514001
   thesis_title:
   next_position:
 
@@ -371,7 +359,7 @@
   joint_supervisor:
   cycle: July
   research_area:
-  email: 222514002@smail.iitpkd.ac.in
+  roll: 222514002
   thesis_title:
   next_position:
 
@@ -384,7 +372,7 @@
   joint_supervisor:
   cycle: January
   research_area: Quantum Information 
-  email: 222604002@smail.iitpkd.ac.in
+  roll: 222604002
   thesis_title:
   next_position:
 
@@ -397,7 +385,7 @@
   joint_supervisor:
   cycle: January
   research_area: 
-  email: 222604001@smail.iitpkd.ac.in
+  roll: 222604001
   thesis_title:
   next_position:
 
@@ -410,7 +398,7 @@
   joint_supervisor:
   cycle: April
   research_area:
-  email: 222614001@smail.iitpkd.ac.in
+  roll: 222614001
   thesis_title:
   next_position:
 
@@ -423,7 +411,7 @@
   joint_supervisor:
   cycle:
   research_area:
-  email: 222614004@smail.iitpkd.ac.in
+  roll: 222614004
   thesis_title:
   next_position:
 
@@ -436,7 +424,7 @@
   joint_supervisor:
   cycle: August
   research_area: Quantum Information
-  email: 222614006@smail.iitpkd.ac.in
+  roll: 222614006
   thesis_title:
   next_position:
 
@@ -449,7 +437,7 @@
   joint_supervisor:
   cycle: August
   research_area: Quantum Information
-  email: 222614007@smail.iitpkd.ac.in
+  roll: 222614007
   thesis_title:
   next_position:
 
@@ -462,7 +450,7 @@
   joint_supervisor:
   cycle:
   research_area:
-  email:
+  roll:
   thesis_title: Quantum Engines close to criticality
   next_position: PostDoc, RRI, Bengaluru
 
@@ -475,7 +463,7 @@
   joint_supervisor:
   cycle:
   research_area:
-  email:
+  roll:
   thesis_title: Shape morphism and swelling kinetics of vapor responsive polymer
   next_position: Employed
 
@@ -488,7 +476,7 @@
   joint_supervisor:
   cycle:
   research_area:
-  email:
+  roll:
   thesis_title:
   next_position:
 
@@ -501,7 +489,7 @@
   joint_supervisor:
   cycle:
   research_area:
-  email:
+  roll:
   thesis_title: "Thermal transport and temperature induced optical responses in 2D materials: A study on modified graphene and molybdenum disulfide"
   next_position: PostDoc, IISER Pune
 
@@ -514,6 +502,6 @@
   joint_supervisor:
   cycle:
   research_area:
-  email:
+  roll:
   thesis_title: Origin of elements in the early galaxy
   next_position: PostDoc, IIA, Bengaluru
