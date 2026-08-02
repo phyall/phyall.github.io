@@ -41,8 +41,11 @@ main:
       - title: Staff
         url: /staff/
 
-      - title: Students and Postdocs
-        url: /students/
+      - title: PhD Students
+        url: /phdstudents/
+        
+      - title: Postdocs
+        url: /postdocs/
 
       - title: Alumni
         url: /alumni/
