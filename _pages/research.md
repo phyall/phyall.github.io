@@ -5,6 +5,8 @@ title: "Research"
 sidebar: quicklinks
 ---
 
+Faculty in the Department of Physics perform state-of-the-art research in diverse topics. A broad classification of these topics are given below. 
+
 {% for group in site.data.research_groups %}
 
 <h3 class="faculty-mini-group-title">
