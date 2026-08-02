@@ -1,0 +1,64 @@
+/* ==========================================================
+   Student Table
+   ========================================================== */
+
+.student-table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 0.95rem;
+    background: #fff;
+}
+
+.student-table thead th {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+    background: #f6f8fa;
+    border-bottom: 2px solid #d8dee4;
+}
+
+.student-table tbody td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid #eceff1;
+    vertical-align: middle;
+}
+
+.student-table tbody tr:nth-child(even) {
+    background: #fcfcfc;
+}
+
+.student-table tbody tr:hover {
+    background: #f5f9ff;
+}
+
+/* Alignment */
+
+.student-table td:nth-child(2),
+.student-table td:nth-child(3),
+.student-table th:nth-child(2),
+.student-table th:nth-child(3) {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.student-table td:first-child {
+    font-weight: 500;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .student-table {
+        font-size: 0.88rem;
+    }
+
+    .student-table th,
+    .student-table td {
+        padding: 0.65rem;
+    }
+
+}
