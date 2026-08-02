@@ -3,7 +3,7 @@
   program: PhD
   joining_year:
   graduation_year:
-  supervisor: P. B. Sunil Kumar
+  supervisor: "P. B. Sunil Kumar (now in IITM)"
   joint_supervisor:
   cycle:
   research_area: Theoretical Soft Matter
@@ -186,7 +186,7 @@
   joining_year: 2023
   graduation_year:
   supervisor: Soham Manni
-  joint_supervisor: Moumita Nandi
+  joint_supervisor: 
   cycle: July
   research_area: Experimental Condensed Matter Physics
   roll: 222314007
@@ -251,8 +251,8 @@
   program: PhD
   joining_year: 2024
   graduation_year:
-  supervisor: Moumita Nandi
-  joint_supervisor: Soham Manni
+  supervisor: Soham Manni
+  joint_supervisor: 
   cycle: January
   research_area: Experimental Condensed Matter Physics
   roll: 222404006
