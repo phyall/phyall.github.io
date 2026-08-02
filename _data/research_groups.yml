@@ -1,0 +1,29 @@
+- id: quantum
+  title: Quantum Physics
+
+- id: cmp_theory
+  title: Condensed Matter Physics (Theory)
+
+- id: cmp_experiment
+  title: Condensed Matter Physics (Experiment)
+
+- id: softmat_theory
+  title: Soft Matter Physics (Theory)
+
+- id: softmat_experiment
+  title: Soft Matter Physics (Experiment)
+
+- id: hep_theory
+  title: High Energy Physics (Theory)
+
+- id: hep_experiment
+  title: High Energy Physics (Experiment)
+
+- id: astro_theory
+  title: Astrophysics
+
+- id: string
+  title: String Theory
+
+- id: electronics
+  title: Electronics & Photonics
