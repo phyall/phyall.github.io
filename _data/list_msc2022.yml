@@ -1,0 +1,143 @@
+- name: Amit Raj
+  roll: 222205002
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Anurag B V
+  roll: 222205003
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Jubanroy Lyngkhoi
+  roll: 222205006
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Jugraj Singh
+  roll: 222205007
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Mahboob Rahman U
+  roll: 222205009
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Chudmunge Sankalp Shahaji
+  roll: 222205015
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Naikwadi Shruti Gajanan
+  roll: 222205017
+  gender: female
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Vikash Kumar
+  roll: 222205018
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Anusree .V.P
+  roll: 222205020
+  gender: female
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Aman Tiwari
+  roll: 222205021
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Sanatan Kumar Mishra
+  roll: 222205022
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Bappa Majumdar
+  roll: 222205023
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Abhijith S S
+  roll: 222205025
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+ 
+- name: P. Arundhathi Nair
+  roll: 222205026
+  gender: female
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa: 
+  next: 
+
+- name: Padam Bahadur Chetry
+  roll: 222105008
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
+
+- name: Ranjan  Yadav
+  roll: 222105011
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  fa:
+  next: 
