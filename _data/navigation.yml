@@ -39,9 +39,6 @@ main:
     children:
       - title: Faculty
         url: /faculty/
-        
-      - title: Staff
-        url: /staff/
 
       - title: Postdocs
         url: /postdocs/        
@@ -50,19 +47,11 @@ main:
         url: /phdstudents/
 
       - title: MSc Students
-        url: /mscstudents/        
+        url: /mscstudents/     
 
-  - title: News
-    children:
-      - title: Announcements
-        url: /news/
+      - title: Staff
+        url: /staff/        
 
-      - title: Seminars
-        url: /seminars/
-
-      - title: Events
-        url: /events/
-        
   - title: Alumni
     children:
       - title: Former Faculty
@@ -75,7 +64,19 @@ main:
         url: /formerphd/
    
       - title: Former MSc
-        url: /formermsc/
+        url: /formermsc/        
+
+  - title: News
+    children:
+      - title: Announcements
+        url: /news/
+
+      - title: Seminars
+        url: /seminars/
+
+      - title: Events
+        url: /events/
+        
           
   - title: Recruitments
     children:
