@@ -4,7 +4,7 @@
     <tr>
       <th style="width:20%">Roll</th>
       <th>Name</th>
-      <th style="width:35%">Upgraded</th>
+      <th style="width:35%">Next Position / Upgraded</th>
     </tr>
   </thead>
 
@@ -14,11 +14,11 @@
 
   {% for student in students %}
 
-  <tr>
-    <td>{{ student.roll }}</td>
-    <td>{{ student.name }}</td>
-    <td>{{ student.next }}</td>
-  </tr>
+    <tr>
+      <td>{{ student.roll }}</td>
+      <td>{{ student.name }}</td>
+      <td>{{ student.next }}</td>
+    </tr>
 
   {% endfor %}
 
