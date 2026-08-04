@@ -3,9 +3,9 @@
   gender: male
   year_joined: 2022
   year_graduated: 2024
-  degree: true
+  degree: false
   fa:
-  next: 
+  next: Upgraded to MS
 
 - name: Anurag B V
   roll: 222205003
