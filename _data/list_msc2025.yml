@@ -1,125 +1,162 @@
 - name: Amruta Parasappa Kittur
   roll: 222505001
-  gender:
+  gender: female
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Aswini A
   roll: 222505002
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Athullya V L
   roll: 222505003
-  gender:
+  gender: female
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Devananda Sabar
   roll: 222505004
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Devanaryanan R
   roll: 222505005
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Haruna E
   roll: 222505006
-  gender:
+  gender: female
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next: 
 
 - name: Kshitij Trivedi
   roll: 222505007
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Lokhesh B
   roll: 222505008
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Magudeeswaran L
   roll: 222505009
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Ajeesh M O
+  next:
 
 - name: Nandana S
   roll: 222505010
-  gender:
+  gender: female
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next:
 
 - name: Nandu Manoj P K
   roll: 222505011
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next:
 
 - name: Nikita Naik
   roll: 222505012
-  gender:
+  gender: female
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next:
 
 - name: Saivallabha P Nayak
   roll: 222505013
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next:
 
 - name: Sayan Paul
   roll: 222505014
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: 
   fa: Manoj Gopalakrishnan
+  next: 
 
 - name: Shamalulu C K
   roll: 222505015
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next:
+  
 
 - name: Shivam Chaturvedi
   roll: 222505016
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next:
 
 - name: Tanuj Joshi
   roll: 222505017
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next: 
 
 - name: Ch Venkata Sesha Sai Pavan
   roll: 222505018
-  gender:
+  gender: male
   year_joined: 2025
-  year_graduated:
+  year_graduated: 2027
+  degree: true
   fa: Manoj Gopalakrishnan
+  next: 
