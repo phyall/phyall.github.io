@@ -1,0 +1,23 @@
+.year-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.year-badge {
+    display: inline-block;
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.year-badge:hover {
+    background: #0056b3;
+    color: white;
+    text-decoration: none;
+}
