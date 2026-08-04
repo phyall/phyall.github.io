@@ -1,0 +1,27 @@
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th style="width:20%">Roll</th>
+      <th>Name</th>
+      <th style="width:35%">Upgraded</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% assign students = include.students | sort: "roll" %}
+
+  {% for student in students %}
+
+  <tr>
+    <td>{{ student.roll }}</td>
+    <td>{{ student.name }}</td>
+    <td>{{ student.next }}</td>
+  </tr>
+
+  {% endfor %}
+
+  </tbody>
+
+</table>
