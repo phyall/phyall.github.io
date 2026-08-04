@@ -3,49 +3,63 @@
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next: 
 
 - name: Suganthan
   roll: 221905017
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next: 
 
 - name: Ashutosh Kumar
   roll: 222005002
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: K Sidharth
   roll: 222005005
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Kapil Kumar Saini
   roll: 222005006
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Krishnananda C.P
   roll: 222005007
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Mayurakshi Deb
   roll: 222005008
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 
 - name: Pawar Prasad Namdev 
@@ -53,53 +67,87 @@
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Preksha Dhananjayan
   roll: 222005016
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Saurabh Kumar Mishra
   roll: 222005019
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Vaibhav Tyagi
   roll: 222005021
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Harsh Sharma
   roll: 222005033
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Niharika Majhi
   roll: 222005010
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Rahul Kumar
   roll: 222005017
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
 
 - name: Saifian Farooq 
   roll: 222005030
   gender:
   year_joined: 2020
   year_graduated: 2022
+  degree: true
   fa:
+  next:
+
+- name: Chandrima B. Pushpan
+  roll: 222005003
+  gender:
+  year_joined: 2020
+  year_graduated: 2022
+  degree: false
+  fa:
+  next: Upgraded to PhD
+
+- name: Olivia Vincent
+  roll: 222005011
+  gender:
+  year_joined: 2020
+  year_graduated: 2022
+  degree: false
+  fa:
+  next: Upgraded to PhD
