@@ -1,0 +1,143 @@
+- name: Aswin R
+  roll: 222105001
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Athira S
+  roll: 222105002
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: false
+  fa:
+  next: Upgraded to PhD 
+
+- name: Debasish Dutta
+  roll: 222105003
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: false
+  fa:
+  next: 
+
+- name: Akhil Furtado
+  roll: 222105004
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: false
+  fa:
+  next: Upgraded to MS
+
+- name: Jha Jayshree Pashupati
+  roll: 222105005
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Mesquita Nikhil
+  roll: 222105007
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Pankaj Singh Parihar
+  roll: 222105009
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Ravi Kant Kumar
+  roll: 222105012
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Sachin
+  roll: 222105013
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Shivam Shukla
+  roll: 222105017
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Som Subhra Guria
+  roll: 222105018
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Thakur Ram
+  roll: 222105020
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Thanmayee Gore
+  roll: 222105021
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Kanhu Charan Das
+  roll: 222105006
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next:
+
+- name: Paul M Kunju
+  roll: 222005013
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  fa:
+  next: 
+
+- name: Sathishkumar M
+  roll: 222105014
+  gender:
+  year_joined: 2021
+  year_graduated: 2023
+  degree: false
+  fa:
+  next: Upgraded to PhD
