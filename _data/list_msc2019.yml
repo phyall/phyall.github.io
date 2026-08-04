@@ -74,3 +74,12 @@
   year_joined: 2019
   year_graduated: 2021
   fa:
+
+- name: Suganthan
+  roll: 221905017
+  gender:
+  year_joined: 2019
+  year_graduated: 2021
+  degree: false
+  fa:  
+  next: Upgraded to PhD
