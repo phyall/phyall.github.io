@@ -23,6 +23,7 @@
 
 .student-table tbody td {
     padding: 0.85rem 1rem;
+    text-align: left;
     border-bottom: 1px solid #eceff1;
     vertical-align: top;
     word-wrap: break-word;
@@ -40,12 +41,9 @@
    Column alignment
    ---------------------------------------------------------- */
 
-.student-table th:nth-child(2),
-.student-table th:nth-child(3),
-.student-table td:nth-child(2),
-.student-table td:nth-child(3) {
-    text-align: center;
-    white-space: nowrap;
+.student-table th,
+.student-table td {
+    text-align: left;
 }
 
 /* ----------------------------------------------------------
@@ -55,11 +53,6 @@
 .student-table td:first-child {
     font-weight: 500;
     color: #222;
-}
-
-.student-table td:nth-child(4),
-.student-table td:nth-child(5) {
-    color: #555;
 }
 
 /* ----------------------------------------------------------
