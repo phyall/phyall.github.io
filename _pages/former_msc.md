@@ -5,10 +5,9 @@ title: Former MSc Students
 sidebar: quicklinks
 ---
 
-Number of pages: {{ site.msc_alumni | size }}
-
-<ul>
-{% for p in site.msc_alumni %}
-<li>{{ p.title }}</li>
+{% assign pages = site.msc_alumni | sort: "title" %}
+{% for p in pages reversed %}
+  <a class="year-badge" href="{{ p.url | relative_url }}">
+    {{ p.year }}
+  </a>
 {% endfor %}
-</ul>
