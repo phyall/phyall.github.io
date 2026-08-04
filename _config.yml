@@ -236,6 +236,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  msc_alumni:
+    output: true
+    permalink: /former-msc/:name/    
 
 
 # These settings control how pages and collections are included in the site
