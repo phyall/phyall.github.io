@@ -1,27 +1,27 @@
 <table class="course-table">
 
-<thead>
-<tr>
-    <th style="width:18%">Roll</th>
-    <th>Name</th>
-    <th style="width:30%">Faculty Advisor</th>
-</tr>
-</thead>
+  <thead>
+    <tr>
+      <th style="width:18%">Roll</th>
+      <th>Name</th>
+      <th style="width:30%">Faculty Advisor</th>
+    </tr>
+  </thead>
 
-<tbody>
+  <tbody>
 
-{% assign students = include.students | sort: "roll" %}
+  {% assign students = include.students | sort: "roll" %}
 
-{% for student in students %}
+  {% for student in students %}
 
-<tr>
-    <td>{{ student.roll }}</td>
-    <td>{{ student.name }}</td>
-    <td>{{ student.fa }}</td>
-</tr>
+    <tr>
+      <td>{{ student.roll }}</td>
+      <td>{{ student.name }}</td>
+      <td>{{ student.fa }}</td>
+    </tr>
 
-{% endfor %}
+  {% endfor %}
 
-</tbody>
+  </tbody>
 
 </table>
