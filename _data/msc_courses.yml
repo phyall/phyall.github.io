@@ -13,6 +13,7 @@
   semester: 1
   offered_by: dop
   link: 
+  status: approved
 
 - code: 5003
   title: Electromagnetic Theory
@@ -25,6 +26,7 @@
   semester: 1
   offered_by: dop
   link:
+  status: approved
 
 - code: 5005
   title: Applicable Mathematics
@@ -37,6 +39,7 @@
   semester: 1
   offered_by: dop
   link:
+  status: approved
 
 - code: 5007
   title: Quantum Mechanics I
@@ -49,6 +52,7 @@
   semester: 1
   offered_by: dop
   link:
+  status: approved
 
 - code: 5002
   title: Atomic and Molecular Physics
@@ -61,6 +65,7 @@
   semester: 2
   offered_by: dop
   link:
+  status: approved
 
 - code: 5004
   title: Electronics and Instrumentation
@@ -73,6 +78,7 @@
   semester: 2
   offered_by: dop
   link:
+  status: approved
 
 - code: 5006
   title: Statistical Mechanics
@@ -85,6 +91,7 @@
   semester: 2
   offered_by: dop
   link:
+  status: approved
 
 - code: 5008
   title: Quantum Mechanics II
@@ -97,6 +104,7 @@
   semester: 2
   offered_by: dop
   link:
+  status: approved
 
 - code: 5009
   title: Condensed Matter Physics
@@ -109,6 +117,7 @@
   semester: 3
   offered_by: dop
   link:
+  status: approved
 
 - code: 5011
   title: Nuclear and Particle Physics
@@ -121,6 +130,7 @@
   semester: 3
   offered_by: dop
   link:
+  status: approved
 
 - code: 5102
   title: Thermal Physics and Atomic Spectroscopy
@@ -133,6 +143,7 @@
   semester: 1
   offered_by: dop
   link:
+  status: approved
 
 - code: 5103
   title: Mechanics and Electromagnetic Theory
@@ -145,6 +156,7 @@
   semester: 2
   offered_by: dop
   link:
+  status: approved
 
 - code: 5105
   title: Advanced Physics
@@ -157,6 +169,7 @@
   semester: 3
   offered_by: dop
   link:
+  status: approved
 
 #======================
 # Department Elective
@@ -174,6 +187,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 5610
   title: Quantum Information and Many-Body Systems
@@ -186,6 +200,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 5611
   title: Soft Matter Physics
@@ -198,6 +213,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 5618
   title: Introduction to Computational Physics
@@ -210,6 +226,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 5619
   title: Theory and Applications of Stochastic Processes
@@ -222,6 +239,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 5622
   title: Introduction to Astrophysics
@@ -234,6 +252,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 5623
   title: "Many Body Physics: Techniques and Applications"
@@ -246,6 +265,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 6001
   title: Experimental Techniques in Physics
@@ -258,6 +278,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 6002
   title: General Relativity
@@ -270,6 +291,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 6003
   title: Magnetism in Materials
@@ -282,6 +304,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 6005
   title: Quantum Optics
@@ -294,6 +317,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 - code: 6602
   title: Particle Physics and Gauge Theory
@@ -306,6 +330,7 @@
   semester:
   offered_by: dop
   link:
+  status: approved
 
 #======================
 # NPTEL
@@ -323,6 +348,7 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
 
 - code: 5613
   title: Introduction To Atmospheric And Space Sciences
@@ -335,6 +361,7 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
 
 - code: 5614
   title: Introduction to LASER
@@ -347,6 +374,7 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
 
 - code: 5615
   title: Physics of Biological Systems
@@ -359,6 +387,7 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
 
 - code: 5616
   title: Quantum Transport
@@ -371,6 +400,7 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
 
 - code: 5617
   title: The Joy of Computing using Python
@@ -383,6 +413,7 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
 
 - code: 5620
   title: Introduction to Quantum Field Theory
@@ -395,3 +426,4 @@
   semester:
   offered_by: nptel
   link:
+  status: approved
