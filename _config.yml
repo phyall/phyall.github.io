@@ -223,7 +223,7 @@ kramdown:
 collections:
   courses:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:courses/:name/
   teaching:
     output: true
     permalink: /:collection/:path/
