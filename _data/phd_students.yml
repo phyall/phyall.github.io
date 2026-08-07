@@ -1,17 +1,17 @@
-- name: Siji S. Saju
-  gender: female
-  funding: htra
-  status: ongoing
-  program: PhD
-  joining_year:
-  graduation_year:
-  supervisor: "P. B. Sunil Kumar (now in IITM)"
-  joint_supervisor:
-  cycle:
-  research_area: Theoretical Soft Matter
-  roll: 221704005
-  thesis_title:
-  next_position:
+#- name: Siji S. Saju
+#  gender: female
+#  funding: htra
+#  status: ongoing
+#  program: PhD
+#  joining_year:
+#  graduation_year:
+#  supervisor: "P. B. Sunil Kumar (now in IITM)"
+#  joint_supervisor:
+#  cycle:
+#  research_area: Theoretical Soft Matter
+#  roll: 221704005
+#  thesis_title:
+#  next_position:
 
 - name: Manju C.
   gender: female
@@ -537,7 +537,7 @@
   research_area:
   roll:
   thesis_title: Shape morphism and swelling kinetics of vapor responsive polymer
-  next_position: Employed
+  next_position: 
 
 - name: Diljith T.
   gender: male
