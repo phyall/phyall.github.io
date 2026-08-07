@@ -1,4 +1,4 @@
-<table class="course-table">
+<!--<table class="course-table">
 
   <thead>
     <tr>
@@ -33,6 +33,46 @@
       <td>{{ course.title }}</td>
 
       <td>{{ course.type | capitalize }}</td>
+
+    </tr>
+
+  {% endfor %}
+
+  </tbody>
+
+</table>-->
+
+<table class="course-table">
+
+  <thead>
+    <tr>
+      <th style="width:15%">Code</th>
+      <th>Course</th>
+      <th style="width:8%">Year</th>
+      <th style="width:10%">Semester</th>
+      <th style="width:12%">Credit</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% for course in include.courses %}
+
+    <tr>
+
+      <td>
+        <a href="{{ '/msc-courses/' | relative_url }}{{ course.code | downcase }}/">
+          PH{{ course.code }}
+        </a>
+      </td>
+
+      <td>{{ course.title }}</td>
+
+      <td>{{ course.year }}</td>
+
+      <td>{{ course.semester }}</td>
+
+      <td>{{ course.credit }}</td>
 
     </tr>
 
