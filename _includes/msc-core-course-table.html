@@ -11,7 +11,7 @@
 
   <tbody>
 
-  {% assign courses = site.data.courses
+  {% assign courses = site.data.msc_courses
       | where: "program", "msc"
       | where: "category", "core"
       | sort: "code" %}
