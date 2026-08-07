@@ -5,6 +5,10 @@ permalink: /msccourses/
 sidebar: quicklinks
 ---
 
-# MSc Core Courses
+**Core Courses**
 
 {% include msc-core-course-table.html %}
+
+**Elective Courses**
+
+**NPTEL Courses**
