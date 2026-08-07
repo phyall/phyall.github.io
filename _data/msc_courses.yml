@@ -2,7 +2,7 @@
 # Department Core
 #======================
 
-- code: PH5001
+- code: 5001
   title: Classical Mechanics
   program: msc
   category: core
@@ -14,7 +14,7 @@
   offered_by: dop
   link: 
 
-- code: PH5003
+- code: 5003
   title: Electromagnetic Theory
   program: msc
   category: core
@@ -26,7 +26,7 @@
   offered_by: dop
   link:
 
-- code: PH5005
+- code: 5005
   title: Applicable Mathematics
   program: msc
   category: core
@@ -38,7 +38,7 @@
   offered_by: dop
   link:
 
-- code: PH5007
+- code: 5007
   title: Quantum Mechanics I
   program: msc
   category: core
@@ -50,7 +50,7 @@
   offered_by: dop
   link:
 
-- code: PH5002
+- code: 5002
   title: Atomic and Molecular Physics
   program: msc
   category: core
@@ -62,7 +62,7 @@
   offered_by: dop
   link:
 
-- code: PH5004
+- code: 5004
   title: Electronics and Instrumentation
   program: msc
   category: core
@@ -74,7 +74,7 @@
   offered_by: dop
   link:
 
-- code: PH5006
+- code: 5006
   title: Statistical Mechanics
   program: msc
   category: core
@@ -86,7 +86,7 @@
   offered_by: dop
   link:
 
-- code: PH5008
+- code: 5008
   title: Quantum Mechanics II
   program: msc
   category: core
@@ -98,7 +98,7 @@
   offered_by: dop
   link:
 
-- code: PH5009
+- code: 5009
   title: Condensed Matter Physics
   program: msc
   category: core
@@ -110,7 +110,7 @@
   offered_by: dop
   link:
 
-- code: PH5011
+- code: 5011
   title: Nuclear and Particle Physics
   program: msc
   category: core
@@ -122,7 +122,7 @@
   offered_by: dop
   link:
 
-- code: PH5102
+- code: 5102
   title: Thermal Physics and Atomic Spectroscopy
   program: msc
   category: core
@@ -134,7 +134,7 @@
   offered_by: dop
   link:
 
-- code: PH5103
+- code: 5103
   title: Mechanics and Electromagnetic Theory
   program: msc
   category: core
@@ -146,7 +146,7 @@
   offered_by: dop
   link:
 
-- code: PH5105
+- code: 5105
   title: Advanced Physics
   program: msc
   category: core
@@ -163,7 +163,7 @@
 #======================
 
 
-- code: PH5606
+- code: 5606
   title: Quantum Information and Computation
   program: msc
   category: elective
@@ -175,7 +175,7 @@
   offered_by: dop
   link:
 
-- code: PH5610
+- code: 5610
   title: Quantum Information and Many-Body Systems
   program: msc
   category: elective
@@ -187,7 +187,7 @@
   offered_by: dop
   link:
 
-- code: PH5611
+- code: 5611
   title: Soft Matter Physics
   program: msc
   category: elective
@@ -199,7 +199,7 @@
   offered_by: dop
   link:
 
-- code: PH5618
+- code: 5618
   title: Introduction to Computational Physics
   program: msc
   category: elective
@@ -211,7 +211,7 @@
   offered_by: dop
   link:
 
-- code: PH5619
+- code: 5619
   title: Theory and Applications of Stochastic Processes
   program: msc
   category: elective
@@ -223,7 +223,7 @@
   offered_by: dop
   link:
 
-- code: PH5622
+- code: 5622
   title: Introduction to Astrophysics
   program: msc
   category: elective
@@ -235,7 +235,7 @@
   offered_by: dop
   link:
 
-- code: PH5623
+- code: 5623
   title: "Many Body Physics: Techniques and Applications"
   program: msc
   category: elective
@@ -247,7 +247,7 @@
   offered_by: dop
   link:
 
-- code: PH6001
+- code: 6001
   title: Experimental Techniques in Physics
   program: msc
   category: elective
@@ -259,7 +259,7 @@
   offered_by: dop
   link:
 
-- code: PH6002
+- code: 6002
   title: General Relativity
   program: msc
   category: elective
@@ -271,7 +271,7 @@
   offered_by: dop
   link:
 
-- code: PH6003
+- code: 6003
   title: Magnetism in Materials
   program: msc
   category: elective
@@ -283,7 +283,7 @@
   offered_by: dop
   link:
 
-- code: PH6005
+- code: 6005
   title: Quantum Optics
   program: msc
   category: elective
@@ -295,7 +295,7 @@
   offered_by: dop
   link:
 
-- code: PH6602
+- code: 6602
   title: Particle Physics and Gauge Theory
   program: msc
   category: elective
@@ -312,7 +312,7 @@
 #======================
 
 
-- code: PH5612
+- code: 5612
   title: Group Theory Methods in Physics
   program: msc
   category: elective
@@ -324,7 +324,7 @@
   offered_by: nptel
   link:
 
-- code: PH5613
+- code: 5613
   title: Introduction To Atmospheric And Space Sciences
   program: msc
   category: elective
@@ -336,7 +336,7 @@
   offered_by: nptel
   link:
 
-- code: PH5614
+- code: 5614
   title: Introduction to LASER
   program: msc
   category: elective
@@ -348,7 +348,7 @@
   offered_by: nptel
   link:
 
-- code: PH5615
+- code: 5615
   title: Physics of Biological Systems
   program: msc
   category: elective
@@ -360,7 +360,7 @@
   offered_by: nptel
   link:
 
-- code: PH5616
+- code: 5616
   title: Quantum Transport
   program: msc
   category: elective
@@ -372,7 +372,7 @@
   offered_by: nptel
   link:
 
-- code: PH5617
+- code: 5617
   title: The Joy of Computing using Python
   program: msc
   category: elective
@@ -384,7 +384,7 @@
   offered_by: nptel
   link:
 
-- code: PH5620M
+- code: 5620
   title: Introduction to Quantum Field Theory
   program: msc
   category: elective
