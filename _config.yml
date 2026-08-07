@@ -223,7 +223,7 @@ kramdown:
 collections:
   courses:
     output: true
-    permalink: /:msc-courses/:name/
+    permalink: /msc-courses/:name/
   teaching:
     output: true
     permalink: /:collection/:path/
