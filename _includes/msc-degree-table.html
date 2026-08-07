@@ -1,4 +1,4 @@
-<table class="student-table">
+<!--<table class="student-table">
 
   <thead>
     <tr>
@@ -26,4 +26,34 @@
 
   </tbody>
 
-</table>
+</table>--> 
+
+<table class="student-table">
+<thead>
+  <tr>
+    <th>Roll</th>
+    <th>Name</th>
+    <th>Next Position</th>
+  </tr>
+</thead>
+
+<tbody>
+
+{% assign students = include.students | sort: "roll" %}
+
+{% for student in students %}
+
+{% if student.degree == true %}
+
+<tr>
+  <td>{{ student.roll }}</td>
+  <td>{{ student.name }}</td>
+  <td>{{ student.next }}</td>
+</tr>
+
+{% endif %}
+
+{% endfor %}
+
+</tbody>
+</table> 
