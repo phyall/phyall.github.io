@@ -1,0 +1,41 @@
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th style="width:15%">Code</th>
+      <th>Title</th>
+      <th style="width:10%">Year</th>
+      <th style="width:12%">Semester</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% assign courses = site.data.courses
+      | where: "program", "msc"
+      | where: "category", "core"
+      | sort: "code" %}
+
+  {% for course in courses %}
+
+    <tr>
+
+      <td>
+        <a href="{{ '/msc-courses/' | relative_url }}{{ course.code }}/">
+          {{ course.code }}
+        </a>
+      </td>
+
+      <td>{{ course.title }}</td>
+
+      <td>{{ course.year }}</td>
+
+      <td>{{ course.semester }}</td>
+
+    </tr>
+
+  {% endfor %}
+
+  </tbody>
+
+</table>
