@@ -1,0 +1,170 @@
+- name: Abhisekh Das
+  roll: 222405001
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Ankita Debnath
+  roll: 222405002
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Brahmanand Mishra
+  roll: 222405003
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Divya Singh
+  roll: 222405004
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Fathimathu Thasni K K
+  roll: 222405005
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Keerthika Pappula
+  roll: 222405006
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Leo Maria Benedict M
+  roll: 222405007
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Nandana P
+  roll: 222405008
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next: PhD at IIT Palakkad
+
+- name: Neiheno Nakhro
+  roll: 222405009
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+#- name: Pathikrit Guha
+#  roll: 222405010
+#  gender: male
+#  year_joined: 2024
+#  year_graduated: 2026
+#  degree: true
+#  fa:
+#  next:
+
+#- name: Kamble Pradipesh Prabhakar
+#  roll: 222405011
+#  gender: male
+#  year_joined: 2024
+#  year_graduated: 2026
+#  degree: true
+#  fa:
+#  next:
+
+- name: Priyam Sahu
+  roll: 222405012
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Priyanshu Priyam Alabiyan
+  roll: 222405013
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Sabin T
+  roll: 222405014
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Saieshwar P
+  roll: 222405015
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Navneet Gulia
+  roll: 222405019
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Abhai Adithya M J
+  roll: 222405018
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Sayel Chakraborty
+  roll: 222405016
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
+
+- name: Sumit Kumar Sahgel
+  roll: 222405017
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  fa:
+  next:
