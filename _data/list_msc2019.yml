@@ -3,77 +3,99 @@
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: PhD at IIT Guwahati 
 
 - name: Biplab Biswas
   roll: 221905003
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: PhD at TCG Crest Kolkata
 
 - name: Dinu T S
   roll: 221905004
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: 
 
 - name: Hridya R
   roll: 221905005
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: PhD at TIFR Mumbai
 
 - name: Neeraj Kumar
   roll: 221905008
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: 
 
 - name: Pram Milan P Robin
   roll: 221905009
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: PhD at IIT Hyderabad
 
 - name: Rahul Kumar Rajput
   roll: 221905011
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: 
 
 - name: Ram Sagar Sahani
   roll: 221905013
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: PhD at IISER Mohali
 
 - name: Shweta Saini
   roll: 221905014
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: PhD at IIT Bombay
 
 - name: Ved Krishna
   roll: 221905018
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: 
 
 - name: Yash Chugh
   roll: 221905019
   gender:
   year_joined: 2019
   year_graduated: 2021
+  degree: true
   fa:
+  next: 
 
 - name: Suganthan
   roll: 221905017
