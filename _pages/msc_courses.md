@@ -12,4 +12,8 @@ sidebar: quicklinks
 
 **Elective Courses**
 
+{% include msc-elective-course-table.html %}
+
 **NPTEL Courses**
+
+{% include msc-nptel-course-table.html %}
