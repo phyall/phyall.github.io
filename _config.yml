@@ -233,7 +233,7 @@ collections:
   colloquium:
     output: true
     permalink: /physics-colloquium/:name/   
-  events:
+  event:
     output: true
     permalink: /physics-events/:name/      
   seminar:
