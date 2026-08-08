@@ -5,6 +5,15 @@ permalink: /btechcourses/
 sidebar: quicklinks
 ---
 
+**Core Courses**
+
+{% include btech-core-course-table.html %}
+
+**Elective Courses**
+
+{% include btech-elective-course-table.html %}
+
+
 {% assign btech = site.data.btech_courses | where: "program", "btech" %}
 
 ## Core Courses
