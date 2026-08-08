@@ -66,10 +66,10 @@ main:
       - title: Former MSc
         url: /formermsc/        
 
-  - title: News
+  - title: Forums
     children:
-      - title: Announcements
-        url: /news/
+      - title: Colloquia
+        url: /colloquia/
 
       - title: Seminars
         url: /seminars/
