@@ -1,0 +1,46 @@
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th style="width:15%">Code</th>
+      <th>Course</th>
+      <th style="width:8%">Year</th>
+      <th style="width:10%">Semester</th>
+      <th style="width:12%">Credit</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% assign courses = site.data.btech_courses
+      | where: "program", "btech"
+      | where: "category", "core"
+      | sort: "code" %}
+
+  {% for course in courses %}
+
+    {% assign page = site.courses | where: "slug", course.code | downcase | first %}
+
+    <tr>
+
+      <td>
+        <a href="{{ '/msc-courses/' | relative_url }}{{ course.code | downcase }}/">
+          PH{{ course.code }}
+        </a>
+      </td>
+
+      <td>{{ course.title }}</td>
+
+      <td>{{ course.year }}</td>
+
+      <td>{{ course.semester }}</td>
+
+      <td>{{ course.credit }}</td>
+
+    </tr>
+
+  {% endfor %}
+
+  </tbody>
+
+</table>
