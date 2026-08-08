@@ -229,7 +229,16 @@ collections:
     permalink: /msc-all-courses/:name/    
   btech_courses:
     output: true
-    permalink: /btech-all-courses/:name/    
+    permalink: /btech-all-courses/:name/   
+  colloquium:
+    output: true
+    permalink: /physics-colloquium/:name/   
+  events:
+    output: true
+    permalink: /physics-events/:name/      
+  seminar:
+    output: true
+    permalink: /physics-seminar/:name/       
   teaching:
     output: true
     permalink: /:collection/:path/
