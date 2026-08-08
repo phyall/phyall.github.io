@@ -224,6 +224,12 @@ collections:
   courses:
     output: true
     permalink: /msc-courses/:name/
+  msc_courses:
+    output: true
+    permalink: /msc-all-courses/:name/    
+  btech_courses:
+    output: true
+    permalink: /btech-all-courses/:name/    
   teaching:
     output: true
     permalink: /:collection/:path/
