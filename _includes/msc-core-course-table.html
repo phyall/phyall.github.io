@@ -64,12 +64,12 @@
 
   {% for course in courses %}
 
-    {% assign page = site.courses | where: "slug", course.code | downcase | first %}
+    {% assign page = site.msc_courses | where: "slug", course.code | downcase | first %}
 
     <tr>
 
       <td>
-        <a href="{{ '/msc-courses/' | relative_url }}{{ course.code | downcase }}/">
+        <a href="{{ '/msc-all-courses/' | relative_url }}{{ course.code | downcase }}/">
           PH{{ course.code }}
         </a>
       </td>
