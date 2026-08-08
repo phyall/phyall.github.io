@@ -1,0 +1,335 @@
+- date: 2025-01-20
+  datestamp: 20250120
+  time:
+  title: "Beyond Physics as We Know It: Dark Matter and BSM Higgs at ATLAS"
+  speaker: "Anindya Ghosh"
+  affiliation: "University of Arizona, US"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-02-13
+  datestamp: 20250213
+  time:
+  title: "The Influence of Noise and Monitoring On Symmetry Breaking and Chaos"
+  speaker: "Adolfo del Campo"
+  affiliation: "University of Luxembourg"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-02-14
+  datestamp: 20250214
+  time:
+  title: "Dynamics of Noisy (+ non-Hermitian) quantum systems"
+  speaker: "Aurelia Chenu"
+  affiliation: "University of Luxembourg"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-03-04
+  datestamp: 20250304
+  time:
+  title: "Energy extraction from a black hole accretion-jet systems by magnetized Penrose process: Observations, theory and simulation"
+  speaker: "Banibrata Mukhopadhyay"
+  affiliation: "IISc, Bengaluru"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-03-05
+  datestamp: 20250305
+  time:
+  title:
+  speaker: "Arnab Pal"
+  affiliation: "IMSc Chennai"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-03-19
+  datestamp: 20250319
+  time:
+  title:
+  speaker: "Mark Tuckerman"
+  affiliation: "New York University, USA"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-04-09
+  datestamp: 20250409
+  time:
+  title:
+  speaker: "Aparna Baskaran"
+  affiliation: "Brandeis University, USA"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-04-16
+  datestamp: 20250416
+  time:
+  title: "From cells to tissues: mechanics of swimming and crawling modes of biological motility"
+  speaker: "Suhail Rizvi Mohd"
+  affiliation: "IIT Hyderabad"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-07-21
+  datestamp: 20250721
+  time:
+  title: "Disorder Induced Magnetic Phase Transitions In Itinerant Magnets"
+  speaker: "Dr. Srinivas Veeturi"
+  affiliation: "IIT Madras"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-08-07
+  datestamp: 20250807
+  time:
+  title: "Mountains and fountains in Physics"
+  speaker: "Dr. Vijayan C"
+  affiliation: "Honorary Professor,IIT Palakkad"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-08-08
+  datestamp: 20250808
+  time:
+  title: "Thinking like a physicist"
+  speaker: "Dr. Vijayan C"
+  affiliation: "Honorary Professor,IIT Palakkad"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-09-03
+  datestamp: 20250903
+  time:
+  title: "Quantum Technologies using solid state defects"
+  speaker: "Prof. Rajesh V. Nair"
+  affiliation: "IIT Ropar"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-09-16
+  datestamp: 20250916
+  time:
+  title: "Spontaneous quantum turbulence via the Kibble-Zurek mechanism"
+  speaker: "Dr. Mithun Thudiyangal"
+  affiliation: "Christ University, Bangalore"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-10-22
+  datestamp: 20251022
+  time:
+  title: "Understanding Plasma Flows in the Sun's interior"
+  speaker: "Dr. Lekshmi B"
+  affiliation: "National Solar Observatory, Boulder, USA."
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-10-23
+  datestamp: 20251023
+  time:
+  title: "Quantum Complexity in Constrained Many-Body Models"
+  speaker: "Dr. Sudipto Singha Roy"
+  affiliation: "IIT (ISM) Dhanbad"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-10-24
+  datestamp: 20251024
+  time:
+  title: "TBA"
+  speaker: "Dr. Anindita Bera"
+  affiliation: "BIT Mesra"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-11-05
+  datestamp: 20251105
+  time:
+  title: "Machine Learning driven reconstruction for uncovering new physics at the CMS experiment at the LHC"
+  speaker: "Dr. Shamik Ghosh"
+  affiliation: "CMS Experiment Ecole Polytechnique, France"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-12-02
+  datestamp: 20251202
+  time:
+  title: "Measurement back-action of a charge detector"
+  speaker: "Dr. Sarath Sankar"
+  affiliation: "Tel Aviv University, Israel"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-01-08
+  datestamp: 20260108
+  time:
+  title: "Unveiling functional catalytic surfaces based on insights from operando spectroscopy"
+  speaker: "Dr Nirman Chakraborty"
+  affiliation: "Technical University of Darmstadt, Germany"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-01-12
+  datestamp: 20260112
+  time:
+  title:
+  speaker: "Dr Sivaraj Pazhaniswamy"
+  affiliation: "University of Oxford"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-01-13
+  datestamp: 20260113
+  time:
+  title: "Generation of Volume-Law Entanglement by Local-Measurement-Only Quantum Dynamics"
+  speaker: "Dr. Surajit Bera"
+  affiliation: "Collège de France, Paris."
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-01-20
+  datestamp: 20260120
+  time:
+  title: "Interacting-fermion dynamics in Majorana phase space"
+  speaker: "Dr. Ria Rushin Joseph"
+  affiliation: "Deakin University, Melbourne (Burwood Campus), Australia"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-02-25
+  datestamp: 20260225
+  time:
+  title: "OJ 287: Potential Rosetta stone for the nascent multi-messenger nano-Hz GW astronomy"
+  speaker: "Prof. A. Gopakumar"
+  affiliation: "TIFR, Mumbai"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-03-20
+  datestamp: 20260320
+  time:
+  title: "Hidden Degrees of Freedom: Isocurvature in Cosmological Inference"
+  speaker: "Dr. Sai Chaitanya Tedepalli"
+  affiliation: "Indiana University"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-03-26
+  datestamp: 20260326
+  time:
+  title: "Exploring the Structure of Materials at High Pressure and Variable Temperatures: The Xpress Beamline"
+  speaker: "Dr. Irshad K A"
+  affiliation: "Xpress Beamline, Elettra, Italy"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-04-28
+  datestamp: 20260428
+  time:
+  title: "Quantum Multibody Interactions Across the Charge Density Wave in 2D Transition Metal Chalcogenides"
+  speaker: "Prof. Ajay soni"
+  affiliation: "IIT Mandi"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-07-10
+  datestamp: 20260710
+  time:
+  title: "Lifting the Degeneracy of a Quantum Spin Liquid Phase by Uniaxial Pressure"
+  speaker: "Dr. Rajib Sarkar"
+  affiliation: "Scientist, Institute of Solid State and Materials Physics, Technische Universit¨at Dresden, Germany"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2026-08-05
+  datestamp: 20260805
+  time:
+  title: "Shear Thickening in Dense Suspensions: Measuring Localized Stresses"
+  speaker: "Dr. Vikram Rathee"
+  affiliation: "University of Delhi"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
