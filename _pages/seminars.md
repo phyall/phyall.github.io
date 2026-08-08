@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /seminar/
-title: "Physics Seminar"
+permalink: /seminars/
+title: "Physics Seminars"
 sidebar: quicklinks
 ---
 
