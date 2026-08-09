@@ -3,7 +3,7 @@
   time:
   title: "Beyond Physics as We Know It: Dark Matter and BSM Higgs at ATLAS"
   speaker: "Anindya Ghosh"
-  affiliation: "University of Arizona, US"
+  affiliation: "University of Arizona US"
   venue:
   type: "Physics Seminar"
   link:
@@ -39,7 +39,7 @@
   time:
   title: "Energy extraction from a black hole accretion-jet systems by magnetized Penrose process: Observations, theory and simulation"
   speaker: "Banibrata Mukhopadhyay"
-  affiliation: "IISc, Bengaluru"
+  affiliation: "IISc Bengaluru"
   venue:
   type: "Physics Seminar"
   link:
@@ -63,7 +63,7 @@
   time:
   title:
   speaker: "Mark Tuckerman"
-  affiliation: "New York University, USA"
+  affiliation: "New York University USA"
   venue:
   type: "Physics Seminar"
   link:
@@ -75,7 +75,7 @@
   time:
   title:
   speaker: "Aparna Baskaran"
-  affiliation: "Brandeis University, USA"
+  affiliation: "Brandeis University USA"
   venue:
   type: "Physics Seminar"
   link:
@@ -106,29 +106,29 @@
   host:
   status: past
 
-- date: 2025-08-07
-  datestamp: 20250807
-  time:
-  title: "Mountains and fountains in Physics"
-  speaker: "Dr. Vijayan C"
-  affiliation: "Honorary Professor,IIT Palakkad"
-  venue:
-  type: "Physics Seminar"
-  link:
-  host:
-  status: past
+#- date: 2025-08-07
+#  datestamp: 20250807
+#  time:
+#  title: "Mountains and fountains in Physics"
+#  speaker: "Dr. Vijayan C"
+#  affiliation: "Honorary Professor,IIT Palakkad"
+#  venue:
+#  type: "Physics Seminar"
+#  link:
+#  host:
+#  status: past
 
-- date: 2025-08-08
-  datestamp: 20250808
-  time:
-  title: "Thinking like a physicist"
-  speaker: "Dr. Vijayan C"
-  affiliation: "Honorary Professor,IIT Palakkad"
-  venue:
-  type: "Physics Seminar"
-  link:
-  host:
-  status: past
+#- date: 2025-08-08
+#  datestamp: 20250808
+#  time:
+#  title: "Thinking like a physicist"
+#  speaker: "Dr. Vijayan C"
+#  affiliation: "Honorary Professor,IIT Palakkad"
+#  venue:
+#  type: "Physics Seminar"
+#  link:
+#  host:
+#  status: past
 
 - date: 2025-09-03
   datestamp: 20250903
@@ -147,7 +147,7 @@
   time:
   title: "Spontaneous quantum turbulence via the Kibble-Zurek mechanism"
   speaker: "Dr. Mithun Thudiyangal"
-  affiliation: "Christ University, Bangalore"
+  affiliation: "Christ University Bangalore"
   venue:
   type: "Physics Seminar"
   link:
@@ -159,7 +159,7 @@
   time:
   title: "Understanding Plasma Flows in the Sun's interior"
   speaker: "Dr. Lekshmi B"
-  affiliation: "National Solar Observatory, Boulder, USA."
+  affiliation: "National Solar Observatory Boulder USA."
   venue:
   type: "Physics Seminar"
   link:
@@ -195,7 +195,7 @@
   time:
   title: "Machine Learning driven reconstruction for uncovering new physics at the CMS experiment at the LHC"
   speaker: "Dr. Shamik Ghosh"
-  affiliation: "CMS Experiment Ecole Polytechnique, France"
+  affiliation: "CMS Experiment Ecole Polytechnique France"
   venue:
   type: "Physics Seminar"
   link:
@@ -207,7 +207,7 @@
   time:
   title: "Measurement back-action of a charge detector"
   speaker: "Dr. Sarath Sankar"
-  affiliation: "Tel Aviv University, Israel"
+  affiliation: "Tel Aviv University Israel"
   venue:
   type: "Physics Seminar"
   link:
@@ -219,7 +219,7 @@
   time:
   title: "Unveiling functional catalytic surfaces based on insights from operando spectroscopy"
   speaker: "Dr Nirman Chakraborty"
-  affiliation: "Technical University of Darmstadt, Germany"
+  affiliation: "Technical University of Darmstadt Germany"
   venue:
   type: "Physics Seminar"
   link:
@@ -231,7 +231,7 @@
   time:
   title:
   speaker: "Dr Sivaraj Pazhaniswamy"
-  affiliation: "University of Oxford"
+  affiliation: "University of Oxford UK"
   venue:
   type: "Physics Seminar"
   link:
@@ -243,7 +243,7 @@
   time:
   title: "Generation of Volume-Law Entanglement by Local-Measurement-Only Quantum Dynamics"
   speaker: "Dr. Surajit Bera"
-  affiliation: "Collège de France, Paris."
+  affiliation: "Collège de France Paris."
   venue:
   type: "Physics Seminar"
   link:
@@ -255,7 +255,7 @@
   time:
   title: "Interacting-fermion dynamics in Majorana phase space"
   speaker: "Dr. Ria Rushin Joseph"
-  affiliation: "Deakin University, Melbourne (Burwood Campus), Australia"
+  affiliation: "Deakin University Melbourne"
   venue:
   type: "Physics Seminar"
   link:
@@ -267,7 +267,7 @@
   time:
   title: "OJ 287: Potential Rosetta stone for the nascent multi-messenger nano-Hz GW astronomy"
   speaker: "Prof. A. Gopakumar"
-  affiliation: "TIFR, Mumbai"
+  affiliation: "TIFR Mumbai"
   venue:
   type: "Physics Seminar"
   link:
@@ -279,7 +279,7 @@
   time:
   title: "Hidden Degrees of Freedom: Isocurvature in Cosmological Inference"
   speaker: "Dr. Sai Chaitanya Tedepalli"
-  affiliation: "Indiana University"
+  affiliation: "Indiana University USA"
   venue:
   type: "Physics Seminar"
   link:
@@ -291,7 +291,7 @@
   time:
   title: "Exploring the Structure of Materials at High Pressure and Variable Temperatures: The Xpress Beamline"
   speaker: "Dr. Irshad K A"
-  affiliation: "Xpress Beamline, Elettra, Italy"
+  affiliation: "Xpress Beamline Elettra Italy"
   venue:
   type: "Physics Seminar"
   link:
@@ -315,7 +315,7 @@
   time:
   title: "Lifting the Degeneracy of a Quantum Spin Liquid Phase by Uniaxial Pressure"
   speaker: "Dr. Rajib Sarkar"
-  affiliation: "Scientist, Institute of Solid State and Materials Physics, Technische Universit¨at Dresden, Germany"
+  affiliation: "Technische Universit¨at Dresden Germany"
   venue:
   type: "Physics Seminar"
   link:
@@ -327,7 +327,7 @@
   time:
   title: "Shear Thickening in Dense Suspensions: Measuring Localized Stresses"
   speaker: "Dr. Vikram Rathee"
-  affiliation: "University of Delhi"
+  affiliation: "Delhi University"
   venue:
   type: "Physics Seminar"
   link:
