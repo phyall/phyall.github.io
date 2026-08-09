@@ -21,3 +21,21 @@ The Department of Physics at IIT Palakkad, active since August 2015, is currentl
     scrolling="no">
   </iframe>
 </div>
+
+
+
+<div class="frontpage-columns">
+  <div class="frontpage-column frontpage-slideshow">
+    {% include slideshow.html %}
+  </div>
+  <div class="frontpage-column frontpage-calendar">
+    <h2>Department Calendar</h2>
+    <div class="calendar-container">
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=c_6f39f6e1595e6b87e7800d2002b6c3be6e5fc65dd0e78239c643f16fd79b3113%40group.calendar.google.com&ctz=Asia%2FKolkata"
+        frameborder="0"
+        scrolling="no">
+      </iframe>
+    </div>
+  </div>
+</div>
