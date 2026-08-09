@@ -1,4 +1,4 @@
-{% assign seminars = site.data.seminar
+<!--{% assign seminars = site.data.seminar
   | where: "status", "past"
   | sort: "datestamp"
   | reverse
@@ -37,6 +37,56 @@
     </tr>
 
     {% endfor %}
+
+  </tbody>
+
+</table>-->
+
+{% assign today = 'now' | date: '%Y%m%d' %}
+
+{% assign seminars = site.data.seminar
+  | where: "status", "past"
+  | sort: "datestamp"
+  | reverse
+%}
+
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th style="width:20%>Date</th>
+      <th>Speaker</th>
+      <th>Affiliation</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+{% for seminar in seminars %}
+
+{% if seminar.datestamp < today %}
+
+<tr>
+
+  <td>
+    <a href="{{ '/physics-seminar/' | relative_url }}{{ seminar.datestamp }}/">
+      {{ seminar.date }}
+    </a>
+  </td>
+
+  <td>
+    {{ seminar.speaker }}
+  </td>
+
+  <td>
+    {{ seminar.affiliation }}
+  </td>
+
+</tr>
+
+{% endif %}
+
+{% endfor %}
 
   </tbody>
 
