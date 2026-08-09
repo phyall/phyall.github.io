@@ -8,8 +8,7 @@
 
   <thead>
     <tr>
-      <th>Date</th>
-      <th>Title</th>
+      <th style="width:10%">Date</th>
       <th>Speaker</th>
       <th>Affiliation</th>
     </tr>
@@ -25,16 +24,6 @@
         <a href="{{ '/physics-seminar/' | relative_url }}{{ seminar.datestamp }}/">
           {{ seminar.date }}
         </a>
-      </td>
-
-      <td>
-        {% if seminar.title %}
-          <a href="{{ '/physics-seminar/' | relative_url }}{{ seminar.datestamp }}/">
-            {{ seminar.title }}
-          </a>
-        {% else %}
-          —
-        {% endif %}
       </td>
 
       <td>
