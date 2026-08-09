@@ -1,3 +1,189 @@
+
+
+- date: 2023-09-11
+  datestamp: 20230911
+  time:
+  title: "Exact Quantum Speed Limits"
+  speaker: "Brij Mohan"
+  designation:
+  affiliation: "IISER Mohali"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-09-25
+  datestamp: 20240925
+  time:
+  title: "Correlations and entanglement in quantum many-body systems: detection, computation and applications"
+  speaker: "Roopayan Ghosh"
+  designation:
+  affiliation: "University College of London UK"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+
+- date: 2022-05-21
+  datestamp: 20220521
+  time:
+  title: "Living Glass: Active Matter at High Densities"
+  speaker: "Chandan Das Gupta"
+  designation:
+  affiliation: "IISc Bengaluru"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2022-08-12
+  datestamp: 20220812
+  time:
+  title: "Discretization vs Discrete Models of fluids: Please see attached abstract."
+  speaker: "Santosh Ansumali"
+  designation:
+  affiliation: "JNCASR Bengaluru"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-05-22
+  datestamp: 20240522
+  time:
+  title: "Chemically-driven flows in active phase-separating systems: from suppression of Ostwald ripening to spatiotemporal chaos."
+  speaker: "Charudatt Kaushik"
+  designation:
+  affiliation: "Keio University Japan"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-06-21
+  datestamp: 20240621
+  time:
+  title: "Atypicality of thermalization in disordered many-body quantum systems"
+  speaker: "Soumya Pal"
+  designation:
+  affiliation: "TIFR Mumbai"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-09-18
+  datestamp: 20240918
+  time:
+  title: "Large-scale descriptions of densely packed soft particles under drive"
+  speaker: "Eric Bertin"
+  designation:
+  affiliation: "University of Grenoble Alpes France"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-10-09
+  datestamp: 20241009
+  time:
+  title: "A mechanochemical framework for somitogenesis"
+  speaker: "Anupam Gupta"
+  designation:
+  affiliation: "IIT Hyderabad"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-09-11
+  datestamp: 20240911
+  time:
+  title: "Dynamics of active linear and ring polymers in porous media"
+  speaker: "Rajarshi Chakraborti"
+  designation:
+  affiliation: "IIT Bombay"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-10-23
+  datestamp: 20241023
+  time:
+  title: "Measuring Topological entanglement entropy using Maxwell relation"
+  speaker: "Sarath Sankar"
+  designation:
+  affiliation: "Tel Aviv University"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2024-10-26
+  datestamp: 20241026
+  time:
+  title: "Revealing Structural Defects in Amorphous Materials Using Colloidal Suspensions"
+  speaker: "Vijay Chikkadi"
+  designation:
+  affiliation: "IISER Pune"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-01-29
+  datestamp: 20250129
+  time:
+  title: "Chromosomes, Polymers and Entropy"
+  speaker: "Apratim Chatterji"
+  designation:
+  affiliation: "IISER Pune"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-01-30
+  datestamp: 20250130
+  time:
+  title: "Physics of Active Systems: From Single to Many-Particle Dynamics"
+  speaker: "Harsh Soni"
+  designation:
+  affiliation: "IIT Mandi"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+- date: 2025-02-14
+  datestamp: 20250214
+  time:
+  title: "Correlated orientational disorder in entropic crystals"
+  speaker: "Avisek Das"
+  designation:
+  affiliation: "IACS Kolkata"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past
+
+
 - date: 2025-01-20
   datestamp: 20250120
   time:
