@@ -1,9 +1,7 @@
-{% assign today = 'now' | date: '%Y%m%d' %}
+{% assign today = 'now' | date: '%Y%m%d' | plus: 0 %}
 
 {% assign seminars = site.data.seminar
-  | where: "status", "past"
   | sort: "datestamp"
-  | reverse
 %}
 
 <table class="student-table">
@@ -20,7 +18,9 @@
 
 {% for seminar in seminars %}
 
-{% if seminar.datestamp < today %}
+{% assign seminar_date = seminar.datestamp | plus: 0 %}
+
+{% if seminar_date >= today %}
 
 <tr>
 
