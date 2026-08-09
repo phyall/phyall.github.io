@@ -4,6 +4,7 @@
 
 .timetable {
   width: 100%;
+  max-width: 100%;
   margin: 2rem 0;
 }
 
@@ -11,60 +12,82 @@
   margin: 0 0 1rem;
 }
 
+/* No horizontal scrolling */
 .timetable-scroll {
   width: 100%;
-  overflow-x: auto;
+  max-width: 100%;
+  overflow-x: visible;
   margin-bottom: 2rem;
-  -webkit-overflow-scrolling: touch;
 }
 
 .timetable-table {
   width: 100%;
-  min-width: 1000px;
+  max-width: 100%;
+  margin: 0;
   border-collapse: collapse;
   table-layout: fixed;
   background: #fff;
-  margin: 0;
 }
 
 .timetable-table th,
 .timetable-table td {
   border: 1px solid #d1d5da;
-  padding: 0.65rem 0.5rem;
+  padding: 0.45rem 0.3rem;
   text-align: center;
   vertical-align: middle;
-  line-height: 1.35;
+  line-height: 1.25;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .timetable-table thead th {
   font-weight: 600;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .timetable-table tbody th {
   font-weight: 600;
-  width: 6rem;
 }
 
 .timetable-table td {
-  font-size: 0.95rem;
+  font-size: 0.88rem;
 }
 
-/* Slot labels such as PM1, PA1, etc. */
+/* Alternating slot rows */
 .timetable-table tr:nth-child(even) td {
   background: #f6f6f6;
 }
 
-@media screen and (max-width: 768px) {
 
-  .timetable-table {
-    min-width: 900px;
-  }
+/* ==========================================================
+   Smaller screens
+   ========================================================== */
+
+@media screen and (max-width: 900px) {
 
   .timetable-table th,
   .timetable-table td {
-    padding: 0.5rem 0.4rem;
-    font-size: 0.85rem;
+    padding: 0.35rem 0.2rem;
+    font-size: 0.72rem;
+  }
+
+  .timetable-table thead th {
+    font-size: 0.7rem;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .timetable-table th,
+  .timetable-table td {
+    padding: 0.25rem 0.15rem;
+    font-size: 0.62rem;
+  }
+
+  .timetable-table thead th {
+    font-size: 0.6rem;
   }
 
 }
