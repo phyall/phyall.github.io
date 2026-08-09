@@ -1,3 +1,5 @@
+{% assign today = 'now' | date: '%Y%m%d' | plus: 0 %}
+
 {% assign seminars = site.data.seminar
   | where: "status", "past"
   | sort: "datestamp"
@@ -8,7 +10,7 @@
 
   <thead>
     <tr>
-      <th style="width:20%">Date</th>
+      <th>Date</th>
       <th>Speaker</th>
       <th>Affiliation</th>
     </tr>
@@ -16,27 +18,33 @@
 
   <tbody>
 
-    {% for seminar in seminars %}
+{% for seminar in seminars %}
 
-    <tr>
+{% assign seminar_date = seminar.datestamp | plus: 0 %}
 
-      <td>
-        <a href="{{ '/physics-seminar/' | relative_url }}{{ seminar.datestamp }}/">
-          {{ seminar.date }}
-        </a>
-      </td>
+{% if seminar_date < today %}
 
-      <td>
-        {{ seminar.speaker }}
-      </td>
+<tr>
 
-      <td>
-        {{ seminar.affiliation }}
-      </td>
+  <td>
+    <a href="{{ '/physics-seminar/' | relative_url }}{{ seminar.datestamp }}/">
+      {{ seminar.date }}
+    </a>
+  </td>
 
-    </tr>
+  <td>
+    {{ seminar.speaker }}
+  </td>
 
-    {% endfor %}
+  <td>
+    {{ seminar.affiliation }}
+  </td>
+
+</tr>
+
+{% endif %}
+
+{% endfor %}
 
   </tbody>
 
