@@ -1,0 +1,50 @@
+{% assign allocation_file = site.data.courseallocation_current_semester.allocation %}
+{% assign allocation = site.data[allocation_file] %}
+
+<table class="student-table">
+
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Course</th>
+      <th>Instructor</th>
+      <th>Slot</th>
+      <th>Room</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    {% assign courses = allocation.courses | sort: "code" %}
+
+    {% for course in courses %}
+
+    <tr>
+
+      <td>
+        PH{{ course.code }}
+      </td>
+
+      <td>
+        {{ course.title }}
+      </td>
+
+      <td>
+        {{ course.instructor }}
+      </td>
+
+      <td>
+        {{ course.slot }}
+      </td>
+
+      <td>
+        {{ course.room }}
+      </td>
+
+    </tr>
+
+    {% endfor %}
+
+  </tbody>
+
+</table>
