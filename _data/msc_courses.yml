@@ -184,6 +184,20 @@
   status: approved
   prerequisites:
 
+- code: 5110
+  title: Project 1
+  program: msc
+  category: core
+  ltpc: 
+  credit: 3
+  type: theory
+  year: 2
+  semester: 3
+  offered_by: dop
+  link: 
+  status: approved
+  prerequisites:  
+
 #======================
 # Department Elective
 #======================
@@ -356,6 +370,20 @@
   link:
   status: approved
   prerequisites:
+
+- code: 5120
+  title: Project 2
+  program: msc
+  category: core
+  ltpc: 
+  credit: 6
+  type: theory
+  year: 2
+  semester: 4
+  offered_by: dop
+  link: 
+  status: approved
+  prerequisites:    
 
 #======================
 # NPTEL
