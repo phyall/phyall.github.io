@@ -11,7 +11,7 @@ sections:
     type: text
     items:
       - Department of Physics
-      - Indian Institute of Technology Palakkad
+      - IIT Palakkad
       - Kanjikode
       - Palakkad – 678623
       - Kerala, India
@@ -24,34 +24,35 @@ sections:
     email2:
       label: HoD
       address: hod_ph@iitpkd.ac.in
-    phone: "+91-491-209-2013"
+    phone: 
+      label: Office
+      number: "+91-491-209-1501"
+    phone2:
+      label: HoD
+      number: "+91-491-209-1500"
 
   - title: Join Us
     type: links
     items:
       - title: PG Admission
-        url: https://iitpkd.ac.in/admissions
+        url: https://pgadmit.iitpkd.ac.in
       - title: Research Admission
-        url: https://iitpkd.ac.in/phd-admissions
-      - title: Summer Internship
-        url: https://iitpkd.ac.in/
+        url: https://resap.iitpkd.ac.in
       - title: Faculty Recruitment
-        url: https://iitpkd.ac.in/careers
+        url: https://facap.iitpkd.ac.in
       - title: Staff Recruitment
-        url: https://iitpkd.ac.in/careers
-      - title: Project Positions
-        url: https://iitpkd.ac.in/careers
+        url: https://joinus.iitpkd.ac.in
         
   - title: IIT Palakkad
     type: links
     items:
       - title: Institute Website
         url: https://iitpkd.ac.in/
-      - title: Directory
-        url: https://iitpkd.ac.in/directory
-      - title: Library
-        url: https://library.iitpkd.ac.in/
+      - title: Telephone Directory
+        url: https://iitpkd.ac.in/TelephoneDirectory
+      - title: Central Library
+        url: https://lib.iitpkd.ac.in
       - title: HPC
-        url: https://iitpkd.ac.in/
-      - title: Central Facilities
-        url: https://iitpkd.ac.in/
+        url: https://cet.iitpkd.ac.in/hpc
+      - title: CIF and CMFF
+        url: https://cif.iitpkd.ac.in
