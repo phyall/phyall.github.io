@@ -21,6 +21,3 @@ The Department of Physics at IIT Palakkad, active since August 2015, is currentl
     scrolling="no">
   </iframe>
 </div>
-
-
-
