@@ -231,6 +231,21 @@
   status: approved
   prerequisites:
 
+- code: 6603
+  title: Introduction to Open Quantum Systems
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  prerequisites:
+  
+
 - code: 5611
   title: Soft Matter Physics
   program: msc
@@ -371,10 +386,42 @@
   status: approved
   prerequisites:
 
+
+
+- code: 5631
+  title:  Light microscopy and image processing
+  program: msc
+  category: elective
+  ltpc: 
+  credit: 3
+  type: theory
+  year: 2
+  semester: 
+  offered_by: dop
+  link: 
+  status: approved
+  prerequisites:      
+
+
+- code: 6008
+  title:  Monte Carlo Methods in Statistical Physics
+  program: msc
+  category: elective
+  ltpc: 
+  credit: 3
+  type: theory
+  year: 2
+  semester: 
+  offered_by: dop
+  link: 
+  status: approved
+  prerequisites:    
+  
+
 - code: 5120
   title: Project 2
   program: msc
-  category: core
+  category: elective
   ltpc: 
   credit: 6
   type: theory
