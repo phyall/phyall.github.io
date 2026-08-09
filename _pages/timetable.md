@@ -7,7 +7,7 @@ sidebar: quicklinks
 
 {% include timetable.html %}
 
-Important notes: 
+**Important notes:** 
 
 - Numbers in slot names refer to the day of the week i.e., 1=Monday, 2=Tuesday, etc. Example: in slot PA5, 5 stands for Friday. Similarly, in M3, 3 stands for Wednesday.
 - A, B, C, D and H are 3 credit slots (3X50 mins each)
