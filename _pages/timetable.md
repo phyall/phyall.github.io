@@ -5,6 +5,11 @@ title: "Timetable and Schedule"
 sidebar: quicklinks
 ---
 
+Current Semester Course Allocation
+------
+
+{% include course-allocation-table.html %}
+
 {% include timetable.html %}
 
 **Important notes:** 
