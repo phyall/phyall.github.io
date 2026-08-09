@@ -7,6 +7,8 @@ sidebar: quicklinks
 
 **Upcoming Colloquia**
 
+{% include upcoming-colloquia-table.html %}
+
 **Past Colloquia**
 
 {% include past-colloquia-table.html %}
