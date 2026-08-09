@@ -90,3 +90,19 @@ courses:
     room: "N-301"
     year: 2
     semester: 3
+
+  - code: "1030"
+    title: "Physics"
+    instructor: "Ajeesh M O, Prithvi Narayan P, Projjwal Banerjee, Kusum Dhochak"
+    slot: "G"
+    room: "A01-"
+    year: 1
+    semester: 1  
+
+  - code: "1130"
+    title: "Physics Lab"
+    instructor: "Prithvi Narayan P, Projjwal Banerjee, Amit Kumar Pal"
+    slot: "PA1, PA2, PA5"
+    room: "A01-Physics Lab"
+    year: 1
+    semester: 1     
