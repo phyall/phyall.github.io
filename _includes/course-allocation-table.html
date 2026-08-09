@@ -1,4 +1,5 @@
-{% assign allocation_file = site.data.courseallocation_current_semester.allocation %}
+{% assign current_semester = site.data.courseallocation_current_semester %}
+{% assign allocation_file = current_semester.allocation %}
 {% assign allocation = site.data[allocation_file] %}
 
 <table class="student-table">
