@@ -3,6 +3,7 @@
   time: "03:00 PM"
   title: "Quantum Information Colloquium"
   speaker: "Dr. Prasanna Venkatesh B"
+  designation: Professor
   affiliation: "IIT Gandhinagar"
   venue: "Department Seminar Room"
   type: "Physics Colloquium"
@@ -15,9 +16,37 @@
   time: "3:30 PM"
   title: 
   speaker: "Prof. Subhendra Mohanty"
+  designation: Professor
   affiliation: "PRL Ahmedabad, IISER Bhopal"
   venue: "Lecture Hall"
   type: "Physics Colloquium"
   link: 
   host: Akanksha Bhardwaj 
+  status: past
+
+- date: 2023-06-05
+  datestamp: 20230605
+  time:
+  title: "Quantum Networks"
+  speaker: "Aditi Sen De"
+  designation: Professor
+  affiliation: "HRI Prayagraj"
+  venue:
+  type: "Physics Colloquium"
+  link:
+  host: Amit Kumar Pal
+  status: past
+
+
+- date: 2025-01-15
+  datestamp: 20250115
+  time:
+  title: "Galaxy-based gravitational wave observatory and its promises"
+  speaker: "A Gopakumar"
+  designation: Professor
+  affiliation: "TIFR Mumbai"
+  venue:
+  type: "Physics Colloquium"
+  link:
+  host:
   status: past
