@@ -1,88 +1,93 @@
-- code: 5007
-  title: "Quantum Mechanics"
-  instructor: "Uma Divakaran"
-  slot: "A + H (Fri)"
-  room: "N-301"
-  year: 1
-  semester: 1
+semester: "August–December 2026"
+semester_code: "2026_odd"
 
-- code: 5005
-  title: "Applicable Mathematics"
-  instructor: "Manoj Gopalakrishnan"
-  slot: "B + PA2"
-  room: "N-301 + A01-201"
-  year: 1
-  semester: 1  
+courses:
 
-- code: 5001
-  title: "Classical Mechanics"
-  instructor: "Resmi P K"
-  slot: "C + E (Wed)"
-  room: "N-301"
-  year: 1
-  semester: 1  
+  - code: 5007
+    title: "Quantum Mechanics"
+    instructor: "Uma Divakaran"
+    slot: "A + H (Fri)"
+    room: "N-301"
+    year: 1
+    semester: 1
 
-- code: 5003
-  title: "Electromagnetic Theory"
-  instructor: "Jayakumar Balakrishnan"
-  slot: "D + E (Fri)"
-  room: "N-301"
-  year: 1
-  semester: 1  
+  - code: 5005
+    title: "Applicable Mathematics"
+    instructor: "Manoj Gopalakrishnan"
+    slot: "B + PA2"
+    room: "N-301 + A01-201"
+    year: 1
+    semester: 1  
 
-- code: 5103
-  title: "Mechanics and Electromagnetic Theory Lab"
-  instructor: "Jayakumar Balakrishnan; Kusum Dhochak"
-  slot: "PA5"
-  room: "A01-Physics Lab"
-  year: 1
-  semester: 1
+  - code: 5001
+    title: "Classical Mechanics"
+    instructor: "Resmi P K"
+    slot: "C + E (Wed)"
+    room: "N-301"
+    year: 1
+    semester: 1  
+
+  - code: 5003
+    title: "Electromagnetic Theory"
+    instructor: "Jayakumar Balakrishnan"
+    slot: "D + E (Fri)"
+    room: "N-301"
+    year: 1
+    semester: 1  
+
+  - code: 5103
+    title: "Mechanics and Electromagnetic Theory Lab"
+    instructor: "Jayakumar Balakrishnan; Kusum Dhochak"
+    slot: "PA5"
+    room: "A01-Physics Lab"
+    year: 1
+    semester: 1
 
 
-- code: 5009
-  title: "Condensed Matter Physics"
-  instructor: "Soham Manni"
-  slot: "F, Q"
-  room: "N-301"
-  year: 2
-  semester: 3
+  - code: 5009
+    title: "Condensed Matter Physics"
+    instructor: "Soham Manni"
+    slot: "F, Q"
+    room: "N-301"
+    year: 2
+    semester: 3
 
-- code: PH5011
-  title: "Nuclear & Particle Physics"
-  instructor: "Akanksha Bhardwaj"
-  slot: "C"
-  room: "N-306"
-  year: 2
-  semester: 3
+  - code: PH5011
+    title: "Nuclear & Particle Physics"
+    instructor: "Akanksha Bhardwaj"
+    slot: "C"
+    room: "N-306"
+    year: 2
+    semester: 3
 
-- code: PH5105
-  title: "Advanced Physics Lab"
-  instructor: "Soham Manni; Ajeesh M O; Bibhu Ranjan Sarangi"
-  slot: "PA4"
-  room: "A01-Physics Lab"
-  year: 2
-  semester: 3  
+  - code: PH5105
+    title: "Advanced Physics Lab"
+    instructor: "Soham Manni; Ajeesh M O; Bibhu Ranjan Sarangi"
+    slot: "PA4"
+    room: "A01-Physics Lab"
+    year: 2
+    semester: 3  
 
-- code: 5606
-  title: "Quantum Information and Computation"
-  instructor: "Amit Kumar Pal"
-  slot: "G"
-  room: "N-301"
-  year: 2
-  semester: 3
+  - code: 5606
+    title: "Quantum Information and Computation"
+    instructor: "Amit Kumar Pal"
+    slot: "G"
+    room: "N-301"
+    year: 2
+    semester: 3
 
-- code: 6008
-  title: "Monte Carlo Methods in Statistical Physics"
-  instructor: "Vishwas V"
-  slot: "B"
-  room: "N-306"
-  year: 2
-  semester: 3
+  - code: 6008
+    title: "Monte Carlo Methods in Statistical Physics"
+    instructor: "Vishwas V"
+    slot: "B"
+    room: "N-306"
+    year: 2
+    semester: 3
 
-- code: 5631
-  title: "Light microscopy and image processing"
-  instructor: "Bibhu Ranjan Sarangi"
-  slot: "K"
-  room: "N-301"
-  year: 2
-  semester: 3
+  - code: 5631
+    title: "Light microscopy and image processing"
+    instructor: "Bibhu Ranjan Sarangi"
+    slot: "K"
+    room: "N-301"
+    year: 2
+    semester: 3
