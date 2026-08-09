@@ -333,3 +333,15 @@
   link:
   host:
   status: past
+
+- date: 2026-10-22
+  datestamp: 20250120
+  time:
+  title: "TBA"
+  speaker: "Prasanna Venkatesh B"
+  affiliation: "IIT Gandhinagar"
+  venue:
+  type: "Physics Seminar"
+  link:
+  host:
+  status: past  
