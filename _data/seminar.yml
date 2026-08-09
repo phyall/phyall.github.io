@@ -3,6 +3,7 @@
   time:
   title: "Beyond Physics as We Know It: Dark Matter and BSM Higgs at ATLAS"
   speaker: "Anindya Ghosh"
+  designation: 
   affiliation: "University of Arizona US"
   venue:
   type: "Physics Seminar"
@@ -15,6 +16,7 @@
   time:
   title: "The Influence of Noise and Monitoring On Symmetry Breaking and Chaos"
   speaker: "Adolfo del Campo"
+  designation: 
   affiliation: "University of Luxembourg"
   venue:
   type: "Physics Seminar"
@@ -27,6 +29,7 @@
   time:
   title: "Dynamics of Noisy (+ non-Hermitian) quantum systems"
   speaker: "Aurelia Chenu"
+  designation: 
   affiliation: "University of Luxembourg"
   venue:
   type: "Physics Seminar"
@@ -39,6 +42,7 @@
   time:
   title: "Energy extraction from a black hole accretion-jet systems by magnetized Penrose process: Observations, theory and simulation"
   speaker: "Banibrata Mukhopadhyay"
+  designation: 
   affiliation: "IISc Bengaluru"
   venue:
   type: "Physics Seminar"
@@ -51,6 +55,7 @@
   time:
   title:
   speaker: "Arnab Pal"
+  designation: 
   affiliation: "IMSc Chennai"
   venue:
   type: "Physics Seminar"
@@ -63,6 +68,7 @@
   time:
   title:
   speaker: "Mark Tuckerman"
+  designation: 
   affiliation: "New York University USA"
   venue:
   type: "Physics Seminar"
@@ -75,6 +81,7 @@
   time:
   title:
   speaker: "Aparna Baskaran"
+  designation: 
   affiliation: "Brandeis University USA"
   venue:
   type: "Physics Seminar"
@@ -87,6 +94,7 @@
   time:
   title: "From cells to tissues: mechanics of swimming and crawling modes of biological motility"
   speaker: "Suhail Rizvi Mohd"
+  designation: 
   affiliation: "IIT Hyderabad"
   venue:
   type: "Physics Seminar"
@@ -99,6 +107,7 @@
   time:
   title: "Disorder Induced Magnetic Phase Transitions In Itinerant Magnets"
   speaker: "Srinivas Veeturi"
+  designation: 
   affiliation: "IIT Madras"
   venue:
   type: "Physics Seminar"
@@ -135,6 +144,7 @@
   time:
   title: "Quantum Technologies using solid state defects"
   speaker: "Rajesh V. Nair"
+  designation: 
   affiliation: "IIT Ropar"
   venue:
   type: "Physics Seminar"
@@ -147,6 +157,7 @@
   time:
   title: "Spontaneous quantum turbulence via the Kibble-Zurek mechanism"
   speaker: "Mithun Thudiyangal"
+  designation: 
   affiliation: "Christ University Bangalore"
   venue:
   type: "Physics Seminar"
@@ -159,6 +170,7 @@
   time:
   title: "Understanding Plasma Flows in the Sun's interior"
   speaker: "Lekshmi B"
+  designation: 
   affiliation: "National Solar Observatory Boulder USA"
   venue:
   type: "Physics Seminar"
@@ -171,6 +183,7 @@
   time:
   title: "Quantum Complexity in Constrained Many-Body Models"
   speaker: "Sudipto Singha Roy"
+  designation: 
   affiliation: "IIT (ISM) Dhanbad"
   venue:
   type: "Physics Seminar"
@@ -183,6 +196,7 @@
   time:
   title: "TBA"
   speaker: "Anindita Bera"
+  designation: 
   affiliation: "BIT Mesra"
   venue:
   type: "Physics Seminar"
@@ -195,6 +209,7 @@
   time:
   title: "Machine Learning driven reconstruction for uncovering new physics at the CMS experiment at the LHC"
   speaker: "Shamik Ghosh"
+  designation: 
   affiliation: "CMS Experiment Ecole Polytechnique France"
   venue:
   type: "Physics Seminar"
@@ -207,6 +222,7 @@
   time:
   title: "Measurement back-action of a charge detector"
   speaker: "Sarath Sankar"
+  designation: 
   affiliation: "Tel Aviv University Israel"
   venue:
   type: "Physics Seminar"
@@ -219,6 +235,7 @@
   time:
   title: "Unveiling functional catalytic surfaces based on insights from operando spectroscopy"
   speaker: "Nirman Chakraborty"
+  designation: 
   affiliation: "Technical University of Darmstadt Germany"
   venue:
   type: "Physics Seminar"
@@ -231,6 +248,7 @@
   time:
   title:
   speaker: "Sivaraj Pazhaniswamy"
+  designation: 
   affiliation: "University of Oxford UK"
   venue:
   type: "Physics Seminar"
@@ -243,6 +261,7 @@
   time:
   title: "Generation of Volume-Law Entanglement by Local-Measurement-Only Quantum Dynamics"
   speaker: "Surajit Bera"
+  designation: 
   affiliation: "Collège de France Paris."
   venue:
   type: "Physics Seminar"
@@ -255,6 +274,7 @@
   time:
   title: "Interacting-fermion dynamics in Majorana phase space"
   speaker: "Ria Rushin Joseph"
+  designation: 
   affiliation: "Deakin University Melbourne"
   venue:
   type: "Physics Seminar"
@@ -267,6 +287,7 @@
   time:
   title: "OJ 287: Potential Rosetta stone for the nascent multi-messenger nano-Hz GW astronomy"
   speaker: "A. Gopakumar"
+  designation: 
   affiliation: "TIFR Mumbai"
   venue:
   type: "Physics Seminar"
@@ -279,6 +300,7 @@
   time:
   title: "Hidden Degrees of Freedom: Isocurvature in Cosmological Inference"
   speaker: "Sai Chaitanya Tedepalli"
+  designation: 
   affiliation: "Indiana University USA"
   venue:
   type: "Physics Seminar"
@@ -291,6 +313,7 @@
   time:
   title: "Exploring the Structure of Materials at High Pressure and Variable Temperatures: The Xpress Beamline"
   speaker: "Irshad K A"
+  designation: 
   affiliation: "Xpress Beamline Elettra Italy"
   venue:
   type: "Physics Seminar"
@@ -303,6 +326,7 @@
   time:
   title: "Quantum Multibody Interactions Across the Charge Density Wave in 2D Transition Metal Chalcogenides"
   speaker: "Ajay soni"
+  designation: 
   affiliation: "IIT Mandi"
   venue:
   type: "Physics Seminar"
@@ -315,6 +339,7 @@
   time:
   title: "Lifting the Degeneracy of a Quantum Spin Liquid Phase by Uniaxial Pressure"
   speaker: "Rajib Sarkar"
+  designation: 
   affiliation: "Technische Universit¨at Dresden Germany"
   venue:
   type: "Physics Seminar"
@@ -327,6 +352,7 @@
   time:
   title: "Shear Thickening in Dense Suspensions: Measuring Localized Stresses"
   speaker: "Vikram Rathee"
+  designation: 
   affiliation: "Delhi University"
   venue:
   type: "Physics Seminar"
@@ -339,6 +365,7 @@
   time:
   title: "TBA"
   speaker: "Prasanna Venkatesh B"
+  designation: Associate Professor in Physics
   affiliation: "IIT Gandhinagar"
   venue:
   type: "Physics Seminar"
