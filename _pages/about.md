@@ -23,7 +23,6 @@ The Department of Physics at IIT Palakkad, active since August 2015, is currentl
 </div>
 
 
-<!--
 <div class="frontpage-columns">
   <div class="frontpage-column frontpage-slideshow">
     {% include slideshow.html %}
@@ -38,4 +37,4 @@ The Department of Physics at IIT Palakkad, active since August 2015, is currentl
       </iframe>
     </div>
   </div>
-</div>-->
+</div>
