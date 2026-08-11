@@ -51,3 +51,5 @@ The Minor in Physics was approved in the 35th meeting of the Senate.
     </tr>
   </tbody>
 </table>
+
+For details about the courses in the basket, see the course catalogues for [B.Tech.](btechcourses.md) and [M.Sc.](msccourses.md) courses.
