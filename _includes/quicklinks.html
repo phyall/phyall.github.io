@@ -1,4 +1,4 @@
-<aside class="quicklinks">
+<!--<aside class="quicklinks">
 
     <h2>{{ site.data.quicklinks.title }}</h2>
 
@@ -25,4 +25,66 @@
 
     </ul>
 
+</aside>-->
+
+<aside class="quicklinks">
+
+```
+<h2>{{ site.data.quicklinks.title }}</h2>
+
+<ul>
+
+{% for item in site.data.quicklinks.links %}
+
+    <li>
+
+    {% if item.url %}
+
+        <a
+          href="{{ item.url }}"
+          {% if item.url contains "http" %}
+          target="_blank" rel="noopener"
+          {% endif %}
+        >
+            {{ item.title }}
+        </a>
+
+    {% elsif item.links %}
+
+        <span class="quicklinks-parent">
+            {{ item.title }}
+        </span>
+
+        <ul>
+
+        {% for subitem in item.links %}
+
+            <li>
+
+                <a
+                  href="{{ subitem.url }}"
+                  {% if subitem.url contains "http" %}
+                  target="_blank" rel="noopener"
+                  {% endif %}
+                >
+                    {{ subitem.title }}
+                </a>
+
+            </li>
+
+        {% endfor %}
+
+        </ul>
+
+    {% endif %}
+
+    </li>
+
+{% endfor %}
+
+</ul>
+```
+
 </aside>
+
+
