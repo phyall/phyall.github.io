@@ -25,3 +25,9 @@ Upgradation to MS by Research/PhD Programs
 MSc Students of IIT Palakkad also have the opportunity to upgrade to either the MS by Research, or the PhD program during their last 
 semester, depending on their performance in projects supervised by the faculty members of the Department. Usually there are two calls 
 for applications in February/ March every year.
+
+Regulations
+------
+
+- [PhD Regulations (January 2021 Batch or prior)](https://iitpkd.ac.in/sites/default/files/2024-07/MS_PhD_old_Regulations%28Website%20Version%29.pdf)
+- [PhD Regulations (August 2021 Batch onward)](https://iitpkd.ac.in/sites/default/files/2026-06/870a0155-d8f0-4f4a-915a-44eb4d83f0bf.pdf)
