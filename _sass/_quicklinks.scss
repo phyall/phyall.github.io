@@ -1,75 +1,102 @@
 /* ==========================================================
-   Two-column page layout
-   ========================================================== */
+Two-column page layout
+========================================================== */
 
 .page-layout {
 
-    max-width: 1400px;
+max-width: 1400px;
 
-    margin: 2rem auto;
+margin: 2rem auto;
 
-    padding: 0 1.5rem;
+padding: 0 1.5rem;
 
-    display: grid;
+display: grid;
 
-    grid-template-columns: 250px minmax(0,1fr);
+grid-template-columns: 250px minmax(0,1fr);
 
-    gap: 2.5rem;
+gap: 2.5rem;
 
-    align-items: start;
+align-items: start;
 
 }
 
 /* ==========================================================
-   Sidebar
-   ========================================================== */
+Sidebar
+========================================================== */
 
 .page-sidebar {
-    width: 100%;
+width: 100%;
 }
 
 .quicklinks {
-    background: #f8f9fb;
-    border: 1px solid #e2e8f0;
-    border-radius: 10px;
-    padding: 1.25rem;
+background: #f8f9fb;
 
-    position: sticky;
-    top: 2rem;
+border: 1px solid #e2e8f0;
+
+border-radius: 10px;
+
+padding: 1.25rem;
+
+position: sticky;
+
+top: 2rem;
+
 }
 
 .quicklinks h2 {
-    margin: 0 0 1rem;
-    font-size: 1.15rem;
-    color: #163b63;
+margin: 0 0 1rem;
+
+font-size: 1.15rem;
+
+color: #163b63;
+
 }
 
 .quicklinks ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+list-style: none;
+
+margin: 0;
+
+padding: 0;
+
 }
 
 .quicklinks li {
-    margin-bottom: 0.6rem;
+margin-bottom: 0.6rem;
 }
 
 .quicklinks a {
-    color: #17406d;
-    text-decoration: none;
-    transition: color 0.2s ease;
+color: #17406d;
+
+text-decoration: none;
+
+transition: color 0.2s ease;
+
 }
 
 .quicklinks a:hover {
-    color: #0d2b4d;
+color: #0d2b4d;
 }
 
 /* ==========================================================
-   Content
-   ========================================================== */
+Nested Quick Links
+========================================================== */
+
+.quicklinks li > ul {
+margin-top: 0.4rem;
+
+margin-left: 1.25rem;
+
+padding-left: 1rem;
+
+}
+
+/* ==========================================================
+Content
+========================================================== */
 
 .page-content {
 
-    min-width: 0;
+min-width: 0;
 
 }
