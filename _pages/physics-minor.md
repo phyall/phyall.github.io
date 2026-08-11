@@ -17,8 +17,8 @@ The Minor in Physics was approved in the 35th meeting of the Senate.
 <table class="student-table">
   <thead>
     <tr>
-      <th>SNo.</th>
-      <th>Course Code</th>
+      <th width="10%">No.</th>
+      <th width="20%">Course Code</th>
       <th>Course Title</th>
     </tr>
   </thead>
