@@ -12,7 +12,19 @@ Eligibility criteria and other information
 
 Admission to the M.Sc course in Physics are offered to those who have qualified in the Joint Admission Test for Masters in Physics (JAM - Physics). The candidates qualifying in JAM will have to satisfy the eligibility requirement for admission into the M.Sc in Physics programme at IIT Palakkad (for more details, see the PG Admission Portal). All candidates admitted through JAM should have a valid Bachelor's degree, while there is no restrictions at 10+2 level.
 
-Course details and structure
+Regulations
 ------
+
+- [Regulations 2019-2023](https://iitpkd.ac.in/sites/default/files/2023-07/M.ScRegulationsRevised24thSenate.pdf)
+- [Regulations 2024 Onward](https://iitpkd.ac.in/sites/default/files/2026-01/94a182b1-65b4-474c-adc8-edcc69e4987d.pdf)
+
+Curriculum
+------
+
+- [2020 Onward](https://drive.google.com/file/d/1ZT7_efoEpHmrm-rNH2OcJLr1v-Lcl8p9/view)
+- [2024 Onward](https://iitpkd.ac.in/sites/default/files/2024-08/9f8db260-4e36-4c39-916b-851e72de4669.pdf)
+- [2026 Onward](https://iitpkd.ac.in/sites/default/files/2026-07/dc74d556-f98f-440f-a08e-513788d0cb15.pdf)
+
+For the complete catalogue of courses offered by the Department of Physics, see [here](/msc_courses.md/). 
 
 
