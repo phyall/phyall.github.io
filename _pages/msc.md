@@ -25,6 +25,6 @@ Curriculum
 - [2024 Onward](https://iitpkd.ac.in/sites/default/files/2024-08/9f8db260-4e36-4c39-916b-851e72de4669.pdf)
 - [2026 Onward](https://iitpkd.ac.in/sites/default/files/2026-07/dc74d556-f98f-440f-a08e-513788d0cb15.pdf)
 
-For the complete catalogue of courses offered by the Department of Physics, see [here](/msc_courses.md/). 
+For the complete catalogue of courses offered by the Department of Physics, see [here](msc_courses.md). 
 
 
