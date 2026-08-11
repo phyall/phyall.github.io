@@ -10,3 +10,25 @@ links:
 
   - title: Room Booking
     url: https://mrbs.iitpkd.ac.in/
+
+  - title: Records Portal
+    url: https://records.iitpkd.ac.in/
+
+  - title: LMS | Moodle
+    url: https://lms.iitpkd.ac.in/login/index.php
+
+  - title: Guidelines and Forms
+  
+    links:
+      - title: Academic
+        url: https://iitpkd.ac.in/academics-downloads
+
+      - title: Employees
+        url: https://iitpkd.ac.in/downloads-employees
+
+      - title: Administration
+        url: https://iitpkd.ac.in/Administration-Section
+
+  - title: Scholarships
+    url: https://iitpkd.ac.in/scholarships-and-financial-assistance
+
