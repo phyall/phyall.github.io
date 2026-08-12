@@ -1,29 +1,39 @@
 - id: string
   title: String Theory
+  alphabet: sc
 
 - id: astro_theory
-  title: Theoretical Astrophysics  
+  title: Astrophysics (Theory)  
+  alphabet: a
 
 - id: hep_theory
-  title: Theoretical High Energy Physics
+  title: High Energy Physics (Theory)
+  alphabet: ha
   
 - id: quantum
   title: Quantum Information Theory
+  alphabet: q
 
 - id: cmp_theory
-  title: Theoretical Condensed Matter Physics
+  title: Condensed Matter Physics (Theory)
+  alphabet: ca
 
 - id: softmat_theory
-  title: Theoretical Soft-Matter and Statistical Physics
+  title: Soft-Matter and Statistical Physics (Theory)
+  alphabet: sa
   
 - id: cmp_experiment
-  title: Experimental Condensed Matter Physics
+  title: Condensed Matter Physics (Experiment)
+  alphabet: cb
 
 - id: softmat_experiment
-  title: Experimental Soft-Matter and Bio Physics
+  title: Soft-Matter and Statistical Physics (Experiment) 
+  alphabet: sb
 
 - id: hep_experiment
-  title: Experimental High Energy Physics
+  title: High Energy Physics (Experiment) 
+  alphabet: hb
 
 - id: electronics
   title: Electronics and Electrical Engineering
+  alphabet: x
