@@ -4,11 +4,11 @@
 
 - id: astro_theory
   title: Astrophysics (Theory)  
-  alphabet: a
+  alphabet: ab
 
 - id: hep_theory
   title: High Energy Physics (Theory)
-  alphabet: ha
+  alphabet: hb
   
 - id: quantum
   title: Quantum Information Theory
@@ -16,23 +16,23 @@
 
 - id: cmp_theory
   title: Condensed Matter Physics (Theory)
-  alphabet: ca
+  alphabet: cb
 
 - id: softmat_theory
   title: Soft-Matter and Statistical Physics (Theory)
-  alphabet: sa
+  alphabet: sb
   
 - id: cmp_experiment
   title: Condensed Matter Physics (Experiment)
-  alphabet: cb
+  alphabet: ca
 
 - id: softmat_experiment
   title: Soft-Matter and Statistical Physics (Experiment) 
-  alphabet: sb
+  alphabet: sa
 
 - id: hep_experiment
   title: High Energy Physics (Experiment) 
-  alphabet: hb
+  alphabet: ha
 
 - id: electronics
   title: Electronics and Electrical Engineering
