@@ -12,7 +12,6 @@ The Department of Physics at IIT Palakkad, active since August 2015, is currentl
 
 Department Calendar
 ------
-To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
 <div class="calendar-container">
   <iframe
