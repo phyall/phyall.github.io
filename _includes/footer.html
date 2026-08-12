@@ -1,66 +1,87 @@
 <footer class="dept-footer">
   <div class="footer-container">
+
     {% for section in site.data.footer.sections %}
+
       <div class="footer-column">
+
         <h3>{{ section.title }}</h3>
+
         {% case section.type %}
+
         {% when "text" %}
+
           {% for line in section.items %}
             <p>{{ line }}</p>
           {% endfor %}
+
+
         {% when "links" %}
+
           <ul>
-          {% for item in section.items %}
-            <li>
-              <a
-                href="{{ item.url }}"
-                {% if item.url contains "http" %}
-                  target="_blank" rel="noopener"
-                {% endif %}
-              >
-                {{ item.title }}
-              </a>
-            </li>
-          {% endfor %}
+            {% for item in section.items %}
+              <li>
+                <a
+                  href="{{ item.url }}"
+                  {% if item.url contains "http" %}
+                    target="_blank" rel="noopener"
+                  {% endif %}
+                >
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endfor %}
           </ul>
+
+
         {% when "contact" %}
-          {% if section.email %}
-          <p>
-            <strong>{{ section.email.label }}:</strong><br>
-            <a href="mailto:{{ section.email.address }}">
-              {{ section.email.address }}
-            </a>
-          </p>
-          {% endif %}
-          {% if section.email2 %}
-          <p>
-            <strong>{{ section.email2.label }}:</strong><br>
-            <a href="mailto:{{ section.email2.address }}">
-              {{ section.email2.address }}
-            </a>
-          </p>
-          {% endif %}
-          {% if section.phone %}
-          <p>
-            <strong>Phone:</strong><br>
-            {{ section.phone }}
-          </p>
-          {% endif %}
+
+          {% for item in section.items %}
+
+            {% if item.type == "email" %}
+
+              <p>
+                <strong>{{ item.label }}:</strong><br>
+                <a href="mailto:{{ item.value }}">
+                  {{ item.value }}
+                </a>
+              </p>
+
+            {% elsif item.type == "phone" %}
+
+              <p>
+                <strong>{{ item.label }}:</strong><br>
+                <a href="tel:{{ item.value }}">
+                  {{ item.value }}
+                </a>
+              </p>
+
+            {% endif %}
+
+          {% endfor %}
+
+
         {% endcase %}
+
       </div>
+
     {% endfor %}
+
   </div>
+
+
   <div class="footer-bottom">
+
     <div>
       © {{ site.time | date: "%Y" }}
       {{ site.data.footer.copyright.text }}
     </div>
+
     <div class="footer-last-updated">
       Last updated:
       {{ site.time | date: "%d %B %Y" }}
     </div>
+
   </div>
+
 </footer>
-
-
-
