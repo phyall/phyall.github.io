@@ -1,4 +1,5 @@
 <footer class="dept-footer">
+
   <div class="footer-container">
 
     {% for section in site.data.footer.sections %}
@@ -24,7 +25,8 @@
                 <a
                   href="{{ item.url }}"
                   {% if item.url contains "http" %}
-                    target="_blank" rel="noopener"
+                    target="_blank"
+                    rel="noopener"
                   {% endif %}
                 >
                   {{ item.title }}
@@ -36,27 +38,42 @@
 
         {% when "contact" %}
 
-          {% for item in section.items %}
+          {% for group in section.groups %}
 
-            {% if item.type == "email" %}
+            <div class="contact-group">
 
-              <p>
-                <strong>{{ item.label }}:</strong><br>
-                <a href="mailto:{{ item.value }}">
-                  {{ item.value }}
-                </a>
-              </p>
+              <strong class="contact-group-title">
+                {{ group.title }}
+              </strong>
 
-            {% elsif item.type == "phone" %}
+              {% for item in group.items %}
 
-              <p>
-                <strong>{{ item.label }}:</strong><br>
-                <a href="tel:{{ item.value }}">
-                  {{ item.value }}
-                </a>
-              </p>
+                <p>
+                  <span>{{ item.label }}:</span><br>
 
-            {% endif %}
+                  {% if group.title == "Phone" %}
+
+                    <a href="tel:{{ item.value }}">
+                      {{ item.value }}
+                    </a>
+
+                  {% elsif group.title == "Email" %}
+
+                    <a href="mailto:{{ item.value }}">
+                      {{ item.value }}
+                    </a>
+
+                  {% else %}
+
+                    {{ item.value }}
+
+                  {% endif %}
+
+                </p>
+
+              {% endfor %}
+
+            </div>
 
           {% endfor %}
 
