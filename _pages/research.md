@@ -93,7 +93,7 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
   | where: "area", group.id
   | where: "affiliation", "secondary"
   | where: "status", "current"
-  | sort: "name" %}
+  | sort: "last_name" %}
 
 {% if secondary.size > 0 %}
 
