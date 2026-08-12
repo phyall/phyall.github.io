@@ -18,41 +18,55 @@ sections:
 
   - title: Contact
     type: contact
-    email:
-      label: Office
-      address: office_ph@iitpkd.ac.in
-    email2:
-      label: HoD
-      address: hod_ph@iitpkd.ac.in
-    phone: 
-      label: Office
-      number: "+91-491-209-1501"
-    phone2:
-      label: HoD
-      number: "+91-491-209-1500"
+    items:
+
+      - type: email
+        label: Office
+        value: "office_ph@iitpkd.ac.in"
+
+      - type: email
+        label: HoD
+        value: "hod_ph@iitpkd.ac.in"
+
+      - type: phone
+        label: Office
+        value: "+91-491-209-1501"
+
+      - type: phone
+        label: HoD
+        value: "+91-491-209-1500"
 
   - title: Join Us
     type: links
     items:
+
       - title: PG Admission
-        url: https://pgadmit.iitpkd.ac.in
+        url: "https://pgadmit.iitpkd.ac.in"
+
       - title: Research Admission
-        url: https://resap.iitpkd.ac.in
+        url: "https://resap.iitpkd.ac.in"
+
       - title: Faculty Recruitment
-        url: https://facap.iitpkd.ac.in
+        url: "https://facap.iitpkd.ac.in"
+
       - title: Staff Recruitment
-        url: https://joinus.iitpkd.ac.in
-        
+        url: "https://joinus.iitpkd.ac.in"
+
   - title: IIT Palakkad
     type: links
     items:
+
       - title: Institute Website
-        url: https://iitpkd.ac.in/
+        url: "https://iitpkd.ac.in/"
+
       - title: Telephone Directory
-        url: https://iitpkd.ac.in/TelephoneDirectory
+        url: "https://iitpkd.ac.in/TelephoneDirectory"
+
       - title: Central Library
-        url: https://lib.iitpkd.ac.in
+        url: "https://lib.iitpkd.ac.in"
+
       - title: HPC
-        url: https://cet.iitpkd.ac.in/hpc
+        url: "https://cet.iitpkd.ac.in/hpc"
+
       - title: CIF and CMFF
-        url: https://cif.iitpkd.ac.in
+        url: "https://cif.iitpkd.ac.in"
