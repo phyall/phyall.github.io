@@ -1,4 +1,5 @@
 - name: PB Sunil Kumar
+  last_name: kumar
   gender: male
   designation: Professor
   affiliation: primary
@@ -21,6 +22,7 @@
 
 
 - name: Uma Divakaran
+  last_name: divakaran
   gender: female
   designation: Associate Professor
   affiliation: primary
@@ -43,6 +45,7 @@
            
 
 - name: Jayakumar Balakrishnan
+  last_name: balakrishnan
   gender: male
   designation: Associate Professor
   affiliation: primary
@@ -64,6 +67,7 @@
   phone: 
 
 - name: Prithvi Narayan P
+  last_name: narayan
   gender: male
   designation: Associate Professor
   affiliation: primary
@@ -85,6 +89,7 @@
   phone: 
 
 - name: Soham Manni
+  last_name: manni
   gender: male
   designation: Assistant Professor
   affiliation: primary
@@ -106,6 +111,7 @@
   phone: 
 
 - name: Kusum Dhochak
+  last_name: dhochak
   gender: female
   designation: Assistant Professor
   affiliation: primary
@@ -127,6 +133,7 @@
   phone: 
 
 - name: Bibhu Ranjan Sarangi
+  last_name: sarangi
   gender: male
   designation: Associate Professor
   affiliation: primary
@@ -149,6 +156,7 @@
   
 
 - name: Projjwal Banerjee
+  last_name: banerjee
   gender: male
   designation: Associate Professor
   affiliation: primary
@@ -172,6 +180,7 @@
 
 
 - name: Amit Kumar Pal
+  last_name: pal
   gender: male
   designation: Associate Professor
   affiliation: primary
@@ -192,7 +201,8 @@
   office: 
   phone: 
 
-- name: Vishwas V
+- name: Vishwas Venkatesh
+  last_name: venkatesh
   gender: male
   designation: Assistant Professor
   affiliation: primary
@@ -214,6 +224,7 @@
   phone: 
 
 - name: Anil Kumar Dasanna
+  last_name: dasanna
   gender: male
   designation: Assistant Professor
   affiliation: primary
@@ -236,6 +247,7 @@
 
 
 - name: Akshyay Bhatnagar
+  last_name: bhatnagar
   gender: male
   designation: Assistant Professor
   affiliation: primary
@@ -258,6 +270,7 @@
 
 
 - name: Ajeesh M. Omanakuttan
+  last_name: omanakuttan
   gender: male
   designation: Assistant Professor
   affiliation: primary
@@ -279,7 +292,8 @@
   phone: 
 
 
-- name: Manoj Gopalkrishnan
+- name: Manoj Gopalakrishnan
+  last_name: gopalakrishnan
   gender: male
   designation: Professor
   affiliation: primary
@@ -302,6 +316,7 @@
 
 
 - name: Akanksha Bhardwaj
+  last_name: bhardwaj
   gender: female
   designation: Assistant Professor
   affiliation: primary
@@ -323,6 +338,7 @@
   phone: 
 
 - name: Resmi PK
+  last_name: pk
   gender: female
   designation: Assistant Professor
   affiliation: primary
@@ -346,6 +362,7 @@
 
 
 - name: Debarati Chatterjee
+  last_name: chatterjee
   gender: female
   designation: Associate Professor
   affiliation: secondary
@@ -368,6 +385,7 @@
 
 
 - name: Swaroop Sahoo
+  last_name: sahoo
   gender: female
   designation: Associate Professor
   affiliation: secondary
