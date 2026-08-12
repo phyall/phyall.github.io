@@ -36,26 +36,6 @@ sections:
           - label: HoD
             value: "hod_ph@iitpkd.ac.in"
 
-  - title: Contact
-    type: contact
-    items:
-
-      - type: email
-        label: Office
-        value: "office_ph@iitpkd.ac.in"
-
-      - type: email
-        label: HoD
-        value: "hod_ph@iitpkd.ac.in"
-
-      - type: phone
-        label: Office
-        value: "+91-491-209-1501"
-
-      - type: phone
-        label: HoD
-        value: "+91-491-209-1500"
-
   - title: Join Us
     type: links
     items:
