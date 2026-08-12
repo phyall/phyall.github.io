@@ -15,6 +15,26 @@ sections:
       - Kanjikode
       - Palakkad – 678623
       - Kerala, India
+  
+  - title: Contact
+    type: contact
+    groups:
+
+      - title: Phone
+        items:
+          - label: Office
+            value: "+91-491-209-1501"
+
+          - label: HoD
+            value: "+91-491-209-1500"
+
+      - title: Email
+        items:
+          - label: Office
+            value: "office_ph@iitpkd.ac.in"
+
+          - label: HoD
+            value: "hod_ph@iitpkd.ac.in"
 
   - title: Contact
     type: contact
