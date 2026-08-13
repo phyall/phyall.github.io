@@ -33,7 +33,9 @@ Announcements
 {% endfor %}
 
 
+{% assign today = site.time | date: "%Y%m%d" %}
 
+<p>Today: {{ today }}</p>
 
 
 
