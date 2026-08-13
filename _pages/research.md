@@ -5,55 +5,16 @@ title: "Research"
 sidebar: quicklinks
 ---
 
-Faculty in the Department of Physics perform state-of-the-art research in diverse topics. A broad classification of these topics are given below. 
+Faculty in the Department of Physics perform state-of-the-art research in diverse directions. The set of broad research directions existing in the Department   
 
+- Astrophysics (Theory)
+- Condensed Matter Physics (Experiment)
+- Condensed Matter Physics (Theory)
+- High Energy Physics (Experiment)
+- High Energy Physics (Theory)
+- Quantum Information Theory
+- Soft Matter and Statistical Physics (Experiment)
+- Soft Matter and Statistical Physics (Theory)
+- String Theory
 
-{% assign research_groups = site.data.research_groups | sort: "alphabet" %}
-
-{% for group in research_groups %}
-
-<h3 class="faculty-mini-group-title">
-  {{ group.title }}
-</h3>
-
-{% assign primary = site.data.faculty_details
-  | where: "area", group.id
-  | where: "affiliation", "primary"
-  | where: "status", "current"
-  | sort: "last_name" %}
-
-{% if primary.size > 0 %}
-
-<div class="faculty-mini-grid">
-
-  {% for faculty in primary %}
-    {% include faculty-card-simple.html faculty=faculty %}
-  {% endfor %}
-
-</div>
-
-{% endif %}
-
-{% assign secondary = site.data.faculty_details
-  | where: "area", group.id
-  | where: "affiliation", "secondary"
-  | where: "status", "current"
-  | sort: "last_name" %}
-
-{% if secondary.size > 0 %}
-
-<h4 class="faculty-mini-associated-title">
-  Associated Faculty
-</h4>
-
-<div class="faculty-mini-grid">
-
-  {% for faculty in secondary %}
-    {% include faculty-card-simple.html faculty=faculty %}
-  {% endfor %}
-
-</div>
-
-{% endif %}
-
-{% endfor %}
+See [here](research_areas.md) for a research area-wise grouping of faculty. 
