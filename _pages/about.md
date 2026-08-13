@@ -23,8 +23,48 @@ Department Calendar
 
 To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
-Upcoming Seminars/ Colloquia / Events
+Announcements
 ------
+
+**Upcoming Colloquia**
+
+{% assign current_month = site.time | date: "%m" %}
+{% assign current_year = site.time | date: "%Y" %}
+
+{% assign upcoming_colloquium = nil %}
+
+{% for colloquium in site.data.colloquium %}
+  {% assign colloquium_month = colloquium.date | date: "%m" %}
+  {% assign colloquium_year = colloquium.date | date: "%Y" %}
+
+  {% if colloquium.status == "upcoming"
+        and colloquium_year == current_year
+        and colloquium_month == current_month
+        and colloquium.date >= site.time %}
+    {% assign upcoming_colloquium = colloquium %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if upcoming_colloquium %}
+  <h3>{{ upcoming_colloquium.title }}</h3>
+  <p>
+    {{ upcoming_colloquium.speaker }}<br>
+    {{ upcoming_colloquium.date | date: "%d %B %Y" }}
+  </p>
+{% else %}
+  <p>No upcoming colloquium</p>
+{% endif %}
+
+
+
+
+
+
+
+
+
+
 
 <!--{% include slideshow.html %}-->
 
