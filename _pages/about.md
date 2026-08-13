@@ -23,52 +23,6 @@ Department Calendar
 
 To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
-Caleidoscope
-------
-
-{% include slideshow.html %}
-
-
-
-
-
-<div class="frontpage-columns">
-
-<div class="frontpage-column">
-
-<h2>Department Calendar</h2>
-
-<div class="calendar-container">
-  <iframe
-    src="https://calendar.google.com/calendar/embed?src=c_6f39f6e1595e6b87e7800d2002b6c3be6e5fc65dd0e78239c643f16fd79b3113%40group.calendar.google.com&ctz=Asia%2FKolkata"
-    frameborder="0"
-    scrolling="no">
-  </iframe>
-</div>
-
-<p>To integrate the calendar with your Google Calendar, click on "Add to Google Calendar".</p>
-
-</div>
-
-
-<div class="frontpage-column">
-
-<h2>Caleidoscope</h2>
-
-{% include slideshow.html %}
-
-</div>
-
-</div>
-
-
-
-
-
-
-
-
-
 
 Announcements
 ------
@@ -93,11 +47,11 @@ Announcements
 {% assign found = true %}
 
 <p>
-<strong>{{ colloquium.speaker }}</strong><br>
-{{ colloquium.title }}<br>
+Department Colloquium by <strong>{{ colloquium.speaker }}</strong><br>
+<strong>Title:</strong> {{ colloquium.title }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
-<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">Details</a>
+<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">See details</a>
 </p>
 
 {% endif %}
@@ -128,11 +82,11 @@ Announcements
 {% assign found = true %}
 
 <p>
-<strong>{{ seminar.speaker }}</strong><br>
-{{ seminar.title }}<br>
+Department Seminar by <strong>{{ seminar.speaker }}</strong><br>
+<strong>Title:</strong> {{ seminar.title }}<br>
 {{ seminar.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
-<a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">Details</a>
+<a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">See details</a>
 </p>
 
 {% endif %}
@@ -151,22 +105,3 @@ Announcements
 
 
 <!--{% include slideshow.html %}-->
-
-
-<!--<div class="frontpage-columns">
-  <h2>Caleidoscope</h2>
-  
-  <div class="frontpage-column frontpage-slideshow">
-    {% include slideshow.html %}
-  </div>
-  <div class="frontpage-column frontpage-calendar">
-    <h2>Department Calendar</h2>
-    <div class="calendar-container">
-      <iframe
-        src="https://calendar.google.com/calendar/embed?src=c_6f39f6e1595e6b87e7800d2002b6c3be6e5fc65dd0e78239c643f16fd79b3113%40group.calendar.google.com&ctz=Asia%2FKolkata"
-        frameborder="0"
-        scrolling="no">
-      </iframe>
-    </div>
-  </div>
-</div>-->
