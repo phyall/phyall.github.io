@@ -38,6 +38,15 @@ main:
       - title: Timetable and Schedule
         url: /timetable/
 
+  - title: Research
+    children:
+      - title: Topics
+        url: /topics/
+
+      - title: Facilities
+        url: /facilities/
+        
+
   - title: Members
     children:
       - title: Faculty
