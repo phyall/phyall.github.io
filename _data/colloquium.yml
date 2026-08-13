@@ -40,7 +40,7 @@
 - date: 2026-01-30
   datestamp: 20260130
   time: "3:30 PM"
-  title: 
+  title: null
   speaker: "Subhendra Mohanty"
   designation: Professor
   affiliation: "PRL Ahmedabad, IISER Bhopal"
@@ -52,7 +52,7 @@
 
 - date: 2023-06-05
   datestamp: 20230605
-  time:
+  time: "3:30 PM"
   title: "Quantum Networks"
   speaker: "Aditi Sen De"
   designation: Professor
@@ -66,7 +66,7 @@
 
 - date: 2025-01-15
   datestamp: 20250115
-  time:
+  time: "3:30 PM"
   title: "Galaxy-based gravitational wave observatory and its promises"
   speaker: "A Gopakumar"
   designation: Professor
