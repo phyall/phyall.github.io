@@ -58,23 +58,15 @@ Announcements
 {% for colloquium in site.data.colloquium %}
 {% assign event_date = colloquium.date | date: "%s" %}
 
-{% if colloquium.status == "upcoming" %}
-{% if event_date >= today %}
-{% if event_date <= four_weeks_later %}
-
+{% if colloquium.status == "upcoming" and event_date >= today and event_date <= four_weeks_later %}
 {% assign found = true %}
-{% assign colloquium_page = site.colloquium | where: "name", colloquium.datestamp | first %}
 
 <p><strong>{{ colloquium.speaker }}</strong><br>
 {{ colloquium.title }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
-{% if colloquium_page %}
-&nbsp;&nbsp;<a href="{{ colloquium_page.url | relative_url }}" class="badge">Details</a>
-{% endif %}
+&nbsp;&nbsp;<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">Details</a>
 </p>
 
-{% endif %}
-{% endif %}
 {% endif %}
 {% endfor %}
 
