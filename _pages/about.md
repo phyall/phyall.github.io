@@ -28,33 +28,6 @@ Announcements
 
 **Upcoming Colloquia**
 
-{% assign today = site.time | date: "%s" %}
-{% assign four_weeks = 2419200 %}
-{% assign deadline = today | plus: four_weeks %}
-
-{% assign upcoming_colloquium = nil %}
-
-{% for colloquium in site.data.colloquium %}
-  {% assign colloquium_date = colloquium.date | date: "%s" %}
-
-  {% if colloquium.status == "upcoming" %}
-    {% if colloquium_date >= today and colloquium_date <= deadline %}
-      {% assign upcoming_colloquium = colloquium %}
-      {% break %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-{% if upcoming_colloquium %}
-  <h3>{{ upcoming_colloquium.title }}</h3>
-  <p>
-    <strong>{{ upcoming_colloquium.speaker }}</strong><br>
-    {{ upcoming_colloquium.date | date: "%d %B %Y" }}
-  </p>
-{% else %}
-  <p>No upcoming colloquium</p>
-{% endif %}
-
 
 
 
