@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /research-areas/
-title: "Research Areas"
+permalink: /topic-wise/
+title: "Topic-wise groups of Faculty"
 sidebar: quicklinks
 ---
 
