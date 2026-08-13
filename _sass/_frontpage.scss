@@ -42,13 +42,13 @@
    ========================================================== */
 
 .upcoming-events {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .upcoming-event-card {
     border: 1px solid #d9e2ec;
     border-radius: 8px;
-    padding: 1.5rem 1.75rem;
+    padding: 1.25rem 1.5rem;
     margin-bottom: 1.5rem;
     background: #fff;
     text-align: left;
@@ -63,12 +63,12 @@
 }
 
 .upcoming-event-card h2 {
-    margin-top: 0;
-    margin-bottom: 1.25rem;
+    margin: 0 0 1rem 0;
+    padding: 0;
 }
 
 .upcoming-event-card p {
-    margin-bottom: 1.25rem;
+    margin: 0 0 1.25rem 0;
 }
 
 .upcoming-event-card p:last-child {
