@@ -28,28 +28,27 @@ Announcements
 
 **Upcoming Colloquia**
 
-{% assign current_month = site.time | date: "%m" %}
-{% assign current_year = site.time | date: "%Y" %}
+{% assign today = site.time | date: "%s" %}
+{% assign four_weeks = 2419200 %}
+{% assign deadline = today | plus: four_weeks %}
 
 {% assign upcoming_colloquium = nil %}
 
 {% for colloquium in site.data.colloquium %}
-  {% assign colloquium_month = colloquium.date | date: "%m" %}
-  {% assign colloquium_year = colloquium.date | date: "%Y" %}
+  {% assign colloquium_date = colloquium.date | date: "%s" %}
 
-  {% if colloquium.status == "upcoming"
-        and colloquium_year == current_year
-        and colloquium_month == current_month
-        and colloquium.date >= site.time %}
-    {% assign upcoming_colloquium = colloquium %}
-    {% break %}
+  {% if colloquium.status == "upcoming" %}
+    {% if colloquium_date >= today and colloquium_date <= deadline %}
+      {% assign upcoming_colloquium = colloquium %}
+      {% break %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
 {% if upcoming_colloquium %}
   <h3>{{ upcoming_colloquium.title }}</h3>
   <p>
-    {{ upcoming_colloquium.speaker }}<br>
+    <strong>{{ upcoming_colloquium.speaker }}</strong><br>
     {{ upcoming_colloquium.date | date: "%d %B %Y" }}
   </p>
 {% else %}
