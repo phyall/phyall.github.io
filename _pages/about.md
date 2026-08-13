@@ -23,6 +23,11 @@ Department Calendar
 
 To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
+Caleidoscope
+------
+
+{% include slideshow.html %}
+
 Announcements
 ------
 
@@ -78,6 +83,92 @@ Announcements
 {% unless found %}
 <p>No upcoming colloquium</p>
 {% endunless %}
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="upcoming-events">
+
+<div class="upcoming-event-card">
+
+<h2>Upcoming Colloquia</h2>
+
+{% assign today = site.time | date: "%s" | plus: 0 %}
+{% assign four_weeks_later = today | plus: 2419200 %}
+{% assign found = false %}
+
+{% for colloquium in site.data.colloquium %}
+{% assign event_date = colloquium.date | date: "%s" | plus: 0 %}
+
+{% if colloquium.status == "upcoming" %}
+{% if event_date >= today %}
+{% if event_date <= four_weeks_later %}
+
+{% assign found = true %}
+
+<p>
+<strong>{{ colloquium.speaker }}</strong><br>
+{{ colloquium.title }}<br>
+{{ colloquium.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">Details</a>
+</p>
+
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% unless found %}
+<p>No upcoming colloquia</p>
+{% endunless %}
+
+</div>
+
+
+<div class="upcoming-event-card">
+
+<h2>Upcoming Seminars</h2>
+
+{% assign found = false %}
+
+{% for seminar in site.data.seminar %}
+{% assign event_date = seminar.date | date: "%s" | plus: 0 %}
+
+{% if seminar.status == "upcoming" %}
+{% if event_date >= today %}
+{% if event_date <= four_weeks_later %}
+
+{% assign found = true %}
+
+<p>
+<strong>{{ seminar.speaker }}</strong><br>
+{{ seminar.title }}<br>
+{{ seminar.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">Details</a>
+</p>
+
+{% endif %}
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% unless found %}
+<p>No upcoming seminars</p>
+{% endunless %}
+
+</div>
+
+</div>
 
 
 
