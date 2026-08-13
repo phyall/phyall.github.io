@@ -51,12 +51,12 @@ Announcements
 
 
 
-{% assign today = site.time | date: "%s" %}
+{% assign today = site.time | date: "%s" | plus: 0 %}
 {% assign four_weeks_later = today | plus: 2419200 %}
 {% assign found = false %}
 
 {% for colloquium in site.data.colloquium %}
-{% assign event_date = colloquium.date | date: "%s" %}
+{% assign event_date = colloquium.date | date: "%s" | plus: 0 %}
 
 {% if colloquium.status == "upcoming" %}
 {% if event_date >= today %}
