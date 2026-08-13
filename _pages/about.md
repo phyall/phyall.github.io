@@ -32,23 +32,18 @@ Announcements
 {% assign found = false %}
 
 {% for colloquium in site.data.colloquium %}
-  {% assign event_date = colloquium.datestamp | append: "" %}
-
-  {% if colloquium.status == "upcoming" and event_date >= today %}
-    {% assign found = true %}
-
-    <p>
-      <strong>{{ colloquium.speaker }}</strong><br>
-      {{ colloquium.title }}<br>
-      {{ colloquium.date | date: "%d %B %Y" }}
-    </p>
-
-    {% break %}
-  {% endif %}
+{% assign event_date = colloquium.datestamp | append: "" %}
+{% if colloquium.status == "upcoming" and event_date >= today %}
+{% assign found = true %}
+<p><strong>{{ colloquium.speaker }}</strong><br>
+{{ colloquium.title }}<br>
+{{ colloquium.date | date: "%d %B %Y" }}</p>
+{% break %}
+{% endif %}
 {% endfor %}
 
 {% unless found %}
-  <p>No upcoming colloquium</p>
+<p>No upcoming colloquium</p>
 {% endunless %}
 
 
