@@ -7,12 +7,12 @@
   affiliation: "Some IIT"
   venue: "Department Seminar Room"
   type: "Physics Colloquium"
-  link: 
+  link:
   host: Amit Kumar Pal
   status: upcoming
 
-  - date: 2026-09-01
-  datestamp: 20260821
+- date: 2026-09-01
+  datestamp: 20260901
   time: "03:00 PM"
   title: "Quantum Information Colloquium"
   speaker: "Speaker Name"
@@ -20,7 +20,7 @@
   affiliation: "Some IIT"
   venue: "Department Seminar Room"
   type: "Physics Colloquium"
-  link: 
+  link:
   host: Amit Kumar Pal
   status: upcoming
 
@@ -33,7 +33,7 @@
   affiliation: "IIT Gandhinagar"
   venue: "Department Seminar Room"
   type: "Physics Colloquium"
-  link: 
+  link:
   host: Amit Kumar Pal
   status: upcoming
 
@@ -46,8 +46,8 @@
   affiliation: "PRL Ahmedabad, IISER Bhopal"
   venue: "Lecture Hall"
   type: "Physics Colloquium"
-  link: 
-  host: Akanksha Bhardwaj 
+  link:
+  host: Akanksha Bhardwaj
   status: past
 
 - date: 2023-06-05
@@ -62,7 +62,6 @@
   link:
   host: Amit Kumar Pal
   status: past
-
 
 - date: 2025-01-15
   datestamp: 20250115
