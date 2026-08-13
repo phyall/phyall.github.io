@@ -38,6 +38,14 @@ Announcements
 <p>Today: {{ today }}</p>
 
 
+{% assign today = site.time | date: "%Y%m%d" %}
+
+{% for colloquium in site.data.colloquium %}
+  {% if colloquium.datestamp >= today %}
+    <p>{{ colloquium.speaker }} — {{ colloquium.datestamp }}</p>
+  {% endif %}
+{% endfor %}
+
 
 
 
