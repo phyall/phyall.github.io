@@ -28,6 +28,30 @@ Announcements
 
 **Upcoming Colloquia**
 
+{% assign today = site.time | date: "%s" %}
+{% assign four_weeks_later = today | plus: 2419200 %}
+{% assign found = false %}
+
+{% for colloquium in site.data.colloquium %}
+  {% assign colloquium_time = colloquium.date | date: "%s" %}
+
+  {% if colloquium.status == "upcoming" %}
+    {% if colloquium_time >= today and colloquium_time <= four_weeks_later %}
+      {% assign found = true %}
+
+      <h3>{{ colloquium.title }}</h3>
+      <p>
+        <strong>{{ colloquium.speaker }}</strong><br>
+        {{ colloquium.date | date: "%d %B %Y" }}
+      </p>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% unless found %}
+  <p>No upcoming colloquium</p>
+{% endunless %}
+
 
 
 
