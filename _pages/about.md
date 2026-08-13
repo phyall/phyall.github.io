@@ -28,72 +28,50 @@ Caleidoscope
 
 {% include slideshow.html %}
 
+
+
+
+
+<div class="frontpage-columns">
+
+<div class="frontpage-column">
+
+<h2>Department Calendar</h2>
+
+<div class="calendar-container">
+  <iframe
+    src="https://calendar.google.com/calendar/embed?src=c_6f39f6e1595e6b87e7800d2002b6c3be6e5fc65dd0e78239c643f16fd79b3113%40group.calendar.google.com&ctz=Asia%2FKolkata"
+    frameborder="0"
+    scrolling="no">
+  </iframe>
+</div>
+
+<p>To integrate the calendar with your Google Calendar, click on "Add to Google Calendar".</p>
+
+</div>
+
+
+<div class="frontpage-column">
+
+<h2>Caleidoscope</h2>
+
+{% include slideshow.html %}
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 Announcements
 ------
-
-**Upcoming Colloquia**
-
-{% assign today = site.time | date: "%Y%m%d" %}
-{% assign found = false %}
-
-{% for colloquium in site.data.colloquium %}
-{% assign event_date = colloquium.datestamp | append: "" %}
-{% if colloquium.status == "upcoming" and event_date >= today %}
-{% assign found = true %}
-<p><strong>{{ colloquium.speaker }}</strong><br>
-{{ colloquium.title }}<br>
-{{ colloquium.date | date: "%d %B %Y" }}</p>
-{% break %}
-{% endif %}
-{% endfor %}
-
-{% unless found %}
-<p>No upcoming colloquium</p>
-{% endunless %}
-
-
-
-
-
-
-{% assign today = site.time | date: "%s" | plus: 0 %}
-{% assign four_weeks_later = today | plus: 2419200 %}
-{% assign found = false %}
-
-{% for colloquium in site.data.colloquium %}
-{% assign event_date = colloquium.date | date: "%s" | plus: 0 %}
-
-{% if colloquium.status == "upcoming" %}
-{% if event_date >= today %}
-{% if event_date <= four_weeks_later %}
-
-{% assign found = true %}
-
-<p><strong>{{ colloquium.speaker }}</strong><br>
-{{ colloquium.title }}<br>
-{{ colloquium.date | date: "%d %B %Y" }}
-&nbsp;&nbsp;<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">Details</a>
-</p>
-
-{% endif %}
-{% endif %}
-{% endif %}
-{% endfor %}
-
-{% unless found %}
-<p>No upcoming colloquium</p>
-{% endunless %}
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="upcoming-events">
 
