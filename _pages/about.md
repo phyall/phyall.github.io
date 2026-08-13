@@ -48,6 +48,9 @@ Announcements
 
 
 
+
+
+
 {% assign today = site.time | date: "%s" %}
 {% assign four_weeks_later = today | plus: 2419200 %}
 {% assign found = false %}
@@ -55,16 +58,23 @@ Announcements
 {% for colloquium in site.data.colloquium %}
 {% assign event_date = colloquium.date | date: "%s" %}
 
-{% if colloquium.status == "upcoming" and event_date >= today and event_date <= four_weeks_later %}
+{% if colloquium.status == "upcoming" %}
+{% if event_date >= today %}
+{% if event_date <= four_weeks_later %}
+
 {% assign found = true %}
-{% assign colloquium_url = "/physics-colloquium/" | append: colloquium.datestamp | append: "/" %}
+{% assign colloquium_page = site.colloquium | where: "name", colloquium.datestamp | first %}
 
 <p><strong>{{ colloquium.speaker }}</strong><br>
 {{ colloquium.title }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
-&nbsp;&nbsp;<a href="{{ colloquium_url | relative_url }}" class="badge">Details</a>
+{% if colloquium_page %}
+&nbsp;&nbsp;<a href="{{ colloquium_page.url | relative_url }}" class="badge">Details</a>
+{% endif %}
 </p>
 
+{% endif %}
+{% endif %}
 {% endif %}
 {% endfor %}
 
