@@ -28,25 +28,15 @@ Announcements
 
 **Upcoming Colloquia**
 
-{% for colloquium in site.data.colloquium %}
-  <p>{{ colloquium.speaker }}</p>
-{% endfor %}
-
-
-{% assign today = site.time | date: "%Y%m%d" %}
-
-<p>Today: {{ today }}</p>
-
-
 {% assign today = site.time | date: "%Y%m%d" %}
 
 {% for colloquium in site.data.colloquium %}
-  {% if colloquium.datestamp >= today %}
+  {% assign event_date = colloquium.datestamp | append: "" %}
+
+  {% if event_date >= today %}
     <p>{{ colloquium.speaker }} — {{ colloquium.datestamp }}</p>
   {% endif %}
 {% endfor %}
-
-
 
 
 
