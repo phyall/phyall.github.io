@@ -48,6 +48,27 @@ Announcements
 
 
 
+{% assign today = site.time | date: "%s" %}
+{% assign four_weeks_later = today | plus: 2419200 %}
+{% assign found = false %}
+
+{% for colloquium in site.data.colloquium %}
+{% assign event_date = colloquium.date | date: "%s" %}
+{% if colloquium.status == "upcoming" and event_date >= today and event_date <= four_weeks_later %}
+{% assign found = true %}
+<p><strong>{{ colloquium.speaker }}</strong><br>
+{{ colloquium.title }}<br>
+{{ colloquium.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;<a href="{{ '/colloquia/' | append: colloquium.datestamp | append: '/' | relative_url }}" class="badge">Details</a>
+</p>
+{% endif %}
+{% endfor %}
+
+{% unless found %}
+<p>No upcoming colloquium</p>
+{% endunless %}
+
+
 
 
 <!--{% include slideshow.html %}-->
