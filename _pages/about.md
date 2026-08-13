@@ -31,7 +31,7 @@ Announcements
 
 <div class="upcoming-event-card">
 
-<h2>Upcoming Colloquia</h2>
+<h3>Upcoming Colloquia</h3>
 
 {% assign today = site.time | date: "%s" | plus: 0 %}
 {% assign four_weeks_later = today | plus: 2419200 %}
@@ -68,7 +68,7 @@ Department Colloquium by <strong>{{ colloquium.speaker }}</strong><br>
 
 <div class="upcoming-event-card">
 
-<h2>Upcoming Seminars</h2>
+<h3>Upcoming Seminars</h3>
 
 {% assign found = false %}
 
