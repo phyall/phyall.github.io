@@ -1,7 +1,7 @@
 ---
 layout: archive
-permalink: /research/
-title: "Research"
+permalink: /topics/
+title: "Research Topics"
 sidebar: quicklinks
 ---
 
@@ -17,4 +17,4 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
 - Soft Matter and Statistical Physics (Theory)
 - String Theory
 
-See [here](research_areas.md) for a research area-wise grouping of faculty. 
+See [here](topic_wise.md) for a research area-wise grouping of faculty. 
