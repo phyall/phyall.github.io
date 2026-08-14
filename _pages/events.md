@@ -12,6 +12,35 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 
 **Upcoming Symposiums**
 
+{% assign found = false %}
+
+{% for symposium in site.data.symposium %}
+
+{% if symposium.status == "upcoming" %}
+
+{% assign found = true %}
+
+<p>
+<strong>Physics Symposium ({{ symposium.date }})</strong><br>
+{{ symposium.duration }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf"
+   target="_blank"
+   class="badge">Details</a>
+</p>
+
+{% endif %}
+
+{% endfor %}
+
+{% unless found %}
+<p>No upcoming symposium.</p>
+{% endunless %}
+
+
+
+
+
 {% for symposium in site.data.symposium %}
 
 {% if symposium.status == "upcoming" %}
@@ -39,7 +68,7 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 &nbsp;&nbsp;
 <a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf"
    target="_blank"
-   class="badge">PDF</a>
+   class="badge">Details</a>
 </p>
 
 {% endif %}
