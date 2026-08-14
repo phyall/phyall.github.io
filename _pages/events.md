@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /events/
-title: "Department Events"
+title: "Department Events and Activities"
 sidebar: quicklinks
 ---
 
@@ -39,24 +39,6 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 
 
 
-
-
-{% for symposium in site.data.symposium %}
-
-{% if symposium.status == "upcoming" %}
-
-<p>
-{{ symposium.date }}
-&nbsp;&nbsp;
-<a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf"
-   target="_blank"
-   class="badge">PDF</a>
-</p>
-
-{% endif %}
-
-{% endfor %}
-
 **Past Symposiums**
 
 {% for symposium in site.data.symposium %}
@@ -74,3 +56,9 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 {% endif %}
 
 {% endfor %}
+
+
+Physics Journal Club
+------
+
+The research scholars of the Department of Physics conduct a journal club where interesting ideas in Physics are discussed among the Department members. The Journal club talks are typically scheduled twice a month within a semester. 
