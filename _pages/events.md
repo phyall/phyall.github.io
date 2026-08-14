@@ -64,23 +64,6 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 
 
 
-{% for symposium in site.data.symposium %}
-
-{% if symposium.status == "past" %}
-
-<p>
-{{ symposium.date }}
-&nbsp;&nbsp;
-<a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf"
-   target="_blank"
-   class="badge">Details</a>
-</p>
-
-{% endif %}
-
-{% endfor %}
-
-
 Physics Journal Club
 ------
 
