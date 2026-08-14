@@ -11,3 +11,20 @@ sidebar: quicklinks
     {{ p.year }}
   </a>
 {% endfor %}
+
+
+
+<label for="msc-year">Select graduating year:</label>
+
+<select id="msc-year" onchange="if (this.value) window.location.href=this.value;">
+  <option value="">Select year</option>
+
+  {% assign pages = site.msc_alumni | sort: "year" | reverse %}
+
+  {% for p in pages %}
+    <option value="{{ p.url | relative_url }}">
+      {{ p.year }}
+    </option>
+  {% endfor %}
+
+</select>
