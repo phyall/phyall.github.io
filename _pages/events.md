@@ -41,6 +41,29 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 
 **Past Symposiums**
 
+{::nomarkdown}
+<label for="symposium-year">Select symposium:</label>
+
+<select id="symposium-year"
+        class="msc-year-select"
+        onchange="if (this.value) window.open(this.value, '_blank');">
+
+<option value="">Select</option>
+
+{% for symposium in site.data.symposium %}
+{% if symposium.status == "past" %}
+<option value="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf">
+{{ symposium.date }}
+</option>
+{% endif %}
+{% endfor %}
+
+</select>
+{:/nomarkdown}
+
+
+
+
 {% for symposium in site.data.symposium %}
 
 {% if symposium.status == "past" %}
