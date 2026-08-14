@@ -42,7 +42,7 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 **Past Symposiums**
 
 {::nomarkdown}
-<label for="symposium-year">Select symposium:</label>
+<label for="symposium-year">Select symposium year:</label>
 
 <select id="symposium-year"
         class="msc-year-select"
