@@ -10,7 +10,7 @@ Physics Symposium
 
 The Department of Physics organises a yearly in-house Physics symposium to provide a platform to the researchers in the department for showcasing their research. The event typically spans over two, or three days with keynote addresses from distinguished Physicists in India. 
 
-** Past Symposiums**
+**Past Symposiums**
 
 {% for symposium in site.data.symposium %}
 
