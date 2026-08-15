@@ -5,7 +5,7 @@ title: "Research Topics"
 sidebar: quicklinks
 ---
 
-Faculty in the Department of Physics perform state-of-the-art research in diverse directions. The set of broad research directions existing in the Department   
+Faculty in the Department of Physics perform state-of-the-art research in diverse directions. The set of broad research directions existing in the Department are as follows.  
 
 - Astrophysics (Theory)
 - Condensed Matter Physics (Experiment)
