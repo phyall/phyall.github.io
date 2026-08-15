@@ -48,7 +48,7 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
         class="msc-year-select"
         onchange="if (this.value) window.open(this.value, '_blank');">
 
-<option value="">Select</option>
+<option value="">Select Symposium Year</option>
 
 {% for symposium in site.data.symposium %}
 {% if symposium.status == "past" %}
