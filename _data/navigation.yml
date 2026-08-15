@@ -107,7 +107,7 @@ main:
   - title: Contact
     children: 
       - title: How to reach 
-        url: "https://iitpkd.ac.in/how-reach"
+        url: /howtoreach/
         
       - title: Committees
         url: /committees/
