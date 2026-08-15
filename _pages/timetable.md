@@ -10,6 +10,19 @@ Current Semester Course Allocation
 
 {% include course-allocation-table.html %}
 
+Department Calendar
+------
+
+<div class="calendar-container">
+  <iframe
+    src="https://calendar.google.com/calendar/embed?src=c_6f39f6e1595e6b87e7800d2002b6c3be6e5fc65dd0e78239c643f16fd79b3113%40group.calendar.google.com&ctz=Asia%2FKolkata" style="border: 0" width="600" height="450"
+    frameborder="0"
+    scrolling="no">
+  </iframe>
+</div>
+
+To integrate the calendar with your google calendar, click on "Add to Google Calendar".
+
 {% include timetable.html %}
 
 **Important notes:** 
