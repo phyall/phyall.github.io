@@ -103,11 +103,12 @@ main:
 
   - title: Contact
     children: 
-      - title: How to reach 
-        url: /howtoreach/
-        
       - title: Committees
         url: /committees/
 
       - title: Get in touch
-        url: /getintouch/ 
+        url: /getintouch/         
+    
+      - title: How to reach 
+        url: /howtoreach/
+        
