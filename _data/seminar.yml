@@ -250,23 +250,10 @@
   host:
   status: past
 
-- date: 2025-03-05
-  datestamp: 20250305
-  time:
-  title:
-  speaker: "Arnab Pal"
-  designation: 
-  affiliation: "IMSc Chennai"
-  venue:
-  type: "Physics Seminar"
-  link:
-  host:
-  status: past
-
 - date: 2025-03-19
   datestamp: 20250319
   time:
-  title:
+  title: "Beating the viscosity-conductivity inverse relation barrier to create a breakthrough electrolyte for emerging battery applications: Quantum mechanics holds the key"
   speaker: "Mark Tuckerman"
   designation: 
   affiliation: "New York University USA"
@@ -446,7 +433,7 @@
 - date: 2026-01-12
   datestamp: 20260112
   time:
-  title:
+  title: "Powering the Future: Solid-State and Lithium–Air Battery Technologies"
   speaker: "Sivaraj Pazhaniswamy"
   designation: 
   affiliation: "University of Oxford UK"
