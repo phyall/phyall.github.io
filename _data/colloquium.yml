@@ -1,33 +1,8 @@
-- date: 2026-08-21
-  datestamp: 20260821
-  time: 0300 HRS
-  title: Quantum Information Colloquium
-  speaker: Speaker Name
-  designation: Professor
-  affiliation: Some IIT
-  venue: Department Seminar Room
-  type: Physics Colloquium
-  link:
-  host: Amit Kumar Pal
-  status: upcoming
-
-- date: 2026-09-01
-  datestamp: 20260901
-  time: 0300 HRS
-  title: Quantum Information Colloquium
-  speaker: Speaker Name
-  designation: Professor
-  affiliation: Some IIT
-  venue: Department Seminar Room
-  type: "Physics Colloquium"
-  link:
-  host: Amit Kumar Pal
-  status: upcoming
 
 - date: 2026-10-21
   datestamp: 20261021
   time: 0300 HRS
-  title: Quantum Information Colloquium
+  title: tba
   speaker: Prasanna Venkatesh B
   designation: Professor
   affiliation: IIT Gandhinagar
