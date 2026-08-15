@@ -12,69 +12,16 @@ sections:
     groups: 
       - title: Address
         items:
-          - Department of Physics
-          - IIT Palakkad
-          - Kanjikode
-          - Palakkad – 678623
+          - Department of Physics, IIT Palakkad
+          - Kanjikode West, Palakkad – 678623, Kerala, India
           - Kerala, India
-      - title: Contacts
-        items: 
           - label: Phone
             value: "+91-491-209-1501"
           - label: Email
             value: "office_ph@iitpkd.ac.in"
             
-  
-  #- title: Contact
-  #  type: contact
-  #  groups:
-  #
-  #    - title: Phone
-  #      items:
-  #        - label: Office
-  #          value: "+91-491-209-1501"
-  #
-  #        #- label: HoD
-  #        #  value: "+91-491-209-1500"
-  #
-  #    - title: Email
-  #      items:
-  #        - label: Office
-  #          value: "office_ph@iitpkd.ac.in"
-  #
-  #        #- label: HoD
-  #        #  value: "hod_ph@iitpkd.ac.in"
 
 
 
-  - title: Join Us
-    type: links
-    items:
-      - title: PG Admission
-        url: "https://pgadmit.iitpkd.ac.in"
-      - title: Research Admission
-        url: "https://resap.iitpkd.ac.in"
-      - title: Faculty Recruitment
-        url: "https://facap.iitpkd.ac.in"
-      - title: Staff Recruitment
-        url: "https://joinus.iitpkd.ac.in"
 
 
-  - title: Important links
-    type: links
-    items:
-
-      - title: Institute Website
-        url: "https://iitpkd.ac.in/"
-
-      - title: Telephone Directory
-        url: "https://iitpkd.ac.in/TelephoneDirectory"
-
-      - title: Central Library
-        url: "https://lib.iitpkd.ac.in"
-
-      - title: HPC
-        url: "https://cet.iitpkd.ac.in/hpc"
-
-      - title: CIF and CMFF
-        url: "https://cif.iitpkd.ac.in"
