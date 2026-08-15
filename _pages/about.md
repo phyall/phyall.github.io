@@ -23,7 +23,7 @@ Department Calendar
 
 To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
-Announcements
+Colloquium Announcements
 ------
 
 <div class="upcoming-events">
@@ -58,6 +58,9 @@ Announcements
 {% endif %}
 
 </div>
+
+Seminar Announcements
+------
 
 
 Announcements
