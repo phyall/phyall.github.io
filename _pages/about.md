@@ -60,6 +60,37 @@ Colloquium Announcements
 Seminar Announcements
 ------
 
+<div class="upcoming-events">
+
+<div class="upcoming-event-card">
+
+{% assign upcoming_seminars = site.data.seminar
+  | where: "status", "upcoming"
+  | sort: "datestamp"
+%}
+
+{% if upcoming_seminars.size > 0 %}
+
+{% for seminar in upcoming_seminars %}
+
+<p>
+<strong>Speaker:</strong> {{ seminar.speaker }}<br>
+<strong>Title:</strong> {{ seminar.title }}<br>
+{{ seminar.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">See details</a>
+</p>
+
+{% endfor %}
+
+{% else %}
+
+<p>No upcoming seminars</p>
+
+{% endif %}
+
+</div>
+
 
 Announcements
 ------
