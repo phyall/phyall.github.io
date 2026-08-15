@@ -26,6 +26,12 @@ links:
       - title: Scholarships
         url: https://iitpkd.ac.in/scholarships-and-financial-assistance   
 
+      - title: Central Library
+        url: https://lib.iitpkd.ac.in
+
+      - title: HPC
+        url: https://cet.iitpkd.ac.in/hpc
+
   - title: Guidelines and Forms
   
     links:
@@ -38,16 +44,16 @@ links:
       - title: Administration
         url: https://iitpkd.ac.in/Administration-Section
 
-  - title: Join Us
+  - title: Admission Portals
   
     links: 
-      - title: PG Admission Portal
+      - title: PG 
         url: https://pgadmit.iitpkd.ac.in
 
-      - title: Research Admission Portal
+      - title: Research 
         url: https://resap.iitpkd.ac.in
 
-  - title: Recruitments
+  - title: Recruitment portals
 
     links:
       - title: Faculty 
