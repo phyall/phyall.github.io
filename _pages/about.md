@@ -23,7 +23,7 @@ Department Calendar
 
 To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
-Announce
+Announcements
 ------
 
 <div class="upcoming-events">
@@ -42,7 +42,7 @@ Announce
 {% for colloquium in upcoming_colloquia %}
 
 <p>
-Department Colloquium by <strong>{{ colloquium.speaker }}</strong><br>
+<strong>Speaker:</strong> {{ colloquium.speaker }}<br>
 <strong>Title:</strong> {{ colloquium.title }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
