@@ -19,6 +19,22 @@ rules, discrimination, living condition, harassment, and other non-academic issu
 
 **Members**
 
+{% assign committee = site.data.committee
+  | where: "title", "Department Grievance Cell (DGC)"
+  | first
+%}
+
+<ul>
+{% for member in committee.members %}
+  <li>
+    {{ member.name }}
+    {% if member.role %}
+      — {{ member.role }}
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
 Contact: dgrc_ph@iitpkd.ac.in 
 
 Department Consultation Committee (DCC)
