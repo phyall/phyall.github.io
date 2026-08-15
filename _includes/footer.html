@@ -1,6 +1,22 @@
 <footer class="dept-footer">
 
-  <div class="footer-container">
+  <div class="footer-bottom">
+
+    <div>
+      © {{ site.time | date: "%Y" }}
+      {{ site.data.footer.copyright.text }}
+    </div>
+
+    <div class="footer-last-updated">
+      Last updated:
+      {{ site.time | date: "%d %B %Y" }}
+    </div>
+
+  </div>
+
+</footer>  
+
+  <!--<div class="footer-container">
 
     {% for section in site.data.footer.sections %}
 
@@ -84,21 +100,7 @@
 
     {% endfor %}
 
-  </div>
+  </div>-->
 
 
-  <div class="footer-bottom">
 
-    <div>
-      © {{ site.time | date: "%Y" }}
-      {{ site.data.footer.copyright.text }}
-    </div>
-
-    <div class="footer-last-updated">
-      Last updated:
-      {{ site.time | date: "%d %B %Y" }}
-    </div>
-
-  </div>
-
-</footer>
