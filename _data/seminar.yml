@@ -1,4 +1,18 @@
+- date: 2026-10-22
+  datestamp: 20261022
+  time: 0300 HRS
+  title: To be announced
+  speaker: "Prasanna Venkatesh B"
+  designation: Associate Professor
+  affiliation: IIT Gandhinagar
+  venue:
+  type: Physics Seminar
+  link:
+  host: Amit Kumar Pal
+  status: upcoming 
 
+
+#%%%%%%%%%%%%%%%%%%%%%%%%%
 
 - date: 2023-09-11
   datestamp: 20230911
@@ -546,15 +560,4 @@
   host:
   status: past
 
-- date: 2026-10-22
-  datestamp: 20261022
-  time:
-  title: "TBA"
-  speaker: "Prasanna Venkatesh B"
-  designation: Associate Professor in Physics
-  affiliation: "IIT Gandhinagar"
-  venue:
-  type: "Physics Seminar"
-  link:
-  host:
-  status: upcoming  
+ 
