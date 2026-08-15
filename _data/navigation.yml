@@ -105,4 +105,12 @@ main:
         url: /facrecruits/
 
   - title: Contact
-    url: /contact/
+    children: 
+      - title: How to reach 
+        url: "https://iitpkd.ac.in/how-reach"
+        
+      - title: Committees
+        url: /committees/
+
+      - title: Get in touch
+        url: /getintouch/ 
