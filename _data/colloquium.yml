@@ -1,12 +1,12 @@
 
 - date: 2026-10-21
   datestamp: 20261021
-  time: 0300 HRS
+  time: 1500 HRS
   title: To be announced
   speaker: Prasanna Venkatesh B
   designation: Associate Professor
   affiliation: IIT Gandhinagar
-  venue: Department Seminar Room
+  venue: A01-102
   type: Physics Colloquium
   link:
   host: Amit Kumar Pal
@@ -14,7 +14,7 @@
 
 - date: 2026-01-30
   datestamp: 20260130
-  time: 0330 PM
+  time: 1530 HRS
   title: Looking for Gravitons in Gravitational Waves
   speaker: Subhendra Mohanty
   designation: Professor
@@ -27,7 +27,7 @@
 
 - date: 2023-06-05
   datestamp: 20230605
-  time: 0330 PM
+  time: 1530 HRS
   title: Quantum Networks
   speaker: Aditi Sen De
   designation: Professor
@@ -40,7 +40,7 @@
 
 - date: 2025-01-15
   datestamp: 20250115
-  time: 0330 HRS
+  time: 1530 HRS
   title: Galaxy-based gravitational wave observatory and its promises
   speaker: A Gopakumar
   designation: Professor
