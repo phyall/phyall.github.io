@@ -1,0 +1,103 @@
+# ==========================================================
+# Department Level Positions and Committees
+# ==========================================================
+
+- category: department
+  title: Head, Department of Physics
+  members:
+    - name: Uma Divakaran
+      role: Head
+
+
+- category: department
+  title: Faculty in Charge, Physics Laboratory
+  members:
+    - name: Bibhu Ranjan Sarangi
+      role: Faculty in Charge
+
+
+- category: department
+  title: Department Consultation Committee (DCC)
+  members:
+    - name: Uma Divakaran
+      role: HoD, Chairperson Ex-Officio
+    - name: Jayakumar Balakrishnan
+    - name: Prithvi Narayan
+    - name: Bibhu Ranjan Sarangi
+
+
+- category: department
+  title: Department Grievance Cell (DGC)
+  members:
+    - name: Kusum Dhochak
+      role: Chairperson
+    - name: Projjwal Banerjee
+    - name: Uma Divakaran
+
+
+- category: department
+  title: Department Research Committee (DRC)
+  members:
+    - name: Soham Manni
+      role: BoR, Chairperson Ex-Officio
+    - name: Uma Divakaran
+      role: HoD, Member Ex-Officio
+    - name: Amit Kumar Pal
+    - name: Vishwas V.
+
+
+# ==========================================================
+# Representation of the Department in Institute Committees
+# ==========================================================
+
+- category: institute
+  title: Senate
+  members:
+    - name: Uma Divakaran
+      role: HoD, Member
+    - name: Amit Kumar Pal
+      role: Member
+    - name: Jayakumar Balakrishnan
+      role: Member
+
+
+- category: institute
+  title: Board of Governors (BoG)
+  members:
+    - name: Jayakumar Balakrishnan
+      role: Member
+
+
+- category: institute
+  title: Board of Academic Courses (BAC)
+  members:
+    - name: Jayakumar Balakrishnan
+      role: Member
+
+
+- category: institute
+  title: Board of Research (BoR)
+  members:
+    - name: Soham Manni
+      role: Member
+
+
+- category: institute
+  title: Board of Industrial Collaboration and Sponsored Research (BoICSR)
+  members:
+    - name: Vishwas V.
+      role: Member
+
+
+- category: institute
+  title: Library Advisory Committee (LAC)
+  members:
+    - name: Ajeesh M. Omanakuttan
+      role: Member
+
+
+- category: institute
+  title: PG Admission Committee
+  members:
+    - name: Prithvi Narayan
+      role: Chairperson
