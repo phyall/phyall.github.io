@@ -19,4 +19,4 @@ The goal of the camp is to instil a spirit of inquiry and critical thinking, and
 National Science Day 
 ------
 
-To promote scientific thinking and honour India's scientific achievements, on the National Science Day (February 28), the Department of Physics, IIT Palakkad, welcomes students from various schools to a series of fun-field activities including scientific demonstrations, lab visits, popular level lectures, and quizzes 
+To promote scientific thinking and honour India's scientific achievements, on the National Science Day (February 28), the Department of Physics, IIT Palakkad, welcomes students from various schools to a series of fun-field activities including scientific demonstrations, lab visits, popular level lectures, and quizzes. 
