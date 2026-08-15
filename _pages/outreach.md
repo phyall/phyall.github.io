@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /outreach/
-title: "Outreach Activities"
+title: "Outreach Programs"
 sidebar: quicklinks
 ---
 
