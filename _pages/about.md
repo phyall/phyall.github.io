@@ -30,8 +30,6 @@ Colloquium Announcements
 
 <div class="upcoming-event-card">
 
-<h3>Upcoming Colloquia</h3>
-
 {% assign upcoming_colloquia = site.data.colloquium
   | where: "status", "upcoming"
   | sort: "datestamp"
