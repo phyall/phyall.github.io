@@ -28,7 +28,7 @@ Announcements
 
 <p>
 <strong>{{ colloquium.type }}</strong><br>
-<strong>Speaker:</strong> {{ colloquium.speaker }}<br>
+<strong>Speaker:</strong> {{ colloquium.speaker }}, {{ colloquium.affiliation }}<br>
 <strong>Title:</strong> {{ colloquium.title }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
@@ -61,7 +61,7 @@ Announcements
 
 <p>
 <strong>{{ seminar.type }}</strong><br>  
-<strong>Speaker:</strong> {{ seminar.speaker }}<br>
+<strong>Speaker:</strong> {{ seminar.speaker }}, {{ seminar.affiliation }}<br>
 <strong>Title:</strong> {{ seminar.title }}<br>
 {{ seminar.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
