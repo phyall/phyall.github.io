@@ -23,6 +23,42 @@ Department Calendar
 
 To integrate the calendar with your google calendar, click on "Add to Google Calendar".
 
+Announce
+------
+
+<div class="upcoming-events">
+
+<div class="upcoming-event-card">
+
+<h3>Upcoming Colloquia</h3>
+
+{% assign upcoming_colloquia = site.data.colloquium
+  | where: "status", "upcoming"
+  | sort: "datestamp"
+%}
+
+{% if upcoming_colloquia.size > 0 %}
+
+{% for colloquium in upcoming_colloquia %}
+
+<p>
+Department Colloquium by <strong>{{ colloquium.speaker }}</strong><br>
+<strong>Title:</strong> {{ colloquium.title }}<br>
+{{ colloquium.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">See details</a>
+</p>
+
+{% endfor %}
+
+{% else %}
+
+<p>No upcoming colloquia</p>
+
+{% endif %}
+
+</div>
+
 
 Announcements
 ------
