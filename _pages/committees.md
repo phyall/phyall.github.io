@@ -20,7 +20,7 @@ rules, discrimination, living condition, harassment, and other non-academic issu
 **Members**
 
 {% assign committee = site.data.committee
-  | where: "title", "Department Grievance Cell (DGC)"
+  | where: "title", "Department Grievance Redressal Committee (DGRC)"
   | first
 %}
 
