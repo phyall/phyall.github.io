@@ -13,6 +13,8 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
 Announcements
 ------
 
+**Colloquium**
+
 
 <div class="upcoming-event-card">
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
@@ -25,7 +27,6 @@ Announcements
 {% if colloquium_date >= today %}
 {% assign found = true %}
 <p>
-<strong>{{ colloquium.type }}</strong><br>
 <strong>Speaker:</strong> {{ colloquium.speaker }}, {{ colloquium.affiliation }}<br>
 <strong>Title:</strong> {{ colloquium.title }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
@@ -42,7 +43,7 @@ Announcements
 
 
 
-
+**Seminar**
 
 
 <div class="upcoming-event-card">
@@ -56,7 +57,6 @@ Announcements
 {% if seminar_date >= today %}
 {% assign found = true %}
 <p>
-<strong>{{ seminar.type }}</strong><br>
 <strong>Speaker:</strong> {{ seminar.speaker }}, {{ seminar.affiliation }}<br>
 <strong>Title:</strong> {{ seminar.title }}<br>
 {{ seminar.date | date: "%d %B %Y" }}
@@ -71,6 +71,7 @@ Announcements
 </div>
 
 
+**Events**
 
 
 <div class="upcoming-event-card">
