@@ -27,8 +27,8 @@ Announcements
 {% if colloquium_date >= today %}
 {% assign found = true %}
 <p>
-<strong>Speaker:</strong> {{ colloquium.speaker }}, {{ colloquium.affiliation }}<br>
 <strong>Title:</strong> {{ colloquium.title }}<br>
+<strong>Speaker:</strong> {{ colloquium.speaker }}, {{ colloquium.affiliation }}<br>
 {{ colloquium.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
 <a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">See details</a>
@@ -57,8 +57,8 @@ Announcements
 {% if seminar_date >= today %}
 {% assign found = true %}
 <p>
-<strong>Speaker:</strong> {{ seminar.speaker }}, {{ seminar.affiliation }}<br>
 <strong>Title:</strong> {{ seminar.title }}<br>
+<strong>Speaker:</strong> {{ seminar.speaker }}, {{ seminar.affiliation }}<br>
 {{ seminar.date | date: "%d %B %Y" }}
 &nbsp;&nbsp;
 <a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">See details</a>
