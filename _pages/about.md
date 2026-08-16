@@ -13,7 +13,7 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
 Announcements
 ------
 
-**Colloquium**
+**Colloquia**
 
 
 <div class="upcoming-event-card">
@@ -43,7 +43,7 @@ Announcements
 
 
 
-**Seminar**
+**Seminars**
 
 
 <div class="upcoming-event-card">
