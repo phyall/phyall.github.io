@@ -10,6 +10,11 @@ Department Research Committee (DRC)
 
 **Members**
 
+- Soham Manni (BoR Member, Chairperson Ex-Officio)
+- Uma Divakaran (HoD, Member Ex-Officio)
+- Amit Kumar Pal (Member) 
+- Vishwas Venkatesh (Member)
+
 Department Grievance Redressal Committee (DGRC)
 ------
 
@@ -19,21 +24,9 @@ rules, discrimination, living condition, harassment, and other non-academic issu
 
 **Members**
 
-{% assign committee = site.data.committee
-  | where: "title", "Department Grievance Redressal Committee (DGRC)"
-  | first
-%}
-
-<ul>
-{% for member in committee.members %}
-  <li>
-    {{ member.name }}
-    {% if member.role %}
-      — {{ member.role }}
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+- Kusum Dhochak (Chairperson)
+- Projjwal Banerjee (Member)
+- Uma Divakaran (Member) 
 
 Contact: dgrc_ph@iitpkd.ac.in 
 
@@ -41,6 +34,11 @@ Department Consultation Committee (DCC)
 ------
 
 **Members**
+
+- Uma Divakaran (HoD, Chairperson Ex-Officio)
+- Jayakumar Balakrishnan
+- Prithvi Narayan P
+- Bibhu Ranjan Sarangi
 
 
 
