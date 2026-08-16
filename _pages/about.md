@@ -46,6 +46,44 @@ Announcements
 </div>
 
 
+
+
+
+
+
+
+<div class="upcoming-event-card">
+{% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+{% assign upcoming_colloquia = site.data.colloquium
+  | sort: "datestamp"
+%}
+{% assign found = false %}
+{% for colloquium in upcoming_colloquia %}
+{% assign colloquium_date = colloquium.datestamp | plus: 0 %}
+{% if colloquium_date >= today %}
+{% assign found = true %}
+<p>
+<strong>{{ colloquium.type }}</strong><br>
+<strong>Speaker:</strong> {{ colloquium.speaker }}, {{ colloquium.affiliation }}<br>
+<strong>Title:</strong> {{ colloquium.title }}<br>
+{{ colloquium.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">See details</a>
+</p>
+{% endif %}
+{% endfor %}
+{% unless found %}
+<p>No upcoming colloquia</p>
+{% endunless %}
+</div>
+
+
+
+
+
+
+
+
 <!--<div class="upcoming-events">-->
 
 <div class="upcoming-event-card">
