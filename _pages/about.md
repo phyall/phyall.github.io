@@ -83,6 +83,36 @@ Announcements
 
 
 
+<div class="upcoming-event-card">
+{% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+{% assign upcoming_seminars = site.data.seminar
+  | sort: "datestamp"
+%}
+{% assign found = false %}
+{% for seminar in upcoming_seminars %}
+{% assign seminar_date = seminar.datestamp | plus: 0 %}
+{% if seminar_date >= today %}
+{% assign found = true %}
+<p>
+<strong>{{ seminar.type }}</strong><br>
+<strong>Speaker:</strong> {{ seminar.speaker }}, {{ seminar.affiliation }}<br>
+<strong>Title:</strong> {{ seminar.title }}<br>
+{{ seminar.date | date: "%d %B %Y" }}
+&nbsp;&nbsp;
+<a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">See details</a>
+</p>
+{% endif %}
+{% endfor %}
+{% unless found %}
+<p>No upcoming seminars</p>
+{% endunless %}
+</div>
+
+
+
+
+
+
 
 <!--<div class="upcoming-events">-->
 
