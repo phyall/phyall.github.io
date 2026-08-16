@@ -110,6 +110,35 @@ Announcements
 **Other Department Events**
 
 
+<div class="upcoming-event-card">
+{% assign today = 'now' | date: "%Y%m%d" | plus: 0 %}
+{% assign upcoming_events = site.data.events
+  | sort: "date"
+%}
+{% assign found = false %}
+{% for event in upcoming_events %}
+  {% if event.date %}
+    {% assign event_date = event.date | date: "%Y%m%d" | plus: 0 %}
+    {% if event_date >= today %}
+      {% assign found = true %}
+      <p>
+        <strong>{{ event.title }}</strong><br>
+        {{ event.date | date: "%d %B %Y" }}
+        {% if event.time %}
+          &nbsp;&nbsp;{{ event.time }}
+        {% endif %}
+        {% if event.venue %}
+          &nbsp;&nbsp;{{ event.venue }}
+        {% endif %}
+      </p>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% unless found %}
+<p>No upcoming department event</p>
+{% endunless %}
+</div>
+
 
 
 
