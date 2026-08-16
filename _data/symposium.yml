@@ -1,27 +1,34 @@
 - date: 2020
   status: past
+  starting: 
   duration: 
 
 - date: 2021
   status: past
+  starting: 2021-04-17
   duration: 
 
 - date: 2022
   status: past
+  starting: 2022-05-21
   duration: 
 
 - date: 2023
   status: past
+  starting: 2023-04-23
   duration: 
 
 - date: 2024
   status: past
+  starting: 2024-10-25
   duration: 
 
 - date: 2025
   status: past
+  starting: 
   duration: 
 
 - date: 2026
   status: tba
-  duration: "September 10-13, 2026"
+  starting: 2026-10-10
+  duration: 
