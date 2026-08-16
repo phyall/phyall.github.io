@@ -71,7 +71,7 @@ Announcements
 </div>
 
 
-**Events**
+**Symposiums**
 
 
 <div class="upcoming-event-card">
@@ -107,6 +107,7 @@ Announcements
 </div>
 
 
+**Other Department Events**
 
 
 
