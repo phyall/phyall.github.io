@@ -73,6 +73,41 @@ Announcements
 
 
 
+<div class="upcoming-event-card">
+{% assign today = 'now' | date: "%Y%m%d" | plus: 0 %}
+{% assign upcoming_symposiums = site.data.symposium
+  | sort: "starting"
+%}
+{% assign found = false %}
+{% for symposium in upcoming_symposiums %}
+  {% if symposium.starting %}
+    {% assign symposium_date = symposium.starting | date: "%Y%m%d" | plus: 0 %}
+    {% if symposium_date >= today %}
+      {% assign found = true %}
+      <p>
+        <strong>Department Symposium</strong><br>
+        {{ symposium.starting | date: "%d %B %Y" }}
+        {% if symposium.duration %}
+          &nbsp;&nbsp;({{ symposium.duration }})
+        {% endif %}
+        &nbsp;&nbsp;
+        <a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf"
+           target="_blank"
+           class="badge">
+          Details
+        </a>
+      </p>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% unless found %}
+<p>No upcoming symposiums</p>
+{% endunless %}
+</div>
+
+
+
+
 
 
 
