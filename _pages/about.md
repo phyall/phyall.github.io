@@ -102,7 +102,7 @@ Announcements
   {% endif %}
 {% endfor %}
 {% unless found %}
-<p>No upcoming event</p>
+<p>No upcoming symposium</p>
 {% endunless %}
 </div>
 
