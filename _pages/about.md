@@ -13,44 +13,6 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
 Announcements
 ------
 
-<!--<div class="upcoming-events">-->
-
-<div class="upcoming-event-card">
-
-{% assign upcoming_colloquia = site.data.colloquium
-  | where: "status", "upcoming"
-  | sort: "datestamp"
-%}
-
-{% if upcoming_colloquia.size > 0 %}
-
-{% for colloquium in upcoming_colloquia %}
-
-<p>
-<strong>{{ colloquium.type }}</strong><br>
-<strong>Speaker:</strong> {{ colloquium.speaker }}, {{ colloquium.affiliation }}<br>
-<strong>Title:</strong> {{ colloquium.title }}<br>
-{{ colloquium.date | date: "%d %B %Y" }}
-&nbsp;&nbsp;
-<a href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}/" class="badge">See details</a>
-</p>
-
-{% endfor %}
-
-{% else %}
-
-<p>No upcoming colloquia</p>
-
-{% endif %}
-
-</div>
-
-
-
-
-
-
-
 
 <div class="upcoming-event-card">
 {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
@@ -114,37 +76,6 @@ Announcements
 
 
 
-<!--<div class="upcoming-events">-->
-
-<div class="upcoming-event-card">
-
-{% assign upcoming_seminars = site.data.seminar
-  | where: "status", "upcoming"
-  | sort: "datestamp"
-%}
-
-{% if upcoming_seminars.size > 0 %}
-
-{% for seminar in upcoming_seminars %}
-
-<p>
-<strong>{{ seminar.type }}</strong><br>  
-<strong>Speaker:</strong> {{ seminar.speaker }}, {{ seminar.affiliation }}<br>
-<strong>Title:</strong> {{ seminar.title }}<br>
-{{ seminar.date | date: "%d %B %Y" }}
-&nbsp;&nbsp;
-<a href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}/" class="badge">See details</a>
-</p>
-
-{% endfor %}
-
-{% else %}
-
-<p>No upcoming seminars</p>
-
-{% endif %}
-
-</div>
 
 
 <!--{% include slideshow.html %}-->
