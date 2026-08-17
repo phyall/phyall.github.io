@@ -7,14 +7,10 @@ sidebar: quicklinks
 
 **Address:**
 
-Department of Physics
-
-Indian Institute of Technology Palakkad
-
-Kanjikode West, Palakkad - 678623, Kerala, India. 
-
-Phone (Office): +91 491 209 1501
-
+Department of Physics, 
+Indian Institute of Technology Palakkad, 
+Kanjikode West, Palakkad - 678623, Kerala, India.  
+Phone (Office): +91 491 209 1501 
 Email (Office): office_ph@iitpkd.ac.in 
 
 
