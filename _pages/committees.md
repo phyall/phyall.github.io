@@ -50,7 +50,7 @@ Representatives from the Department in Institute-level Committees
 
 - **Board of Research (BoR):** Soham Manni
 - **Board of Academic Courses (BAC):** Jayakumar Balakrishnan
-- **Board of Industrial Collaboration and Sponsored Research (BoICSR):** Vishwas Venkatesh
+- **Board of Industrial Collaboration and Sponsored Research (BoICSR):** Resmi PK
 - **Board of Governors (BoG):** Jayakumar Balakrishnan
 
 
