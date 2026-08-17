@@ -7,7 +7,8 @@ sidebar: quicklinks
 
 IIT Palakkad currently operates from two side-by-side campuses -- Nila Campus, and Sahyadri Campus. The offices of the members of the Department are located in Sahyadri, while the facilities are distributed over both campuses. The office numbers and the phone numbers of the Department members can be found [here](faculty.md).
 
-**Address:**
+Address
+------
 
 <p>Department of Physics<br> 
 Indian Institute of Technology Palakkad<br>
@@ -16,9 +17,11 @@ Phone (Office): +91 491 209 1501 <br>
 Email (Office): office_ph@iitpkd.ac.in</p>
 
 
-**Closest Railway Stations:** 
-- Palakkad Junction Railway Station (PGT), also known as the Olavakkode Junction
-- Palakkad Town Railway Station (PGTN)
+Closest Railway Stations
+------
+
+- **Palakkad Junction Railway Station (PGT)**, also known as the Olavakkode Junction
+- **Palakkad Town Railway Station (PGTN)**
 
 <div class="maps-container">
   <div class="map-card">
@@ -46,10 +49,11 @@ Email (Office): office_ph@iitpkd.ac.in</p>
 </div>
 
 
-**Closest Airports:** 
+Closest Airports
+------
 
-- Coimbatore International Airport (CJB) -- 1.5 Hrs along NH544.
-- Cochin International Airport (COK) -- 2.5 Hrs along NH544.
+- **Coimbatore International Airport (CJB):** 1.5 Hrs along NH544.
+- **Cochin International Airport (COK)** 2.5 Hrs along NH544.
 
 <div class="maps-container">
   <div class="map-card">
@@ -76,8 +80,9 @@ Email (Office): office_ph@iitpkd.ac.in</p>
   </div>
 </div>
 
-**From Palakkad Town to IIT Palakkad by bus**
+From Palakkad Town to IIT Palakkad by bus
+------
 
-- By KSRTC bus from Palakkad: Board any bus towards Coimbatore and get down at Puthusserry. Take an Auto rickshaw to IIT Nila Campus.
-- By Private Bus: Board any Kanjikkode bound bus. Get down near Kinar stop (Near Kendriya Vidyalaya, Kanjikkode and FCRI). Take an Auto rickshaw to IIT Nila Campus.
+- **By KSRTC bus from Palakkad:** Board any bus towards Coimbatore and get down at Puthusserry. Take an Auto rickshaw to IIT Nila Campus.
+- **By private bus:** Board any Kanjikkode bound bus. Get down near Kinar stop (Near Kendriya Vidyalaya, Kanjikkode and FCRI). Take an Auto rickshaw to IIT Nila Campus.
 
