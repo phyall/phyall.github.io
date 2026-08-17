@@ -17,11 +17,11 @@ The Department Research Committee (DRC) oversees all research-related matters wi
 - Amit Kumar Pal (Member) 
 - Vishwas Venkatesh (Member)
 
-Contact: drc_ph@iitpkd.ac.in
-
 <div class="faculty-links">
 <a href="mailto:drc_ph@iitpkd.ac.in">Email</a>
 </div>
+
+
 
 Department Grievance Redressal Committee (DGRC)
 ------
@@ -34,9 +34,11 @@ rules, discrimination, living condition, harassment, and other non-academic issu
 
 - Kusum Dhochak (Chairperson)
 - Projjwal Banerjee (Member)
-- Uma Divakaran (Member) 
+- Uma Divakaran (Member)
 
-Contact: dgrc_ph@iitpkd.ac.in 
+<div class="faculty-links">
+<a href="mailto:dgrc_ph@iitpkd.ac.in">Email</a>
+</div>
 
 Department Consultation Committee (DCC)
 ------
