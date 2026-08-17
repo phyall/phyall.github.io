@@ -76,3 +76,8 @@ Email (Office): office_ph@iitpkd.ac.in</p>
   </div>
 </div>
 
+**From Palakkad Town to IIT Palakkad by bus**
+
+- By KSRTC bus from Palakkad: Board any bus towards Coimbatore and get down at Puthusserry. Take an Auto rickshaw to IIT Nila Campus.
+- By Private Bus: Board any Kanjikkode bound bus. Get down near Kinar stop (Near Kendriya Vidyalaya, Kanjikkode and FCRI). Take an Auto rickshaw to IIT Nila Campus.
+
