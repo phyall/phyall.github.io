@@ -15,7 +15,7 @@ Email (Office): office_ph@iitpkd.ac.in
 
 
 **Closest Railway Stations:** 
-- Palakkad Junction Railway Station (PGT), known as the Olavakkode Junction
+- Palakkad Junction Railway Station (PGT), also known as the Olavakkode Junction
 - Palakkad Town Railway Station (PGTN)
 
 <div class="maps-container">
