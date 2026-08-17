@@ -39,7 +39,7 @@ courses:
     title: "Mechanics and Electromagnetic Theory Lab"
     instructor: "Jayakumar Balakrishnan; Kusum Dhochak"
     slot: "PA5"
-    room: "A01-Physics Lab"
+    room: "B03-Physics Lab"
     year: 1
     semester: 1
 
@@ -63,7 +63,7 @@ courses:
     title: "Advanced Physics Lab"
     instructor: "Soham Manni; Ajeesh M O; Bibhu Ranjan Sarangi"
     slot: "PA4"
-    room: "A01-Physics Lab"
+    room: "B03-Physics Lab"
     year: 2
     semester: 3
 
