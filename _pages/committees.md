@@ -19,6 +19,10 @@ The Department Research Committee (DRC) oversees all research-related matters wi
 
 Contact: drc_ph@iitpkd.ac.in
 
+<div class="faculty-links">
+<a href="mailto:drc_ph@iitpkd.ac.in">Email</a>
+</div>
+
 Department Grievance Redressal Committee (DGRC)
 ------
 
