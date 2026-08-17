@@ -9,10 +9,11 @@ IIT Palakkad currently operates from two side-by-side campuses -- Nila Campus, a
 
 **Address:**
 
-Department of Physics, Indian Institute of Technology Palakkad.
-Kanjikode West, Palakkad - 678623, Kerala, India.  
-Phone (Office): +91 491 209 1501. 
-Email (Office): office_ph@iitpkd.ac.in 
+<p>Department of Physics<br> 
+Indian Institute of Technology Palakkad<br>
+Kanjikode West, Palakkad - 678623, Kerala, India<br>  
+Phone (Office): +91 491 209 1501 <br>
+Email (Office): office_ph@iitpkd.ac.in</p>
 
 
 **Closest Railway Stations:** 
