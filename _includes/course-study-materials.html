@@ -1,0 +1,64 @@
+{% if course.study_materials %}
+
+<h2>Study Materials</h2>
+
+{% if course.study_materials.textbooks %}
+
+<h3>Textbooks</h3>
+
+<ol>
+  {% for book in course.study_materials.textbooks %}
+  <li>
+    <em>{{ book.title }}</em>
+
+    {% if book.authors %}
+    <br>
+    {{ book.authors }}
+    {% endif %}
+
+    {% if book.publisher %}
+    <br>
+    {{ book.publisher }}
+    {% endif %}
+
+    {% if book.isbn %}
+    <br>
+    ISBN: {{ book.isbn }}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+
+{% endif %}
+
+
+{% if course.study_materials.references %}
+
+<h3>References</h3>
+
+<ol>
+  {% for book in course.study_materials.references %}
+  <li>
+    <em>{{ book.title }}</em>
+
+    {% if book.authors %}
+    <br>
+    {{ book.authors }}
+    {% endif %}
+
+    {% if book.publisher %}
+    <br>
+    {{ book.publisher }}
+    {% endif %}
+
+    {% if book.isbn %}
+    <br>
+    ISBN: {{ book.isbn }}
+    {% endif %}
+  </li>
+  {% endfor %}
+</ol>
+
+{% endif %}
+
+{% endif %}
