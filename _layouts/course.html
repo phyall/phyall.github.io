@@ -1,0 +1,9 @@
+{% assign course = site.data.msc_courses
+  | where: "code", page.code
+  | first %}
+
+{% include course-metadata.html %}
+
+{% include course-syllabus.html %}
+
+{% include course-study-materials.html %}
