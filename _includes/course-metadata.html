@@ -1,6 +1,4 @@
-<p>TEST: course code = {{ page.code }}</p>
-
-<!--{% assign course = site.data.msc_courses | where: "code", page.code | first %}
+{% assign course = site.data.msc_courses | where: "code", page.code | first %}
 {% if course %}
 <div class="course-metadata">
   <p>
@@ -24,4 +22,4 @@
     {% endif %}
   </p>
 </div>
-{% endif %}-->
+{% endif %}
