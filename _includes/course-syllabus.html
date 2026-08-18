@@ -1,0 +1,31 @@
+{% if course.syllabus %}
+
+<h2>Syllabus</h2>
+
+{% for module in course.syllabus %}
+
+<div class="course-module">
+
+  <h3>
+    Module {{ module.module }}{% if module.title %}: {{ module.title }}{% endif %}
+  </h3>
+
+  {% if module.topics %}
+  <ul>
+    {% for topic in module.topics %}
+    <li>{{ topic }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if module.lectures %}
+  <p class="course-lectures">
+    <strong>Lectures:</strong> {{ module.lectures }}
+  </p>
+  {% endif %}
+
+</div>
+
+{% endfor %}
+
+{% endif %}
