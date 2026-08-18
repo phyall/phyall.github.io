@@ -2,6 +2,8 @@
 # Department Core
 #======================
 
+
+# Classical Mechanics
 - code: 5001
   title: Classical Mechanics
   program: msc
@@ -81,9 +83,9 @@
         - "Lorentz transformation" 
         - "Basic relativistic kinematics and dynamics"
         
-  #--------------------
+  # ===============
   # Study Materials
-  #--------------------
+  # ===============
   study_materials:
 
     textbooks:
@@ -110,7 +112,9 @@
         publisher: "Pergamon, 1974"
         isbn: ""
       
+# ============================================================================================================
 
+# Electromagnetic Theory
 - code: 5003
   title: Electromagnetic Theory
   program: msc
@@ -170,6 +174,88 @@
   status: approved
   course_type: PMC
   prerequisites: 5007
+  # =========
+  # Syllabus
+  # =========
+  syllabus:
+
+    - module: 1
+      title: "Hydrogen Atom and Atomic Structure"
+      lectures: 17
+      tutorials: 0
+
+      topics:
+        - "Hydrogen atom and its eigenvalues"
+        - "Spherical harmonics"
+        - "Fine and hyperfine structure of H atom"
+        - "Atomic structure of two-electron system: He"
+        - "Many-electron systems: Hartree-Fock method"
+        - "L-S coupling"
+        - "J-J coupling"
+        - "Interaction of electromagnetic field with atoms"
+        - "Zeeman effect"
+        - "Stark effect"
+        - "Paschen-Back effect"
+
+    - module: 2
+      title: "Molecular Physics and Spectroscopy"
+      lectures: 15
+      tutorials: 0
+
+      topics:
+        - "Electronic structure of H₂ molecule: LCAO and LCMO methods"
+        - "Molecular spectroscopy"
+        - "Microwave spectroscopy"
+        - "Infrared spectroscopy"
+        - "Raman spectroscopy"
+        - "Nuclear magnetic resonance (NMR)"
+        - "Electron spin resonance (ESR)"
+        - "X-ray spectroscopy"
+
+    - module: 3
+      title: "Lasers"
+      lectures: 10
+      tutorials: 0
+
+      topics:
+        - "Principles of laser action in atoms and molecules"
+        - "Einstein coefficients"
+        - "Population inversion"
+        - "Two-level and three-level systems"
+        - "He-Ne laser"
+        - "Other inert-gas lasers"
+        - "Atomic halogen lasers"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Physics of Atoms and Molecules"
+        authors: "B. H. Bransden and C. J. Joachain"
+        publisher: "Pearson"
+        isbn: "978-81-7758-279-6"
+
+      - title: "Fundamentals of Molecular Spectroscopy"
+        authors: "C. N. Banwell"
+        publisher: "McGraw Hill Education"
+        isbn: "978-9352601738"
+
+    references:
+
+      - title: "Introduction to Quantum Mechanics: With Applications to Chemistry"
+        authors: "Linus Pauling and E. B. Wilson"
+        publisher: "Dover"
+        isbn: "978-0486648712"
+
+      - title: "Atomic and Molecular Spectroscopy: Basic Concepts and Applications"
+        authors: "Rita Kakkar"
+        publisher: "Cambridge University Press"
+        isbn: "978-1107063884"
+        
+# ===========================================================================================================================  
 
 - code: 5004
   title: Electronics and Instrumentation
