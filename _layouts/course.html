@@ -1,9 +1,80 @@
-{% assign course = site.data.msc_courses
-  | where: "code", page.code
-  | first %}
+---
+layout: default
+---
 
-{% include course-metadata.html %}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
 
-{% include course-syllabus.html %}
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
 
-{% include course-study-materials.html %}
+<div id="main" role="main">
+
+  {% assign course = site.data.msc_courses
+    | where: "code", page.code
+    | first %}
+
+  {% if page.sidebar %}
+
+    <div class="page-layout">
+
+      <aside class="page-sidebar">
+
+        {% case page.sidebar %}
+
+          {% when "quicklinks" %}
+            {% include quicklinks.html %}
+
+          {% when "research" %}
+            {% include research-sidebar.html %}
+
+          {% when "courses" %}
+            {% include courses-sidebar.html %}
+
+        {% endcase %}
+
+      </aside>
+
+      <div class="archive page-content">
+
+        {% unless page.header.overlay_color or page.header.overlay_image %}
+          <h1 class="page__title">{{ page.title }}</h1>
+        {% endunless %}
+
+        {% include course-metadata.html %}
+
+        {% include course-syllabus.html %}
+
+        {% include course-study-materials.html %}
+
+        {{ content }}
+
+      </div>
+
+    </div>
+
+  {% else %}
+
+    <div class="archive">
+
+      {% unless page.header.overlay_color or page.header.overlay_image %}
+        <h1 class="page__title">{{ page.title }}</h1>
+      {% endunless %}
+
+      {% include course-metadata.html %}
+
+      {% include course-syllabus.html %}
+
+      {% include course-study-materials.html %}
+
+      {{ content }}
+
+    </div>
+
+  {% endif %}
+
+</div>
