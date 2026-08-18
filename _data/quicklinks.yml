@@ -6,28 +6,36 @@ links:
     url: https://accounts.google.com
 
   - title: IIT Palakkad 
+    url: https://iitpkd.ac.in
+
+  - title: Telephone Directory
+    url: https://iitpkd.ac.in/TelephoneDirectory     
+
+  - title: Systems
 
     links: 
-      - title: Homepage
-        url: https://iitpkd.ac.in
-
-      - title: Telephone Directory
-        url: https://iitpkd.ac.in/TelephoneDirectory
-
-      - title: Academic Calendar
-        url: https://iitpkd.ac.in/sites/default/files/2025-12/04fc762b-0570-4a05-a9de-8a8011f12b4a.pdf
+    
+      #- title: Academic Calendar
+      #  url: https://iitpkd.ac.in/sites/default/files/2025-12/04fc762b-0570-4a05-a9de-8a8011f12b4a.pdf
 
       - title: Room Booking
         url: https://mrbs.iitpkd.ac.in/    
 
-      - title: Records Portal
+      - title: Records 
         url: https://records.iitpkd.ac.in/
     
       - title: LMS | Moodle
         url: https://lms.iitpkd.ac.in/login/index.php   
 
-      - title: Scholarships
-        url: https://iitpkd.ac.in/scholarships-and-financial-assistance   
+      - title: Support 
+        url: https://support.iitpkd.ac.in
+
+      - title: IDP
+        url: https://idp.iitpkd.ac.in
+
+  - title: Central Facilities
+
+    links: 
 
       - title: Central Library
         url: https://lib.iitpkd.ac.in
@@ -38,15 +46,12 @@ links:
       - title: CIF and CMFF
         url: "https://cif.iitpkd.ac.in"  
 
-      - title: Support Portal
-        url: https://support.iitpkd.ac.in
 
-      - title: IDP
-        url: https://idp.iitpkd.ac.in
 
   - title: Guidelines and Forms
   
     links:
+    
       - title: Academic
         url: https://iitpkd.ac.in/academics-downloads
 
@@ -55,24 +60,28 @@ links:
 
       - title: Administration
         url: https://iitpkd.ac.in/Administration-Section
+        
 
-  - title: Admission Portals
+  - title: For Students
   
     links: 
-      - title: PG 
+      - title: PG Admission 
         url: https://pgadmit.iitpkd.ac.in
 
-      - title: Research 
+      - title: Research Admission
         url: https://resap.iitpkd.ac.in
 
-  - title: Recruitment portals
+      - title: Scholarships
+        url: https://iitpkd.ac.in/scholarships-and-financial-assistance  
 
-    links:
-      - title: Faculty 
-        url: https://facap.iitpkd.ac.in
-        
-      - title: Staff
-        url: https://joinus.iitpkd.ac.in
+  #- title: Recruitment
+
+  #  links:
+  #    - title: Faculty 
+  #      url: https://facap.iitpkd.ac.in
+  #      
+  #    - title: Staff
+  #      url: https://joinus.iitpkd.ac.in
       
 
   #- title: Physics Time Table
