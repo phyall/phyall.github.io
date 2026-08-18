@@ -30,8 +30,8 @@ links:
       - title: Support 
         url: https://support.iitpkd.ac.in
 
-      - title: IDP
-        url: https://idp.iitpkd.ac.in
+      #- title: IDP
+      #  url: https://idp.iitpkd.ac.in
 
   - title: Central Facilities
 
