@@ -16,6 +16,100 @@
   status: approved
   course_type: PMC
   prerequisites: 
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+  
+    - module: 1
+      title: "Preliminaries"
+      lectures: 12
+      tutorials: 3
+      
+      topics: 
+        - "Mechanics of a system of particles in vector form"
+        - "Conservation of linear momentum, energy and angular momentum" 
+        - "Lagrangian formulation and the action principle: Configuration space, generalised coordinates" 
+        - "Constrained systems, motion in a central field, including Kepler problem, Rutherford scattering, Small oscillations, normal modes"
+      
+    - module: 2
+      title: "Rigid body kinematics and dynamics"
+      lectures: 8
+      tutorials: 2
+
+      topics: 
+        - "Kinematics, rotational kinetic energy" 
+        - "Moments of inertia, inertia tensor" 
+        - "Euler angles, angular momentum" 
+        - "Free rigid body motion"
+
+    - module: 3
+      title: "Hamiltonian formulation"
+      lectures: 9
+      tutorials: 3
+
+      topics: 
+        - "Legendre transformation" 
+        - "Canonical momentum" 
+        - "Poisson brackets" 
+        - "Canonical transformations"
+
+
+    - module: 4
+      title: "Dynamical Systems"
+      lectures: 9
+      tutorials: 3
+
+      topics: 
+        - "First order systems"
+        - "Second order systems" 
+        - "Linear Stability analysis"
+        - "Classification of Fixed points" 
+        - "Newtonian systems - Phase space reduction" 
+        - "Cyclic coordinates" 
+        - "Phase space description and evolution" 
+        - "Periodically driven systems"
+
+    - module: 5
+      title: "Relativistic mechanics"
+      lectures: 5
+      tutorials: 2
+
+
+      topics: 
+        - "Space-time, 4-vectors" 
+        - "Lorentz transformation" 
+        - "Basic relativistic kinematics and dynamics"
+        
+  #--------------------
+  # Study Materials
+  #--------------------
+  study_materials:
+
+    textbooks:
+    
+      - title: "Classical Mechanics"
+        authors: "H. Goldstein, Charles P Poole, John Safko"
+        publisher: "Pearson India Education Services Pvt Ltd"
+        isbn: "978-81-317-5891-5"
+
+      - title: "Introduction to Dynamics"
+        authors: "Ian Percivel and Derek Richards"
+        publisher: "Cambridge University Press"
+        isbn: "9780521281492"
+
+    references:
+
+      - title: "Classical Mechanics"
+        authors: "N C Rana and P S Joag"
+        publisher: "Cambridge University Press"
+        isbn: "9780521281492"
+
+      - title: "Mechanics : Course of Theoretical Physics, Vol. 1"
+        authors: "L. Landau and E. Lifshitz"
+        publisher: "Pergamon, 1974"
+        isbn: ""
+      
 
 - code: 5003
   title: Electromagnetic Theory
