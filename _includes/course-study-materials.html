@@ -9,22 +9,7 @@
 <ol>
   {% for book in course.study_materials.textbooks %}
   <li>
-    <em>{{ book.title }}</em>
-
-    {% if book.authors %}
-    <br>
-    {{ book.authors }}
-    {% endif %}
-
-    {% if book.publisher %}
-    <br>
-    {{ book.publisher }}
-    {% endif %}
-
-    {% if book.isbn %}
-    <br>
-    ISBN: {{ book.isbn }}
-    {% endif %}
+    <em>{{ book.title }}</em>{% if book.authors %}, {{ book.authors }}{% endif %}{% if book.publisher %}, {{ book.publisher }}{% endif %}{% if book.isbn %}, ISBN: {{ book.isbn }}{% endif %}
   </li>
   {% endfor %}
 </ol>
@@ -39,22 +24,7 @@
 <ol>
   {% for book in course.study_materials.references %}
   <li>
-    <em>{{ book.title }}</em>
-
-    {% if book.authors %}
-    <br>
-    {{ book.authors }}
-    {% endif %}
-
-    {% if book.publisher %}
-    <br>
-    {{ book.publisher }}
-    {% endif %}
-
-    {% if book.isbn %}
-    <br>
-    ISBN: {{ book.isbn }}
-    {% endif %}
+    <em>{{ book.title }}</em>{% if book.authors %}, {{ book.authors }}{% endif %}{% if book.publisher %}, {{ book.publisher }}{% endif %}{% if book.isbn %}, ISBN: {{ book.isbn }}{% endif %}
   </li>
   {% endfor %}
 </ol>
