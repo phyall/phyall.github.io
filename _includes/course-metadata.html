@@ -13,7 +13,7 @@
       {% assign prerequisites = course.prerequisites | split: "," %}
       {% for prerequisite in prerequisites %}
         {% assign prerequisite = prerequisite | strip %}
-        <a href="{{ '/msc-courses/' | append: prerequisite | append: '/' | relative_url }}">
+        <a href="{{ '/msc-all-courses/' | append: prerequisite | append: '/' | relative_url }}">
           PH{{ prerequisite }}
         </a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
