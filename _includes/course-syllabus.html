@@ -11,16 +11,22 @@
   </h3>
 
   {% if module.topics %}
-  <ul>
+  <p>
     {% for topic in module.topics %}
-    <li>{{ topic }}</li>
-    {% endfor %}
-  </ul>
+      {{ topic }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}.
+  </p>
   {% endif %}
 
   {% if module.lectures %}
-  <p class="course-lectures">
+  <p class="course-hours">
     <strong>Lectures:</strong> {{ module.lectures }}
+  </p>
+  {% endif %}
+
+  {% if module.tutorials %}
+  <p class="course-hours">
+    <strong>Tutorials:</strong> {{ module.tutorials }}
   </p>
   {% endif %}
 
