@@ -451,6 +451,119 @@
   course_type: PMC
   prerequisites: 5007
 
+  # ==============
+  # syllabus
+  # ==============
+  syllabus:
+
+    - module: 1
+      title: "Angular momentum algebra"
+      lectures: 7
+      tutorials: 0
+
+      topics:
+        - "Eigenstates and eigenvalues of angular momentum"
+        - "Addition of angular momenta"
+        - "Clebsch-Gordan coefficients"
+
+    - module: 2
+      title: "Approximation Methods"
+      lectures: 20
+      tutorials: 0
+
+      topics:
+        - "Time-independent perturbation theory: non-degenerate and degenerate cases with examples"
+        - "WKB method"
+        - "Variational method"
+        - "Time-dependent perturbation theory"
+        - "Interaction picture"
+        - "Dyson series and transition probabilities"
+        - "Interaction of atom with electromagnetic radiation"
+        - "Emission and absorption of photons"
+        - "Fermi's golden rule"
+
+    - module: 3
+      title: "Relativistic Quantum Mechanics"
+      lectures: 5
+      tutorials: 0
+
+      topics:
+        - "Klein-Gordon equation"
+        - "Dirac equation"
+        - "Spinors"
+        - "Negative energy solutions and their interpretation"
+
+    - module: 4
+      title: "Scattering"
+      lectures: 5
+      tutorials: 0
+
+      topics:
+        - "Lippmann-Schwinger equation"
+        - "Scattering amplitude and cross section"
+        - "Born approximation"
+
+    - module: 5
+      title: "Path integral approach to Quantum Mechanics"
+      lectures: 5
+      tutorials: 0
+
+      topics:
+        - "Kernel, propagator and transition amplitudes"
+        - "Feynman's path integrals"
+        - "Examples of free particle and harmonic oscillator"
+
+  # ==============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Modern Quantum Mechanics"
+        authors: "J. J. Sakurai"
+        publisher: "Addison Wesley; Revised Edition"
+        isbn: "978-0201539295"
+
+      - title: "Introduction to Quantum Mechanics"
+        authors: "David J. Griffiths"
+        publisher: "Pearson Education; 2nd Edition"
+        isbn: "978-9332542891"
+
+      - title: "Quantum Mechanics and Path Integrals"
+        authors: "R. P. Feynman, A. R. Hibbs"
+        publisher: "Dover Publications"
+        isbn: "978-0486477220"
+
+    references:
+
+      - title: "Principles of Quantum Mechanics"
+        authors: "R. Shankar"
+        publisher: "Springer; 2nd Edition"
+        isbn: "978-0306447907"
+
+      - title: "Quantum Mechanics"
+        authors: "C. Cohen Tannoudji, Bernard Diu, Frank Laloe"
+        publisher: "Wiley-VCH"
+        isbn: "978-0471569527"
+
+      - title: "Quantum Mechanics"
+        authors: "Eugene Merzbacher"
+        publisher: "Wiley; 3rd Edition"
+        isbn: "978-8126533176"
+
+      - title: "Lectures on Quantum Mechanics"
+        authors: "Steven Weinberg"
+        publisher: "Cambridge University Press; 2nd Edition"
+        isbn: "978-1316276105"
+
+      - title: "Quantum Mechanics"
+        authors: "V. K. Thankappan"
+        publisher: "New Academic Science Ltd; 4th Revised Edition"
+        isbn: "978-1781830147"
+
+# ==============================================================================================================================        
+
 - code: 5009
   title: Condensed Matter Physics
   program: msc
