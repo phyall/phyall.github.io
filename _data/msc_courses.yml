@@ -329,14 +329,14 @@
   syllabus:
 
     - module: 1
-      title: "Hydrogen Atom and Atomic Structure"
+      title: "Atomic Structure"
       lectures: 17
       tutorials: 0
 
       topics:
-        - "Hydrogen atom and its eigenvalues"
-        - "Spherical harmonics"
-        - "Fine and hyperfine structure of H atom"
+        #- "Hydrogen atom and its eigenvalues"
+        #- "Spherical harmonics"
+        #- "Fine and hyperfine structure of H atom"
         - "Atomic structure of two-electron system: He"
         - "Many-electron systems: Hartree-Fock method"
         - "L-S coupling"
