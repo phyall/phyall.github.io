@@ -167,144 +167,144 @@
   # ==============
   syllabus:
 
-  - module: 1
-    title: "Origin of quantum theory"
-    lectures: 3
-    tutorials: 0
+    - module: 1
+      title: "Origin of quantum theory"
+      lectures: 3
+      tutorials: 0
 
-    topics:
-      - "Basic principles of quantum mechanics"
+      topics:
+        - "Basic principles of quantum mechanics"
 
-  - module: 2
-    title: "Linear Algebra"
-    lectures: 7
-    tutorials: 3
+    - module: 2
+      title: "Linear Algebra"
+      lectures: 7
+      tutorials: 3
 
-    topics:
-      - "Linear vector spaces"
-      - "Bra and ket vectors"
-      - "Inner products"
-      - "Hilbert space"
-      - "Operators"
-      - "Completeness and orthonormality"
-      - "Basis sets and change of basis"
-      - "Eigenstates and eigenvalues"
-      - "Wave-functions"
-      - "Expectation values"
-      - "Uncertainty relation"
-      - "Position and momentum representations"
+      topics:
+        - "Linear vector spaces"
+        - "Bra and ket vectors"
+        - "Inner products"
+        - "Hilbert space"
+        - "Operators"
+        - "Completeness and orthonormality"
+        - "Basis sets and change of basis"
+        - "Eigenstates and eigenvalues"
+        - "Wave-functions"
+        - "Expectation values"
+        - "Uncertainty relation"
+        - "Position and momentum representations"
 
-  - module: 3
-    title: "Hilbert space formulation of quantum mechanics"
-    lectures: 5
-    tutorials: 2
+    - module: 3
+      title: "Hilbert space formulation of quantum mechanics"
+      lectures: 5
+      tutorials: 2
 
-    topics:
-      - "States, observables and measurement"
-      - "Discrete and continuous spectra"
-      - "Wavefunctions in position and momentum space"
+      topics:
+        - "States, observables and measurement"
+        - "Discrete and continuous spectra"
+        - "Wavefunctions in position and momentum space"
 
-  - module: 4
-    title: "Dynamics"
-    lectures: 5
-    tutorials: 2
+    - module: 4
+      title: "Dynamics"
+      lectures: 5
+      tutorials: 2
 
-    topics:
-      - "Time evolution"
-      - "Hamiltonian"
-      - "Schrodinger equation"
-      - "Schrodinger and Heisenberg picture"
-      - "Probability current"
+      topics:
+        - "Time evolution"
+        - "Hamiltonian"
+        - "Schrodinger equation"
+        - "Schrodinger and Heisenberg picture"
+        - "Probability current"
 
-  - module: 5
-    title: "Simple 1D Examples"
-    lectures: 7
-    tutorials: 2
+    - module: 5
+      title: "Simple 1D Examples"
+      lectures: 7
+      tutorials: 2
 
-    topics:
-      - "Particle in a box"
-      - "Delta function"
-      - "Finite well and potential barriers"
-      - "Bound states and scattering"
-      - "Harmonic oscillator: wavefunction and operator approach"
+      topics:
+        - "Particle in a box"
+        - "Delta function"
+        - "Finite well and potential barriers"
+        - "Bound states and scattering"
+        - "Harmonic oscillator: wavefunction and operator approach"
 
-  - module: 6
-    title: "Symmetries in Quantum Mechanics"
-    lectures: 5
-    tutorials: 2
+    - module: 6
+      title: "Symmetries in Quantum Mechanics"
+      lectures: 5
+      tutorials: 2
 
-    topics:
-      - "Discrete symmetries"
-      - "Translation"
-      - "Parity"
-      - "Time reversal"
-      - "Rotational symmetry"
+      topics:
+        - "Discrete symmetries"
+        - "Translation"
+        - "Parity"
+        - "Time reversal"
+        - "Rotational symmetry"
 
-  - module: 7
-    title: "Hydrogen atom"
-    lectures: 8
-    tutorials: 2
+    - module: 7
+      title: "Hydrogen atom"
+      lectures: 8
+      tutorials: 2
 
-    topics:
-      - "Orbital angular momentum operators"
-      - "Operator and wave function approach"
-      - "Spherical harmonics"
-      - "Fine and hyperfine structure of H atom"
+      topics:
+        - "Orbital angular momentum operators"
+        - "Operator and wave function approach"
+        - "Spherical harmonics"
+        - "Fine and hyperfine structure of H atom"
 
-  - module: 8
-    title: "Systems of identical particles"
-    lectures: 2
-    tutorials: 1
+    - module: 8
+      title: "Systems of identical particles"
+      lectures: 2
+      tutorials: 1
 
-    topics:
-      - "Permutation symmetry"
-      - "Symmetric and antisymmetric wavefunctions"
-      - "Bosons and Fermions"
-      - "Pauli's exclusion principle"
+      topics:
+        - "Permutation symmetry"
+        - "Symmetric and antisymmetric wavefunctions"
+        - "Bosons and Fermions"
+        - "Pauli's exclusion principle"
 
-# ==============
-# Study Materials
-# ===============
-study_materials:
+  # ==============
+  # Study Materials
+  # ===============
+  study_materials:
 
-  textbooks:
+    textbooks:
 
-    - title: "Modern Quantum Mechanics"
-      authors: "J. J. Sakurai"
-      publisher: "Addison Wesley; Revised Edition"
-      isbn: "978-0201539295"
+      - title: "Modern Quantum Mechanics"
+        authors: "J. J. Sakurai"
+        publisher: "Addison Wesley; Revised Edition"
+        isbn: "978-0201539295"
 
-    - title: "Introduction to Quantum Mechanics"
-      authors: "David J. Griffiths"
-      publisher: "Pearson Education; 2nd Edition"
-      isbn: "978-9332542891"
+      - title: "Introduction to Quantum Mechanics"
+        authors: "David J. Griffiths"
+        publisher: "Pearson Education; 2nd Edition"
+        isbn: "978-9332542891"
 
-  references:
+    references:
 
-    - title: "Principles of Quantum Mechanics"
-      authors: "R. Shankar"
-      publisher: "Springer; 2nd Edition"
-      isbn: "978-0306447907"
+      - title: "Principles of Quantum Mechanics"
+        authors: "R. Shankar"
+        publisher: "Springer; 2nd Edition"
+        isbn: "978-0306447907"
 
-    - title: "Quantum Mechanics"
-      authors: "C. Cohen Tannoudji, Bernard Diu, Frank Laloe"
-      publisher: "Wiley-VCH"
-      isbn: "978-0471569527"
+      - title: "Quantum Mechanics"
+        authors: "C. Cohen Tannoudji, Bernard Diu, Frank Laloe"
+        publisher: "Wiley-VCH"
+        isbn: "978-0471569527"
 
-    - title: "Quantum Mechanics"
-      authors: "Eugene Merzbacher"
-      publisher: "Wiley; 3rd Edition"
-      isbn: "978-8126533176"
+      - title: "Quantum Mechanics"
+        authors: "Eugene Merzbacher"
+        publisher: "Wiley; 3rd Edition"
+        isbn: "978-8126533176"
 
-    - title: "Lectures on Quantum Mechanics"
-      authors: "Steven Weinberg"
-      publisher: "Cambridge University Press; 2nd Edition"
-      isbn: "978-1316276105"
+      - title: "Lectures on Quantum Mechanics"
+        authors: "Steven Weinberg"
+        publisher: "Cambridge University Press; 2nd Edition"
+        isbn: "978-1316276105"
 
-    - title: "Quantum Mechanics"
-      authors: "V. K. Thankappan"
-      publisher: "New Academic Science Ltd; 4th Revised Edition"
-      isbn: "978-1781830147"
+      - title: "Quantum Mechanics"
+        authors: "V. K. Thankappan"
+        publisher: "New Academic Science Ltd; 4th Revised Edition"
+        isbn: "978-1781830147"
 
 
 # ===============================================================================================================================
