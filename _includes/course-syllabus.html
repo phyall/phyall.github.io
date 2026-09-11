@@ -11,11 +11,11 @@
     {% if module.lectures or module.tutorials %}
       (
       {% if module.lectures %}
-        Lectures: {{ module.lectures }}
+        Lecture hours: {{ module.lectures }}
       {% endif %}
       {% if module.lectures and module.tutorials %}, {% endif %}
       {% if module.tutorials %}
-        Tutorials: {{ module.tutorials }}
+        Tutorial hours: {{ module.tutorials }}
       {% endif %}
       )
     {% endif %}
