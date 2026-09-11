@@ -2,6 +2,22 @@
 # Department Core
 #======================
 
+# Coding 
+#- code: 5108
+#  title: Scientific Computing for Physicists
+#  program: msc
+#  category: core
+#  ltpc: "0-0-2-1"
+#  credit: 3
+#  type: theory
+#  year: 1
+#  semester: 1
+#  offered_by: dop
+#  link:
+#  status: approved
+#  course_type: PMC
+#  prerequisites: 
+
 
 # Classical Mechanics
 - code: 5001
@@ -27,6 +43,7 @@
       title: "Preliminaries"
       lectures: 12
       tutorials: 3
+      labs: 0
       
       topics: 
         - "Mechanics of a system of particles in vector form"
@@ -38,6 +55,7 @@
       title: "Rigid body kinematics and dynamics"
       lectures: 8
       tutorials: 2
+      labs: 0
 
       topics: 
         - "Kinematics, rotational kinetic energy" 
@@ -49,6 +67,7 @@
       title: "Hamiltonian formulation"
       lectures: 9
       tutorials: 3
+      labs: 0
 
       topics: 
         - "Legendre transformation" 
@@ -61,6 +80,7 @@
       title: "Dynamical Systems"
       lectures: 9
       tutorials: 3
+      labs: 0
 
       topics: 
         - "First order systems"
@@ -76,6 +96,7 @@
       title: "Relativistic mechanics"
       lectures: 5
       tutorials: 2
+      labs: 0
 
 
       topics: 
@@ -138,6 +159,7 @@
       title: "Electrostatics, boundary value problems and magnetostatics"
       lectures: 13
       tutorials: 5
+      labs: 0
 
       topics:
         - "Maxwell's equations, review of electrostatics"
@@ -149,6 +171,7 @@
       title: "Maxwell's equations in matter"
       lectures: 8
       tutorials: 2
+      labs: 0
 
       topics:
         - "Maxwell's equations within matter"
@@ -160,6 +183,7 @@
       title: "Electromagnetic waves"
       lectures: 9
       tutorials: 3
+      labs: 0
 
       topics:
         - "Propagation of electromagnetic waves in vacuum and in a medium"
@@ -171,6 +195,7 @@
       title: "Relativistic electrodynamics and radiation"
       lectures: 12
       tutorials: 4
+      labs: 0
 
       topics:
         - "Relativistic formulation of Maxwell's equations, covariant form"
@@ -211,6 +236,22 @@
 
 # ===========================================================================================================================
 
+# Mathematical Methods 
+#- code: 5014
+#  title: Mathematical Methods in Physics
+#  program: msc
+#  category: core
+#  ltpc: "3-0-0-3"
+#  credit: 3
+#  type: theory
+#  year: 1
+#  semester: 1
+#  offered_by: dop
+#  link:
+#  status: approved
+#  course_type: PMC
+#  prerequisites: 
+
 # Applicable Mathematics
 - code: 5005
   title: Applicable Mathematics
@@ -235,6 +276,7 @@
       title: "Complex variables"
       lectures: 9
       tutorials: 1
+      labs: 0
 
       topics:
         - "Analytic functions of a complex variable, differentiation and the Cauchy-Riemann conditions"
@@ -248,6 +290,7 @@
       title: "Probability theory and random variables"
       lectures: 7
       tutorials: 1
+      labs: 0
 
       topics:
         - "Probability distributions and probability densities from a statistical mechanics viewpoint, Dirac delta distributions"
@@ -353,6 +396,7 @@
       title: "Origin of quantum theory"
       lectures: 3
       tutorials: 0
+      labs: 0
 
       topics:
         - "Basic principles of quantum mechanics"
@@ -361,6 +405,7 @@
       title: "Linear Algebra"
       lectures: 7
       tutorials: 3
+      labs: 0
 
       topics:
         - "Linear vector spaces"
@@ -380,6 +425,7 @@
       title: "Hilbert space formulation of quantum mechanics"
       lectures: 5
       tutorials: 2
+      labs: 0
 
       topics:
         - "States, observables and measurement"
@@ -390,6 +436,7 @@
       title: "Dynamics"
       lectures: 5
       tutorials: 2
+      labs: 0
 
       topics:
         - "Time evolution"
@@ -402,6 +449,7 @@
       title: "Simple 1D Examples"
       lectures: 7
       tutorials: 2
+      labs: 0
 
       topics:
         - "Particle in a box"
@@ -414,6 +462,7 @@
       title: "Symmetries in Quantum Mechanics"
       lectures: 5
       tutorials: 2
+      labs: 0
 
       topics:
         - "Discrete symmetries"
@@ -426,6 +475,7 @@
       title: "Hydrogen atom"
       lectures: 8
       tutorials: 2
+      labs: 0
 
       topics:
         - "Orbital angular momentum operators"
@@ -437,6 +487,7 @@
       title: "Systems of identical particles"
       lectures: 2
       tutorials: 1
+      labs: 0
 
       topics:
         - "Permutation symmetry"
@@ -514,6 +565,7 @@
       title: "Atomic Structure"
       lectures: 17
       tutorials: 0
+      labs: 0
 
       topics:
         #- "Hydrogen atom and its eigenvalues"
@@ -532,6 +584,7 @@
       title: "Molecular Physics and Spectroscopy"
       lectures: 15
       tutorials: 0
+      labs: 0
 
       topics:
         - "Electronic structure of H₂ molecule: LCAO and LCMO methods"
@@ -547,6 +600,7 @@
       title: "Lasers"
       lectures: 10
       tutorials: 0
+      labs: 0
 
       topics:
         - "Principles of laser action in atoms and molecules"
@@ -587,6 +641,22 @@
         isbn: "978-1107063884"
         
 # ===========================================================================================================================  
+
+
+#- code: 5015
+#  title: Electronics and Instrumentation
+#  program: msc
+#  category: core
+#  ltpc: "2-0-3-4"
+#  credit: 4
+#  type: theory
+#  year: 1
+#  semester: 2
+#  offered_by: dop
+#  link:
+#  status: approved
+#  course_type: PMC
+#  prerequisites:
 
 - code: 5004
   title: Electronics and Instrumentation
@@ -1435,7 +1505,7 @@
         publisher: "Oxford Science Publications (2003)"
         isbn: "978-0-19-852500-4"
 
-- code: 6603
+- code: 6604
   title: Introduction to Open Quantum Systems
   program: msc
   category: elective
@@ -1449,6 +1519,40 @@
   status: approved
   course_type: PME
   prerequisites: 
+
+
+
+- code: 6605
+  title: Exploring Quantum Spin Models using Python
+  program: msc
+  category: elective
+  ltpc: "2-0-2-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:   
+
+
+- code: 6606
+  title: Introduction to Quantum Thermodynamics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 
+  
 
 - code: 5611
   title: Soft Matter Physics
@@ -1798,7 +1902,7 @@
   prerequisites: 
 
 - code: 5631
-  title: Light microscopy and image processing
+  title: Fundamentals of Light Microscopy and Image Processing
   program: msc
   category: elective
   ltpc:
@@ -1842,6 +1946,10 @@
   course_type: PME
   prerequisites: 
 
+#======================
+# NPTEL
+#======================  
+
 - code: 5612
   title: Group Theory Methods in Physics
   program: msc
@@ -1857,9 +1965,6 @@
   course_type: PME
   prerequisites: 
 
-#======================
-# NPTEL
-#======================
 
 - code: 5613
   title: Introduction To Atmospheric And Space Sciences
