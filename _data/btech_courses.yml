@@ -13,6 +13,9 @@
   semester: 1
   offered_by: dop
   link: 
+  status: approved
+  course_type: SME
+  prerequisites:     
   
 
 - code: 1130
@@ -26,6 +29,9 @@
   semester: 1,2
   offered_by: dop
   link:
+  status: approved
+  course_type: SME
+  prerequisites:     
 
 #======================
 # Elective
@@ -42,6 +48,9 @@
   semester: 
   offered_by: dop
   link:
+  status: approved
+  course_type: SME
+  prerequisites:     
 
 - code: 3602
   title: Basics of Quantum Information, Communication, and Computation
@@ -54,6 +63,9 @@
   semester: 
   offered_by: dop
   link:
+  status: approved
+  course_type: SME
+  prerequisites:   
 
 - code: 3603
   title: Electromagnetic Theory
@@ -66,6 +78,9 @@
   semester: 
   offered_by: dop
   link:
+  status: approved
+  course_type: SME
+  prerequisites:     
 
 - code: 4601
   title: Magnetic Materials and its Applications
@@ -78,6 +93,9 @@
   semester: 
   offered_by: dop
   link:
+  status: approved
+  course_type: SME
+  prerequisites:     
 
 - code: 4602
   title: Introduction to Special Relativity
@@ -90,6 +108,8 @@
   semester: 
   offered_by: dop
   link:
-  
+  status: approved
+  course_type: SME
+  prerequisites:   
 
   
