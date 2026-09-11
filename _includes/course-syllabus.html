@@ -1,4 +1,4 @@
-{% if course.syllabus %}
+<!--{% if course.syllabus %}
 
 <h2>Syllabus</h2>
 
@@ -33,4 +33,47 @@
 
 {% endfor %}
 
+{% endif %}-->
+
+{% if course.syllabus %}
+
+<h2>Syllabus</h2>
+
+{% for module in course.syllabus %}
+
+<div class="course-module">
+
+  <h3>
+    Module {{ module.module }}{% if module.title %}: {{ module.title }}{% endif %}
+    {% if module.lectures or module.tutorials or module.labs %}
+      (
+      {% if module.lectures %}
+        Lecture hours: {{ module.lectures }}
+      {% endif %}
+      {% if module.lectures and module.tutorials %}, {% endif %}
+      {% if module.tutorials %}
+        Tutorial hours: {{ module.tutorials }}
+      {% endif %}
+      {% if (module.lectures or module.tutorials) and module.labs %}, {% endif %}
+      {% if module.labs %}
+        Lab hours: {{ module.labs }}
+      {% endif %}
+      )
+    {% endif %}
+  </h3>
+
+{% if module.topics %}
+
+  <p>
+    {% for topic in module.topics %}
+      {{ topic }}{% unless forloop.last %}, {% endunless %}
+    {% endfor %}.
+  </p>
+  {% endif %}
+
+</div>
+
+{% endfor %}
+
 {% endif %}
+
