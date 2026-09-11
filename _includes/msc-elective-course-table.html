@@ -15,6 +15,7 @@
   {% assign courses = site.data.msc_courses
       | where: "program", "msc"
       | where: "category", "elective"
+      | where: "offered_by", "dop"
       | sort: "code" %}
 
   {% for course in courses %}
