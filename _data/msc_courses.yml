@@ -211,6 +211,7 @@
 
 # ===========================================================================================================================
 
+# Applicable Mathematics
 - code: 5005
   title: Applicable Mathematics
   program: msc
@@ -328,6 +329,7 @@
 
 # =============================================================================================================================
 
+# Quantum Mechanics I
 - code: 5007
   title: Quantum Mechanics I
   program: msc
@@ -488,7 +490,7 @@
 
 
 # ===============================================================================================================================
-
+# AMO Physics
 - code: 5002
   title: Atomic and Molecular Physics
   program: msc
@@ -1115,15 +1117,70 @@
   syllabus:
 
     - module: 1
-      title: "Mechanics and electromagnetic theory experiments"
+      title: "Coupled pendulum"
       lectures: 0
       tutorials: 0
 
       topics:
-        - "Eight experiments from the following list are chosen for the first-semester lab"
-        - "Coupled pendulum: characteristic frequencies of the uncoupled pendulum; coupling factors for various coupling lengths, angular frequencies of in-phase and out-of-phase vibration, and angular frequency of the beat mode; linear relation between the square of the coupling length and the square of the frequency for out-of-phase vibration; spring constant of the coupling spring"
-        - "Young's modulus: elastic and plastic extension of a metal wire"
-        - "Kundt's tube: determining velocity of sound in a medium"
+        - "Characteristic frequencies of the uncoupled pendulum; coupling factors for various coupling lengths, angular frequencies of in-phase and out-of-phase vibration, and angular frequency of the beat mode; linear relation between the square of the coupling length and the square of the frequency for out-of-phase vibration; spring constant of the coupling spring"
+
+    - module: 2
+      title: "Young's modulus"
+      lectures: 0
+      tutorial: 0
+
+      topics:
+        - "Elastic and plastic extension of a metal wire"
+
+    - module: 3
+      title: "Kundt's tube"
+      lectures: 0
+      tutorial: 0 
+
+      topics:
+        - "Determining velocity of sound in a medium"
+
+    - module: 4
+      title: "e/m of the electron"
+      lectures: 0
+      tutorial: 0 
+
+      topics:
+        - "Thomson's method"
+
+    - module: 5
+      title: 
+      lectures: 0
+      tutorial: 0 
+
+    - module: 6
+      title: 
+      lectures: 0
+      tutorial: 0 
+
+    - module: 7
+      title: 
+      lectures: 0
+      tutorial: 0 
+
+    - module: 8
+      title: 
+      lectures: 0
+      tutorial: 0 
+
+
+    - module: 9
+      title: 
+      lectures: 0
+      tutorial: 0 
+
+
+    - module: 10
+      title: 
+      lectures: 0
+      tutorial: 0 
+    
+      topics:
         - "e/m of the electron: Thomson's method"
         - "Elastic waves in solids"
         - "Falling magnet: experiment on eddy currents"
