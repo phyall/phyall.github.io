@@ -1741,9 +1741,107 @@
   link:
   status: approved
   course_type: PME
-  prerequisites: 
-  
+  prerequisites: 5006, 5007, 5008
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
 
+    - module: 1
+      title: "Preliminaries"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of classical statistical physics"
+        - "Laws of thermodynamics"
+        - "Concept of probability" 
+        - "Jarzynski equality and Crooks theorem"
+
+        
+    - module: 2
+      title: "Statistical physics and thermodynamics from entanglement viewpoint"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of entanglement theory" 
+        - "Envariance from entanglement assisted invariance" 
+        - "Quantum work, heat, and entropy production" 
+        - "Quantum fluctuation theorem"
+
+    - module: 3
+      title: "Thermodynamics of quantum systems"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Quantum thermometry"
+        - "Quantum heat engines"
+        - "Quantum Carnot and Otto cycles" 
+        - "Work extraction from quantum systems"
+        - "Quantum batteries and refrigerators"
+        - "Concepts of ergotropy"
+
+    - module: 4
+      title: "Thermodynamics of quantum information"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Thermodynamics of classical information processing and Landauer’s bound"
+        - "Quantum modification of Landauer’s bound with example in non-equilibrium quantum systems"
+        - "Kibble-Zurek mechanism and entropy production"
+        - "Quantum error correction in adiabatic quantum computers"
+
+    - module: 5
+      title: "Physical platforms"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Introduction to proposals for realizing quantum thermodynamic devices using ion traps, light-matter interaction, ultracold atoms, and superconducting qubits"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "M. A. Nielsen and I. L. Chuang"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "978-81-7596-092-3"
+
+      - title: "The Theory of Open Quantum Systems"
+        authors: "H. P. Breuer and F. Petruccione"
+        publisher: "Oxford University Press"
+        isbn: "0-19-852063-8"
+
+      - title: "Quantum Thermodynamics: An Introduction to the Thermodynamics of Quantum Information"
+        authors: "S. Deffner and S. Campbell"
+        publisher: "IOP Concise Physics"
+        isbn: "978-1643276557"
+
+    references:
+
+      - title: "Quantum thermodynamic devices: from theoretical proposals to experimental reality"
+        authors: "Nathan M. Myers, Obinna Abah, Sebastian Deffner"
+        publisher: "AVS Quantum Sci. 4, 027101 (2022)"
+        isbn: 
+
+      - title: "Quantum Thermodynamics"
+        authors: "S. Vinjanampathy and J. Anders"
+        publisher: "Contemporary Physics, 57, 545 (2016)"
+        isbn: 
+
+        
 # ==============================================================================================================
 
 # Soft Matter Physics
