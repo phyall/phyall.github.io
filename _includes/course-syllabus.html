@@ -45,6 +45,7 @@
 
   <h3>
     Module {{ module.module }}{% if module.title %}: {{ module.title }}{% endif %}
+  </h3>  
     {% if module.lectures or module.tutorials or module.labs %}
       (
       {% if module.lectures %}
@@ -60,7 +61,6 @@
       {% endif %}
       )
     {% endif %}
-  </h3>
 
 {% if module.topics %}
 
