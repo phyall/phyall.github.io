@@ -681,6 +681,7 @@
       title: "Linear time-invariant systems and feedback"
       lectures: 6
       tutorials: 0
+      labs: 0
 
       topics:
         - "Linear time invariant (LTI) systems, frequency response, transfer functions, decibel scale, Bode plots, resonances"
@@ -691,6 +692,7 @@
       title: "Semiconductor devices and amplifiers"
       lectures: 6
       tutorials: 0
+      labs: 0
 
       topics:
         - "Basics of p-n junction devices, transistor, FET and MOSFET devices"
@@ -701,6 +703,7 @@
       title: "Digital circuits"
       lectures: 5
       tutorials: 0
+      labs: 0
 
       topics:
         - "Gates, flip-flops, shift registers, counters"
@@ -710,6 +713,7 @@
       title: "Control systems and microprocessors"
       lectures: 6
       tutorials: 0
+      labs: 0
 
       topics:
         - "Basic ideas of control: P/PI/PD/PID"
@@ -719,6 +723,7 @@
       title: "Sensors, interfacing and lock-in detection"
       lectures: 5
       tutorials: 0
+      labs: 0
 
       topics:
         - "Sensors and transducers, interfacing using LabView or equivalent (ADC/DAC)"
@@ -799,6 +804,7 @@
       title: "Foundations of statistical mechanics"
       lectures: 7
       tutorials: 2
+      labs: 0
 
       topics:
         - "Relation of thermodynamics and statistical mechanics"
@@ -809,6 +815,7 @@
       title: "Ensemble theory"
       lectures: 13
       tutorials: 4
+      labs: 0
 
       topics:
         - "Microcanonical, canonical and grand canonical ensembles and partition function"
@@ -820,6 +827,7 @@
       title: "Quantum statistics"
       lectures: 15
       tutorials: 4
+      labs: 0
 
       topics:
         - "Maxwell-Boltzmann statistics for ideal gases"
@@ -832,6 +840,7 @@
       title: "Phase transitions"
       lectures: 7
       tutorials: 4
+      labs: 0
 
       topics:
         - "Brief introduction to phase transitions, critical phenomena"
@@ -896,6 +905,7 @@
       title: "Angular momentum algebra"
       lectures: 7
       tutorials: 0
+      labs: 0
 
       topics:
         - "Eigenstates and eigenvalues of angular momentum"
@@ -906,6 +916,7 @@
       title: "Approximation Methods"
       lectures: 20
       tutorials: 0
+      labs: 0
 
       topics:
         - "Time-independent perturbation theory: non-degenerate and degenerate cases with examples"
@@ -922,6 +933,7 @@
       title: "Relativistic Quantum Mechanics"
       lectures: 5
       tutorials: 0
+      labs: 0
 
       topics:
         - "Klein-Gordon equation"
@@ -933,6 +945,7 @@
       title: "Scattering"
       lectures: 5
       tutorials: 0
+      labs: 0
 
       topics:
         - "Lippmann-Schwinger equation"
@@ -943,6 +956,7 @@
       title: "Path integral approach to Quantum Mechanics"
       lectures: 5
       tutorials: 0
+      labs: 0
 
       topics:
         - "Kernel, propagator and transition amplitudes"
@@ -1023,6 +1037,7 @@
       title: "Introduction to condensed matter and crystal structure"
       lectures: 6
       tutorials: 2
+      labs: 0
 
       topics:
         - "Length, time and energy scales in condensed matter"
@@ -1037,6 +1052,7 @@
       title: "Lattice vibrations"
       lectures: 9
       tutorials: 3
+      labs: 0
 
       topics:
         - "Cohesion of solids, mechanical properties, elasticity, constitutive relations"
@@ -1049,6 +1065,7 @@
       title: "Electronic structure and band theory"
       lectures: 12
       tutorials: 4
+      labs: 0
 
       topics:
         - "Single electron model, density of states, Fermi surface and quasiparticles"
@@ -1063,6 +1080,7 @@
       title: "Magnetism and superconductivity"
       lectures: 6
       tutorials: 2
+      labs: 0
 
       topics:
         - "Atomic magnetism, Hund's rules, Curie's law"
@@ -1074,6 +1092,7 @@
       title: "Introduction to soft matter physics"
       lectures: 9
       tutorials: 3
+      labs: 0
 
       topics:
         - "Introduction to soft matter physics: polymers, colloids, surfactants, liquid crystals"
@@ -1114,6 +1133,9 @@
         publisher: "Elsevier"
         isbn: "9780444820099"
 
+
+# ==============================================================================================================================           
+
 - code: 5011
   title: Nuclear and Particle Physics
   program: msc
@@ -1129,8 +1151,11 @@
   course_type: PMC
   prerequisites: 5003, 5007
 
+
+# ==============================================================================================================================   
+
 - code: 5102
-  title: Thermal Physics and Atomic Spectroscopy
+  title: Thermal Physics and Atomic Spectroscopy Lab
   program: msc
   category: core
   ltpc: "0-0-3-2"
@@ -1149,23 +1174,80 @@
   syllabus:
 
     - module: 1
-      title: "Thermal physics and atomic spectroscopy experiments"
+      title: "Specific heat of solids"
       lectures: 0
       tutorials: 0
+      labs: 2
 
-      topics:
-        - "Eight to ten experiments are performed from the following list, covering Thermal Physics Lab and Atomic and Spectroscopy Lab"
-        - "Specific heat of solids"
-        - "Thermal conductivity"
-        - "Latent heat of vaporization of liquid N2"
-        - "Thermoelectric effect (Seebeck, Peltier)"
-        - "Bohr magneton by Zeeman effect"
-        - "Electron spin resonance"
-        - "Nuclear magnetic resonance"
-        - "Michelson interferometer"
-        - "Ultrasound diffraction"
-        - "Diffraction grating"
-        - "Absorption spectroscopy"
+    - module: 2
+      title: "Thermal conductivity"
+      lectures: 0
+      tutorials: 0
+      labs: 2     
+
+    - module: 3
+      title: "Latent heat of vaporization of liquid Nitrogen"
+      lectures: 0
+      tutorials: 0
+      labs: 2     
+
+    - module: 4
+      title: "Thermoelectric effect (Seebeck, Peltier)"
+      lectures: 0
+      tutorials: 0
+      labs: 2     
+
+
+    - module: 5
+      title: "Bohr magneton by Zeeman effect"
+      lectures: 0
+      tutorials: 0
+      labs: 2    
+
+
+    - module: 6
+      title: "Electron spin resonance"
+      lectures: 0
+      tutorials: 0
+      labs: 2    
+
+
+    - module: 7
+      title: "Nuclear magnetic resonance"
+      lectures: 0
+      tutorials: 0
+      labs: 2   
+
+    - module: 8
+      title: "Michelson interferometer"
+      lectures: 0
+      tutorials: 0
+      labs: 2    
+
+
+    - module: 9
+      title: "Ultrasound diffraction"
+      lectures: 0
+      tutorials: 0
+      labs: 2    
+
+
+    - module: 10
+      title: "Diffraction grating"
+      lectures: 0
+      tutorials: 0
+      labs: 2    
+
+
+    - module: 11
+      title: "Absorption spectroscopy"
+      lectures: 0
+      tutorials: 0
+      labs: 2    
+
+
+
+# ==============================================================================================================================   
 
 - code: 5103
   title: Mechanics and Electromagnetic Theory
@@ -1190,14 +1272,20 @@
       title: "Coupled pendulum"
       lectures: 0
       tutorials: 0
+      labs: 2
 
       topics:
-        - "Characteristic frequencies of the uncoupled pendulum; coupling factors for various coupling lengths, angular frequencies of in-phase and out-of-phase vibration, and angular frequency of the beat mode; linear relation between the square of the coupling length and the square of the frequency for out-of-phase vibration; spring constant of the coupling spring"
+        - "Characteristic frequencies of the uncoupled pendulum" 
+        - "Coupling factors for various coupling lengths" 
+        - "Angular frequencies of in-phase and out-of-phase vibration and angular frequency of the beat mode" 
+        - "Linear relation between the square of the coupling length and the square of the frequency for out-of-phase vibration"
+        - "Spring constant of the coupling spring"
 
     - module: 2
       title: "Young's modulus"
       lectures: 0
       tutorial: 0
+      labs: 2
 
       topics:
         - "Elastic and plastic extension of a metal wire"
@@ -1206,63 +1294,76 @@
       title: "Kundt's tube"
       lectures: 0
       tutorial: 0 
+      labs: 2
 
       topics:
         - "Determining velocity of sound in a medium"
 
     - module: 4
-      title: "e/m of the electron"
+      title: "e/m of the electron (Thomson's method)"
       lectures: 0
       tutorial: 0 
-
-      topics:
-        - "Thomson's method"
+      labs: 2
 
     - module: 5
-      title: 
+      title: "Elastic waves in solids"
       lectures: 0
       tutorial: 0 
+      labs: 2
 
     - module: 6
-      title: 
+      title: "Falling magnet: experiment on eddy currents"
       lectures: 0
       tutorial: 0 
+      labs: 2
 
     - module: 7
-      title: 
+      title: "Michelson interferometer"
       lectures: 0
       tutorial: 0 
+      labs: 2
 
     - module: 8
-      title: 
+      title: "Hall effect in metals"
       lectures: 0
       tutorial: 0 
+      labs: 2
 
 
     - module: 9
-      title: 
+      title: "Hall effect in semiconductors"
       lectures: 0
       tutorial: 0 
+      labs: 2
 
 
     - module: 10
-      title: 
+      title: "Diffraction grating"
       lectures: 0
       tutorial: 0 
+      labs: 2
+
+
+    - module: 11
+      title: "Thermal conductivity in metals and poor conductors"
+      lectures: 0
+      tutorial: 0 
+      labs: 2
+
+
+    - module: 12
+      title: "Specific heat of solids"
+      lectures: 0
+      tutorial: 0 
+      labs: 2
     
-      topics:
-        - "e/m of the electron: Thomson's method"
-        - "Elastic waves in solids"
-        - "Falling magnet: experiment on eddy currents"
-        - "Michelson interferometer"
-        - "Hall effect in metals"
-        - "Hall effect in semiconductors"
-        - "Diffraction grating"
-        - "Thermal conductivity in metals and poor conductors"
-        - "Specific heat of solids"
+
+
+
+# ==============================================================================================================================  
 
 - code: 5105
-  title: Advanced Physics
+  title: Advanced Physics Lab
   program: msc
   category: core
   ltpc: "0-0-5-3"
@@ -1281,16 +1382,63 @@
   syllabus:
 
     - module: 1
-      title: "Advanced physics laboratory experiments"
+      title: "Room temperature STM"
       lectures: 0
       tutorials: 0
+      labs: 2
 
       topics:
-        - "Room temperature STM: STM of standard samples (HOPG) and its analysis"
-        - "Experiments using Physical Quantity Measurement Systems: I-V characteristics and R vs T measurements for standard samples; AC susceptibility measurements"
-        - "X-ray physics: Bragg's law, Debye-Scherrer analysis, Moseley's law"
-        - "Brownian motion experiments: measurement of diffusion coefficient of a Brownian particle; estimation of Avogadro's number using Brownian motion; simulation"
-        - "Liquid crystal experiments: measurement of phase transition temperature and birefringence of liquid crystals"
+        - "STM of standard samples (HOPG) and its analysis" 
+      
+
+    - module: 2
+      title: "Experiments using Physical Quantity Measurement Systems"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "I-V characteristics and R vs T measurements for standard samples" 
+        - "AC susceptibility measurements" 
+
+    - module: 3
+      title: "X-ray physics"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "Bragg's law" 
+        - "Debye-Scherrer analysis" 
+        - "Moseley's law"
+
+
+    - module: 4
+      title: "Brownian motion experiments"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "Measurement of diffusion coefficient of a Brownian particle" 
+        - "Estimation of Avogadro's number using Brownian motion" 
+        - "Simulation"
+
+    - module: 5
+      title: "Liquid crystal experiments"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "Measurement of phase transition temperature and birefringence of liquid crystals" 
+
+
+# ==============================================================================================================================
 
 - code: 5110
   title: Project 1
@@ -1307,10 +1455,31 @@
   course_type: PMC
   prerequisites: 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 #======================
 # Department Elective
 #======================
 
+
+# ==============================================================================================================
+
+# Quantum Information and Computation
 - code: 5606
   title: Quantum Information and Computation
   program: msc
@@ -1334,6 +1503,7 @@
       title: "Revisiting quantum mechanics"
       lectures: 12
       tutorials: 0
+      labs: 0
 
       topics:
         - "Linear algebra: linear independence and bases, Hilbert space, tensor product"
@@ -1347,6 +1517,7 @@
       title: "Quantum communication and cryptography"
       lectures: 12
       tutorials: 0
+      labs: 0
 
       topics:
         - "No-cloning theorem, quantum teleportation, quantum dense coding"
@@ -1358,6 +1529,7 @@
       title: "Entropy and entanglement"
       lectures: 10
       tutorials: 0
+      labs: 0
 
       topics:
         - "Basics of probability theory"
@@ -1370,6 +1542,7 @@
       title: "Quantum computation"
       lectures: 8
       tutorials: 0
+      labs: 0
 
       topics:
         - "Introducing quantum algorithms (at least two examples)"
@@ -1410,6 +1583,10 @@
         publisher: "Oxford University Press (2013)"
         isbn: "978-0199673483"
 
+
+# ==============================================================================================================
+
+# Quantum Information and Many-Body Systems
 - code: 5610
   title: Quantum Information and Many-Body Systems
   program: msc
@@ -1433,6 +1610,7 @@
       title: "Measures of quantum correlations"
       lectures: 14
       tutorials: 0
+      labs: 0
 
       topics:
         - "Qubits and Bloch sphere representation, projection measurement, density matrices"
@@ -1446,6 +1624,7 @@
       title: "Interacting quantum spin systems"
       lectures: 17
       tutorials: 0
+      labs: 0
 
       topics:
         - "One-dimensional XY and Ising model in a transverse field"
@@ -1460,6 +1639,7 @@
       title: "Applications of spin systems in quantum information"
       lectures: 11
       tutorials: 0
+      labs: 0
 
       topics:
         - "Quantum state transmission"
@@ -1505,6 +1685,10 @@
         publisher: "Oxford Science Publications (2003)"
         isbn: "978-0-19-852500-4"
 
+
+# ==============================================================================================================
+
+# Introduction to Open Quantum Systems
 - code: 6604
   title: Introduction to Open Quantum Systems
   program: msc
@@ -1522,6 +1706,9 @@
 
 
 
+# ==============================================================================================================
+
+# Exploring Quantum Spin Models using Python
 - code: 6605
   title: Exploring Quantum Spin Models using Python
   program: msc
@@ -1538,6 +1725,9 @@
   prerequisites:   
 
 
+# ==============================================================================================================
+
+# Introduction to Quantum Thermodynamics
 - code: 6606
   title: Introduction to Quantum Thermodynamics
   program: msc
@@ -1554,6 +1744,9 @@
   prerequisites: 
   
 
+# ==============================================================================================================
+
+# Soft Matter Physics
 - code: 5611
   title: Soft Matter Physics
   program: msc
@@ -1577,6 +1770,7 @@
       title: "Introduction to soft condensed matter"
       lectures: 14
       tutorials: 0
+      labs: 0
 
       topics:
         - "Overview of soft matter systems, energies and timescales"
@@ -1589,6 +1783,7 @@
       title: "Colloids"
       lectures: 8
       tutorials: 0
+      labs: 0
 
       topics:
         - "Introduction to colloidal systems and their properties"
@@ -1599,6 +1794,7 @@
       title: "Liquid crystals"
       lectures: 8
       tutorials: 0
+      labs: 0
 
       topics:
         - "Common liquid crystal phases, birefringence, nematic order parameter"
@@ -1610,6 +1806,7 @@
       title: "Surfactants"
       lectures: 6
       tutorials: 0
+      labs: 0
 
       topics:
         - "Surface tension, surface free energy, wetting"
@@ -1620,6 +1817,7 @@
       title: "Polymers"
       lectures: 6
       tutorials: 0
+      labs: 0
 
       topics:
         - "Ideal chain, freely jointed chain model and Flory theory"
@@ -1656,6 +1854,10 @@
         publisher: "Oxford Science Publications (1988)"
         isbn: "0198520336"
 
+
+# ==============================================================================================================
+
+# Introduction to Computational Physics
 - code: 5618
   title: Introduction to Computational Physics
   program: msc
@@ -1671,6 +1873,10 @@
   course_type: PME
   prerequisites: 
 
+
+# ==============================================================================================================
+
+# Theory and Applications of Stochastic Processes
 - code: 5619
   title: Theory and Applications of Stochastic Processes
   program: msc
@@ -1686,6 +1892,11 @@
   course_type: PME
   prerequisites: 
 
+
+
+# ==============================================================================================================
+
+# Introduction to Astrophysics
 - code: 5622
   title: Introduction to Astrophysics
   program: msc
@@ -1701,6 +1912,10 @@
   course_type: PME
   prerequisites: 
 
+
+# ==============================================================================================================
+
+# Many Body Physics: Techniques and Applications
 - code: 5623
   title: "Many Body Physics: Techniques and Applications"
   program: msc
@@ -1716,6 +1931,9 @@
   course_type: PME
   prerequisites: 5006
 
+# ==============================================================================================================
+
+#  Experimental Techniques in Physics
 - code: 6001
   title: Experimental Techniques in Physics
   program: msc
@@ -1731,6 +1949,10 @@
   course_type: PME
   prerequisites: 
 
+
+# ==============================================================================================================
+
+#  General Relativity
 - code: 6002
   title: General Relativity
   program: msc
@@ -1754,6 +1976,7 @@
       title: "Special relativity"
       lectures: 7
       tutorials: 0
+      labs: 0
 
       topics:
         - "Principle of relativity and electrodynamics, postulates of special relativity"
@@ -1766,6 +1989,7 @@
       title: "Towards general relativity"
       lectures: 5
       tutorials: 0
+      labs: 0
 
       topics:
         - "Action at a distance, gravity as geometry"
@@ -1777,6 +2001,7 @@
       title: "Formalization: manifolds and differential geometry"
       lectures: 8
       tutorials: 0
+      labs: 0
 
       topics:
         - "Manifolds, calculus on manifolds: functions, curves, vectors and one-forms, tensors"
@@ -1787,6 +2012,7 @@
       title: "Motion of test particles in curved spacetime"
       lectures: 8
       tutorials: 0
+      labs: 0
 
       topics:
         - "Action for a free particle in curved spacetime, geodesic equation, local inertial frames"
@@ -1798,6 +2024,7 @@
       title: "Einstein equations"
       lectures: 10
       tutorials: 0
+      labs: 0
 
       topics:
         - "Riemann tensor, geodesic deviation, curvature"
@@ -1808,6 +2035,7 @@
       title: "Term paper presentations"
       lectures: 4
       tutorials: 0
+      labs: 0
 
       topics:
         - "Student term paper presentations; possible topics include the Friedmann-Robertson-Walker (FRW) metric, gravitational waves, verifying the Schwarzschild solution, black holes, etc."
@@ -1856,6 +2084,9 @@
         publisher: "Wiley"
         isbn: "978-8126517558"
 
+# ==============================================================================================================
+
+#  Magnetism in Materials
 - code: 6003
   title: Magnetism in Materials
   program: msc
@@ -1871,6 +2102,10 @@
   course_type: PME
   prerequisites: 5009
 
+
+# ==============================================================================================================
+
+#  Quantum Optics
 - code: 6005
   title: Quantum Optics
   program: msc
@@ -1886,6 +2121,10 @@
   course_type: PME
   prerequisites: 5007
 
+
+# ==============================================================================================================
+
+#  Particle Physics and Gauge Theory
 - code: 6602
   title: Particle Physics and Gauge Theory
   program: msc
@@ -1901,6 +2140,10 @@
   course_type: PME
   prerequisites: 
 
+
+# ==============================================================================================================
+
+#  Fundamentals of Light Microscopy and Image Processing
 - code: 5631
   title: Fundamentals of Light Microscopy and Image Processing
   program: msc
@@ -1916,6 +2159,12 @@
   course_type: PME
   prerequisites: 
 
+
+  
+
+# ==============================================================================================================
+
+#  Monte Carlo Methods in Statistical Physics
 - code: 6008
   title: Monte Carlo Methods in Statistical Physics
   program: msc
@@ -1931,6 +2180,11 @@
   course_type: PME
   prerequisites: 
 
+
+
+# ==============================================================================================================
+
+#  Project 2
 - code: 5120
   title: Project 2
   program: msc
@@ -1945,6 +2199,15 @@
   status: approved
   course_type: PME
   prerequisites: 
+
+
+
+
+
+
+
+
+  
 
 #======================
 # NPTEL
