@@ -57,14 +57,14 @@
 
   <tbody>
 
-  {% assign courses = site.data.msc_courses
+  {% assign courses = site.data.all_courses
       | where: "program", "msc"
       | where: "category", "core"
       | sort: "code" %}
 
   {% for course in courses %}
 
-    {% assign page = site.msc_courses | where: "slug", course.code | downcase | first %}
+    {% assign page = site.all_courses | where: "slug", course.code | downcase | first %}
 
     <tr>
 
