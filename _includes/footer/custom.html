@@ -6,6 +6,9 @@
 <!-- end custom footer snippets -->
 
 
+
+
+
 <!-- start custom footer snippets -->
  
 <!-- Support for MathJax -->
@@ -21,15 +24,22 @@
     background: #fff;
   }
  
-  /* Un-invert images, logos, and the toggle button itself so they
+  /* Un-invert images, videos, and the toggle button itself so they
      don't look like photo negatives / stay visually consistent. */
   html[data-nightmode="on"] img,
   html[data-nightmode="on"] svg,
   html[data-nightmode="on"] video,
   html[data-nightmode="on"] iframe,
-  html[data-nightmode="on"] .dept-logo,
   html[data-nightmode="on"] #nightmode-toggle {
     filter: invert(1) hue-rotate(180deg);
+  }
+ 
+  /* Exception: the department logo has a solid white background
+     baked into the image file (no transparency), so instead of
+     un-inverting it (which would keep that white box visible),
+     let it invert along with the rest of the page. */
+  html[data-nightmode="on"] .dept-logo {
+    filter: none;
   }
  
   /* ---- Floating toggle button ---- */
