@@ -10,22 +10,101 @@
 #======================
 
 # Coding 
-#- code: 5108
-#  title: Scientific Computing for Physicists
-#  program: msc
-#  category: core
-#  ltpc: "0-0-2-1"
-#  credit: 3
-#  type: theory
-#  year: 1
-#  semester: 1
-#  offered_by: dop
-#  link:
-#  status: approved
-#  course_type: PMC
-#  prerequisites: 
+- code: 5108
+  title: Scientific Computing for Physicists
+  program: msc
+  category: core
+  ltpc: "0-0-2-1"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites: 
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+  
+    - module: 1
+      title: "Scientific Programming and Numerical Representation"
+      lectures: 0
+      tutorials: 0
+      labs: 8
+      
+      topics: 
+        - "Scientific programming environment (Python/Octave/MATLAB/Julia)" 
+        - "Variables, arrays, matrices, and complex numbers" 
+        - "Floating-point representation and numerical errors"
+        - "Plotting real and complex functions"
+        - "Visualization of functions of one, two, and three variables" 
+        - "Introduction to pseudorandom numbers"
 
 
+    - module: 2
+      title: "Data Approximation and Numerical Modeling"
+      lectures: 0
+      tutorials: 0
+      labs: 4
+      
+      topics: 
+        - "Curve fitting"  
+        = "Polynomial and spline interpolation" 
+        - "Error interpretation" 
+        - "Basic unconstrained minimization (all using inbuilt functions)
+
+
+    - module: 3
+      title: "Linear Algebra"
+      lectures: 0
+      tutorials: 0
+      labs: 4
+      
+      topics: 
+        - "Matrix representation" 
+        - "Solving systems of linear equations"
+        - "Conceptual overview of matrix factorization (LU)" 
+        - "Numerical issues in matrix inversion" 
+        - "Applications in scientific problems" 
+
+    - module: 4
+      title: "Spectral Analysis"
+      lectures: 0
+      tutorials: 0
+      labs: 4
+      
+      topics: 
+        - "Discrete representation of functions" 
+        - "Fourier series and discrete Fourier transform" 
+        - "Fast Fourier Transform (FFT)"
+
+    - module: 5
+      title: "Numerical Calculus and Differential Equations"
+      lectures: 0
+      tutorials: 0
+      labs: 6
+      
+      topics: 
+        - "Numerical differentiation and integration" 
+        - "Root finding methods" 
+        - "Initial value problems for ODEs (using standard ODE solvers)
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+    
+      - title: "Numerical Methods for Engineers"
+        authors: "Steven Chapra and Raymond Canale"
+        publisher: "McGraw Hill"
+        isbn: "978–0–07–340106–5"
+
+        
 # Classical Mechanics
 - code: 5001
   title: Classical Mechanics
@@ -244,28 +323,12 @@
 # ===========================================================================================================================
 
 # Mathematical Methods 
-#- code: 5014
-#  title: Mathematical Methods in Physics
-#  program: msc
-#  category: core
-#  ltpc: "3-0-0-3"
-#  credit: 3
-#  type: theory
-#  year: 1
-#  semester: 1
-#  offered_by: dop
-#  link:
-#  status: approved
-#  course_type: PMC
-#  prerequisites: 
-
-# Applicable Mathematics
-- code: 5005
-  title: Applicable Mathematics
+- code: 5014
+  title: Mathematical Methods in Physics
   program: msc
   category: core
-  ltpc: "3-0-2-4"
-  credit: 4
+  ltpc: "3-0-0-3"
+  credit: 3
   type: theory
   year: 1
   semester: 1
@@ -273,7 +336,8 @@
   link:
   status: approved
   course_type: PMC
-  prerequisites:
+  prerequisites: 
+
   #=============
   # Syllabus
   #=============
@@ -281,8 +345,8 @@
 
     - module: 1
       title: "Complex variables"
-      lectures: 9
-      tutorials: 1
+      lectures: 10
+      tutorials: 0
       labs: 0
 
       topics:
@@ -291,37 +355,70 @@
         - "Taylor and Laurent series"
         - "Singularities: poles, essential singularities, residue theorem"
         - "Analytic continuation, multiple-valued functions, branch points and branch cut integration"
-        - "Method of steepest descent"
 
     - module: 2
-      title: "Probability theory and random variables"
-      lectures: 7
-      tutorials: 1
+      title: "Integral Transforms"
+      lectures: 6
+      tutorials: 0
       labs: 0
 
       topics:
-        - "Probability distributions and probability densities from a statistical mechanics viewpoint, Dirac delta distributions"
-        - "Statistical inference: Bayesian statistics"
-        - "Standard discrete and continuous probability distributions"
-        - "Moments and generating functions"
-        - "Central limit theorem (statement and applications)"
+        - "Sturm-Liouville problems"
+        - "Expansion in eigenfunctions" 
+        - "Fourier series and integrals" 
+        - "Fourier and Laplace transforms"
 
     - module: 3
-      title: "Numerical methods"
-      lectures: 29
+      title: "Differential Equations and Special functions"
+      lectures: 15
       tutorials: 0
-      labs: 10
+      labs: 0
 
       topics:
-        - "Basics of computer programming"
-        - "Modelling data: interpolation and fitting, Lagrange and Newton interpolation methods, divided difference table"
-        - "Piecewise polynomial interpolation, error in polynomial interpolation"
-        - "Least squares regression: linear, multiple linear and nonlinear regression"
-        - "Linear algebra: solving coupled linear equations, eigenvalues and eigenvectors, elimination method and pivoting, LU decomposition"
-        - "Solutions of nonlinear equations and minimization of functions"
-        - "Numerical differentiation and integration: divided difference method for differentiation, Newton-Cotes formula, midpoint, trapezoidal, rectangular and Simpson's rules, quadrature methods"
-        - "Solutions of ordinary differential equations: Euler and predictor-corrector methods, Runge-Kutta method, adaptive step size selection"
-        - "Solutions of partial differential equations"
+        - "ODEs: Classification, Basic solution methods, Exact differentials, Integrating factors, Series solution, singular points"
+        - "Special Functions: Bessel functions, Legendre polynomials, Spherical harmonics, Gamma function" 
+        - "PDEs: Classification of PDEs, boundary conditions. Characteristics. Separation of variables. Solution using integral transforms" 
+
+
+    - module: 4
+      title: "Linear Algebra"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Matrices: Rotations and orthonormal matrices" 
+        - "Diagonalization of Matrices" 
+        - "Tensor Analysis, Contraction, Direct Product" 
+        - "Transformation of tensors under rotation"
+
+
+    - module: 5
+      title: "Probability theory"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Random variables: basic notions of probability, distributions, moments and cumulants, generating functions, discrete and continuous distributions"
+        - "The central limit theorem"
+
+    #- module: 3
+    #  title: "Numerical methods"
+    #  lectures: 29
+    #  tutorials: 0
+    #  labs: 10
+
+      #topics:
+      #  - "Basics of computer programming"
+      #  - "Modelling data: interpolation and fitting, Lagrange and Newton interpolation methods, divided difference table"
+      #  - "Piecewise polynomial interpolation, error in polynomial interpolation"
+      #  - "Least squares regression: linear, multiple linear and nonlinear regression"
+      #  - "Linear algebra: solving coupled linear equations, eigenvalues and eigenvectors, elimination method and pivoting, LU decomposition"
+      #  - "Solutions of nonlinear equations and minimization of functions"
+      #  - "Numerical differentiation and integration: divided difference method for differentiation, Newton-Cotes formula, midpoint, trapezoidal, rectangular and Simpson's rules, quadrature methods"
+      #  - "Solutions of ordinary differential equations: Euler and predictor-corrector methods, Runge-Kutta method, adaptive step size selection"
+      #  - "Solutions of partial differential equations"
 
   # ===============
   # Study Materials
@@ -376,6 +473,26 @@
         authors: "V. Balakrishnan"
         publisher: "Ane Books (2017)"
         isbn: "9386761114"
+
+
+        
+
+# Applicable Mathematics
+#- code: 5005
+#  title: Applicable Mathematics
+#  program: msc
+#  category: core
+#  ltpc: "3-0-2-4"
+#  credit: 4
+#  type: theory
+#  year: 1
+#  semester: 1
+#  offered_by: dop
+#  link:
+#  status: approved
+#  course_type: PMC
+#  prerequisites:
+
 
 # =============================================================================================================================
 
