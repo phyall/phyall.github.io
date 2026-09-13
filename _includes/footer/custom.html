@@ -6,8 +6,6 @@
 <!-- end custom footer snippets -->
 
 
-
-
 <!-- start custom footer snippets -->
  
 <!-- Support for MathJax -->
@@ -15,30 +13,23 @@
  
 <!-- Night mode: toggle + auto-switch after sundown (IIT Palakkad) -->
 <style>
-  /* ---- Night mode color overrides ---- */
-  html[data-nightmode="on"] body,
-  html[data-nightmode="on"] .page,
-  html[data-nightmode="on"] .archive,
-  html[data-nightmode="on"] .sidebar,
-  html[data-nightmode="on"] .masthead,
-  html[data-nightmode="on"] .page__content,
-  html[data-nightmode="on"] .page__footer,
-  html[data-nightmode="on"] .archive__item,
-  html[data-nightmode="on"] .toc,
-  html[data-nightmode="on"] table,
-  html[data-nightmode="on"] .initial-content,
-  html[data-nightmode="on"] .dept-header,
-  html[data-nightmode="on"] .dept-nav,
-  html[data-nightmode="on"] .dept-footer,
-  html[data-nightmode="on"] .page-sidebar,
-  html[data-nightmode="on"] #main {
-    background-color: #121212 !important;
-    color: #f1f1f1 !important;
-    border-color: #333 !important;
+  /* Invert the whole page's colors when night mode is on.
+     This covers every block on the site automatically, regardless
+     of class names, instead of listing selectors one by one. */
+  html[data-nightmode="on"] {
+    filter: invert(1) hue-rotate(180deg);
+    background: #fff;
   }
  
-  html[data-nightmode="on"] a {
-    color: #6fc3df !important;
+  /* Un-invert images, logos, and the toggle button itself so they
+     don't look like photo negatives / stay visually consistent. */
+  html[data-nightmode="on"] img,
+  html[data-nightmode="on"] svg,
+  html[data-nightmode="on"] video,
+  html[data-nightmode="on"] iframe,
+  html[data-nightmode="on"] .dept-logo,
+  html[data-nightmode="on"] #nightmode-toggle {
+    filter: invert(1) hue-rotate(180deg);
   }
  
   /* ---- Floating toggle button ---- */
