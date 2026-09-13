@@ -1,3 +1,10 @@
+
+
+#=============================================================================================================================================================================================================================================================================================
+# All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses 
+#=============================================================================================================================================================================================================================================================================================
+
+
 #======================
 # Department Core
 #======================
@@ -2416,3 +2423,124 @@
   status: approved
   course_type: PME
   prerequisites: 5001, 5003, 5007
+
+
+
+#=============================================================================================================================================================================================================================================================================================
+# All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || 
+#=============================================================================================================================================================================================================================================================================================
+
+
+#======================
+# Btech Core
+#======================
+
+- code: 1030
+  title: Physics
+  program: btech
+  category: core
+  ltpc: "2-1-0-3"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link: 
+  status: approved
+  course_type: SME
+  prerequisites:     
+  
+
+- code: 1130
+  title: Physics Lab
+  program: btech
+  category: core
+  ltpc: "0-0-3-2"
+  credit: 2
+  type: lab
+  year: 1
+  semester: "1, 2"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:     
+
+#======================
+# Btech Elective
+#======================  
+
+- code: 3601
+  title: Quantum Mechanics for Engineers
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:     
+
+- code: 3602
+  title: Basics of Quantum Information, Communication, and Computation
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:   
+
+- code: 3603
+  title: Electromagnetic Theory
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:     
+
+- code: 4601
+  title: Magnetic Materials and its Applications
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:     
+
+- code: 4602
+  title: Introduction to Special Relativity
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:   
