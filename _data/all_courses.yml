@@ -2272,7 +2272,7 @@
   link:
   status: approved
   course_type: PME
-  prerequisites: 5001, 5005, 5006
+  prerequisites: 5001,5005,5006
   #=============
   # Syllabus
   #=============
