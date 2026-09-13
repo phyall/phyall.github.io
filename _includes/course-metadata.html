@@ -1,4 +1,4 @@
-{% assign course = site.data.msc_courses | where: "code", page.code | first %}
+{% assign course = site.data.all_courses | where: "code", page.code | first %}
 {% if course %}
 <div class="course-metadata">
   <!--<p>
