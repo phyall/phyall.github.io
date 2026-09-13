@@ -12,14 +12,14 @@
 
   <tbody>
 
-  {% assign courses = site.data.btech_courses
+  {% assign courses = site.data.msc_courses
       | where: "program", "btech"
       | where: "category", "core"
       | sort: "code" %}
 
   {% for course in courses %}
 
-    {% assign page = site.btech_courses | where: "slug", course.code | downcase | first %}
+    {% assign page = site.msc_courses | where: "slug", course.code | downcase | first %}
 
     <tr>
 
