@@ -52,9 +52,9 @@
       
       topics: 
         - "Curve fitting"  
-        = "Polynomial and spline interpolation" 
+        - "Polynomial and spline interpolation" 
         - "Error interpretation" 
-        - "Basic unconstrained minimization (all using inbuilt functions)
+        - "Basic unconstrained minimization (all using inbuilt functions)"
 
 
     - module: 3
@@ -90,7 +90,7 @@
       topics: 
         - "Numerical differentiation and integration" 
         - "Root finding methods" 
-        - "Initial value problems for ODEs (using standard ODE solvers)
+        - "Initial value problems for ODEs (using standard ODE solvers)"
 
         
   # ===============
