@@ -1,0 +1,187 @@
+/* ==========================================================================
+   FACULTY MINI GRID
+   ========================================================================== */
+
+/* Section headings */
+.faculty-mini-group-title {
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.faculty-mini-associated-title {
+  margin: 2rem 0 0.8rem;
+  font-size: 1.10rem;
+  font-weight: 600;
+  color: #666;
+}
+
+/* ==========================================================================
+   GRID
+   ========================================================================== */
+.faculty-mini-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 22px;
+  margin-bottom: 2.75rem;
+}
+
+/* ==========================================================================
+   CARD
+   ========================================================================== */
+.faculty-mini-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease;
+}
+
+.faculty-mini-card:hover {
+  transform: translateY(-2px);
+  border-color: #d9d9d9;
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
+}
+
+/* ==========================================================================
+   PHOTO
+   ========================================================================== */
+.faculty-mini-photo {
+  flex-shrink: 0;
+}
+
+.faculty-mini-photo img {
+  display: block;
+  width: 105px;
+  height: 105px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f2f2f2;
+}
+
+/* ==========================================================================
+   INFORMATION
+   ========================================================================== */
+.faculty-mini-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.faculty-mini-name {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #222;
+}
+
+.faculty-mini-designation {
+  margin-top: 4px;
+  font-size: 0.94rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.faculty-mini-secondary {
+  margin-top: 5px;
+  font-size: 0.90rem;
+  color: #777;
+  font-style: italic;
+}
+
+.faculty-mini-email {
+  margin-top: 8px;
+  font-size: 0.90rem;
+}
+
+.faculty-mini-email a {
+  color: #555;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.faculty-mini-email a:hover {
+  color: #0056b3;
+}
+
+/* ==========================================================================
+   BADGES
+   ========================================================================== */
+.faculty-mini-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.45rem;
+}
+
+.faculty-mini-badge {
+  display: inline-block;
+  padding: .18rem .55rem;
+  border-radius: 4px;
+  background: #eef2f6;
+  border: 1px solid #d8dee6;
+  color: #444;
+  text-decoration: none;
+  font-size: .76rem;
+  font-weight: 600;
+  letter-spacing: .02em;
+  transition:
+    background .2s ease,
+    border-color .2s ease,
+    color .2s ease;
+}
+
+.faculty-mini-badge:visited {
+  color: #444;
+  text-decoration: none;
+}
+
+.faculty-mini-badge:hover,
+.faculty-mini-badge:focus {
+  background: #1d5fa7;
+  border-color: #1d5fa7;
+  color: white;
+  text-decoration: underline;
+}
+
+.faculty-mini-badge:active {
+  background: #174c85;
+  border-color: #174c85;
+  color: white;
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 900px) {
+  .faculty-mini-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .faculty-mini-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .faculty-mini-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .faculty-mini-links {
+    justify-content: center;
+  }
+}
