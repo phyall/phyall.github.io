@@ -1,11 +1,13 @@
 <nav class="dept-nav">
   <div class="dept-nav-container">
     <input type="checkbox" id="dept-nav-toggle" class="dept-nav-toggle-checkbox">
-    <label for="dept-nav-toggle" class="dept-nav-toggle-label" aria-label="Toggle navigation menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
+    <div class="dept-nav-bar">
+      <label for="dept-nav-toggle" class="dept-nav-toggle-label" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
     <ul class="dept-nav-list">
       {% for item in site.data.navigation.main %}
         {% assign active = false %}
