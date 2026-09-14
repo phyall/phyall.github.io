@@ -126,13 +126,14 @@
   .dept-nav-list{
     flex-direction:column;
     align-items:stretch;
+    justify-content:flex-start;
     max-height:0;
-    overflow:hidden;
+    overflow-y:auto;
     transition:max-height .3s ease;
   }
 
   .dept-nav-toggle-checkbox:checked ~ .dept-nav-list{
-    max-height:1000px;
+    max-height:80vh;
   }
 
   .dept-nav-item>a{
