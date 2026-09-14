@@ -1,0 +1,160 @@
+/* ==========================================================
+   Department Navigation
+   ========================================================== */
+.dept-nav{
+  background:#163b63;
+  border-top:1px solid rgba(255,255,255,.08);
+  border-bottom:1px solid rgba(0,0,0,.12);
+}
+.dept-nav-container{
+  max-width:1400px;
+  margin:0 auto;
+  padding:0;
+  position:relative;
+}
+.dept-nav-list{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.dept-nav-item{
+  position:relative;
+}
+.dept-nav-item>a{
+  display:block;
+  color:white;
+  text-decoration:none;
+  font-size:.98rem;
+  font-weight:500;
+  padding:0.9rem 1.5rem;
+  transition:
+    background .2s ease,
+    color .2s ease;
+}
+.dept-nav-item>a:hover{
+  background:#1e4d7b;
+}
+.dept-nav-item>a.active{
+  background:#0d2f51;
+}
+
+/* ==========================================================
+   Mobile toggle (hamburger)
+   ========================================================== */
+.dept-nav-toggle-checkbox{
+  display:none;
+}
+.dept-nav-toggle-label{
+  display:none;
+  flex-direction:column;
+  justify-content:center;
+  gap:5px;
+  width:32px;
+  height:32px;
+  cursor:pointer;
+  position:absolute;
+  right:1rem;
+  top:50%;
+  transform:translateY(-50%);
+}
+.dept-nav-toggle-label span{
+  display:block;
+  height:3px;
+  width:100%;
+  background:white;
+  border-radius:2px;
+}
+
+/* ==========================================================
+   Dropdown
+   ========================================================== */
+.dropdown-menu{
+  position:absolute;
+  top:100%;
+  left:0;
+  min-width:230px;
+  padding:.4rem 0;
+  margin:0;
+  list-style:none;
+  background:white;
+  border-radius:0 0 6px 6px;
+  box-shadow:0 12px 30px rgba(0,0,0,.18);
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(8px);
+  transition:
+    opacity .22s ease,
+    transform .22s ease,
+    visibility .22s;
+  z-index:1000;
+}
+.has-dropdown:hover>.dropdown-menu{
+  opacity:1;
+  visibility:visible;
+  transform:translateY(0);
+}
+.dropdown-menu li{
+  margin:0;
+}
+.dropdown-menu a{
+  display:block;
+  padding:.8rem 1.2rem;
+  color:#163b63;
+  text-decoration:none;
+  font-size:.95rem;
+  font-weight:500;
+  white-space:nowrap;
+  transition:background .2s;
+}
+.dropdown-menu a:hover{
+  background:#edf4fb;
+}
+
+/* ==========================================================
+   Mobile
+   ========================================================== */
+@media (max-width:900px){
+  .dept-nav-toggle-label{
+    display:flex;
+  }
+
+  .dept-nav-list{
+    flex-direction:column;
+    align-items:stretch;
+    max-height:0;
+    overflow:hidden;
+    transition:max-height .3s ease;
+  }
+
+  .dept-nav-toggle-checkbox:checked ~ .dept-nav-list{
+    max-height:1000px;
+  }
+
+  .dept-nav-item>a{
+    padding:.75rem 1rem;
+    font-size:.92rem;
+  }
+
+  .dropdown-menu{
+    position:static;
+    opacity:1;
+    visibility:visible;
+    transform:none;
+    box-shadow:none;
+    background:rgba(255,255,255,.06);
+    border-radius:0;
+    padding-left:1rem;
+  }
+
+  .dropdown-menu a{
+    color:white;
+    padding-left:2rem;
+  }
+
+  .dropdown-menu a:hover{
+    background:rgba(255,255,255,.12);
+  }
+}
