@@ -2627,7 +2627,7 @@
   status: approved
   course_type: PME
   prerequisites: 1030
-  prerequisites_note: "MA1011, MA1021 (non-physics, not tracked in this file)"
+  prerequisites_note: "MA1011, MA1021 (offered by the Department of Mathematics)"
   #=============
   # Syllabus
   #=============
