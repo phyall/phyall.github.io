@@ -1,3 +1,36 @@
+{% assign course = site.data.all_courses | where: "code", page.code | first %}
+{% if course %}
+<div class="course-metadata">
+  <!--<p>
+    <strong>Course Type:</strong> {{ course.course_type }}
+  </p>-->
+  <p>
+    <strong>L-T-P-C:</strong> {{ course.ltpc }}
+  </p>
+  <p>
+    <strong>Prerequisites:</strong>
+    {% if course.prerequisites %}
+      {% assign prerequisites = course.prerequisites | split: "," %}
+      {% for prerequisite in prerequisites %}
+        {% assign prereq = prerequisite | strip %}
+        <a href="{{ '/msc-all-courses/' | append: prereq | append: '/' | relative_url }}">
+          PH{{ prereq }}
+        </a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    {% else %}
+      None
+    {% endif %}
+  </p>
+  {% if course.prerequisites_note %}
+  <p>
+    <strong>Additional Prerequisites:</strong> {{ course.prerequisites_note }}
+  </p>
+  {% endif %}
+</div>
+{% endif %}
+
+
+
 <!--{% assign course = site.data.all_courses | where: "code", page.code | first %}
 {% if course %}
 <div class="course-metadata">-->
@@ -28,13 +61,13 @@
 
 
 
-{% assign course = site.data.all_courses | where: "code", page.code | first %}
+<!--{% assign course = site.data.all_courses | where: "code", page.code | first %}
 {% if course %}
-<div class="course-metadata">
+<div class="course-metadata">-->
   <!--<p>
     <strong>Course Type:</strong> {{ course.course_type }}
   </p>-->
-  <p>
+  <!--<p>
     <strong>L-T-P-C:</strong> {{ course.ltpc }}
   </p>
   <p>
@@ -52,7 +85,7 @@
     {% endif %}
   </p>
 </div>
-{% endif %}
+{% endif %}-->
 
 
 
