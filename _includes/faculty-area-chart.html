@@ -1,10 +1,10 @@
+<h2 class="topic-stats-title">Area-wise Faculty Statistics</h2>
+
 <div class="topic-stats-grid">
   <div class="topic-stats-card">
-    <h3>Faculty: Theory vs Experiment</h3>
     <canvas id="facultyAreaChart"></canvas>
   </div>
   <div class="topic-stats-card">
-    <h3>Faculty per Research Area</h3>
     <canvas id="facultyByAreaChart" class="wide"></canvas>
   </div>
 </div>
@@ -49,7 +49,7 @@
   const byAreaStats = [
     {% for group in research_groups %}
       {% assign grp_count = current_primary_faculty | where_exp: "item", "item.area contains group.id" | size %}
-      { "label": {{ group.title | jsonify }}, "count": {{ grp_count }} }{% unless forloop.last %},{% endunless %}
+      { "label": {{ group.short | jsonify }}, "count": {{ grp_count }} }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
