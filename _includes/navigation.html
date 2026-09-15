@@ -22,10 +22,16 @@
           {% endfor %}
         {% endif %}
         <li class="dept-nav-item{% if item.children %} has-dropdown{% endif %}">
-          <a href="{{ item.url | default: '#' | relative_url }}"
-             class="{% if active %}active{% endif %}">
-            {{ item.title }}
-          </a>
+          {% if item.children %}
+            <span class="dept-nav-parent{% if active %} active{% endif %}">
+              {{ item.title }}
+            </span>
+          {% else %}
+            <a href="{{ item.url | default: '#' | relative_url }}"
+               class="{% if active %}active{% endif %}">
+              {{ item.title }}
+            </a>
+          {% endif %}
           {% if item.children %}
             <ul class="dropdown-menu">
               {% for child in item.children %}
