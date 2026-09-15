@@ -5,6 +5,8 @@ title: Research Topics
 sidebar: quicklinks
 ---
 
+{% include faculty-area-chart.html %}
+
 Faculty in the Department of Physics perform state-of-the-art research in diverse directions. The set of broad research directions existing in the Department are as follows.
 
 <ul class="topics-list">
