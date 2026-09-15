@@ -1,6 +1,6 @@
 - name: Aswin R
   roll: 222105001
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -9,7 +9,7 @@
 
 - name: Athira S
   roll: 222105002
-  gender:
+  gender: female
   year_joined: 2021
   year_graduated: 2023
   degree: false
@@ -18,7 +18,7 @@
 
 - name: Debasish Dutta
   roll: 222105003
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: false
@@ -27,7 +27,7 @@
 
 - name: Akhil Furtado
   roll: 222105004
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: false
@@ -36,7 +36,7 @@
 
 - name: Jha Jayshree Pashupati
   roll: 222105005
-  gender:
+  gender: female
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -45,7 +45,7 @@
 
 - name: Mesquita Nikhil
   roll: 222105007
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -54,7 +54,7 @@
 
 - name: Pankaj Singh Parihar
   roll: 222105009
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -63,7 +63,7 @@
 
 - name: Ravi Kant Kumar
   roll: 222105012
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -72,7 +72,7 @@
 
 - name: Sachin
   roll: 222105013
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -81,7 +81,7 @@
 
 - name: Shivam Shukla
   roll: 222105017
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -90,7 +90,7 @@
 
 - name: Som Subhra Guria
   roll: 222105018
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -99,7 +99,7 @@
 
 - name: Thakur Ram
   roll: 222105020
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -108,7 +108,7 @@
 
 - name: Thanmayee Gore
   roll: 222105021
-  gender:
+  gender: female
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -117,7 +117,7 @@
 
 - name: Kanhu Charan Das
   roll: 222105006
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -126,7 +126,7 @@
 
 - name: Paul M Kunju
   roll: 222005013
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: true
@@ -135,7 +135,7 @@
 
 - name: Sathishkumar M
   roll: 222105014
-  gender:
+  gender: male
   year_joined: 2021
   year_graduated: 2023
   degree: false
