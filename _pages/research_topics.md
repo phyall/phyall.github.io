@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /topics/
-title: Research Topics
+title: Research Areas
 sidebar: quicklinks
 ---
 
