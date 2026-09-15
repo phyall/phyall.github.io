@@ -15,6 +15,7 @@
   iit_url:
   personal_url: 
   photo: sunil.png
+  type: theory
   area: [softmat_theory]
   research: 
   office:
@@ -38,6 +39,7 @@
   iit_url: "https://iitpkd.ac.in/people/uma/"
   personal_url: 
   photo: uma.png
+  type: theory
   area: [cmp_theory]
   research: "Non-equilibrium dynamics, quantum phase transitions, quantum Information"
   office: "D03 GF, B03-119 (Head)"
@@ -61,6 +63,7 @@
   iit_url: "https://iitpkd.ac.in/people/jayakumar/"
   personal_url: "https://sites.google.com/iitpkd.ac.in/2dmaterialsgroup/home/"
   photo: jayakumar.png  
+  type: experiment
   area: [cmp_experiment]
   research: "Experimental condensed matter physics, 2D materials and perovskites"
   office: 
@@ -82,7 +85,8 @@
   email: prithvi@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/prithvi/"
   personal_url: 
-  photo: prithvi.png    
+  photo: prithvi.png   
+  type: theory
   area: [string]
   research: "Quantum field theory, string theory"
   office: 
@@ -105,6 +109,7 @@
   iit_url: "https://iitpkd.ac.in/people/smanni/"
   personal_url: "https://sites.google.com/view/cem-lab/home/"
   photo: soham.png
+  type: experiment
   area: [cmp_experiment]
   research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
   office: 
@@ -126,7 +131,8 @@
   email: kdhochak@iitpkd.ac.in
   iit_url: "https://iitpkd.ac.in/people/kdhochak/"
   personal_url: 
-  photo: kusum.png    
+  photo: kusum.png  
+  type: theory
   area: [cmp_theory]
   research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
   office: 
@@ -149,6 +155,7 @@
   iit_url: "https://iitpkd.ac.in/people/bibhu/"
   personal_url: 
   photo: bibhu.png
+  type: experiment
   area: [softmat_experiment]
   research: "Soft-matter physics, active matter systems, mechanobiology"
   office: 
@@ -172,6 +179,7 @@
   iit_url: "https://iitpkd.ac.in/people/projjwal/"
   personal_url: 
   photo: projjwal.png   
+  type: theory
   area: [astro_theory]
   research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
   office: 
@@ -196,6 +204,7 @@
   iit_url: "https://iitpkd.ac.in/people/amit/"
   personal_url: "https://amitkpal.github.io/"
   photo: amit.png
+  type: theory
   area: [quantum_theory,cmp_theory]
   research: "Quantum information theory, quantum thermodynamics, quantum many-body physics, open quantum systems" 
   office: 
@@ -218,6 +227,7 @@
   iit_url: "https://iitpkd.ac.in/people/vishwas/"
   personal_url: 
   photo: vishwas.png
+  type: theory
   area: [softmat_theory]
   research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
   office: 
@@ -240,6 +250,7 @@
   iit_url: 
   personal_url: 
   photo: anil.png
+  type: theory
   area: [softmat_theory]
   research: 
   office: 
@@ -263,6 +274,7 @@
   iit_url: 
   personal_url: 
   photo: akshay.png
+  type: theory
   area: [softmat_theory]
   research: 
   office: 
@@ -286,6 +298,7 @@
   iit_url: "https://iitpkd.ac.in/people/ajeesh/"
   personal_url: 
   photo: ajeesh.png
+  type: experiment
   area: [cmp_experiment]
   research: "Experimental condensed matter physics, quantum materials under extreme conditions"
   office: 
@@ -309,6 +322,7 @@
   iit_url: "https://iitpkd.ac.in/people/manojgopal/"
   personal_url: 
   photo: manoj.png
+  type: theory
   area: [softmat_theory]
   research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
   office: 
@@ -332,6 +346,7 @@
   iit_url: "https://iitpkd.ac.in/people/akankshab/"
   personal_url: 
   photo: akanksha.png
+  type: theory
   area: [hep_theory]
   research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
   office: 
@@ -354,6 +369,7 @@
   iit_url: "https://iitpkd.ac.in/people/resmipk/"
   personal_url: 
   photo: resmi.png
+  type: experiment
   area: [hep_experiment]
   research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
   office: 
@@ -378,6 +394,7 @@
   iit_url: "https://iitpkd.ac.in/people/debarati/"
   personal_url: 
   photo: debarati.png
+  type: theory
   area: [softmat_theory]
   research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
   office: 
@@ -401,6 +418,7 @@
   iit_url: "https://iitpkd.ac.in/people/swaroop/"
   personal_url: 
   photo: swaroop.png
+  type: 
   area: [electronics]
   research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
   office: 
