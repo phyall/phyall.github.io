@@ -37,7 +37,7 @@ main:
 
   - title: Research
     children:
-      - title: Topics
+      - title: Research Areas
         url: /topics/
 
       - title: Facilities
