@@ -4,6 +4,7 @@
   photo: /images/staff/veena.png
   office: "Physics Lab (A01, B03)"
   status: current
+  gender: female
 
 - name: Lidhyal Leena
   position: Junior Technical Superintendent
@@ -11,6 +12,7 @@
   photo: /images/staff/lidya.png
   office: "Physics Lab (A01, B03)"
   status: current
+  gender: female
 
 - name: Akheel Haznan K
   position: Junior Technician
@@ -18,6 +20,7 @@
   photo: /images/staff/akheel.png
   office: "Physics Lab (A01, B03)"
   status: current
+  gender: male
 
 - name: Manjusha M
   position: Junior Technician
@@ -25,6 +28,7 @@
   photo: /images/staff/manjusha.png
   office: "Physics Lab (A01, B03)"
   status: current
+  gender: female
 
 - name: Arya J
   position: Secretary
@@ -33,3 +37,4 @@
   office: "B01-118"
   phone: 1501
   status: current
+  gender: female
