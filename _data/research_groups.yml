@@ -43,7 +43,7 @@
   short: HEP Experiment
   alphabet: ha
 
-- id: electronics
-  title: Electronics and Electrical Engineering
-  short: Electronics
-  alphabet: x
+#- id: electronics
+#  title: Electronics and Electrical Engineering
+#  short: Electronics
+#  alphabet: x
