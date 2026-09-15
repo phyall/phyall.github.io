@@ -15,7 +15,7 @@
   iit_url:
   personal_url: 
   photo: sunil.png
-  area: softmat_theory
+  area: [softmat_theory]
   research: 
   office:
   phone: 
@@ -38,7 +38,7 @@
   iit_url: "https://iitpkd.ac.in/people/uma/"
   personal_url: 
   photo: uma.png
-  area: cmp_theory
+  area: [cmp_theory]
   research: "Non-equilibrium dynamics, quantum phase transitions, quantum Information"
   office: "D03 GF, B03-119 (Head)"
   phone: "1515, 1500 (Head)"
@@ -61,7 +61,7 @@
   iit_url: "https://iitpkd.ac.in/people/jayakumar/"
   personal_url: "https://sites.google.com/iitpkd.ac.in/2dmaterialsgroup/home/"
   photo: jayakumar.png  
-  area: cmp_experiment
+  area: [cmp_experiment]
   research: "Experimental condensed matter physics, 2D materials and perovskites"
   office: 
   phone: 
@@ -83,7 +83,7 @@
   iit_url: "https://iitpkd.ac.in/people/prithvi/"
   personal_url: 
   photo: prithvi.png    
-  area: string
+  area: [string]
   research: "Quantum field theory, string theory"
   office: 
   phone: 
@@ -105,7 +105,7 @@
   iit_url: "https://iitpkd.ac.in/people/smanni/"
   personal_url: "https://sites.google.com/view/cem-lab/home/"
   photo: soham.png
-  area: cmp_experiment
+  area: [cmp_experiment]
   research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
   office: 
   phone: 
@@ -127,7 +127,7 @@
   iit_url: "https://iitpkd.ac.in/people/kdhochak/"
   personal_url: 
   photo: kusum.png    
-  area: cmp_theory
+  area: [cmp_theory]
   research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
   office: 
   phone: 
@@ -149,7 +149,7 @@
   iit_url: "https://iitpkd.ac.in/people/bibhu/"
   personal_url: 
   photo: bibhu.png
-  area: softmat_experiment
+  area: [softmat_experiment]
   research: "Soft-matter physics, active matter systems, mechanobiology"
   office: 
   phone: 
@@ -172,7 +172,7 @@
   iit_url: "https://iitpkd.ac.in/people/projjwal/"
   personal_url: 
   photo: projjwal.png   
-  area: astro_theory
+  area: [astro_theory]
   research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
   office: 
   phone: 
@@ -196,7 +196,7 @@
   iit_url: "https://iitpkd.ac.in/people/amit/"
   personal_url: "https://amitkpal.github.io/"
   photo: amit.png
-  area: quantum_theory
+  area: [quantum_theory,cmp_theory]
   research: "Quantum information theory, quantum thermodynamics, quantum many-body physics, open quantum systems" 
   office: 
   phone: 
@@ -218,7 +218,7 @@
   iit_url: "https://iitpkd.ac.in/people/vishwas/"
   personal_url: 
   photo: vishwas.png
-  area: softmat_theory
+  area: [softmat_theory]
   research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
   office: 
   phone: 
@@ -240,7 +240,7 @@
   iit_url: 
   personal_url: 
   photo: anil.png
-  area: softmat_theory
+  area: [softmat_theory]
   research: 
   office: 
   phone:   
@@ -263,7 +263,7 @@
   iit_url: 
   personal_url: 
   photo: akshay.png
-  area: softmat_theory
+  area: [softmat_theory]
   research: 
   office: 
   phone:    
@@ -286,7 +286,7 @@
   iit_url: "https://iitpkd.ac.in/people/ajeesh/"
   personal_url: 
   photo: ajeesh.png
-  area: cmp_experiment
+  area: [cmp_experiment]
   research: "Experimental condensed matter physics, quantum materials under extreme conditions"
   office: 
   phone: 
@@ -309,7 +309,7 @@
   iit_url: "https://iitpkd.ac.in/people/manojgopal/"
   personal_url: 
   photo: manoj.png
-  area: softmat_theory
+  area: [softmat_theory]
   research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
   office: 
   phone: 
@@ -332,7 +332,7 @@
   iit_url: "https://iitpkd.ac.in/people/akankshab/"
   personal_url: 
   photo: akanksha.png
-  area: hep_theory
+  area: [hep_theory]
   research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
   office: 
   phone: 
@@ -354,7 +354,7 @@
   iit_url: "https://iitpkd.ac.in/people/resmipk/"
   personal_url: 
   photo: resmi.png
-  area: hep_experiment
+  area: [hep_experiment]
   research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
   office: 
   phone: 
@@ -378,7 +378,7 @@
   iit_url: "https://iitpkd.ac.in/people/debarati/"
   personal_url: 
   photo: debarati.png
-  area: softmat_theory
+  area: [softmat_theory]
   research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
   office: 
   phone: 
@@ -401,7 +401,7 @@
   iit_url: "https://iitpkd.ac.in/people/swaroop/"
   personal_url: 
   photo: swaroop.png
-  area: electronics
+  area: [electronics]
   research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
   office: 
   phone: 
