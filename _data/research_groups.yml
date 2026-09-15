@@ -10,8 +10,8 @@
   title: High Energy Physics (Theory)
   alphabet: hb
   
-- id: quantum
-  title: Quantum Science and Technologies
+- id: quantum_theory
+  title: Quantum Science and Technologies (Theory)
   alphabet: q
 
 - id: cmp_theory
