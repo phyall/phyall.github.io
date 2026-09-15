@@ -146,8 +146,4 @@ Announcements
 
 
 
-**Department Stats**
-
-
-
 <!--{% include slideshow.html %}-->
