@@ -3,24 +3,28 @@
   email: veenaputhencheri@iitpkd.ac.in
   photo: /images/staff/veena.png
   office: "Physics Lab (A01, B03)"
+  status: current
 
 - name: Lidhyal Leena
   position: Junior Technical Superintendent
   email: leena@iitpkd.ac.in
   photo: /images/staff/lidya.png
   office: "Physics Lab (A01, B03)"
+  status: current
 
 - name: Akheel Haznan K
   position: Junior Technician
   email: akheelhaznan@iitpkd.ac.in
   photo: /images/staff/akheel.png
   office: "Physics Lab (A01, B03)"
+  status: current
 
 - name: Manjusha M
   position: Junior Technician
   email: manjusham@iitpkd.ac.in
   photo: /images/staff/manjusha.png
   office: "Physics Lab (A01, B03)"
+  status: current
 
 - name: Arya J
   position: Secretary
@@ -28,3 +32,4 @@
   photo: /images/staff/arya.png
   office: "B01-118"
   phone: 1501
+  status: current
