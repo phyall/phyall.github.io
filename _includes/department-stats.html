@@ -1,0 +1,91 @@
+<section class="dept-stats">
+  <h2 class="dept-stats-title">Department at a Glance</h2>
+
+  <div class="dept-stats-grid">
+    <div class="dept-stats-card">
+      <h3>Gender Ratio (by graduation year)</h3>
+      <canvas id="genderRatioChart"></canvas>
+    </div>
+    <div class="dept-stats-card">
+      <h3>MSc &amp; PhD Graduates per Year</h3>
+      <canvas id="graduatesChart"></canvas>
+    </div>
+  </div>
+</section>
+
+{% assign msc_all = "" | split: "," %}
+{% for y in site.data.msc_years %}
+  {% assign key = "list_msc" | append: y %}
+  {% assign yr_data = site.data[key] %}
+  {% if yr_data %}
+    {% assign msc_all = msc_all | concat: yr_data %}
+  {% endif %}
+{% endfor %}
+
+{% assign msc_grads = msc_all | where: "degree", true %}
+{% assign msc_grads = msc_grads | where_exp: "item", "item.year_graduated" %}
+
+{% assign phd_grads = site.data.phd_students | where: "status", "finished" %}
+{% assign phd_grads = phd_grads | where_exp: "item", "item.graduation_year" %}
+
+{% assign msc_years_list = msc_grads | map: "year_graduated" %}
+{% assign phd_years_list = phd_grads | map: "graduation_year" %}
+{% assign combined_years = msc_years_list | concat: phd_years_list | uniq | sort %}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script>
+  const deptStats = [
+    {% for yr in combined_years %}
+      {% assign msc_yr = msc_grads | where: "year_graduated", yr %}
+      {% assign phd_yr = phd_grads | where: "graduation_year", yr %}
+      {% assign msc_count = msc_yr | size %}
+      {% assign phd_count = phd_yr | size %}
+      {% assign msc_male = msc_yr | where: "gender", "male" | size %}
+      {% assign msc_female = msc_yr | where: "gender", "female" | size %}
+      {% assign phd_male = phd_yr | where: "gender", "male" | size %}
+      {% assign phd_female = phd_yr | where: "gender", "female" | size %}
+      {% assign total_male = msc_male | plus: phd_male %}
+      {% assign total_female = msc_female | plus: phd_female %}
+      { "year": {{ yr }}, "msc": {{ msc_count }}, "phd": {{ phd_count }}, "male": {{ total_male }}, "female": {{ total_female }} }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  const years = deptStats.map(d => d.year);
+
+  new Chart(document.getElementById('genderRatioChart'), {
+    type: 'bar',
+    data: {
+      labels: years,
+      datasets: [
+        { label: 'Male', data: deptStats.map(d => d.male), backgroundColor: '#4a7fb5' },
+        { label: 'Female', data: deptStats.map(d => d.female), backgroundColor: '#d67ba0' }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: { stacked: true },
+        y: { stacked: true, beginAtZero: true, ticks: { precision: 0 } }
+      },
+      plugins: { legend: { position: 'bottom' } }
+    }
+  });
+
+  new Chart(document.getElementById('graduatesChart'), {
+    type: 'bar',
+    data: {
+      labels: years,
+      datasets: [
+        { label: 'MSc', data: deptStats.map(d => d.msc), backgroundColor: '#2f6f4f' },
+        { label: 'PhD', data: deptStats.map(d => d.phd), backgroundColor: '#b5843f' }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: { y: { beginAtZero: true, ticks: { precision: 0 } } },
+      plugins: { legend: { position: 'bottom' } }
+    }
+  });
+</script>
