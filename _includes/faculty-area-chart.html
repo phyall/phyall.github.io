@@ -1,0 +1,40 @@
+<div class="topic-stats-card">
+  <h3>Faculty: Theory vs Experiment</h3>
+  <canvas id="facultyAreaChart"></canvas>
+</div>
+
+{% assign current_primary_faculty = site.data.faculty_details
+  | where: "affiliation", "primary"
+  | where: "status", "current" %}
+
+{% assign theory_count = current_primary_faculty | where: "type", "theory" | size %}
+{% assign experiment_count = current_primary_faculty | where: "type", "experiment" | size %}
+{% assign total_primary_count = current_primary_faculty | size %}
+{% assign other_count = total_primary_count | minus: theory_count | minus: experiment_count %}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script>
+  const areaLabels = ['Theory', 'Experiment'{% if other_count > 0 %}, 'Other'{% endif %}];
+  const areaData = [{{ theory_count }}, {{ experiment_count }}{% if other_count > 0 %}, {{ other_count }}{% endif %}];
+  const areaColors = ['#4a7fb5', '#b5843f'{% if other_count > 0 %}, '#999999'{% endif %}];
+
+  new Chart(document.getElementById('facultyAreaChart'), {
+    type: 'doughnut',
+    data: {
+      labels: areaLabels,
+      datasets: [{ data: areaData, backgroundColor: areaColors }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom' },
+        tooltip: {
+          callbacks: {
+            label: ctx => `${ctx.label}: ${ctx.raw}`
+          }
+        }
+      }
+    }
+  });
+</script>
