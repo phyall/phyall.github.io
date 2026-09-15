@@ -7,6 +7,7 @@
   next_position:
   with: Soham Manni
   email: gayathriv@iitpkd.ac.in 
+  gender: female
   
 
 - name: Aparna Sreekumari
@@ -18,6 +19,7 @@
   next_position:
   with: Vishwas V
   email: prj183@iitpkd.ac.in
+  gender: female
 
 
 - name: Nisha Gupta
@@ -29,6 +31,7 @@
   next_position:
   with: "P. B. Sunil Kumar (Now in IITM)"
   email: 
+  gender: female
 
 
 - name: Sayani Chatterjee
@@ -40,6 +43,7 @@
   next_position:
   with: Vishwas V
   email: 
+  gender: female
 
 - name: Arya Mohan
   status: finished
@@ -50,6 +54,7 @@
   next_position:
   with: Jayakumar Balakrishnan
   email: 
+  gender: female
 
 
   
