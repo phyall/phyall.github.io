@@ -12,7 +12,7 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
 - Condensed Matter Physics (Theory)
 - High Energy Physics (Experiment)
 - High Energy Physics (Theory)
-- Quantum Information Theory
+- Quantum Science and Technologies (Theory)
 - Soft Matter and Statistical Physics (Experiment)
 - Soft Matter and Statistical Physics (Theory)
 - String Theory
