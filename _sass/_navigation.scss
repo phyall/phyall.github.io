@@ -23,7 +23,8 @@
 .dept-nav-item{
   position:relative;
 }
-.dept-nav-item>a{
+.dept-nav-item>a,
+.dept-nav-item>.dept-nav-parent{
   display:block;
   color:white;
   text-decoration:none;
@@ -37,7 +38,14 @@
 .dept-nav-item>a:hover{
   background:#1e4d7b;
 }
-.dept-nav-item>a.active{
+.dept-nav-item>.dept-nav-parent{
+  cursor:default;
+}
+.dept-nav-item.has-dropdown:hover>.dept-nav-parent{
+  background:#1e4d7b;
+}
+.dept-nav-item>a.active,
+.dept-nav-item>.dept-nav-parent.active{
   background:#0d2f51;
 }
 
@@ -136,7 +144,8 @@
     max-height:80vh;
   }
 
-  .dept-nav-item>a{
+  .dept-nav-item>a,
+  .dept-nav-item>.dept-nav-parent{
     padding:.75rem 1rem;
     font-size:.92rem;
   }
