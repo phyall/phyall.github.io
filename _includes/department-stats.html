@@ -4,10 +4,20 @@
   <div class="dept-stats-grid">
     <div class="dept-stats-card">
       <h3>Gender Ratio (by graduation year)</h3>
+      <div class="dept-stats-toggle" data-target="gender">
+        <button data-mode="combined" class="active">Combined</button>
+        <button data-mode="msc">MSc only</button>
+        <button data-mode="phd">PhD only</button>
+      </div>
       <canvas id="genderRatioChart"></canvas>
     </div>
     <div class="dept-stats-card">
       <h3>MSc &amp; PhD Graduates per Year</h3>
+      <div class="dept-stats-toggle" data-target="graduates">
+        <button data-mode="combined" class="active">Combined</button>
+        <button data-mode="msc">MSc only</button>
+        <button data-mode="phd">PhD only</button>
+      </div>
       <canvas id="graduatesChart"></canvas>
     </div>
   </div>
@@ -48,21 +58,43 @@
       {% assign msc_female = msc_yr | where: "gender", "female" | size %}
       {% assign phd_male = phd_yr | where: "gender", "male" | size %}
       {% assign phd_female = phd_yr | where: "gender", "female" | size %}
-      {% assign total_male = msc_male | plus: phd_male %}
-      {% assign total_female = msc_female | plus: phd_female %}
-      { "year": {{ yr }}, "msc": {{ msc_count }}, "phd": {{ phd_count }}, "male": {{ total_male }}, "female": {{ total_female }} }{% unless forloop.last %},{% endunless %}
+      {
+        "year": {{ yr }},
+        "msc": {{ msc_count }},
+        "phd": {{ phd_count }},
+        "msc_male": {{ msc_male }},
+        "msc_female": {{ msc_female }},
+        "phd_male": {{ phd_male }},
+        "phd_female": {{ phd_female }}
+      }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
 
   const years = deptStats.map(d => d.year);
 
-  new Chart(document.getElementById('genderRatioChart'), {
+  /* -------------------- Gender chart -------------------- */
+  function genderData(mode) {
+    if (mode === 'msc') {
+      return { male: deptStats.map(d => d.msc_male), female: deptStats.map(d => d.msc_female) };
+    }
+    if (mode === 'phd') {
+      return { male: deptStats.map(d => d.phd_male), female: deptStats.map(d => d.phd_female) };
+    }
+    return {
+      male: deptStats.map(d => d.msc_male + d.phd_male),
+      female: deptStats.map(d => d.msc_female + d.phd_female)
+    };
+  }
+
+  const initialGender = genderData('combined');
+
+  const genderChart = new Chart(document.getElementById('genderRatioChart'), {
     type: 'bar',
     data: {
       labels: years,
       datasets: [
-        { label: 'Male', data: deptStats.map(d => d.male), backgroundColor: '#4a7fb5' },
-        { label: 'Female', data: deptStats.map(d => d.female), backgroundColor: '#d67ba0' }
+        { label: 'Male', data: initialGender.male, backgroundColor: '#4a7fb5' },
+        { label: 'Female', data: initialGender.female, backgroundColor: '#d67ba0' }
       ]
     },
     options: {
@@ -76,7 +108,21 @@
     }
   });
 
-  new Chart(document.getElementById('graduatesChart'), {
+  document.querySelectorAll('.dept-stats-toggle[data-target="gender"] button').forEach(btn => {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.dept-stats-toggle[data-target="gender"] button')
+        .forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const d = genderData(this.dataset.mode);
+      genderChart.data.datasets[0].data = d.male;
+      genderChart.data.datasets[1].data = d.female;
+      genderChart.update();
+    });
+  });
+
+  /* -------------------- Graduates chart -------------------- */
+  const graduatesChart = new Chart(document.getElementById('graduatesChart'), {
     type: 'bar',
     data: {
       labels: years,
@@ -91,5 +137,18 @@
       scales: { y: { beginAtZero: true, ticks: { precision: 0 } } },
       plugins: { legend: { position: 'bottom' } }
     }
+  });
+
+  document.querySelectorAll('.dept-stats-toggle[data-target="graduates"] button').forEach(btn => {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.dept-stats-toggle[data-target="graduates"] button')
+        .forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      const mode = this.dataset.mode;
+      graduatesChart.setDatasetVisibility(0, mode === 'combined' || mode === 'msc');
+      graduatesChart.setDatasetVisibility(1, mode === 'combined' || mode === 'phd');
+      graduatesChart.update();
+    });
   });
 </script>
