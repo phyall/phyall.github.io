@@ -1,0 +1,30 @@
+{% assign group = site.data.research_groups | where: "id", include.topic_id | first %}
+
+<p class="topic-back-link"><a href="{{ site.baseurl }}/topics/">&larr; All Research Topics</a></p>
+
+{% assign primary = site.data.faculty_details
+  | where: "area", include.topic_id
+  | where: "affiliation", "primary"
+  | where: "status", "current"
+  | sort: "last_name" %}
+
+{% if primary.size > 0 %}
+  {% for faculty in primary %}
+    {% include faculty-card-simple.html faculty=faculty %}
+  {% endfor %}
+{% else %}
+  <p class="topic-empty">No primary faculty currently listed in this area.</p>
+{% endif %}
+
+{% assign secondary = site.data.faculty_details
+  | where: "area", include.topic_id
+  | where: "affiliation", "secondary"
+  | where: "status", "current"
+  | sort: "last_name" %}
+
+{% if secondary.size > 0 %}
+  <h3 class="topic-associated-title">Associated Faculty</h3>
+  {% for faculty in secondary %}
+    {% include faculty-card-simple.html faculty=faculty %}
+  {% endfor %}
+{% endif %}
