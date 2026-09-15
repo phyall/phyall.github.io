@@ -41,3 +41,35 @@
     grid-template-columns: 1fr;
   }
 }
+
+.dept-stats-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.dept-stats-toggle button {
+  padding: 0.35rem 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  border: 1px solid #d8dee6;
+  background: #f6f8fa;
+  color: #444;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background .2s ease,
+    color .2s ease,
+    border-color .2s ease;
+}
+
+.dept-stats-toggle button:hover {
+  background: #edf2f7;
+}
+
+.dept-stats-toggle button.active {
+  background: #163b63;
+  border-color: #163b63;
+  color: #fff;
+}
