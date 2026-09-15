@@ -19,4 +19,4 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
   <li><span class="topic-name">String Theory</span><a class="topic-side-link" href="{{ site.baseurl }}/topics/string-theory/">Faculty &rarr;</a></li>
 </ul>
 
-See [here]({{ site.baseurl }}/topic-wise/) for a research area-wise grouping of faculty.
+<!--See [here]({{ site.baseurl }}/topic-wise/) for a research area-wise grouping of faculty.-->
