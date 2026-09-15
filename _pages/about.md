@@ -141,10 +141,12 @@ Announcements
 
 
 
+{% include department-stats.html %}
 
 
 
 
+**Department Stats**
 
 
 
