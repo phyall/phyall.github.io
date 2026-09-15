@@ -1,6 +1,6 @@
 - name: Nabin Boro
   roll: 221905007
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -9,7 +9,7 @@
 
 - name: Suganthan
   roll: 221905017
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -18,7 +18,7 @@
 
 - name: Ashutosh Kumar
   roll: 222005002
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -27,7 +27,7 @@
 
 - name: K Sidharth
   roll: 222005005
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -36,7 +36,7 @@
 
 - name: Kapil Kumar Saini
   roll: 222005006
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -45,7 +45,7 @@
 
 - name: Krishnananda C.P
   roll: 222005007
-  gender:
+  gender: female
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -54,7 +54,7 @@
 
 - name: Mayurakshi Deb
   roll: 222005008
-  gender:
+  gender: female
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -64,7 +64,7 @@
 
 - name: Pawar Prasad Namdev 
   roll: 222005015
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -73,7 +73,7 @@
 
 - name: Preksha Dhananjayan
   roll: 222005016
-  gender:
+  gender: female
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -82,7 +82,7 @@
 
 - name: Saurabh Kumar Mishra
   roll: 222005019
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -91,7 +91,7 @@
 
 - name: Vaibhav Tyagi
   roll: 222005021
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -100,7 +100,7 @@
 
 - name: Harsh Sharma
   roll: 222005033
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -109,7 +109,7 @@
 
 - name: Niharika Majhi
   roll: 222005010
-  gender:
+  gender: female
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -118,7 +118,7 @@
 
 - name: Rahul Kumar
   roll: 222005017
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -127,7 +127,7 @@
 
 - name: Saifian Farooq 
   roll: 222005030
-  gender:
+  gender: male
   year_joined: 2020
   year_graduated: 2022
   degree: true
@@ -136,7 +136,7 @@
 
 - name: Chandrima B. Pushpan
   roll: 222005003
-  gender:
+  gender: female
   year_joined: 2020
   year_graduated: 2022
   degree: false
@@ -145,7 +145,7 @@
 
 - name: Olivia Vincent
   roll: 222005011
-  gender:
+  gender: female
   year_joined: 2020
   year_graduated: 2022
   degree: false
