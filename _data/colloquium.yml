@@ -12,6 +12,23 @@
   host: Amit Kumar Pal
   status: upcoming
 
+
+#############################################
+
+
+- date: 2026-03-13
+  datestamp: 20260313
+  time: 1530 HRS
+  title: Cosmology with Gravitational waves: Current constraints and challenges
+  speaker: Surhud More
+  designation: Professor
+  affiliation: IUCAA Pune
+  venue: Lecture Hall
+  type: Physics Colloquium
+  link:
+  host: Projjwal Banerjee
+  status: past  
+
 - date: 2026-01-30
   datestamp: 20260130
   time: 1530 HRS
