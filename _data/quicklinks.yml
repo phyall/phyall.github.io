@@ -71,6 +71,19 @@ links:
       - title: Scholarships
         url: https://iitpkd.ac.in/scholarships-and-financial-assistance  
 
+  - title: Recruitment
+  
+    links: 
+      - title: Faculty
+        url: https://facap.iitpkd.ac.in
+
+      - title: Postdoc
+        url: https://resap.iitpkd.ac.in
+
+      - title: Staff
+        url: https://joinus.iitpkd.ac.in
+
+        
   #- title: Recruitment
 
   #  links:
