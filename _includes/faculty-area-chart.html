@@ -47,9 +47,14 @@
   });
 
   const byAreaStats = [
+    {% assign first_written = false %}
     {% for group in research_groups %}
       {% assign grp_count = current_primary_faculty | where_exp: "item", "item.area contains group.id" | size %}
-      { "label": {{ group.short | jsonify }}, "count": {{ grp_count }} }{% unless forloop.last %},{% endunless %}
+      {% if grp_count > 0 %}
+        {% if first_written %},{% endif %}
+        { "label": {{ group.short | jsonify }}, "count": {{ grp_count }} }
+        {% assign first_written = true %}
+      {% endif %}
     {% endfor %}
   ];
 
