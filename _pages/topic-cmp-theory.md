@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /topics/cmp-theory/
-title: Condensed Matter Physics (Theory)
+title: Condensed Matter and Many-Body Physics (Theory)
 sidebar: quicklinks
 ---
 
