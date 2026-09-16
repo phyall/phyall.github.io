@@ -24,8 +24,11 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
       {% if colloquium_date >= today %}
         {% assign found = true %}
         <div class="announce-item">
-          <a class="announce-item-title" href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}">{{ colloquium.title }}</a>
-          <div class="announce-item-meta">{{ colloquium.speaker }}, {{ colloquium.affiliation }} &middot; {{ colloquium.date | date: "%d %b %Y" }}</div>
+          <div class="announce-item-row">
+            <span class="announce-speaker">{{ colloquium.speaker }}</span>
+            <a class="announce-detail-link" href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}">Details</a>
+          </div>
+          <div class="announce-item-meta">{{ colloquium.affiliation }} &middot; {{ colloquium.date | date: "%d %b %Y" }}</div>
         </div>
       {% endif %}
     {% endfor %}
@@ -44,8 +47,11 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
       {% if seminar_date >= today %}
         {% assign found = true %}
         <div class="announce-item">
-          <a class="announce-item-title" href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}">{{ seminar.title }}</a>
-          <div class="announce-item-meta">{{ seminar.speaker }}, {{ seminar.affiliation }} &middot; {{ seminar.date | date: "%d %b %Y" }}</div>
+          <div class="announce-item-row">
+            <span class="announce-speaker">{{ seminar.speaker }}</span>
+            <a class="announce-detail-link" href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}">Details</a>
+          </div>
+          <div class="announce-item-meta">{{ seminar.affiliation }} &middot; {{ seminar.date | date: "%d %b %Y" }}</div>
         </div>
       {% endif %}
     {% endfor %}
