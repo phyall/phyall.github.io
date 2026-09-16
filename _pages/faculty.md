@@ -10,10 +10,10 @@ sidebar: quicklinks
    | where: "status", "current"
    | sort: "date_joined" %}
 
-{% assign secondary_faculty = site.data.faculty_details
+<!--{% assign secondary_faculty = site.data.faculty_details
    | where: "affiliation", "secondary"
    | where: "status", "current"
-   | sort: "date_joined" %}
+   | sort: "date_joined" %}-->
 
 
 <div class="faculty-grid">
@@ -22,7 +22,7 @@ sidebar: quicklinks
 {% endfor %}
 </div>
 
-{% if secondary_faculty.size > 0 %}
+<!--{% if secondary_faculty.size > 0 %}
 
 <h3 style="margin-top:3rem;">Secondary Affiliation</h3>
 
@@ -32,4 +32,4 @@ sidebar: quicklinks
 {% endfor %}
 </div>
 
-{% endif %}
+{% endif %}-->
