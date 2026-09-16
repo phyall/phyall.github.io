@@ -1,49 +1,58 @@
 - id: string
   title: String Theory
-  short: String Theory
+  short: Sring Theory
   alphabet: sc
+  slug: string-theory
 
 - id: astro_theory
-  title: Astrophysics (Theory)  
+  title: Astrophysics (Theory)
   short: Astro Theory
   alphabet: ab
+  slug: astro-theory
 
 - id: hep_theory
   title: High Energy Physics (Theory)
   short: HEP Theory
   alphabet: hb
-  
-#- id: quantum_theory
-#  title: Quantum Science and Technologies (Theory)
-#  short: Quantum Theory
-#  alphabet: q
+  slug: hep-theory
+
+- id: quantum_theory
+  title: Quantum Science and Technologies (Theory)
+  short: Quantum Theory
+  alphabet: q
+  slug: quantum-theory
 
 - id: cmp_theory
-  title: Condensed Matter and Many-Body Physics (Theory)
+  title: Condensed Matter Physics (Theory)
   short: CMP Theory
   alphabet: cb
+  slug: cmp-theory
 
 - id: softmat_theory
   title: Soft-Matter and Statistical Physics (Theory)
   short: Stat Phys Theory
   alphabet: sb
-  
+  slug: softmat-theory
+
 - id: cmp_experiment
   title: Condensed Matter Physics (Experiment)
   short: CMP Experiment
   alphabet: ca
+  slug: cmp-experiment
 
 - id: softmat_experiment
-  title: Soft-Matter and Statistical Physics (Experiment) 
+  title: Soft-Matter and Statistical Physics (Experiment)
   short: Stat Phys Experiment
   alphabet: sa
+  slug: softmat-experiment
 
 - id: hep_experiment
-  title: High Energy Physics (Experiment) 
+  title: High Energy Physics (Experiment)
   short: HEP Experiment
   alphabet: ha
+  slug: hep-experiment
 
-#- id: electronics
-#  title: Electronics and Electrical Engineering
-#  short: Electronics
-#  alphabet: x
+- id: electronics
+  title: Electronics and Electrical Engineering
+  short: Electronics
+  alphabet: x
