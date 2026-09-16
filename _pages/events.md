@@ -12,32 +12,35 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 
 **Upcoming Symposiums**
 
-{% assign found = false %}
+{% assign all_symposiums = site.data.symposium | sort: "date" %}
+{% assign latest_symposium = all_symposiums | last %}
+{% assign today_ts = 'now' | date: "%s" %}
 
-{% for symposium in site.data.symposium %}
-
-{% if symposium.status == "upcoming" %}
-
-{% assign found = true %}
+{% if latest_symposium %}
+  {% assign ended = false %}
+  {% if latest_symposium.ending %}
+    {% assign ending_ts = latest_symposium.ending | date: "%s" %}
+    {% if today_ts > ending_ts %}
+      {% assign ended = true %}
+    {% endif %}
+  {% endif %}
 
 <p>
-<strong>Physics Symposium ({{ symposium.date }})</strong><br>
-{{ symposium.duration }}
+<strong>{{ latest_symposium.date }} Edition</strong>
 &nbsp;&nbsp;
-<a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf"
+<a href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ latest_symposium.date }}.pdf"
    target="_blank"
-   class="badge">Details</a>
+   class="badge">Details</a><br>
+{% if ended %}
+Stay tuned
+{% else %}
+{{ latest_symposium.starting | date: "%d %B %Y" }} - {{ latest_symposium.ending | date: "%d %B %Y" }}
+{% endif %}
 </p>
 
-{% endif %}
-
-{% endfor %}
-
-{% unless found %}
+{% else %}
 <p>No upcoming symposium.</p>
-{% endunless %}
-
-
+{% endif %}
 
 **Past Symposiums**
 
@@ -51,7 +54,16 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 <option value="">Select Symposium Year</option>
 
 {% for symposium in site.data.symposium %}
-{% if symposium.status == "past" %}
+{% assign include_in_past = false %}
+{% if symposium.ending %}
+{% assign sym_ending_ts = symposium.ending | date: "%s" %}
+{% if today_ts > sym_ending_ts %}
+{% assign include_in_past = true %}
+{% endif %}
+{% elsif symposium.status == "past" %}
+{% assign include_in_past = true %}
+{% endif %}
+{% if include_in_past %}
 <option value="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf">
 {{ symposium.date }}
 </option>
@@ -67,4 +79,4 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 Physics Journal Club
 ------
 
-The research scholars of the Department of Physics conduct a journal club where interesting ideas in Physics are discussed among the Department members. The Journal club talks are typically scheduled twice a month within a semester. 
+The research scholars of the Department of Physics conduct a journal club where interesting ideas in Physics are discussed among the Department members. The Journal club talks are typically scheduled twice a month within a semester.
