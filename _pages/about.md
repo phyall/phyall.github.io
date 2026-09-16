@@ -62,27 +62,31 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
 
   <div class="announce-card">
     <h3 class="announce-card-title">Symposiums</h3>
-    {% assign today = 'now' | date: "%Y%m%d" | plus: 0 %}
-    {% assign upcoming_symposiums = site.data.symposium | sort: "starting" %}
-    {% assign found = false %}
-    {% for symposium in upcoming_symposiums %}
-      {% if symposium.starting %}
-        {% assign symposium_date = symposium.starting | date: "%Y%m%d" | plus: 0 %}
-        {% if symposium_date >= today %}
-          {% assign found = true %}
-          <div class="announce-item">
-            <a class="announce-item-title" href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf">Department Symposium</a>
-            <div class="announce-item-meta">
-              {{ symposium.starting | date: "%d %b %Y" }}
-              {% if symposium.duration %}&middot; {{ symposium.duration }}{% endif %}
-            </div>
-          </div>
+    {% assign all_symposiums = site.data.symposium | sort: "date" %}
+    {% assign latest_symposium = all_symposiums | last %}
+    {% if latest_symposium %}
+      {% assign today_ts = 'now' | date: "%s" %}
+      {% assign ended = false %}
+      {% if latest_symposium.ending %}
+        {% assign ending_ts = latest_symposium.ending | date: "%s" %}
+        {% if today_ts > ending_ts %}
+          {% assign ended = true %}
         {% endif %}
       {% endif %}
-    {% endfor %}
-    {% unless found %}
-      <p class="announce-empty">No upcoming symposium</p>
-    {% endunless %}
+      <div class="announce-item">
+        <div class="announce-item-row">
+          <span class="announce-speaker">{{ latest_symposium.date }} Edition</span>
+          <a class="announce-detail-link" href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ latest_symposium.date }}.pdf">Details</a>
+        </div>
+        {% if ended %}
+          <div class="announce-item-meta">Stay tuned for the next edition</div>
+        {% else %}
+          <div class="announce-item-meta">{{ latest_symposium.starting | date: "%d %b %Y" }} &ndash; {{ latest_symposium.ending | date: "%d %b %Y" }}</div>
+        {% endif %}
+      </div>
+    {% else %}
+      <p class="announce-empty">No symposium information available</p>
+    {% endif %}
   </div>
 
   <div class="announce-card">
