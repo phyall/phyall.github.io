@@ -13,13 +13,13 @@
   short: HEP Theory
   alphabet: hb
   
-- id: quantum_theory
-  title: Quantum Science and Technologies (Theory)
-  short: Quantum Theory
-  alphabet: q
+#- id: quantum_theory
+#  title: Quantum Science and Technologies (Theory)
+#  short: Quantum Theory
+#  alphabet: q
 
 - id: cmp_theory
-  title: Condensed Matter Physics (Theory)
+  title: Condensed Matter and Many-Body Physics (Theory)
   short: CMP Theory
   alphabet: cb
 
