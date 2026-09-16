@@ -61,7 +61,7 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
   </div>
 
   <div class="announce-card">
-    <h3 class="announce-card-title">Symposiums</h3>
+    <h3 class="announce-card-title">Department Symposiums</h3>
     {% assign all_symposiums = site.data.symposium | sort: "date" %}
     {% assign latest_symposium = all_symposiums | last %}
     {% if latest_symposium %}
