@@ -46,8 +46,14 @@ main:
 
   - title: Members
     children:
-      - title: Faculty
+      - title: Regular Faculty
         url: /faculty/
+
+      - title: Associated Faculty
+        url: /associated-faculty/
+
+      #- title: Temporary Faculty
+      #  url: /temporary-faculty/
 
       - title: Postdocs
         url: /postdocs/        
