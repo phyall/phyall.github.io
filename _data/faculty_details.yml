@@ -67,7 +67,7 @@
   area: [cmp_experiment]
   research: "Experimental condensed matter physics, 2D materials and perovskites"
   office: 
-  phone: 
+  phone: "1507"
 
 - name: Prithvi Narayan P
   last_name: narayan
@@ -89,8 +89,8 @@
   type: theory
   area: [string]
   research: "Quantum field theory, string theory"
-  office: 
-  phone: 
+  office: "D03 GF"
+  phone: "1512"
 
 - name: Soham Manni
   last_name: manni
@@ -113,7 +113,7 @@
   area: [cmp_experiment]
   research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
   office: 
-  phone: 
+  phone: "1514"
 
 - name: Kusum Dhochak
   last_name: dhochak
@@ -135,8 +135,8 @@
   type: theory
   area: [cmp_theory]
   research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
-  office: 
-  phone: 
+  office: "D03 GF"
+  phone: "1508"
 
 - name: Bibhu Ranjan Sarangi
   last_name: sarangi
@@ -159,7 +159,7 @@
   area: [softmat_experiment]
   research: "Soft-matter physics, active matter systems, mechanobiology"
   office: 
-  phone: 
+  phone: "1505"
   
 
 - name: Projjwal Banerjee
@@ -182,8 +182,8 @@
   type: theory
   area: [astro_theory]
   research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
-  office: 
-  phone: 
+  office: "D03 GF"
+  phone: "1513"
 
 
 
@@ -207,8 +207,8 @@
   type: theory
   area: [cmp_theory]
   research: "Quantum information theory, quantum thermodynamics, quantum many-body physics, open quantum systems" 
-  office: 
-  phone: 
+  office: "D03 GF" 
+  phone: "1503"
 
 - name: Vishwas Venkatesh
   last_name: venkatesh
@@ -231,7 +231,7 @@
   area: [softmat_theory]
   research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
   office: 
-  phone: 
+  phone: "1516"
 
 - name: Anil Kumar Dasanna
   last_name: dasanna
@@ -301,8 +301,8 @@
   type: experiment
   area: [cmp_experiment]
   research: "Experimental condensed matter physics, quantum materials under extreme conditions"
-  office: 
-  phone: 
+  office: "D03 FF"
+  phone: "1517"
 
 
 - name: Manoj Gopalakrishnan
@@ -325,8 +325,8 @@
   type: theory
   area: [softmat_theory]
   research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
-  office: 
-  phone: 
+  office: "D03 FF"
+  phone: "1509"
 
 
 - name: Akanksha Bhardwaj
@@ -349,8 +349,8 @@
   type: theory
   area: [hep_theory]
   research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
-  office: 
-  phone: 
+  office: "D03 FF"
+  phone: "1518"
 
 - name: Resmi PK
   last_name: pk
@@ -372,8 +372,8 @@
   type: experiment
   area: [hep_experiment]
   research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
-  office: 
-  phone: 
+  office: "D03 FF"
+  phone: "1519"
 
 
 
@@ -397,8 +397,8 @@
   type: theory
   area: [softmat_theory]
   research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
-  office: 
-  phone: 
+  office: "D03 FF"
+  phone: "1052"
 
 
 - name: Swaroop Sahoo
@@ -422,5 +422,5 @@
   area: [electronics]
   research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
   office: 
-  phone: 
+  phone: "1265"
   
