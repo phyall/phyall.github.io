@@ -6,7 +6,7 @@
   | where_exp: "item", "item.area contains include.topic_id"
   | where: "affiliation", "primary"
   | where: "status", "current"
-  | sort: "last_name" %}
+  | sort: "date_joined" %}
 
 {% if primary.size > 0 %}
   {% for faculty in primary %}
