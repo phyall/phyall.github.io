@@ -1,0 +1,69 @@
+{% assign website = faculty.personal_url | default: "" | strip %}
+
+<div class="faculty-card">
+
+  <div class="faculty-photo-container">
+    <img
+      src="{{ '/images/faculty/' | relative_url }}{{ faculty.photo }}"
+      alt="{{ faculty.name }}"
+      class="faculty-photo"
+      loading="lazy">
+  </div>
+
+  <div class="faculty-content">
+    <h3 class="faculty-name">
+      {{ faculty.name }}
+    </h3>
+    <p class="faculty-designation">
+      {{ faculty.designation }}
+    </p>
+
+    <div class="faculty-links">
+      {% if faculty.iit_url %}
+      
+        href="{{ faculty.iit_url }}"
+        target="_blank"
+        rel="noopener">
+        IIT
+      </a>
+      {% endif %}
+      {% if website != "" %}
+      
+        href="{{ website }}"
+        target="_blank"
+        rel="noopener">
+        Website
+      </a>
+      {% endif %}
+      {% if faculty.email %}
+      <a href="mailto:{{ faculty.email }}">
+        Email
+      </a>
+      {% endif %}
+    </div>
+
+    {% if faculty.office or faculty.phone %}
+    <div class="faculty-contact">
+      {% if faculty.office %}
+      <div class="faculty-office">
+        <i class="fas fa-map-marker-alt"></i>
+        {{ faculty.office }}
+      </div>
+      {% endif %}
+      {% if faculty.phone %}
+      <div class="faculty-phone">
+        <i class="fas fa-phone"></i>
+        {{ faculty.phone }}
+      </div>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% if faculty.research %}
+    <p class="faculty-research">
+      <strong>Research:</strong> {{ faculty.research }}
+    </p>
+    {% endif %}
+
+  </div>
+</div>
