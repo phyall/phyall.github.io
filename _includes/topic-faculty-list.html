@@ -10,7 +10,7 @@
 
 {% if primary.size > 0 %}
   {% for faculty in primary %}
-    {% include faculty-card-simple.html faculty=faculty %}
+    {% include faculty-card.html faculty=faculty %}
   {% endfor %}
 {% else %}
   <p class="topic-empty">No primary faculty currently listed in this area.</p>
