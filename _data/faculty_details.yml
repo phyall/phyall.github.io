@@ -20,6 +20,7 @@
   research: 
   office:
   phone: 
+  note:
 
 
 - name: Uma Divakaran
@@ -41,9 +42,10 @@
   photo: uma.png
   type: theory
   area: [cmp_theory]
-  research: "Non-equilibrium dynamics, quantum phase transitions, quantum Information"
+  research: "Non-equilibrium dynamics; quantum phase transitions; quantum information"
   office: "D03 GF" #"D03 GF, B03-119 (Head)"
   phone: "1515" #"1515, 1500 (Head)"
+  note:
            
 
 - name: Jayakumar Balakrishnan
@@ -65,9 +67,10 @@
   photo: jayakumar.png  
   type: experiment
   area: [cmp_experiment]
-  research: "Experimental condensed matter physics, 2D materials and perovskites"
+  research: "Experimental condensed matter physics; 2D materials and perovskites"
   office: 
   phone: "1507"
+  note:
 
 - name: Prithvi Narayan P
   last_name: narayan
@@ -88,9 +91,10 @@
   photo: prithvi.png   
   type: theory
   area: [string]
-  research: "Quantum field theory, string theory"
+  research: "Quantum field theory; string theory"
   office: "D03 GF"
   phone: "1512"
+  note:
 
 - name: Soham Manni
   last_name: manni
@@ -111,9 +115,10 @@
   photo: soham.png
   type: experiment
   area: [cmp_experiment]
-  research: "Experimental condensed matter physics, magnetism and superconductivity, material science - single crystal growth"
+  research: "Experimental condensed matter physics; magnetism and superconductivity; material science - single crystal growth"
   office: 
   phone: "1514"
+  note:
 
 - name: Kusum Dhochak
   last_name: dhochak
@@ -134,16 +139,17 @@
   photo: kusum.png  
   type: theory
   area: [cmp_theory]
-  research: "Strongly correlated electron systems, quantum spin liquids, topological phases, disorder"
+  research: "Strongly correlated electron systems; quantum spin liquids; topological phases; disorder"
   office: "D03 GF"
   phone: "1508"
+  note:
 
 - name: Bibhu Ranjan Sarangi
   last_name: sarangi
   gender: male
   designation: Associate Professor
   affiliation: primary
-  other_affiliation: 
+  other_affiliation: "Department of Biological Sciences and Engineering"
   position: regular
   status: current
   now:
@@ -157,9 +163,10 @@
   photo: bibhu.png
   type: experiment
   area: [softmat_experiment]
-  research: "Soft-matter physics, active matter systems, mechanobiology"
+  research: "Soft-matter physics; active matter systems; mechanobiology"
   office: 
   phone: "1505"
+  note:
   
 
 - name: Projjwal Banerjee
@@ -181,9 +188,10 @@
   photo: projjwal.png   
   type: theory
   area: [astro_theory]
-  research: "Theoretical astrophyics, stellar evolution, galactic chemical evolution, big bang nucleosynthesis"
+  research: "Theoretical astrophyics; stellar evolution; galactic chemical evolution; big bang nucleosynthesis"
   office: "D03 GF"
   phone: "1513"
+  note:
 
 
 
@@ -206,9 +214,10 @@
   photo: amit.png
   type: theory
   area: [cmp_theory]
-  research: "Interface of quantum many-body physics and quantum information, open quantum systems, quantum devices, quantum metrology" 
+  research: "Quantum information; quantum many-body systems out of equilibrium;  quantum metrology; quantum thermodynamics; noisy quantum devices" 
   office: "D03 GF" 
   phone: "1503"
+  note:
 
 - name: Vishwas Venkatesh
   last_name: venkatesh
@@ -229,9 +238,10 @@
   photo: vishwas.png
   type: theory
   area: [softmat_theory]
-  research: "Amorphous solids, supercooled liquids, active matter systems, rheology"
+  research: "Amorphous solids; supercooled liquids; active matter systems; rheology"
   office: 
   phone: "1516"
+  note:
 
 - name: Anil Kumar Dasanna
   last_name: dasanna
@@ -255,6 +265,7 @@
   research: 
   office: 
   phone:   
+  note:
 
 
 - name: Akshyay Bhatnagar
@@ -279,6 +290,7 @@
   research: 
   office: 
   phone:    
+  note:
 
 
 - name: Ajeesh M. Omanakuttan
@@ -300,9 +312,10 @@
   photo: ajeesh.png
   type: experiment
   area: [cmp_experiment]
-  research: "Experimental condensed matter physics, quantum materials under extreme conditions"
+  research: "Experimental condensed matter physics; quantum materials under extreme conditions"
   office: "D03 FF"
   phone: "1517"
+  note:
 
 
 - name: Manoj Gopalakrishnan
@@ -324,9 +337,10 @@
   photo: manoj.png
   type: theory
   area: [softmat_theory]
-  research: "Nonequilibrium statistical physics, stochastic processes, theoretical biophysics and soft matter"
+  research: "Nonequilibrium statistical physics; stochastic processes; theoretical biophysics and soft matter"
   office: "D03 FF"
   phone: "1509"
+  note:
 
 
 - name: Akanksha Bhardwaj
@@ -348,9 +362,10 @@
   photo: akanksha.png
   type: theory
   area: [hep_theory]
-  research: "Higgs and top physics, effective field theory, beyond standard model physics, collider phenomenology"
+  research: "Higgs and top physics; effective field theory; beyond standard model physics; collider phenomenology"
   office: "D03 FF"
   phone: "1518"
+  note:
 
 - name: Resmi PK
   last_name: pk
@@ -371,9 +386,10 @@
   photo: resmi.png
   type: experiment
   area: [hep_experiment]
-  research: "Experimental high energy physics, flavour physics, beauty and charm decays, CP violation and CKM parameters, lepton flavour universality, precision tests of standard model, silicon tracking detectors"
+  research: "Experimental high energy physics; flavour physics; beauty and charm decays; CP violation and CKM parameters; lepton flavour universality; precision tests of standard model; silicon tracking detectors"
   office: "D03 FF"
   phone: "1519"
+  note:
 
 
 
@@ -396,9 +412,10 @@
   photo: debarati.png
   type: theory
   area: [softmat_theory]
-  research: "Theoretical chemical physics, biophysical processes, soft condensed matter, equilibrium and nonequilibrium statistical mechanics, dynamics of macromolecules, biopolymers" 
+  research: "Theoretical chemical physics; biophysical processes; soft condensed matter; equilibrium and nonequilibrium statistical mechanics; dynamics of macromolecules; biopolymers" 
   office: "D03 FF"
   phone: "1052"
+  note: "Primary affiliation: Department of Chemistry"
 
 
 - name: Swaroop Sahoo
@@ -420,7 +437,8 @@
   photo: swaroop.png
   type: 
   area: [electronics]
-  research: "RF and microwave, weather radar, microwave remote sensing, microwave radiometer" 
+  research: "RF and microwave; weather radar; microwave remote sensing; microwave radiometer" 
   office: 
   phone: "1265"
+  note: "Primary affiliation: Department of Electrical Engineering"
   
