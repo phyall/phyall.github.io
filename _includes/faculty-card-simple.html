@@ -20,19 +20,13 @@
 
     <div class="faculty-links">
       {% if faculty.iit_url %}
-      
-        href="{{ faculty.iit_url }}"
-        target="_blank"
-        rel="noopener">
-        IIT
+      <a href="{{ faculty.iit_url }}" target="_blank" rel="noopener">
+      IIT
       </a>
       {% endif %}
       {% if website != "" %}
-      
-        href="{{ website }}"
-        target="_blank"
-        rel="noopener">
-        Website
+      <a href="{{ website }}" target="_blank" rel="noopener">
+      Website
       </a>
       {% endif %}
       {% if faculty.email %}
