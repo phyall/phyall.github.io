@@ -16,6 +16,9 @@ sidebar: quicklinks
    | sort: "date_joined" %}
 
 {% if former_regular.size > 0 %}
+
+<h3 class="topic-associated-title">Regular Faculty</h3>
+
 <div class="faculty-grid">
 {% for faculty in former_regular %}
     {% include faculty-card-former.html faculty=faculty %}
