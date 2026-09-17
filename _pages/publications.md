@@ -9,7 +9,7 @@ sidebar: quicklinks
 
 {% for group in by_year %}
 
-<h2 class="pub-year-heading">{{ group.name }}</h2>
+<h2 class="pub-year-subheading">{{ group.name }}</h2>
 
 <ol class="pub-list">
   {% assign items = group.items | sort: "sort" | reverse %}
