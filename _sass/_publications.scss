@@ -8,43 +8,24 @@
 }
 
 .pub-list {
-  margin-bottom: 1rem;
+  margin: 0 0 1rem;
+  padding-left: 1.4rem;
 }
 
 .pub-item {
-  padding: 1rem 0;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+  font-size: .95rem;
+  color: #333;
+  line-height: 1.55;
 }
 
-.pub-item:last-child {
-  border-bottom: none;
-}
-
-.pub-title {
-  margin: 0 0 .3rem;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-.pub-title a {
+.pub-item a {
   color: #163b63;
+  font-weight: 600;
   text-decoration: none;
 }
 
-.pub-title a:hover {
+.pub-item a:hover {
   color: #1d5fa7;
   text-decoration: underline;
-}
-
-.pub-authors {
-  margin: 0 0 .2rem;
-  font-size: .92rem;
-  color: #444;
-}
-
-.pub-journal {
-  margin: 0;
-  font-size: .85rem;
-  color: #777;
-  font-style: italic;
 }
