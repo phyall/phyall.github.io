@@ -16,23 +16,29 @@
   border-bottom: 1px solid #eee;
 }
 
-.course-meta-table {
+table.course-meta-table {
   width: 100%;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 .course-meta-table th,
 .course-meta-table td {
   text-align: left;
-  padding: .6rem 0;
+  padding: .8rem 1.2rem;
   vertical-align: top;
   border-bottom: 1px solid #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}
+.course-meta-table th:last-child,
+.course-meta-table td:last-child {
+  border-right: none;
 }
 .course-meta-table tr:last-child th,
 .course-meta-table tr:last-child td {
   border-bottom: none;
 }
 .course-meta-table th {
-  width: 220px;
+  width: 240px;
   color: #444;
   font-weight: 600;
 }
@@ -97,11 +103,6 @@
 }
 .course-booklist li {
   margin-bottom: .5rem;
-}
-
-.course-meta-table {
-  width: 100%;
-  border-collapse: collapse;
 }
 
 @media (max-width: 600px) {
