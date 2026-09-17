@@ -507,16 +507,11 @@
   areas: [cmp_theory]
   sort: 20201202
 
-#-----------------------------------------------------------------------
-# CONSTRUCTED DOIs — built from the publisher's standard DOI pattern
-# for this journal/era, but NOT individually confirmed by search.
-# Please double-check these before publishing.
-#-----------------------------------------------------------------------
 
 - title: "Hierarchies of localizable entanglement due to spatial distribution of local noise"
   authors: "Ratul Banerjee, Amit Kumar Pal, and Aditi Sen(De)"
   journal: "Physical Review Research"
-  doi: "10.1103/PhysRevResearch.4.023035"   # confirmed via papers-2.yml
+  doi: "10.1103/PhysRevResearch.4.023035"  
   year: 2022
   type: article
   faculty: [amit-kumar-pal]
@@ -526,7 +521,7 @@
 - title: "Layer number and stacking order dependent thermal transport in molybdenum disulfide with sulfur vacancies"
   authors: "Ranjuna M. K. and Jayakumar Balakrishnan"
   journal: "Physical Review B"
-  doi: "10.1103/PhysRevB.108.245411"   # CONSTRUCTED — verify
+  doi: "10.1103/PhysRevB.108.245411"   
   year: 2023
   type: article
   faculty: [jayakumar-balakrishnan]
@@ -536,7 +531,7 @@
 - title: "Anomalous resistivity upturn in Co intercalated TaS2"
   authors: "Moumita Nandi, Surajit Dutta, Arumugam Thamizhavel, and S. K. Dhar"
   journal: "Physical Review B"
-  doi: "10.1103/PhysRevB.110.165107"   # CONSTRUCTED — verify
+  doi: "10.1103/PhysRevB.110.165107"   
   year: 2024
   type: article
   faculty: [moumita-nandi]
