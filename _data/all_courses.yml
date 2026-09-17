@@ -24,6 +24,7 @@
   status: approved
   course_type: PMC
   prerequisites: 
+  senate: 37
   #=============
   # Syllabus
   #=============
@@ -123,6 +124,7 @@
   status: approved
   course_type: PMC
   prerequisites: 
+  senate: 08
   #=============
   # Syllabus
   #=============
@@ -239,6 +241,7 @@
   status: approved
   course_type: PMC
   prerequisites:
+  senate: 08
   #=============
   # Syllabus
   #=============
@@ -340,7 +343,7 @@
   status: approved
   course_type: PMC
   prerequisites: 
-
+  senate: 37
   #=============
   # Syllabus
   #=============
@@ -514,6 +517,7 @@
   status: approved
   course_type: PMC
   prerequisites: 
+  senate: 
   # ==============
   # syllabus
   # ==============
@@ -683,6 +687,7 @@
   status: approved
   course_type: PMC
   prerequisites: 5007
+  senate: 
   # =========
   # Syllabus
   # =========
@@ -799,6 +804,7 @@
   status: approved
   course_type: PMC
   prerequisites:
+  senate: 
   #=============
   # Syllabus (Revised)
   #=============
@@ -895,6 +901,7 @@
   status: approved
   course_type: PMC
   prerequisites:
+  senate: 
   #=============
   # Syllabus
   #=============
@@ -995,7 +1002,7 @@
   status: approved
   course_type: PMC
   prerequisites: 5007
-
+  senate: 
   # ==============
   # syllabus
   # ==============
