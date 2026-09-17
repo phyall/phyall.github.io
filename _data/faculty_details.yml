@@ -116,7 +116,7 @@
   type: experiment
   area: [cmp_experiment]
   research: "Experimental condensed matter physics; magnetism and superconductivity; material science - single crystal growth"
-  office: 
+  office: "B03-122/123"
   phone: "1514"
   note:
 
@@ -393,6 +393,12 @@
 
 
 
+######################################################################
+# Associated Faculty
+######################################################################
+
+
+
 - name: Debarati Chatterjee
   last_name: chatterjee
   gender: female
@@ -441,4 +447,69 @@
   office: 
   phone: "1265"
   note: "Primary affiliation: Department of Electrical Engineering"
+
+
+
+
+
+
+
+
+
+
+
+
+############################################################
+# Temporary Faculty
+############################################################
+
+- name: Moumita Nandi
+  last_name: Nandi
+  gender: female
+  designation: Inspire Faculty
+  affiliation: primary
+  other_affiliation: 
+  position: temporary
+  status: current
+  now:
+  head: false
+  year_joined: 2021
+  year_left: 2026
+  date_joined: 20210101
+  email: 
+  iit_url: 
+  personal_url: 
+  photo: 
+  type: 
+  area: [cmp_experiment]
+  research: 
+  office: 
+  phone: 
+  note:
+
+
+
+- name: Mayarani M
+  last_name: M
+  gender: female
+  designation: Inspire Faculty
+  affiliation: primary
+  other_affiliation: 
+  position: temporary
+  status: current
+  now: Central University of Karnataka
+  head: false
+  year_joined: 2023
+  year_left: 2025
+  date_joined: 20230101
+  email: 
+  iit_url: 
+  personal_url: 
+  photo: 
+  type: 
+  area: [softmat_experiment]
+  research: 
+  office: 
+  phone: 
+  note:
   
