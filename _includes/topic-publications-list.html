@@ -1,0 +1,28 @@
+{% assign area_pubs = site.data.publications | where_exp: "item", "item.areas contains include.topic_id" %}
+
+{% if area_pubs.size > 0 %}
+<h2 class="pub-year-heading">Publications</h2>
+
+{% assign by_year = area_pubs | group_by: "year" | sort: "name" | reverse %}
+
+{% for group in by_year %}
+
+<h3 class="pub-year-heading">{{ group.name }}</h3>
+
+<ol class="pub-list">
+  {% assign items = group.items | sort: "sort" | reverse %}
+  {% for pub in items %}
+    <li class="pub-item">
+      {{ pub.title }}, {{ pub.authors }},
+      {% if pub.doi %}
+        <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">{{ pub.journal }}</a>
+      {% else %}
+        {{ pub.journal }}
+      {% endif %}
+      ({{ pub.year }}).
+    </li>
+  {% endfor %}
+</ol>
+
+{% endfor %}
+{% endif %}
