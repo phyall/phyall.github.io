@@ -28,7 +28,7 @@
 #-----------------------------------------------------------------------
 
 - title: "Pressure evolution of coplanar antiferromagnetism in heavy-fermion Ce2CoAl7Ge4"
-  authors: "M. O. Ajeesh (Ajeesh M. Omanakuttan), A. O. Scheie, Yu Liu, L. Keller, S. M. Thomas, P. F. S. Rosa, and E. D. Bauer"
+  authors: "Ajeesh M. Omanakuttan, A. O. Scheie, Yu Liu, L. Keller, S. M. Thomas, P. F. S. Rosa, and E. D. Bauer"
   journal: "Physical Review B"
   doi: "10.1103/73sf-r86t"
   year: 2025
@@ -401,7 +401,7 @@
   authors: "Chandrima B. Pushpan and Amit Kumar Pal"
   journal: "Physical Review A"
   doi: "10.1103/jr71-mkfl"
-  year: 2025
+  year: 2026
   type: article
   faculty: [amit-kumar-pal]
   areas: [cmp_theory]
@@ -411,7 +411,7 @@
   authors: "J. G. Krishnan, A. Sen(De), and Amit Kumar Pal"
   journal: "Physics Letters A"
   doi: "10.1016/j.physleta.2026.132132"
-  year: 2025
+  year: 2026
   type: article
   faculty: [amit-kumar-pal]
   areas: [cmp_theory]
@@ -421,7 +421,7 @@
   authors: "Harikrishnan K. J., D. Sadhukhan, and Amit Kumar Pal"
   journal: "Physical Review A"
   doi: "10.1103/vgrd-dg8j"
-  year: 2025
+  year: 2026
   type: article
   faculty: [amit-kumar-pal]
   areas: [cmp_theory]
@@ -431,7 +431,7 @@
   authors: "Chandrima B. Pushpan, T. K. Konar, A. Sen(De), and Amit Kumar Pal"
   journal: "Physical Review A"
   doi: "10.1103/k49w-qx4p"
-  year: 2025
+  year: 2026
   type: article
   faculty: [amit-kumar-pal]
   areas: [cmp_theory]
@@ -441,7 +441,7 @@
   authors: "J. G. Krishnan, Chandrima B. Pushpan, and Amit Kumar Pal"
   journal: "Physics Letters A"
   doi: "10.1016/j.physleta.2026.131871"
-  year: 2024
+  year: 2026
   type: article
   faculty: [amit-kumar-pal]
   areas: [cmp_theory]
@@ -451,7 +451,7 @@
   authors: "Harikrishnan K. J. and Amit Kumar Pal"
   journal: "Physical Review A"
   doi: "10.1103/p2bp-mjk2"
-  year: 2024
+  year: 2026
   type: article
   faculty: [amit-kumar-pal]
   areas: [cmp_theory]
