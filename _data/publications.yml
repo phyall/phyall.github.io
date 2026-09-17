@@ -2,14 +2,7 @@
 # Department Publications
 #=============================================================================
 # Scope: papers with at least one author who is a primary-affiliation
-# faculty member (current or former) per faculty_details.yml. Secondary
-# faculty (Debarati Chatterjee, Swaroop Sahoo) are excluded.
-#
-# Merged with Amit Kumar Pal's personal publication record
-# (papers-2.yml) on top of the annual-report-derived entries below;
-# duplicates (matched by DOI) were skipped. Four preprints from that
-# file with no DOI yet are listed at the very end, unadded to the
-# active list, pending publication.
+# faculty member (current or former) per faculty_details.yml. 
 #
 # Author names: department faculty are spelled out in full, matching
 # faculty_details.yml. External co-authors are given in full where a
