@@ -28,6 +28,12 @@
       <td>{{ course.prerequisites_note }}</td>
     </tr>
     {% endif %}
+    {% if course.senate %}
+    <tr>
+      <th>Senate Number</th>
+      <td>{{ course.senate }}</td>
+    </tr>
+    {% endif %}
   </table>
 </div>
 {% endif %}
