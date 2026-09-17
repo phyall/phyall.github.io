@@ -12,14 +12,10 @@
       {{ faculty.name }}
     </h3>
 
-    <p class="faculty-designation">
-      {{ faculty.designation }}
-    </p>
-
-    {% if faculty.year_joined or faculty.year_left %}
+    {% if faculty.designation or faculty.year_joined or faculty.year_left %}
     <p class="faculty-joined">
       <strong>At IIT Palakkad:</strong>
-      {{ faculty.year_joined }}&ndash;{{ faculty.year_left }}
+      {{ faculty.designation }}{% if faculty.designation and (faculty.year_joined or faculty.year_left) %}, {% endif %}{{ faculty.year_joined }}&ndash;{{ faculty.year_left }}
     </p>
     {% endif %}
 
