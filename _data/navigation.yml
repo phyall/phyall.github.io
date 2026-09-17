@@ -40,6 +40,9 @@ main:
       - title: Research Areas
         url: /topics/
 
+      - title: Publications
+        url: /publications/
+
       - title: Facilities
         url: /facilities/
         
