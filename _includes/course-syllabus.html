@@ -21,11 +21,11 @@
       {% endif %}
 
       {% if module.topics %}
-        <ul class="course-module-topics">
+        <p class="course-module-topics">
           {% for topic in module.topics %}
-            <li>{{ topic }}</li>
-          {% endfor %}
-        </ul>
+            {{ topic }}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}.
+        </p>
       {% endif %}
     </div>
   {% endfor %}
