@@ -99,6 +99,11 @@
   margin-bottom: .5rem;
 }
 
+.course-meta-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 @media (max-width: 600px) {
   .course-meta-table th {
     width: 140px;
