@@ -693,6 +693,26 @@
   areas: [astro_theory]
   sort: 20220204
 
+- title: "Scalable characterization of localizable entanglement in noisy topological quantum codes"
+  authors: "D. Amaro, M. Muller, and Amit Kumar Pal"
+  journal: "New Journal of Physics"
+  doi: "10.1088/1367-2630/ab84b3"
+  year: 2020
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20200401
+
+- title: "Uniform decoherence effect on localizable entanglement in random multi-qubit pure states"
+  authors: "R. Banerjee, Amit Kumar Pal, and Aditi Sen(De)"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.101.042339"
+  year: 2020
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20200401
+
 #-----------------------------------------------------------------------
 # NOT YET RESOLVED — could not find or confidently construct a DOI.
 # Full citations kept for whenever you're ready to fill these in.
