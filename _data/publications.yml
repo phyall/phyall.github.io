@@ -531,6 +531,11 @@
   areas: [cmp_experiment]
   sort: 20240716
 
+
+
+
+
+
 #-----------------------------------------------------------------------
 # NOT YET RESOLVED — could not find or confidently construct a DOI.
 # Full citations kept for whenever you're ready to fill these in.
@@ -540,11 +545,13 @@
 #   Muhammed Anees K. T., S. K. Rana, A. Das, and Moumita Nandi
 #   Journal of Crystal Growth 659, 128135 (2025)
 #   faculty: [moumita-nandi] / areas: [cmp_experiment]
+#   https://www.sciencedirect.com/science/article/abs/pii/S0022024825000831
 
 # - "Lysozyme protected copper nano-cluster: A photo-switch for the selective sensing of Fe2+"
 #   Anna Sebastian, Aaryaa, Bibhu Ranjan Sarangi, Supratik Sen Mojumdar
 #   Journal of Photochemistry and Photobiology A: Chemistry 436, 114378 (2022)
 #   faculty: [bibhu-ranjan-sarangi] / areas: [softmat_experiment]
+#   https://www.sciencedirect.com/science/article/abs/pii/S1010603022006013
 
 # - "A simple and robust machine learning assisted process flow for the layer number
 #    identification of TMDs using optical contrast spectroscopy"
@@ -552,74 +559,89 @@
 #   Journal of Physics: Condensed Matter (2023) — volume/page as given (51(2) 025901)
 #   looks inconsistent with this journal's usual numbering for 2023; please confirm.
 #   faculty: [jayakumar-balakrishnan] / areas: [cmp_experiment]
+#   https://iopscience.iop.org/article/10.1088/1361-648X/ac9f96
 
 # - "Permanent shear localization in dense disordered materials due to microscopic inertia"
 #   Vishwas V. Vasisht, Magali Le Goff, Kirsten Martens, Jean-Louis Barrat
 #   The European Physical Journal E 46, 106 (2023)
 #   faculty: [vishwas-venkatesh] / areas: [softmat_theory]
+#   https://link.springer.com/article/10.1140/epje/s10189-023-00367-7
 
 # - "SYK Model with global symmetries in the double scaling limit"
 #   Prithvi Narayan P and Swathi T. S.
 #   Journal of High Energy Physics 2023, 83 — need exact issue/month for JHEP DOI
 #   faculty: [prithvi-narayan] / areas: [string]
+#   https://link.springer.com/article/10.1007/JHEP05(2023)083
 
 # - "Quantum groups, non-commutative AdS2, and chords in the double-scaled SYK model"
 #   M. Berkooz, M. Isachenkov, Prithvi Narayan P, et al.
 #   Journal of High Energy Physics 2023, 76 — need exact issue/month for JHEP DOI
 #   faculty: [prithvi-narayan] / areas: [string]
+#   https://link.springer.com/article/10.1007/JHEP08(2023)076
 
 # - "The Pristine survey – XXII. A serendipitous discovery of an extremely Li-rich
 #    very metal-poor giant and a new method of 6Li/7Li isotope measurement"
 #   T. M. Sitnova et al. (incl. Projjwal Banerjee)
 #   MNRAS 526(4), 5976 (2023)
 #   faculty: [projjwal-banerjee] / areas: [astro_theory]
+#   https://academic.oup.com/mnras/article/526/4/5976/7313640
 
 # - "Rapidly rotating massive Population III stars: a solution for high carbon
 #    enrichment in CEMP-no stars"
 #   S. K. Jeena, Projjwal Banerjee, Gen Chiaki, Alexander Heger
 #   MNRAS 526(3), 4467 (2023)
 #   faculty: [projjwal-banerjee] / areas: [astro_theory]
+#   https://academic.oup.com/mnras/article/526/3/4467/7291941
 
 # - "Origin of alpha-poor Very Metal-poor Stars"
 #   S. K. Jeena and Projjwal Banerjee
 #   The Astrophysical Journal, Vol 981, Pg 55
 #   faculty: [projjwal-banerjee] / areas: [astro_theory]
+#   https://iopscience.iop.org/article/10.3847/1538-4357/adb0c5
 
 # - "Stars and stellar populations in Milky Way and the nearby galaxies"
 #   T. Sivarani, ... Projjwal Banerjee, ... (many authors)
 #   Journal of Astrophysics and Astronomy, Vol 46, Pg 1-19
 #   faculty: [projjwal-banerjee] / areas: [astro_theory]
+#   https://link.springer.com/article/10.1007/s12036-024-10030-y
 
 # - "Rapid Detection of Ag(I) via Size-Induced Photoluminescence Quenching of
 #    Biocompatible Green-Emitting, l-Tryptophan-Scaffolded Copper Nanoclusters"
 #   Aarya, Telna Thomas, Bibhu Ranjan Sarangi, Supratik Sen Mojumdar
 #   ACS Omega 8(16), 14630-14640 (2023)
 #   faculty: [bibhu-ranjan-sarangi] / areas: [softmat_experiment]
+#   https://pubs.acs.org/acsodf/article/8/16/14630/407312/Rapid-Detection-of-Ag-I-via-Size-Induced
 
 # - "Kinetics of Nisin-Induced Pore Formation in Giant Unilamellar Vesicles"
 #   M. Nithya, Olivia Vincent, Bibhu Ranjan Sarangi, Bharat Kumar
 #   Langmuir 39(32), 11231-11237 (2023)
 #   faculty: [bibhu-ranjan-sarangi] / areas: [softmat_experiment]
+#   https://pubs.acs.org/langd5/article-abstract/39/32/11231/324047/Kinetics-of-Nisin-Induced-Pore-Formation-in-Giant?redirectedFrom=fulltext
 
 # - "Collisions among elongated settling particles: The twofold role of turbulence"
 #   Andela Grujic, Akshyay Bhatnagar, Gaetano Sardina, Luca Brandt
 #   Physics of Fluids 36(1) (2024)
 #   faculty: [akshyay-bhatnagar] / areas: [softmat_theory]
+#   https://pubs.aip.org/aip/pof/article/36/1/013319/3022992/Collisions-among-elongated-settling-particles-The
 
 # - "The production of actinides in neutron star mergers"
 #   M.-R. Wu and Projjwal Banerjee
 #   Association of Asia Pacific Physical Societies Bulletin 32(19) (2022)
 #   Likely a bulletin piece with no DOI — confirm before including.
 #   faculty: [projjwal-banerjee] / areas: [astro_theory]
+#   https://link.springer.com/article/10.1007/s43673-022-00048-1
 
 # - "Constraints on r-process nucleosynthesis from 129I and 247Cm in the early
 #    Solar system"
 #   Projjwal Banerjee, M.-R. Wu, S. K. Jeena
 #   MNRAS 512(4), 4948-4960 (2022)
 #   faculty: [projjwal-banerjee] / areas: [astro_theory]
+#   https://academic.oup.com/mnras/article/512/4/4948/6522200
 
 # - "Universality in Quantum Engines"
 #   Revathy B. S and Uma Divakaran
 #   Physics News (Bulletin of Indian Physics Association) Vol 53 No 1-2
 #   Likely a bulletin piece with no DOI — confirm before including.
-#   faculty: [uma-divakaran] / areas: [cmp_theory]
+#   faculty: [uma-divakaran] / areas: [cmp_theory] 
+
+
