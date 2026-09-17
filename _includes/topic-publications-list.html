@@ -7,7 +7,7 @@
 
 {% for group in by_year %}
 
-<h3 class="pub-year-heading">{{ group.name }}</h3>
+<h3 class="pub-year-subheading">{{ group.name }}</h3>
 
 <ol class="pub-list">
   {% assign items = group.items | sort: "sort" | reverse %}
