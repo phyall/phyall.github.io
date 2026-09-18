@@ -12,7 +12,7 @@ Minor in Physics if the student earns a minimum of 12 credits (outside the PME a
 The Minor in Physics Basket
 ------
 
-The Minor in Physics was approved in the 35th meeting of the Senate. 
+The Minor in Physics was approved in the 35th meeting of the Senate with the following basket of courses. 
 
 {% include btech-minor-course-table.html %}
 
