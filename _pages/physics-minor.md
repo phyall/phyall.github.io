@@ -52,4 +52,10 @@ The Minor in Physics was approved in the 35th meeting of the Senate.
   </tbody>
 </table>
 
+
+
+{% include btech-minor-course-table.html %}
+
+
+
 For details about the courses in the basket, see the course catalogues for [Btech](btech_courses.md) and [MSc](msc_courses.md) courses.
