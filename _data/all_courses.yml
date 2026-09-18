@@ -3756,10 +3756,7 @@
 # ==============================================================================================================
 
 #  Fundamentals and Applications of Superconductivity
-#  NOTE: New course proforma (proposed 19/11/2025, not yet approved as of source PDF).
-#  Course code was given only as the placeholder "PH6xxxx" in the proforma - assign the
-#  department's actual code here before publishing.
-- code:  # TBD - PH6xxx per proforma, not yet assigned
+- code: 6609
   title: Fundamentals and Applications of Superconductivity
   program: msc
   category: elective
@@ -3770,7 +3767,7 @@
   semester:
   offered_by: dop
   link:
-  status: proposed
+  status: approved
   course_type: PME
   prerequisites: 5009
   basket:
@@ -4220,7 +4217,7 @@
   status: approved
   course_type: SME
   prerequisites:
-  basket:
+  basket: btech_minor
   senate:
   #=============
   # Syllabus
@@ -4339,7 +4336,7 @@
   status: approved
   course_type: SME
   prerequisites:
-  basket:
+  basket: 
   senate:
   #=============
   # Syllabus
@@ -4457,7 +4454,7 @@
   status: approved
   course_type: SME
   prerequisites:
-  basket:
+  basket: btech_minor
   senate:
   #=============
   # Syllabus
@@ -4543,7 +4540,7 @@
   status: approved
   course_type: SME
   prerequisites:
-  basket:
+  basket: btech_minor
   senate:
   #=============
   # Syllabus
@@ -4623,7 +4620,7 @@
   status: approved
   course_type: SME
   prerequisites:
-  basket:
+  basket: btech_minor
   senate:
   #=============
   # Syllabus
@@ -4744,12 +4741,7 @@
 # ==============================================================================================================
 
 #  Introduction to Statistical Mechanics
-#  NOTE: New course proforma (proposed 15-11-2023, not yet approved as of source PDF).
-#  Course code was given only as the placeholder "PHXXXX" - assign the department's actual
-#  code here before publishing. year/semester/course_type/status below are ASSUMED to match
-#  the pattern of sibling BTech electives (3601-4602) since the proforma does not state them -
-#  please confirm.
-- code:  # TBD - not assigned in proforma
+- code:  5624
   title: Introduction to Statistical Mechanics
   program: btech
   category: elective
@@ -4760,10 +4752,10 @@
   semester: "3-8"
   offered_by: dop
   link:
-  status: proposed
+  status: approved
   course_type: SME
   prerequisites: 1030
-  basket:
+  basket: btech_minor
   senate: 
   #=============
   # Syllabus
@@ -4847,9 +4839,9 @@
 # department. Course codes are also not assigned in the source and are left blank (TBD).
 #=============================================================================================================================================================================================================================================================================================
 
-- code:  # TBD - not assigned in proforma
+- code: 1011
   title: Preparatory Physics 1
-  program:
+  program: preparatory
   category:
   ltpc: "2-1-0-3"
   credit: 3
@@ -4858,11 +4850,11 @@
   semester:
   offered_by: dop
   link:
-  status: proposed
+  status: approved
   course_type:
   prerequisites: Nil
   basket:
-  senate: 
+  senate: 37
   #=============
   # Syllabus
   #=============
@@ -5012,9 +5004,9 @@
 
 # ==============================================================================================================
 
-- code:  # TBD - not assigned in proforma
+- code: 1012
   title: Preparatory Physics 2
-  program:
+  program: preparatory
   category:
   ltpc: "2-1-0-3"
   credit: 3
@@ -5023,11 +5015,11 @@
   semester:
   offered_by: dop
   link:
-  status: proposed
+  status: approved
   course_type:
   prerequisites: Nil
   basket:
-  senate: 
+  senate: 37
   #=============
   # Syllabus
   #=============
