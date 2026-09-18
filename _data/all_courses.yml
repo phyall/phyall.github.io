@@ -1,0 +1,5141 @@
+
+#=============================================================================================================================================================================================================================================================================================
+# All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses || All MSc Courses
+#=============================================================================================================================================================================================================================================================================================
+
+
+#======================
+# Department Core
+#======================
+
+# Coding
+- code: 5108
+  title: Scientific Computing for Physicists
+  program: msc
+  category: core
+  ltpc: "0-0-2-1"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate: 37
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Scientific Programming and Numerical Representation"
+      lectures: 0
+      tutorials: 0
+      labs: 8
+
+      topics:
+        - "Scientific programming environment (Python/Octave/MATLAB/Julia)"
+        - "Variables, arrays, matrices, and complex numbers"
+        - "Floating-point representation and numerical errors"
+        - "Plotting real and complex functions"
+        - "Visualization of functions of one, two, and three variables"
+        - "Introduction to pseudorandom numbers"
+
+
+    - module: 2
+      title: "Data Approximation and Numerical Modeling"
+      lectures: 0
+      tutorials: 0
+      labs: 4
+
+      topics:
+        - "Curve fitting"
+        - "Polynomial and spline interpolation"
+        - "Error interpretation"
+        - "Basic unconstrained minimization (all using inbuilt functions)"
+
+
+    - module: 3
+      title: "Linear Algebra"
+      lectures: 0
+      tutorials: 0
+      labs: 4
+
+      topics:
+        - "Matrix representation"
+        - "Solving systems of linear equations"
+        - "Conceptual overview of matrix factorization (LU)"
+        - "Numerical issues in matrix inversion"
+        - "Applications in scientific problems"
+
+    - module: 4
+      title: "Spectral Analysis"
+      lectures: 0
+      tutorials: 0
+      labs: 4
+
+      topics:
+        - "Discrete representation of functions"
+        - "Fourier series and discrete Fourier transform"
+        - "Fast Fourier Transform (FFT)"
+
+    - module: 5
+      title: "Numerical Calculus and Differential Equations"
+      lectures: 0
+      tutorials: 0
+      labs: 6
+
+      topics:
+        - "Numerical differentiation and integration"
+        - "Root finding methods"
+        - "Initial value problems for ODEs (using standard ODE solvers)"
+
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Numerical Methods for Engineers"
+        authors: "Steven Chapra and Raymond Canale"
+        publisher: "McGraw Hill"
+        isbn: "978–0–07–340106–5"
+
+
+
+
+# Classical Mechanics
+- code: 5001
+  title: Classical Mechanics
+  program: msc
+  category: core
+  ltpc: "3-1-0-4"
+  credit: 4
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate: 08
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Preliminaries"
+      lectures: 12
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Mechanics of a system of particles in vector form"
+        - "Conservation of linear momentum, energy and angular momentum"
+        - "Lagrangian formulation and the action principle: Configuration space, generalised coordinates"
+        - "Constrained systems, motion in a central field, including Kepler problem, Rutherford scattering, Small oscillations, normal modes"
+
+    - module: 2
+      title: "Rigid body kinematics and dynamics"
+      lectures: 8
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Kinematics, rotational kinetic energy"
+        - "Moments of inertia, inertia tensor"
+        - "Euler angles, angular momentum"
+        - "Free rigid body motion"
+
+    - module: 3
+      title: "Hamiltonian formulation"
+      lectures: 9
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Legendre transformation"
+        - "Canonical momentum"
+        - "Poisson brackets"
+        - "Canonical transformations"
+
+
+    - module: 4
+      title: "Dynamical Systems"
+      lectures: 9
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "First order systems"
+        - "Second order systems"
+        - "Linear Stability analysis"
+        - "Classification of Fixed points"
+        - "Newtonian systems - Phase space reduction"
+        - "Cyclic coordinates"
+        - "Phase space description and evolution"
+        - "Periodically driven systems"
+
+    - module: 5
+      title: "Relativistic mechanics"
+      lectures: 5
+      tutorials: 2
+      labs: 0
+
+
+      topics:
+        - "Space-time, 4-vectors"
+        - "Lorentz transformation"
+        - "Basic relativistic kinematics and dynamics"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Classical Mechanics"
+        authors: "H. Goldstein, Charles P Poole, John Safko"
+        publisher: "Pearson India Education Services Pvt Ltd"
+        isbn: "978-81-317-5891-5"
+
+      - title: "Introduction to Dynamics"
+        authors: "Ian Percivel and Derek Richards"
+        publisher: "Cambridge University Press"
+        isbn: "9780521281492"
+
+    references:
+
+      - title: "Classical Mechanics"
+        authors: "N C Rana and P S Joag"
+        publisher: "Cambridge University Press"
+        isbn: "9780521281492"
+
+      - title: "Mechanics : Course of Theoretical Physics, Vol. 1"
+        authors: "L. Landau and E. Lifshitz"
+        publisher: "Pergamon, 1974"
+        isbn: ""
+
+# ============================================================================================================
+
+# Electromagnetic Theory
+- code: 5003
+  title: Electromagnetic Theory
+  program: msc
+  category: core
+  ltpc: "3-1-0-4"
+  credit: 4
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate: 08
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Electrostatics, boundary value problems and magnetostatics"
+      lectures: 13
+      tutorials: 5
+      labs: 0
+
+      topics:
+        - "Maxwell's equations, review of electrostatics"
+        - "Solving partial differential equations: Laplace and Poisson's equations, boundary value problems"
+        - "Special functions: Hermite, Legendre, Laguerre and Bessel functions"
+        - "Review of magnetostatics, Faraday's law of induction, self- and mutual inductance"
+
+    - module: 2
+      title: "Maxwell's equations in matter"
+      lectures: 8
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Maxwell's equations within matter"
+        - "Vector and scalar potentials"
+        - "Gauge transformations"
+        - "Poynting's theorem"
+
+    - module: 3
+      title: "Electromagnetic waves"
+      lectures: 9
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Propagation of electromagnetic waves in vacuum and in a medium"
+        - "Laws of reflection and refraction"
+        - "Absorption and transmission"
+        - "Waveguides"
+
+    - module: 4
+      title: "Relativistic electrodynamics and radiation"
+      lectures: 12
+      tutorials: 4
+      labs: 0
+
+      topics:
+        - "Relativistic formulation of Maxwell's equations, covariant form"
+        - "Transformation formulae for electric and magnetic fields, invariants of fields"
+        - "Field produced by a uniformly moving charged particle"
+        - "Accelerating charges and radiation: field for an accelerating charged particle"
+        - "Lienard-Wiechert potentials, Larmor's formula"
+        - "Radiation from a dipole"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Classical Electrodynamics"
+        authors: "J. D. Jackson"
+        publisher: "Wiley, 3rd Edition"
+        isbn: "978-8126510948"
+
+      - title: "Introduction to Electrodynamics"
+        authors: "D. J. Griffiths"
+        publisher: "Prentice Hall India Pvt Ltd, 3rd Edition"
+        isbn: "81-203-1601-0"
+
+      - title: "Electricity and Magnetism"
+        authors: "E. M. Purcell"
+        publisher: "Berkeley Physics Course (Volume 2), McGraw Hill Education (India) Pvt Ltd"
+        isbn: "978-0-07-070214-1"
+
+    references:
+
+      - title: "Classical Electrodynamics"
+        authors: "J. Schwinger, L. L. Deraad Jr., K. A. Milton, W.-Y. Tsai, J. Norton"
+        publisher: "Westview Press"
+        isbn: "978-0738200569"
+
+# ===========================================================================================================================
+
+# Mathematical Methods
+- code: 5014
+  title: Mathematical Methods in Physics
+  program: msc
+  category: core
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate: 37
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Complex variables"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Analytic functions of a complex variable, differentiation and the Cauchy-Riemann conditions"
+        - "Contour integrals and Cauchy's theorem"
+        - "Taylor and Laurent series"
+        - "Singularities: poles, essential singularities, residue theorem"
+        - "Analytic continuation, multiple-valued functions, branch points and branch cut integration"
+
+    - module: 2
+      title: "Integral Transforms"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Sturm-Liouville problems"
+        - "Expansion in eigenfunctions"
+        - "Fourier series and integrals"
+        - "Fourier and Laplace transforms"
+
+    - module: 3
+      title: "Differential Equations and Special functions"
+      lectures: 15
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "ODEs: Classification, Basic solution methods, Exact differentials, Integrating factors, Series solution, singular points"
+        - "Special Functions: Bessel functions, Legendre polynomials, Spherical harmonics, Gamma function"
+        - "PDEs: Classification of PDEs, boundary conditions. Characteristics. Separation of variables. Solution using integral transforms"
+
+
+    - module: 4
+      title: "Linear Algebra"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Matrices: Rotations and orthonormal matrices"
+        - "Diagonalization of Matrices"
+        - "Tensor Analysis, Contraction, Direct Product"
+        - "Transformation of tensors under rotation"
+
+
+    - module: 5
+      title: "Probability theory"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Random variables: basic notions of probability, distributions, moments and cumulants, generating functions, discrete and continuous distributions"
+        - "The central limit theorem"
+
+    #- module: 3
+    #  title: "Numerical methods"
+    #  lectures: 29
+    #  tutorials: 0
+    #  labs: 10
+
+      #topics:
+      #  - "Basics of computer programming"
+      #  - "Modelling data: interpolation and fitting, Lagrange and Newton interpolation methods, divided difference table"
+      #  - "Piecewise polynomial interpolation, error in polynomial interpolation"
+      #  - "Least squares regression: linear, multiple linear and nonlinear regression"
+      #  - "Linear algebra: solving coupled linear equations, eigenvalues and eigenvectors, elimination method and pivoting, LU decomposition"
+      #  - "Solutions of nonlinear equations and minimization of functions"
+      #  - "Numerical differentiation and integration: divided difference method for differentiation, Newton-Cotes formula, midpoint, trapezoidal, rectangular and Simpson's rules, quadrature methods"
+      #  - "Solutions of ordinary differential equations: Euler and predictor-corrector methods, Runge-Kutta method, adaptive step size selection"
+      #  - "Solutions of partial differential equations"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Mathematical Methods for Physicists"
+        authors: "G. Arfken and H. J. Weber"
+        publisher: "Academic Press, 6th Edition, Indian Edition (2005)"
+        isbn: "978-9381269558"
+
+      - title: "Mathematical Physics, Vol I"
+        authors: "S. D. Joglekar"
+        publisher: "University Press (2005)"
+        isbn: "978-8173714221"
+
+      - title: "Mathematical Physics, Vol II"
+        authors: "S. D. Joglekar"
+        publisher: "University Press"
+        isbn: "978-8173715600"
+
+      - title: "Advanced Engineering Mathematics"
+        authors: "E. Kreyszig"
+        publisher: "9th Edition"
+        isbn: "978-8126531356"
+
+      - title: "Numerical Methods for Engineers"
+        authors: "Steven Chapra, Raymond Canale"
+        publisher: "6th Edition"
+        isbn: "978-0-07-340106-5"
+
+      - title: "Numerical Methods for Scientific and Engineering Computation"
+        authors: "M. K. Jain, S. R. K. Iyengar, R. K. Jain"
+        publisher: "New Age International (2003)"
+        isbn: "978-8122414615"
+
+    references:
+
+      - title: "Complex Variables and Applications"
+        authors: "J. W. Brown, R. V. Churchill"
+        publisher: "McGraw-Hill Education"
+        isbn: "978-0073383170"
+
+      - title: "Mathematics for Physicists"
+        authors: "P. Dennery and A. Krzywicki"
+        publisher: "Dover Publications"
+        isbn: "978-0486691930"
+
+      - title: "Mathematical Physics: With Applications, Problems and Solutions"
+        authors: "V. Balakrishnan"
+        publisher: "Ane Books (2017)"
+        isbn: "9386761114"
+
+
+
+
+# Applicable Mathematics
+#- code: 5005
+#  title: Applicable Mathematics
+#  program: msc
+#  category: core
+#  ltpc: "3-0-2-4"
+#  credit: 4
+#  type: theory
+#  year: 1
+#  semester: 1
+#  offered_by: dop
+#  link:
+#  status: approved
+#  course_type: PMC
+#  prerequisites:
+
+
+# =============================================================================================================================
+
+# Quantum Mechanics I
+- code: 5007
+  title: Quantum Mechanics I
+  program: msc
+  category: core
+  ltpc: "3-1-0-4"
+  credit: 4
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  # ==============
+  # syllabus
+  # ==============
+  syllabus:
+
+    - module: 1
+      title: "Origin of quantum theory"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basic principles of quantum mechanics"
+
+    - module: 2
+      title: "Linear Algebra"
+      lectures: 7
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Linear vector spaces"
+        - "Bra and ket vectors"
+        - "Inner products"
+        - "Hilbert space"
+        - "Operators"
+        - "Completeness and orthonormality"
+        - "Basis sets and change of basis"
+        - "Eigenstates and eigenvalues"
+        - "Wave-functions"
+        - "Expectation values"
+        - "Uncertainty relation"
+        - "Position and momentum representations"
+
+    - module: 3
+      title: "Hilbert space formulation of quantum mechanics"
+      lectures: 5
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "States, observables and measurement"
+        - "Discrete and continuous spectra"
+        - "Wavefunctions in position and momentum space"
+
+    - module: 4
+      title: "Dynamics"
+      lectures: 5
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Time evolution"
+        - "Hamiltonian"
+        - "Schrodinger equation"
+        - "Schrodinger and Heisenberg picture"
+        - "Probability current"
+
+    - module: 5
+      title: "Simple 1D Examples"
+      lectures: 7
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Particle in a box"
+        - "Delta function"
+        - "Finite well and potential barriers"
+        - "Bound states and scattering"
+        - "Harmonic oscillator: wavefunction and operator approach"
+
+    - module: 6
+      title: "Symmetries in Quantum Mechanics"
+      lectures: 5
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Discrete symmetries"
+        - "Translation"
+        - "Parity"
+        - "Time reversal"
+        - "Rotational symmetry"
+
+    - module: 7
+      title: "Hydrogen atom"
+      lectures: 8
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Orbital angular momentum operators"
+        - "Operator and wave function approach"
+        - "Spherical harmonics"
+        - "Fine and hyperfine structure of H atom"
+
+    - module: 8
+      title: "Systems of identical particles"
+      lectures: 2
+      tutorials: 1
+      labs: 0
+
+      topics:
+        - "Permutation symmetry"
+        - "Symmetric and antisymmetric wavefunctions"
+        - "Bosons and Fermions"
+        - "Pauli's exclusion principle"
+
+  # ==============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Modern Quantum Mechanics"
+        authors: "J. J. Sakurai"
+        publisher: "Addison Wesley; Revised Edition"
+        isbn: "978-0201539295"
+
+      - title: "Introduction to Quantum Mechanics"
+        authors: "David J. Griffiths"
+        publisher: "Pearson Education; 2nd Edition"
+        isbn: "978-9332542891"
+
+    references:
+
+      - title: "Principles of Quantum Mechanics"
+        authors: "R. Shankar"
+        publisher: "Springer; 2nd Edition"
+        isbn: "978-0306447907"
+
+      - title: "Quantum Mechanics"
+        authors: "C. Cohen Tannoudji, Bernard Diu, Frank Laloe"
+        publisher: "Wiley-VCH"
+        isbn: "978-0471569527"
+
+      - title: "Quantum Mechanics"
+        authors: "Eugene Merzbacher"
+        publisher: "Wiley; 3rd Edition"
+        isbn: "978-8126533176"
+
+      - title: "Lectures on Quantum Mechanics"
+        authors: "Steven Weinberg"
+        publisher: "Cambridge University Press; 2nd Edition"
+        isbn: "978-1316276105"
+
+      - title: "Quantum Mechanics"
+        authors: "V. K. Thankappan"
+        publisher: "New Academic Science Ltd; 4th Revised Edition"
+        isbn: "978-1781830147"
+
+
+# ===============================================================================================================================
+# AMO Physics
+- code: 5002
+  title: Atomic and Molecular Physics
+  program: msc
+  category: core
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites: 5007
+  basket:
+  senate:
+  # =========
+  # Syllabus
+  # =========
+  syllabus:
+
+    - module: 1
+      title: "Atomic Structure"
+      lectures: 17
+      tutorials: 0
+      labs: 0
+
+      topics:
+        #- "Hydrogen atom and its eigenvalues"
+        #- "Spherical harmonics"
+        #- "Fine and hyperfine structure of H atom"
+        - "Atomic structure of two-electron system: He"
+        - "Many-electron systems: Hartree-Fock method"
+        - "L-S coupling"
+        - "J-J coupling"
+        - "Interaction of electromagnetic field with atoms"
+        - "Zeeman effect"
+        - "Stark effect"
+        - "Paschen-Back effect"
+
+    - module: 2
+      title: "Molecular Physics and Spectroscopy"
+      lectures: 15
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Electronic structure of H₂ molecule: LCAO and LCMO methods"
+        - "Molecular spectroscopy"
+        - "Microwave spectroscopy"
+        - "Infrared spectroscopy"
+        - "Raman spectroscopy"
+        - "Nuclear magnetic resonance (NMR)"
+        - "Electron spin resonance (ESR)"
+        - "X-ray spectroscopy"
+
+    - module: 3
+      title: "Lasers"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Principles of laser action in atoms and molecules"
+        - "Einstein coefficients"
+        - "Population inversion"
+        - "Two-level and three-level systems"
+        - "He-Ne laser"
+        - "Other inert-gas lasers"
+        - "Atomic halogen lasers"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Physics of Atoms and Molecules"
+        authors: "B. H. Bransden and C. J. Joachain"
+        publisher: "Pearson"
+        isbn: "978-81-7758-279-6"
+
+      - title: "Fundamentals of Molecular Spectroscopy"
+        authors: "C. N. Banwell"
+        publisher: "McGraw Hill Education"
+        isbn: "978-9352601738"
+
+    references:
+
+      - title: "Introduction to Quantum Mechanics: With Applications to Chemistry"
+        authors: "Linus Pauling and E. B. Wilson"
+        publisher: "Dover"
+        isbn: "978-0486648712"
+
+      - title: "Atomic and Molecular Spectroscopy: Basic Concepts and Applications"
+        authors: "Rita Kakkar"
+        publisher: "Cambridge University Press"
+        isbn: "978-1107063884"
+
+# ===========================================================================================================================
+
+
+#- code: 5015
+#  title: Electronics and Instrumentation
+#  program: msc
+#  category: core
+#  ltpc: "2-0-3-4"
+#  credit: 4
+#  type: theory
+#  year: 1
+#  semester: 2
+#  offered_by: dop
+#  link:
+#  status: approved
+#  course_type: PMC
+#  prerequisites:
+
+- code: 5004
+  title: Electronics and Instrumentation
+  program: msc
+  category: core
+  ltpc: "2-0-3-4"
+  credit: 4
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus (Revised)
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Analogue circuits"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of p-n junction devices, transistor, FET and MOSFET devices"
+        - "Small or large signal amplifiers, feedback amplifiers, multistage amplifiers"
+        - "Differential amplifiers"
+        - "Operational amplifier as a tool (with examples)"
+
+    - module: 2
+      title: "Digital Circuits"
+      lectures: 16
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Boolean expressions and minimization using K-map"
+        - "Types of gates, combinational circuits and concepts"
+        - "Sequential circuits, multiplexers and demultiplexers, comparators, counters, latches, flip-flops"
+        - "A/D and D/A converters"
+        - "Introduction to microprocessors"
+
+    - module: 3
+      title: "Laboratory Components"
+      lectures: 0
+      tutorials: 0
+      labs: 36
+
+      topics:
+        - "The NAND gate IC 7400, its characteristics and to understand the operation of the lab experimental setup"
+        - "The Exclusive-OR gate IC 7486, its characteristics and to understand the operation of the lab experimental setup"
+        - "n-channel MOSFET: measurement of transfer and output characteristics, and extraction of parameters"
+        - "p-channel MOSFET: measurement of transfer and output characteristics, and extraction of parameters"
+        - "Build a low pass filter with a cutoff frequency of 500 Hz and a maximally flat response"
+        - "Measure the open loop DC and AC gains of a common 741 op-amp"
+        - "Design a function generator and convert it to a voltage-controlled oscillator (VCO)/FM generator"
+        - "Basic use of data acquisition and interface"
+        - "Making a signal generator"
+        - "Strain gauge LVDT"
+        - "Temperature sensor use"
+        - "Use of simulation and modelling tools to design a PID controller"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Electronic Principles"
+        authors: "A. P. Malvino"
+        publisher: "McGraw Hill Publishers"
+        isbn: "978-0028028330"
+
+      - title: "Integrated Electronics"
+        authors: "J. Millman and C. C. Halkias"
+        publisher: "Tata McGraw Hill"
+        isbn: "978-0070151420"
+
+      - title: "Electronic Devices and Circuit Theory"
+        authors: "R. L. Boylestad and L. Nashelsky"
+        publisher: "10th Edition, Pearson Education Asia"
+        isbn: "978-8131727003"
+
+      - title: "Digital Principles and Applications"
+        authors: "Malvino and Leach"
+        publisher: "Tata McGraw-Hill"
+        isbn: "978-9339203405"
+
+      - title: "Fundamentals of Electric Circuit"
+        authors: "Charles K. Alexander and Matthew N. O. Sadiku"
+        publisher: "McGraw Hill Publishers"
+        isbn: "978-9353165505"
+
+- code: 5006
+  title: Statistical Mechanics
+  program: msc
+  category: core
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Foundations of statistical mechanics"
+      lectures: 7
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Relation of thermodynamics and statistical mechanics"
+        - "Gibbs' paradox"
+        - "Phase space, Liouville's theorem"
+
+    - module: 2
+      title: "Ensemble theory"
+      lectures: 13
+      tutorials: 4
+      labs: 0
+
+      topics:
+        - "Microcanonical, canonical and grand canonical ensembles and partition function"
+        - "Calculation of physical properties (e.g. heat capacity, entropy)"
+        - "Review and derivation of thermodynamic relations from ensemble theory"
+        - "Variance and stability"
+
+    - module: 3
+      title: "Quantum statistics"
+      lectures: 15
+      tutorials: 4
+      labs: 0
+
+      topics:
+        - "Maxwell-Boltzmann statistics for ideal gases"
+        - "Quantum statistical mechanics: Fermi-Dirac statistics, Bose-Einstein statistics"
+        - "Thermodynamics of ideal Fermi gas"
+        - "Magnetism of ideal Fermi gas: Pauli paramagnetism, Landau diamagnetism"
+        - "Thermodynamics of ideal Bose gas, Bose-Einstein condensation, superfluidity"
+
+    - module: 4
+      title: "Phase transitions"
+      lectures: 7
+      tutorials: 4
+      labs: 0
+
+      topics:
+        - "Brief introduction to phase transitions, critical phenomena"
+        - "Landau theory of phase transitions"
+        - "Phase transition in the Ising model"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Statistical Mechanics"
+        authors: "R. K. Pathria and Paul D. Beale"
+        publisher: "Academic Press (Elsevier), 3rd Edition"
+        isbn: "978-0123821881"
+
+      - title: "Statistical Physics"
+        authors: "F. Reif"
+        publisher: "Berkeley Physics Course (Volume 5), McGraw Hill Education (India) Pvt Ltd"
+        isbn: "978-0-07-070219-6"
+
+      - title: "Statistical Physics of Particles"
+        authors: "M. Kardar"
+        publisher: "Cambridge University Press"
+        isbn: "978-1108448239"
+
+    references:
+
+      - title: "Statistical Mechanics"
+        authors: "K. Huang"
+        publisher: "Wiley, 2nd Edition"
+        isbn: "978-8126518494"
+
+      - title: "Statistical Mechanics"
+        authors: "S. K. Ma"
+        publisher: "World Scientific"
+        isbn: "978-9971966072"
+
+- code: 5008
+  title: Quantum Mechanics II
+  program: msc
+  category: core
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites: 5007
+  basket:
+  senate:
+  # ==============
+  # syllabus
+  # ==============
+  syllabus:
+
+    - module: 1
+      title: "Angular momentum algebra"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Eigenstates and eigenvalues of angular momentum"
+        - "Addition of angular momenta"
+        - "Clebsch-Gordan coefficients"
+
+    - module: 2
+      title: "Approximation Methods"
+      lectures: 20
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Time-independent perturbation theory: non-degenerate and degenerate cases with examples"
+        - "WKB method"
+        - "Variational method"
+        - "Time-dependent perturbation theory"
+        - "Interaction picture"
+        - "Dyson series and transition probabilities"
+        - "Interaction of atom with electromagnetic radiation"
+        - "Emission and absorption of photons"
+        - "Fermi's golden rule"
+
+    - module: 3
+      title: "Relativistic Quantum Mechanics"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Klein-Gordon equation"
+        - "Dirac equation"
+        - "Spinors"
+        - "Negative energy solutions and their interpretation"
+
+    - module: 4
+      title: "Scattering"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Lippmann-Schwinger equation"
+        - "Scattering amplitude and cross section"
+        - "Born approximation"
+
+    - module: 5
+      title: "Path integral approach to Quantum Mechanics"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Kernel, propagator and transition amplitudes"
+        - "Feynman's path integrals"
+        - "Examples of free particle and harmonic oscillator"
+
+  # ==============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Modern Quantum Mechanics"
+        authors: "J. J. Sakurai"
+        publisher: "Addison Wesley; Revised Edition"
+        isbn: "978-0201539295"
+
+      - title: "Introduction to Quantum Mechanics"
+        authors: "David J. Griffiths"
+        publisher: "Pearson Education; 2nd Edition"
+        isbn: "978-9332542891"
+
+      - title: "Quantum Mechanics and Path Integrals"
+        authors: "R. P. Feynman, A. R. Hibbs"
+        publisher: "Dover Publications"
+        isbn: "978-0486477220"
+
+    references:
+
+      - title: "Principles of Quantum Mechanics"
+        authors: "R. Shankar"
+        publisher: "Springer; 2nd Edition"
+        isbn: "978-0306447907"
+
+      - title: "Quantum Mechanics"
+        authors: "C. Cohen Tannoudji, Bernard Diu, Frank Laloe"
+        publisher: "Wiley-VCH"
+        isbn: "978-0471569527"
+
+      - title: "Quantum Mechanics"
+        authors: "Eugene Merzbacher"
+        publisher: "Wiley; 3rd Edition"
+        isbn: "978-8126533176"
+
+      - title: "Lectures on Quantum Mechanics"
+        authors: "Steven Weinberg"
+        publisher: "Cambridge University Press; 2nd Edition"
+        isbn: "978-1316276105"
+
+      - title: "Quantum Mechanics"
+        authors: "V. K. Thankappan"
+        publisher: "New Academic Science Ltd; 4th Revised Edition"
+        isbn: "978-1781830147"
+
+# ==============================================================================================================================
+
+- code: 5009
+  title: Condensed Matter Physics
+  program: msc
+  category: core
+  ltpc: "3-1-0-4"
+  credit: 4
+  type: theory
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Introduction to condensed matter and crystal structure"
+      lectures: 6
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Length, time and energy scales in condensed matter"
+        - "Order-disorder transition, long-range and short-range order, correlation functions"
+        - "Soft and hard condensed matter, examples of material properties"
+        - "Bonding and interactions, van der Waals interaction, hydrogen bonding"
+        - "Review of crystals: lattice, basis, 2-d and 3-d crystals, point and space groups, symmetries"
+        - "Experimental determination of structure, scattering, lattice with basis, Miller indices, structure factor, form factors"
+        - "Defects in crystals"
+
+    - module: 2
+      title: "Lattice vibrations"
+      lectures: 9
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Cohesion of solids, mechanical properties, elasticity, constitutive relations"
+        - "Modes of lattice vibrations, quantization and phonons"
+        - "Statistical mechanics of phonon gas, Einstein and Debye models"
+        - "Umklapp processes, thermal expansion, Kohn anomalies, charge density waves"
+        - "Electron-phonon interactions"
+
+    - module: 3
+      title: "Electronic structure and band theory"
+      lectures: 12
+      tutorials: 4
+      labs: 0
+
+      topics:
+        - "Single electron model, density of states, Fermi surface and quasiparticles"
+        - "Specific heat, magnetic susceptibility"
+        - "Electrons in periodic potentials, Bloch's theorem, Kronig-Penney model"
+        - "Nearly free and tightly bound electrons, Fermi surfaces, band theory, effective mass"
+        - "Wannier functions and tight binding, electronic states at surfaces"
+        - "Dynamics of Bloch electrons: transport properties, Drude model, electrical conductivity, Boltzmann equation"
+        - "Thermal conductivity and thermoelectric phenomena"
+
+    - module: 4
+      title: "Magnetism and superconductivity"
+      lectures: 6
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Atomic magnetism, Hund's rules, Curie's law"
+        - "Pauli paramagnetism, Landau diamagnetism, quantum mechanics of interacting moments"
+        - "Superconductivity: phenomenology including Meissner effect, type-I and type-II superconductors"
+        - "BCS theory"
+
+    - module: 5
+      title: "Introduction to soft matter physics"
+      lectures: 9
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Introduction to soft matter physics: polymers, colloids, surfactants, liquid crystals"
+        - "Brownian motion and thermal fluctuations: Brownian motion of a free particle, Brownian motion in a potential field"
+        - "Fluctuation-dissipation theorem"
+        - "Polymers: freely jointed model, worm-like chain (WLC) model, Flory theory"
+        - "Surfaces and surfactants: surface tension, wetting, surfactants"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Solid State Physics"
+        authors: "N. Ashcroft and N. Mermin"
+        publisher: "Holt, Rinehart and Winston, 1976"
+        isbn: "9780030839931"
+
+      - title: "Solid State Physics"
+        authors: "M. S. Rogalski and S. B. Palmer"
+        publisher: "CRC Press, 2014"
+        isbn: "9789056992729"
+
+      - title: "Condensed Matter Physics"
+        authors: "M. P. Marder"
+        publisher: "Wiley"
+        isbn: "9780470617984"
+
+      - title: "Soft Matter Physics"
+        authors: "Masao Doi"
+        publisher: "Oxford"
+        isbn: "9780199652952"
+
+      - title: "An Introduction to Dynamics of Colloids"
+        authors: "J. K. G. Dhont"
+        publisher: "Elsevier"
+        isbn: "9780444820099"
+
+
+# ==============================================================================================================================
+
+- code: 5011
+  title: Nuclear and Particle Physics
+  program: msc
+  category: core
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites: 5003, 5007
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Nuclear Physics: Structure and Properties"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Nuclear radii and charge distributions"
+        - "Nuclear binding energy"
+        - "Electric and magnetic moments"
+
+    - module: 2
+      title: "Nuclear Models"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Liquid drop model: semi-empirical mass formula"
+        - "Fermi gas model of nucleus"
+        - "Nuclear shell model"
+
+    - module: 3
+      title: "Nuclear Force and Nuclear Reactions"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Nuclear force and the two nucleon problem"
+        - "Alpha decay, beta decay, electromagnetic transitions in nuclei"
+        - "Rutherford scattering, nuclear reactions, conservation laws"
+        - "Fission and fusion"
+
+    - module: 4
+      title: "Particle Physics"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Fundamental forces in nature"
+        - "Classification of particles: bosons and fermions; hadrons and leptons"
+        - "Identical particles and permutation symmetry"
+        - "Particle phenomenology: quark content of hadrons; isospin, flavor, and color symmetry"
+        - "Particle quantum numbers, Gell-Mann-Nishijima formula"
+        - "Phenomenology of weak interactions; V-A theory"
+        - "Introduction to the standard model"
+        - "Particle accelerators and detectors"
+
+    - module: 5
+      title: "Elements of Special Relativity"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Four-vectors and four-momentum, conservation of four-momentum"
+        - "Kinematics of scattering: relativistic kinematics of decay and interaction processes illustrated with physical examples"
+
+    - module: 6
+      title: "Feynman Rules"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Fermi's golden rule for decays and scattering"
+        - "Introduction to Feynman rules"
+        - "Recall solutions to the Klein-Gordon and Dirac equations"
+        - "Decay rates and scattering cross-section at tree-level, with examples from quantum electrodynamics"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Introduction to Elementary Particles"
+        authors: "David Griffiths"
+        publisher: "Wiley"
+        isbn: "978-3-527-40601-2"
+
+      - title: "Nuclear and Particle Physics: An Introduction"
+        authors: "B. R. Martin"
+        publisher: "Wiley"
+        isbn: "9788126565078"
+
+    references:
+
+      - title: "Introduction to Nuclear and Particle Physics"
+        authors: "Ashok Das, Thomas Ferbel"
+        publisher: "World Scientific"
+        isbn: "978-9812387448"
+
+      - title: "Quarks & Leptons: An Introductory Course In Modern Particle Physics"
+        authors: "Francis Halzen and Alan D. Martin"
+        publisher: "Wiley India"
+        isbn: "978-8126516568"
+
+
+# ==============================================================================================================================
+
+- code: 5102
+  title: Thermal Physics and Atomic Spectroscopy Lab
+  program: msc
+  category: core
+  ltpc: "0-0-3-2"
+  credit: 2
+  type: lab
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Specific heat of solids"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+    - module: 2
+      title: "Thermal conductivity"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+    - module: 3
+      title: "Latent heat of vaporization of liquid nitrogen"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+    - module: 4
+      title: "Thermoelectric effect (Seebeck, Peltier)"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+    - module: 5
+      title: "Bohr magneton by Zeeman effect"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+    - module: 6
+      title: "Electron spin resonance"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+    - module: 7
+      title: "Nuclear magnetic resonance"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+    - module: 8
+      title: "Michelson interferometer"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+    - module: 9
+      title: "Ultrasound diffraction"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+    - module: 10
+      title: "Diffraction grating"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+    - module: 11
+      title: "Absorption spectroscopy"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+
+# ==============================================================================================================================
+
+- code: 5103
+  title: Mechanics and Electromagnetic Theory Lab
+  program: msc
+  category: core
+  ltpc: "0-0-3-2"
+  credit: 2
+  type: lab
+  year: 1
+  semester: 2
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Coupled pendulum"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+      topics:
+        - "Characteristic frequencies of the uncoupled pendulum"
+        - "Coupling factors for various coupling lengths"
+        - "Angular frequencies of in-phase and out-of-phase vibration and angular frequency of the beat mode"
+        - "Linear relation between the square of the coupling length and the square of the frequency for out-of-phase vibration"
+        - "Spring constant of the coupling spring"
+
+    - module: 2
+      title: "Young's modulus"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+      topics:
+        - "Elastic and plastic extension of a metal wire"
+
+    - module: 3
+      title: "Kundt's tube"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+      topics:
+        - "Determining velocity of sound in a medium"
+
+    - module: 4
+      title: "e/m of the electron (Thomson's method)"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+    - module: 5
+      title: "Elastic waves in solids"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+    - module: 6
+      title: "Falling magnet: experiment on eddy currents"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+    - module: 7
+      title: "Michelson interferometer"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+    - module: 8
+      title: "Hall effect in metals"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+
+    - module: 9
+      title: "Hall effect in semiconductors"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+
+    - module: 10
+      title: "Diffraction grating"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+
+    - module: 11
+      title: "Thermal conductivity in metals and poor conductors"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+
+    - module: 12
+      title: "Specific heat of solids"
+      lectures: 0
+      tutorial: 0
+      labs: 2
+
+
+
+
+# ==============================================================================================================================
+
+- code: 5105
+  title: Advanced Physics Lab
+  program: msc
+  category: core
+  ltpc: "0-0-5-3"
+  credit: 3
+  type: lab
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Room temperature STM"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+      topics:
+        - "STM of standard samples (HOPG) and its analysis"
+
+
+    - module: 2
+      title: "Experiments using Physical Quantity Measurement Systems"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "I-V characteristics and R vs T measurements for standard samples"
+        - "AC susceptibility measurements"
+
+    - module: 3
+      title: "X-ray physics"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "Bragg's law"
+        - "Debye-Scherrer analysis"
+        - "Moseley's law"
+
+
+    - module: 4
+      title: "Brownian motion experiments"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "Measurement of diffusion coefficient of a Brownian particle"
+        - "Estimation of Avogadro's number using Brownian motion"
+        - "Simulation"
+
+    - module: 5
+      title: "Liquid crystal experiments"
+      lectures: 0
+      tutorials: 0
+      labs: 2
+
+
+      topics:
+        - "Measurement of phase transition temperature and birefringence of liquid crystals"
+
+
+# ==============================================================================================================================
+
+- code: 5110
+  title: Project 1
+  program: msc
+  category: core
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester: 3
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PMC
+  prerequisites:
+  basket:
+  senate:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#======================
+# Department Elective
+#======================
+
+
+# ==============================================================================================================
+
+# Quantum Information and Computation
+- code: 5606
+  title: Quantum Information and Computation
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5007
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Revisiting quantum mechanics"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Linear algebra: linear independence and bases, Hilbert space, tensor product"
+        - "Postulates of quantum mechanics: state space, Hamiltonian, evolution, quantum measurement (projection measurement, POVM, generalized measurement)"
+        - "Density matrices for quantum states: pure and mixed states"
+        - "Introducing qubits: two-level systems, Bloch sphere"
+        - "Composite systems: partial trace and reduced states, Schmidt decomposition"
+        - "EPR paradox and Bell inequality, entanglement"
+
+    - module: 2
+      title: "Quantum communication and cryptography"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "No-cloning theorem, quantum teleportation, quantum dense coding"
+        - "Quantum cryptography: BB84 and Ekert protocols"
+        - "Multiparty scenario of quantum communication"
+        - "Quantum state discrimination"
+
+    - module: 3
+      title: "Entropy and entanglement"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of probability theory"
+        - "Shannon entropy, von Neumann entropy"
+        - "Conditional entropy and mutual information"
+        - "Entanglement for pure and mixed states"
+        - "Entanglement measures, entanglement witness, entanglement in multipartite systems"
+
+    - module: 4
+      title: "Quantum computation"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Introducing quantum algorithms (at least two examples)"
+        - "Quantum gates and quantum circuit elements"
+        - "Introduction to quantum error correction (example of three-qubit bit-flip code)"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "M. A. Nielsen and I. L. Chuang"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "978-81-7596-092-3"
+
+      - title: "Quantum Information Theory"
+        authors: "M. M. Wilde"
+        publisher: "Cambridge University Press (2013)"
+        isbn: "978-1107034259"
+
+    references:
+
+      - title: "Lecture notes by John Preskill (ph229, ph219)"
+        authors: "John Preskill"
+        publisher: "http://www.theory.caltech.edu/people/preskill/ph229/ ; http://www.theory.caltech.edu/~preskill/ph219/ph219_2013-14"
+        isbn: ""
+
+      - title: "Quantum Computing Explained"
+        authors: "D. McMahon"
+        publisher: "Wiley-Interscience (2007)"
+        isbn: "978-0-470-09699-4"
+
+      - title: "Introduction to Quantum Information Science"
+        authors: "Vlatko Vedral"
+        publisher: "Oxford University Press (2013)"
+        isbn: "978-0199673483"
+
+
+# ==============================================================================================================
+
+# Quantum Information and Many-Body Systems
+- code: 5610
+  title: Quantum Information and Many-Body Systems
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5007
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Measures of quantum correlations"
+      lectures: 14
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Qubits and Bloch sphere representation, projection measurement, density matrices"
+        - "Pure and mixed states: definitions, examples, importance"
+        - "Partial trace and partial transposition, Bloch representation of density matrices"
+        - "Introduction to entanglement: Shannon and von Neumann entropy"
+        - "Entanglement in pure states, Bell states, entanglement in mixed states"
+        - "Other relevant measures, entanglement and interaction between qubits, other quantum correlation measures"
+
+    - module: 2
+      title: "Interacting quantum spin systems"
+      lectures: 17
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "One-dimensional XY and Ising model in a transverse field"
+        - "Jordan-Wigner (JW) transformation, determination of phase diagram"
+        - "Magnetization and spin-correlation functions"
+        - "One-dimensional XXZ model with/without magnetic field and failure of JW transformation"
+        - "Nearest and next-nearest neighbor density matrices from symmetries of these models"
+        - "Calculation of entanglement measures (example: concurrence)"
+        - "Spin chains at finite temperature"
+
+    - module: 3
+      title: "Applications of spin systems in quantum information"
+      lectures: 11
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Quantum state transmission"
+        - "Cluster states"
+        - "Measurement-based quantum computation"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "M. A. Nielsen and I. L. Chuang"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "978-81-7596-092-3"
+
+      - title: "Quantum Phase Transitions"
+        authors: "S. Sachdev"
+        publisher: "Cambridge University Press (2011)"
+        isbn: "978-0521514682"
+
+    references:
+
+      - title: "Quantum Computing Explained"
+        authors: "D. McMahon"
+        publisher: "Wiley-Interscience (2007)"
+        isbn: "978-0-470-09699-4"
+
+      - title: "Quantum Information Theory"
+        authors: "M. M. Wilde"
+        publisher: "Cambridge University Press (2013)"
+        isbn: "978-1107034259"
+
+      - title: "Lecture notes by John Preskill (ph229, ph219)"
+        authors: "John Preskill"
+        publisher: "http://www.theory.caltech.edu/people/preskill/ph229/ ; http://www.theory.caltech.edu/~preskill/ph219/ph219_2013-14"
+        isbn: ""
+
+      - title: "Quantum Physics in One Dimension"
+        authors: "T. Giamarchi"
+        publisher: "Oxford Science Publications (2003)"
+        isbn: "978-0-19-852500-4"
+
+
+# ==============================================================================================================
+
+# Introduction to Open Quantum Systems
+- code: 6604
+  title: Introduction to Open Quantum Systems
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5006, 5007, 5008
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Preliminaries"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Pure states and statistical mixture of quantum states"
+        - "Density matrix formalism"
+        - "Schrödinger equation"
+        - "Composite quantum systems"
+        - "Quantum entropy and quantum measurement"
+
+    - module: 2
+      title: "Open quantum systems with Kraus operator formalism"
+      lectures: 16
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Representation, Schrödinger equation as a special case"
+        - "Complete positivity and quantum maps"
+        - "Perspectives from quantum information theory"
+        - "Quantum maps of a qubit as examples, unital maps"
+        - "Phase-damping, bit-flip, depolarizing, and amplitude-damping maps"
+        - "Idea of errors in quantum protocols"
+
+    - module: 3
+      title: "Quantum master equation"
+      lectures: 16
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Lindblad equation from Born, Markov, and rotating-wave approximations"
+        - "From Kraus operators to the Lindblad equation via a short time expansion of quantum maps"
+        - "Lindblad equation and completely positive map"
+        - "Examples with phase-damping and amplitude-damping/spontaneous emission of a single qubit"
+
+    - module: 4
+      title: "Introduction to non-Markovian quantum processes"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Nakajima-Zwanzig equation"
+        - "From Nakajima-Zwanzig to Born master equation"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "The Theory of Open Quantum Systems"
+        authors: "H. P. Breuer and F. Petruccione"
+        publisher: "Oxford University Press"
+        isbn: "0-19-852063-8"
+
+      - title: "Open Quantum Systems: An Introduction"
+        authors: "A. Rivas and S. Huelga"
+        publisher: "Springer Berlin, Heidelberg"
+        isbn: "978-3-642-23354-8"
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "M. A. Nielsen and I. L. Chuang"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "978-81-7596-092-3"
+
+    references:
+
+      - title: "Lecture Notes by John Preskill, Caltech"
+        authors: "John Preskill"
+        publisher: "https://www.preskill.caltech.edu/ph229/"
+        isbn:
+
+      - title: "Introduction to the Theory of Open Quantum Systems"
+        authors: "Piotr Szańkowski"
+        publisher: "SciPost Physics Lecture Notes, https://scipost.org/SciPostPhysLectNotes.68"
+        isbn:
+
+
+# ==============================================================================================================
+
+# Exploring Quantum Spin Models using Python
+- code: 6605
+  title: Exploring Quantum Spin Models using Python
+  program: msc
+  category: elective
+  ltpc: "2-0-2-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5006, 5007, 5008
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Python 101"
+      lectures: 10
+      tutorials: 0
+      labs: 10
+
+      topics:
+        - "Introduction to the Python interpreter; integer, floating-point, and string objects"
+        - "Variables and functions; loops, lists, and accessing elements of lists via indexing"
+        - "if, elif, and else blocks; writing nested compound statements"
+        - "Data structures including lists, tuples, sets, and dictionaries"
+        - "File handling and exception handling"
+        - "Classes and object-oriented programming"
+        - "numpy and scipy; basic exercises including sorting, differentiation, integration, interpolation and extrapolation"
+        - "Introduction to plotting using matplotlib"
+
+    - module: 2
+      title: "Probing Quantum Spin Models using Python"
+      lectures: 10
+      tutorials: 0
+      labs: 10
+
+      topics:
+        - "Creating basis and constructing the Hamiltonian"
+        - "Representations of states; different symmetries"
+        - "Exact diagonalization"
+        - "Lanczos method: Krylov space, Lanczos basis and Hamiltonian, programming the Lanczos method, convergence of Lanczos calculations"
+        - "Computing expectation values of observables"
+        - "Calculating entanglement measures"
+
+    - module: 3
+      title: "Solving Open Quantum Spin Models using Python"
+      lectures: 8
+      tutorials: 0
+      labs: 8
+
+      topics:
+        - "Introduction to open system dynamics"
+        - "Lindblad formalism"
+        - "Solving the Lindblad equation using the fourth-order Runge-Kutta method"
+        - "Introduction to Qutip for handling open quantum systems"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Computational Studies of Quantum Spin Systems"
+        authors: "A. W. Sandvik"
+        publisher: "Lectures on the Physics of Strongly Correlated Systems XIV, Proceedings of the 14th Training Course in Physics of Strongly Correlated Systems, edited by A. Avella and F. Mancini, AIP Conference Proceedings 1297, 135-338 (2010)"
+        isbn:
+
+      - title: "The Theory of Open Quantum Systems"
+        authors: "H. P. Breuer and F. Petruccione"
+        publisher: "Oxford University Press"
+        isbn: "0-19-852063-8"
+
+      - title: "Scientific Computing in Python 3"
+        authors: "Abhijit Kar Gupta"
+        publisher: "Techno World"
+        isbn: "978-81-949567-6-1"
+
+    references:
+
+      - title: "Python Documentation"
+        authors:
+        publisher: "https://docs.python.org/3/"
+        isbn:
+
+      - title: "The Joy of Computing using Python (NPTEL course materials, PH5617)"
+        authors:
+        publisher:
+        isbn:
+
+      - title: "Qutip Tutorials"
+        authors:
+        publisher: "https://qutip.org/tutorials.html"
+        isbn:
+
+
+# ==============================================================================================================
+
+# Introduction to Quantum Thermodynamics
+- code: 6606
+  title: Introduction to Quantum Thermodynamics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5006, 5007, 5008
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Preliminaries"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of classical statistical physics"
+        - "Laws of thermodynamics"
+        - "Concept of probability"
+        - "Jarzynski equality and Crooks theorem"
+
+
+    - module: 2
+      title: "Statistical physics and thermodynamics from entanglement viewpoint"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of entanglement theory"
+        - "Envariance from entanglement assisted invariance"
+        - "Quantum work, heat, and entropy production"
+        - "Quantum fluctuation theorem"
+
+    - module: 3
+      title: "Thermodynamics of quantum systems"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Quantum thermometry"
+        - "Quantum heat engines"
+        - "Quantum Carnot and Otto cycles"
+        - "Work extraction from quantum systems"
+        - "Quantum batteries and refrigerators"
+        - "Concepts of ergotropy"
+
+    - module: 4
+      title: "Thermodynamics of quantum information"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Thermodynamics of classical information processing and Landauer's bound"
+        - "Quantum modification of Landauer's bound with example in non-equilibrium quantum systems"
+        - "Kibble-Zurek mechanism and entropy production"
+        - "Quantum error correction in adiabatic quantum computers"
+
+    - module: 5
+      title: "Physical platforms"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Introduction to proposals for realizing quantum thermodynamic devices using ion traps, light-matter interaction, ultracold atoms, and superconducting qubits"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "M. A. Nielsen and I. L. Chuang"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "978-81-7596-092-3"
+
+      - title: "The Theory of Open Quantum Systems"
+        authors: "H. P. Breuer and F. Petruccione"
+        publisher: "Oxford University Press"
+        isbn: "0-19-852063-8"
+
+      - title: "Quantum Thermodynamics: An Introduction to the Thermodynamics of Quantum Information"
+        authors: "S. Deffner and S. Campbell"
+        publisher: "IOP Concise Physics"
+        isbn: "978-1643276557"
+
+    references:
+
+      - title: "Quantum thermodynamic devices: from theoretical proposals to experimental reality"
+        authors: "Nathan M. Myers, Obinna Abah, Sebastian Deffner"
+        publisher: "AVS Quantum Sci. 4, 027101 (2022)"
+        isbn:
+
+      - title: "Quantum Thermodynamics"
+        authors: "S. Vinjanampathy and J. Anders"
+        publisher: "Contemporary Physics, 57, 545 (2016)"
+        isbn:
+
+
+# ==============================================================================================================
+
+# Nonequilibrium Statistical Physics
+- code: 6607
+  title: Nonequilibrium Statistical Physics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Introduction"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Recap of equilibrium statistical mechanics needed for non-equilibrium statistical mechanics"
+        - "Fluctuations and irreversibility in macroscopic systems, approach to the equilibrium state"
+        - "Boltzmann transport equation, linear irreversible thermodynamics"
+        - "Review of critical phenomena and scaling, dynamic scaling (Edwards-Wilkinson and KPZ models, time-dependent Ginzburg-Landau models)"
+
+    - module: 2
+      title: "Microscopic Approach - Langevin Equation and Fluctuation-Dissipation Relation"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The Langevin equation, the Maxwellian distribution of velocities, equation of motion of the Brownian particle"
+        - "The fluctuation-dissipation relation, conditional and complete ensemble averages"
+        - "Conditional mean squared velocity, velocity correlation time, stationarity of a random process"
+        - "Velocity autocorrelation in three dimensions, time reversal property of the correlation matrix"
+
+    - module: 3
+      title: "Dynamics of a Brownian Particle"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Free particle, mean squared displacement in equilibrium, time scales in the Langevin model"
+        - "Equilibrium autocorrelation function, conditional autocorrelation function, fluctuations in the displacement"
+        - "Velocity-position cross-correlation"
+        - "Particles in an external potential, Langevin equation in an external potential, the Brownian oscillator"
+
+    - module: 4
+      title: "Fokker-Planck Equation"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Diffusion process and diffusion equation, the fundamental Gaussian solution, diffusion in three dimensions"
+        - "Smoluchowski equation for the oscillator"
+        - "Fokker-Planck equation and its relation with the stochastic differential equation"
+        - "Kramers' escape rate formula, the Ornstein-Uhlenbeck distribution"
+
+    - module: 5
+      title: "Green-Kubo Formulas"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Diffusion constant in terms of the velocity autocorrelation, generalization to three dimensions"
+        - "The mobility, relation between diffusivity and the static mobility, the dynamic mobility"
+        - "Kubo-Green formula for the dynamic mobility, application to the Brownian oscillator"
+
+    - module: 6
+      title: "Generalised Langevin Equation"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Memory kernel, frequency dependent friction"
+        - "Maxwell model for visco-elastic fluids"
+        - "Generalized fluctuation-dissipation theorem"
+
+    - module: 7
+      title: "Nonequilibrium Fluctuations"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Brownian ratchets, Brownian motors"
+        - "Thermodynamics at the molecular level"
+        - "Fluctuation theorems, Crooks' theorem, Jarzynski equality"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Elements of Nonequilibrium Statistical Mechanics"
+        authors: "V. Balakrishnan"
+        publisher: "Springer"
+        isbn: "978-3-030-62232-9 / 978-3-030-62233-6"
+
+      - title: "Statistical Mechanics of Nonequilibrium Liquids"
+        authors: "Denis J. Evans and Gary P. Morriss"
+        publisher: "Cambridge University Press"
+        isbn: "978-0521857918"
+
+    references:
+
+      - title: "NPTEL Video Lectures on Non-equilibrium Statistical Mechanics"
+        authors: "V. Balakrishnan"
+        publisher:
+        isbn:
+
+      - title: "An Introduction to Dynamics of Colloids"
+        authors: "J. Dhont"
+        publisher: "Elsevier Science"
+        isbn: "0444820094"
+
+      - title: "Stochastic Processes in Physics and Chemistry"
+        authors: "N. G. Van Kampen"
+        publisher:
+        isbn: "0444529659"
+
+      - title: "A Modern Course in Transport Phenomena"
+        authors: "D. C. Venerus, H. C. Oettinger"
+        publisher: "Cambridge University Press"
+        isbn: "1107129206"
+
+
+# ==============================================================================================================
+
+# Soft Matter Physics
+- code: 5611
+  title: Soft Matter Physics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5001, 5014, 5006
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Introduction to soft condensed matter"
+      lectures: 14
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Overview of soft matter systems, energies and timescales"
+        - "Brownian motion and thermal fluctuations, phase transitions, self-assembly"
+        - "Hydrodynamics of simple fluids, introduction to rheology"
+        - "Light scattering and microscopy techniques"
+        - "Preamble to soft matter studies using computational approaches"
+
+    - module: 2
+      title: "Colloids"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Introduction to colloidal systems and their properties"
+        - "Forces and interactions, Brownian motion of non-interacting particles"
+        - "Stability and phase behaviour of colloids, flow and rheological properties"
+
+    - module: 3
+      title: "Liquid crystals"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Common liquid crystal phases, birefringence, nematic order parameter"
+        - "Mean field theory for nematic-isotropic phase transition"
+        - "Landau-de Gennes theory, Onsager's theory for rod-like particles"
+        - "Fréedericksz transition"
+
+    - module: 4
+      title: "Surfactants"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Surface tension, surface free energy, wetting"
+        - "Liquid droplet on a solid surface"
+        - "Surfactant and surfactant solution, inter-surface potential, self-assembly"
+
+    - module: 5
+      title: "Polymers"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Ideal chain, freely jointed chain model and Flory theory"
+        - "Worm-like chain model, polymer rheology"
+        - "Static light scattering and Zimm plot"
+        - "Introduction to biopolymers"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Soft Condensed Matter"
+        authors: "Richard A. L. Jones"
+        publisher: "Oxford Master Series in Condensed Matter Physics (2002)"
+        isbn: "978-0-19-850589-1"
+
+      - title: "Soft Matter Physics"
+        authors: "Masao Doi"
+        publisher: "Oxford University Press (2013)"
+        isbn: "978-0-19-965295-2"
+
+    references:
+
+      - title: "Principles of Condensed Matter Physics"
+        authors: "P. M. Chaikin and T. C. Lubensky"
+        publisher: "Cambridge University Press (2004)"
+        isbn: "0521794501"
+
+      - title: "The Theory of Polymer Dynamics"
+        authors: "M. Doi and S. F. Edwards"
+        publisher: "Oxford Science Publications (1988)"
+        isbn: "0198520336"
+
+
+# ==============================================================================================================
+
+# Introduction to Computational Physics
+- code: 5618
+  title: Introduction to Computational Physics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+
+# ==============================================================================================================
+
+# Theory and Applications of Stochastic Processes
+- code: 5619
+  title: Theory and Applications of Stochastic Processes
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Random Variables"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basic notions of probability"
+        - "Distributions, moments and cumulants"
+        - "Generating functions"
+        - "The joint Gaussian distribution"
+        - "The central limit theorem"
+
+    - module: 2
+      title: "Random Events"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Independent and non-independent events"
+        - "Poisson process"
+        - "Waiting time distributions"
+
+    - module: 3
+      title: "General Concepts of Stochastic Processes"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Green's functions"
+        - "Chapman-Kolmogorov equation, Markov property"
+        - "Auto-correlation functions and power-spectral density, Wiener-Khinchin theorem"
+        - "Wiener, Ornstein-Uhlenbeck and random telegraph processes"
+
+    - module: 4
+      title: "Discrete Markov Processes I"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Master equation and methods of solution"
+        - "Stationary solutions"
+        - "Detailed balance"
+        - "Non-equilibrium steady states"
+
+    - module: 5
+      title: "Discrete Markov Processes II"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "One-step processes, stationary states"
+        - "Random walks, reflecting and absorbing boundaries"
+        - "Survival probability, first passage time density"
+        - "Backward Kolmogorov equation"
+
+    - module: 6
+      title: "Continuous Markov Processes"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Kramers-Moyal and system size expansions"
+        - "Fokker-Planck equation"
+        - "Langevin equations for Brownian motion"
+        - "Einstein-Smoluchowski relation and fluctuation-dissipation theorem"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Stochastic Processes in Physics and Chemistry"
+        authors: "N. G. Van Kampen"
+        publisher: "Elsevier, 3rd ed."
+        isbn: "9780444529657 (paperback); 9780080475363 (eBook)"
+
+    references:
+
+      - title: "Stochastic Methods: A handbook for the natural and social sciences"
+        authors: "C. W. Gardiner"
+        publisher: "Springer, 4th ed. (2009)"
+        isbn: "978-3-540-70712-7"
+
+      - title: "The Fokker-Planck Equation: Methods of Solution and Applications"
+        authors: "H. Risken"
+        publisher: "Springer, 2nd ed."
+        isbn: "978-3-642-61544-3"
+
+
+# ==============================================================================================================
+
+# Introduction to Astrophysics
+- code: 5622
+  title: Introduction to Astrophysics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 1030
+  basket:
+  senate:
+  prerequisites_note: "MA1011, MA1021 (offered by the Department of Mathematics)"
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Tools of Astrophysics"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The celestial sphere"
+        - "Celestial mechanics"
+        - "Sun and the planets"
+        - "The continuous spectrum of light"
+        - "Theory of special relativity"
+        - "Interaction of light and matter"
+        - "Telescopes"
+
+    - module: 2
+      title: "Interiors of Stars"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Hydrostatic equilibrium"
+        - "Radiative energy transport and stellar opacity"
+        - "Nuclear reactions as the energy source"
+        - "Radiative models of stars"
+        - "Remarks on stellar convection"
+        - "The Hertzsprung-Russell (HR) diagram; the main sequence"
+
+    - module: 3
+      title: "Stellar Atmospheres"
+      lectures: 1
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Limb darkening"
+        - "Formation of spectral lines"
+
+    - module: 4
+      title: "The Sun and the Heliosphere"
+      lectures: 1
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The Sun and the heliosphere"
+
+    - module: 5
+      title: "End States of Stars"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Stellar evolution and the HR diagram"
+        - "White dwarfs: electron degeneracy, Chandrasekhar-Schoenberg limit"
+        - "Neutron stars and black holes"
+        - "Supernovae and pulsars"
+
+    - module: 6
+      title: "Binary Stars"
+      lectures: 2
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Classification and mass determination"
+        - "Extrasolar planets"
+
+    - module: 7
+      title: "Accretion onto Compact Objects"
+      lectures: 1
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Accretion onto compact objects"
+
+    - module: 8
+      title: "Gravitational-wave Astronomy"
+      lectures: 1
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Gravitational-wave astronomy"
+
+    - module: 9
+      title: "The Milky Way Galaxy"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Morphology and kinematics"
+        - "21-cm radiation of neutral hydrogen"
+        - "Differential rotation of the galaxy"
+        - "The interstellar medium and its constituents"
+        - "Jeans mass and star formation"
+
+    - module: 10
+      title: "Nature and Evolution of Galaxies"
+      lectures: 2
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The Hubble sequence"
+        - "Spiral and irregular galaxies; spiral structure"
+        - "Elliptical galaxies"
+        - "Galaxy interactions"
+        - "Formation of galaxies"
+
+    - module: 11
+      title: "The Structure of the Universe"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The extragalactic distance scale"
+        - "Expansion of the universe"
+        - "Clusters of galaxies"
+
+    - module: 12
+      title: "Active Galaxies"
+      lectures: 2
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Observations of quasars and radio galaxies"
+        - "Models of active galactic nuclei"
+
+    - module: 13
+      title: "Cosmology"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Newtonian and relativistic cosmology"
+        - "Cosmic background radiation"
+        - "Big-Bang nucleosynthesis"
+        - "Structure formation"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "An Introduction to Modern Astrophysics"
+        authors: "Bradley W. Carroll and Dale A. Ostlie"
+        publisher: "2017"
+        isbn: "978-1108422161"
+
+    references:
+
+      - title: "The Feynman Lectures on Physics, Volumes 1, 2, and 3"
+        authors: "Richard P. Feynman, Robert B. Leighton, Matthew Sands"
+        publisher: "1963"
+        isbn: "978-9332580954"
+
+
+# ==============================================================================================================
+
+# Many Body Physics: Techniques and Applications
+- code: 5623
+  title: "Many Body Physics: Techniques and Applications"
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5006
+  basket:
+  senate:
+
+# ==============================================================================================================
+
+#  Experimental Techniques in Physics
+- code: 6001
+  title: Experimental Techniques in Physics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Data Analysis"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Statistical analysis of data"
+        - "Uncertainties in measurement"
+        - "Propagation of errors"
+        - "Graphing and reporting"
+
+    - module: 2
+      title: "Introduction to Measurement Techniques"
+      lectures: 20
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Scanning Probe Microscope (AFM and STM)"
+        - "Scanning Electron Microscopy; Transmission Electron Microscopy"
+        - "Energy Dispersive Spectrum, X-ray Diffraction, Small Angle X-ray Scattering"
+        - "Microprobe station, Impedance measurement"
+        - "Electrical transport measurement (AC and DC conductivity, TEP measurement)"
+        - "Magnetic transport properties characterization: Vibrating Sample Magnetometer, SQUID"
+        - "Micro-Raman Spectrometer"
+        - "BET surface area analyzer"
+        - "Dynamic Light Scattering"
+
+    - module: 3
+      title: "Laboratory Demonstration"
+      lectures: 0
+      tutorials: 0
+      labs: 12
+
+      topics:
+        - "STM"
+        - "Raman spectroscopy"
+        - "Four- and two-probe (electrical) transport measurement"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Elements Of X-Ray Diffraction"
+        authors: "B. D. Cullity, S. R. Stock"
+        publisher: "Prentice Hall, 3rd edition (2001)"
+        isbn: "978-0201610918"
+
+      - title: "Nanoscale Characterization of Surfaces and Interfaces"
+        authors: "N. John DiNardo"
+        publisher: "Wiley (2008)"
+        isbn: "978-3-527-61594-0"
+
+      - title: "Transmission Electron Microscopy and Diffractometry of Materials"
+        authors: "Brent Fultz and James M. Howe"
+        publisher: "(2009)"
+        isbn: "978-3-642-29761-8"
+
+
+# ==============================================================================================================
+
+#  General Relativity
+- code: 6002
+  title: General Relativity
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5001, 5003
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Special relativity"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Principle of relativity and electrodynamics, postulates of special relativity"
+        - "Invariance of interval, Lorentz transformations, simultaneity in special relativity"
+        - "Four-vectors and tensors"
+        - "Action for the relativistic free particle, conservation of four-momentum"
+        - "Action for charged particles, Maxwell's equations in covariant form"
+
+    - module: 2
+      title: "Towards general relativity"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Action at a distance, gravity as geometry"
+        - "The equivalence principle"
+        - "Dealing with geometry: curvilinear coordinates"
+        - "Covariant and contravariant tensors"
+
+    - module: 3
+      title: "Formalization: manifolds and differential geometry"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Manifolds, calculus on manifolds: functions, curves, vectors and one-forms, tensors"
+        - "Differential geometry: metric, covariant derivative, affine connection"
+        - "Integration on manifolds"
+
+    - module: 4
+      title: "Motion of test particles in curved spacetime"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Action for a free particle in curved spacetime, geodesic equation, local inertial frames"
+        - "Isometries: the Killing equation and conserved quantities"
+        - "Geometry outside the star: Schwarzschild solution, symmetries and conserved quantities"
+        - "Motion of particles in the Schwarzschild metric: gravitational redshift, precession of the perihelion, bending of light"
+
+    - module: 5
+      title: "Einstein equations"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Riemann tensor, geodesic deviation, curvature"
+        - "Action for the gravitational field, Einstein equations"
+        - "Stress-energy tensor: perfect fluid, scalar and electromagnetic field"
+
+    - module: 6
+      title: "Term paper presentations"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Student term paper presentations; possible topics include the Friedmann-Robertson-Walker (FRW) metric, gravitational waves, verifying the Schwarzschild solution, black holes, etc."
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Spacetime and Geometry"
+        authors: "S. Carroll"
+        publisher: "Pearson India (2016)"
+        isbn: "978-9332571655"
+
+      - title: "Gravity: An Introduction to Einstein's General Relativity"
+        authors: "J. B. Hartle"
+        publisher: "Pearson Education (2014)"
+        isbn: "9332535086"
+
+      - title: "General Relativity: An Introduction for Physicists"
+        authors: "M. P. Hobson"
+        publisher: "Cambridge University Press (2006)"
+        isbn: "0521829518"
+
+    references:
+
+      - title: "The Classical Theory of Fields (Course of Theoretical Physics, Volume 2)"
+        authors: "L. D. Landau and E. M. Lifshitz"
+        publisher: "4th Edition, CBS Publishers"
+        isbn: "9788181477873"
+
+      - title: "General Relativity"
+        authors: "R. M. Wald"
+        publisher: "The University of Chicago Press (1984)"
+        isbn: "8188689270"
+
+      - title: "A First Course in General Relativity"
+        authors: "B. F. Schutz"
+        publisher: "Cambridge University Press (1990)"
+        isbn: "1107696690"
+
+      - title: "Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity"
+        authors: "S. Weinberg"
+        publisher: "Wiley"
+        isbn: "978-8126517558"
+
+# ==============================================================================================================
+
+#  Magnetism in Materials
+- code: 6003
+  title: Magnetism in Materials
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5009
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Review of Isolated Magnetic Moment"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Diamagnetism, paramagnetism"
+        - "Hund's coupling"
+        - "Spin-orbit coupling"
+        - "Quantum mechanics of Pauli spin matrices"
+
+    - module: 2
+      title: "Environment around Isolated Magnetic Moment"
+      lectures: 2
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Crystal electric field"
+        - "Jahn-Teller effect"
+
+    - module: 3
+      title: "Magnetic Interactions and Anisotropy"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Magnetic interactions: dipolar; exchange interactions - direct, indirect exchanges (superexchange, RKKY exchange)"
+        - "Magnetic anisotropy: single ion (magneto-crystalline), magnetic exchange anisotropy"
+
+    - module: 4
+      title: "Magnetic Ordering and Excitation"
+      lectures: 11
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Magnetic ordering: ferromagnetism, antiferromagnetism, ferrimagnetism"
+        - "Non-collinear and non-coplanar order: application of mean field theory"
+        - "Magnetic excitation: spin-wave theory and magnon"
+
+    - module: 5
+      title: "Magnetic Measurement Techniques"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Vibrating sample and SQUID magnetometers"
+        - "Neutron scattering"
+        - "Magnetic resonance spectroscopy"
+        - "Muon spin resonance"
+
+    - module: 6
+      title: "Magnetic Materials"
+      lectures: 14
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Magnetism in metals/alloys: band magnetism, Stoner criterion, spin-density wave"
+        - "Magnetoresistance in metals: GMR, CMR"
+        - "Kondo effect, heavy fermion"
+        - "Magnetism in insulators: Mott-Hubbard transition, low dimensional magnetism, magnetic frustration"
+        - "Spintronics: spin-polarized current - spin-injection, spin accumulation, spin-transfer torque"
+        - "Materials for spintronics, magnetic memory"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Magnetism in Condensed Matter"
+        authors: "Stephen Blundell"
+        publisher: "Oxford Master Series in Condensed Matter Physics"
+        isbn: "978-0198505914"
+
+      - title: "Magnetism and Magnetic Materials"
+        authors: "J. M. D. Coey"
+        publisher: "Cambridge University Press"
+        isbn: "978-0-521-81614-4"
+
+    references:
+
+      - title: "Lecture Notes on Electron Correlation and Magnetism"
+        authors: "Patrik Fazekas"
+        publisher: "World Scientific"
+        isbn: "978-981-02-2474-5"
+
+      - title: "Physics of Transition Metal Oxides"
+        authors: "S. Maekawa, T. Tohyama, S. E. Barnes, S. Ishihara, W. Koshibae, G. Khaliullin"
+        publisher: "Springer, Berlin"
+        isbn: "81-203-1601-0"
+
+      - title: "Physics of Magnetism and Magnetic Materials"
+        authors: "K. H. J. Buschow and F. R. de Boer"
+        publisher: "Springer, Boston, MA"
+        isbn: "978-0-306-47421-7"
+
+      - title: "Introduction to Magnetic Materials"
+        authors: "B. D. Cullity and C. D. Graham Jr."
+        publisher: "Wiley (2008)"
+        isbn: "9780471477419"
+
+
+# ==============================================================================================================
+
+#  Quantum Optics
+- code: 6005
+  title: Quantum Optics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5007
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Quantum Theory of Radiation"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Quantization of the electromagnetic field"
+        - "Fock states"
+        - "Lamb shift"
+        - "Concept of photons (vacuum fluctuations, wave function of photons)"
+
+    - module: 2
+      title: "Coherent and Squeezed States of Radiation"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Coherent states of light as eigenstates of the annihilation operator and as displaced harmonic oscillator states; properties of coherent states of radiation"
+        - "Squeezed states of radiation; squeezed states and the uncertainty principle"
+        - "Squeezed coherent states; multi-mode squeezing"
+        - "Representation of coherent states; quasi-classical distribution; Wigner-Weyl distribution"
+
+    - module: 3
+      title: "Semiclassical Theory of Light-Matter Interaction"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Atom-field interaction Hamiltonian"
+        - "Interaction of a two-level atom with a single-mode radiation field (probability amplitude, interaction picture, rotating-wave approximation)"
+        - "Density matrix of a two-level atom"
+        - "Maxwell-Schrödinger equations"
+        - "Laser; stimulated emission and absorption"
+
+    - module: 4
+      title: "Quantum Theory of Light-Matter Interaction"
+      lectures: 9
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Atom-field interaction Hamiltonian"
+        - "Interaction of a two-level atom with a single-mode radiation field (probability amplitude, Heisenberg operator, unitary time-evolution operator)"
+        - "Wigner theory of spontaneous emission in atomic levels"
+        - "Spontaneous emission in three-level atoms"
+
+    - module: 5
+      title: "Introduction to Damping"
+      lectures: 9
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Damping via oscillator reservoir"
+        - "Markovian white noise; non-Markovian colored noise"
+        - "Equation of motion for field-correlation functions"
+        - "Fluctuation-dissipation theorem; introduction to the Lindblad master equation"
+
+    - module: 6
+      title: "Introduction to Application in Quantum Information Processing"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Parametric down conversion"
+        - "Bell inequality"
+        - "Entanglement in two-mode squeezed states"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Quantum Optics"
+        authors: "Marlan O. Scully and M. Suhail Zubairy"
+        publisher: "Cambridge University Press"
+        isbn: "978-0-521-43595-6"
+
+      - title: "Introductory Quantum Optics"
+        authors: "Christopher Gerry and Peter Knight"
+        publisher: "Cambridge University Press"
+        isbn: "978-0-511-79123-9"
+
+    references:
+
+      - title: "Quantum Optics"
+        authors: "D. F. Walls and Gerard J. Milburn"
+        publisher: "Springer"
+        isbn: "978-3-642-06676-4"
+
+      - title: "Methods in Theoretical Quantum Optics"
+        authors: "Stephen M. Barnett and Paul M. Radmore"
+        publisher: "Clarendon Press, Oxford, UK"
+        isbn: "978-0-198-56361-7"
+
+      - title: "Quantum Optics: Taming the Quantum"
+        authors: "Pierre Meystre"
+        publisher: "Springer"
+        isbn: "978-3-030-76182-0"
+
+
+# ==============================================================================================================
+
+#  Particle Physics and Gauge Theory
+- code: 6602
+  title: Particle Physics and Gauge Theory
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5007, 5008
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Foundations & Relativistic Kinematics"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Overview of elementary particles and their interactions"
+        - "Basics of relativistic mechanics and kinematics"
+        - "Lorentz invariance and Fermi's Golden Rule"
+        - "Observables in scattering and decay such as cross-sections, lifetimes, and branching ratios"
+        - "Expressions for cross-sections and decay rates"
+        - "Lorentz-invariant phase space"
+        - "Transition from non-relativistic to relativistic quantum mechanics"
+
+    - module: 2
+      title: "Relativistic theory of spin-0, spin-1/2, and spin-1 particles"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Klein-Gordon equation, Dirac equation"
+        - "Spin and helicity"
+        - "Solutions of the Dirac equation and their physical interpretation (positive and negative energy states, spinors)"
+        - "Gamma matrices and Clifford algebra"
+        - "Electromagnetic field strength tensor"
+        - "Polarization vectors of spin-1 particles, and implications of gauge invariance"
+
+    - module: 3
+      title: "Quantum Electrodynamics (QED) & Feynman Diagrams"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Perturbation theory and Feynman diagrams"
+        - "QED Feynman rules"
+        - "Calculation of the e+e- → μ+μ- process in QED"
+        - "Calculation of helicity amplitudes"
+        - "Moller and Bhabha scattering"
+        - "Crossing symmetry between scattering and annihilation processes"
+        - "Hadron production via electron-positron annihilation"
+
+    - module: 4
+      title: "Symmetries, Gauge Theory, and Weak Interaction"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Discrete symmetries (P, C, T) and continuous symmetries"
+        - "Conservation laws and Noether's theorem"
+        - "U(1) local gauge symmetry and QED"
+        - "Non-Abelian gauge symmetry, QCD and electroweak interactions"
+        - "V-A structure of the weak interaction and parity violation in beta decay"
+        - "Discovery and properties of the W and Z bosons"
+        - "Muon decay and energy distribution"
+        - "Introduction of the Cabibbo angle and the CKM matrix"
+        - "CP violation and neutral meson oscillations"
+
+    - module: 5
+      title: "Spontaneous Symmetry Breaking and the Standard Model"
+      lectures: 9
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Spontaneous symmetry breaking, Higgs mechanism"
+        - "Spontaneous breaking of SU(2)_L × U(1)_Y"
+        - "Mass generation for W and Z via the Higgs mechanism"
+        - "Higgs discovery at LHC"
+        - "Brief overview of HEP experiments"
+        - "The complete Standard Model Lagrangian: gauge, Higgs, Yukawa, and fermionic kinetic terms"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Modern Particle Physics"
+        authors: "Mark Thomson"
+        publisher: "Cambridge University Press (2013)"
+        isbn: "978-1107034266"
+
+      - title: "Quarks and Leptons: An Introductory Course in Modern Particle Physics"
+        authors: "Francis Halzen and Alan D. Martin"
+        publisher: "Wiley (2008)"
+        isbn: "978-0471887416"
+
+    references:
+
+      - title: "Introduction to Elementary Particles"
+        authors: "David Griffiths"
+        publisher: "Wiley-VCH, 2nd Edition (2008)"
+        isbn: "978-3527406012"
+
+      - title: "Gauge Theories in Particle Physics: A Practical Introduction, Vols. 1 & 2"
+        authors: "Ian J. R. Aitchison and Anthony J. G. Hey"
+        publisher: "CRC Press, 4th Edition (2013)"
+        isbn: "978-0849387750 (Vol. 1), 978-0849387767 (Vol. 2)"
+
+
+# ==============================================================================================================
+
+#  Fundamentals of Light Microscopy and Image Processing
+- code: 5631
+  title: Fundamentals of Light Microscopy and Image Processing
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Foundations of Image Formation"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Geometrical optics in imaging systems: thin lens formula, magnification"
+        - "Numerical aperture (NA) and resolving power"
+        - "Diffraction from circular aperture"
+        - "Abbe theory of image formation"
+        - "Rayleigh criterion"
+
+    - module: 2
+      title: "Architecture of Light Microscopes"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Infinity-corrected optical systems"
+        - "Objective lenses: NA, working distance, immersion optics"
+        - "Tube lens and image plane formation"
+        - "Condenser optics and Köhler illumination"
+        - "Optical aberrations (spherical, chromatic, astigmatism)"
+
+    - module: 3
+      title: "Contrast Microscopy"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Bright-field and dark-field microscopy"
+        - "Phase contrast microscopy"
+        - "Differential interference contrast (DIC)"
+        - "Polarization microscopy"
+
+    - module: 4
+      title: "Fluorescence Microscopy"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Fluorescence microscopy: electronic transitions, Stokes shift, quantum yield, photobleaching"
+        - "Basic filter cube design"
+        - "Fluorophores"
+
+    - module: 5
+      title: "Advance Microscopy Techniques"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Confocal microscopy: optical sectioning principle"
+        - "Spinning disk confocal microscopy"
+        - "Total internal reflection fluorescence (TIRF) microscopy"
+        - "Structured illumination microscopy (SIM)"
+        - "Introduction to super-resolution techniques (STED, PALM/STORM)"
+        - "Light-sheet microscopy"
+
+    - module: 6
+      title: "Image Detection and Noise"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Point spread function (PSF) and convolution description of imaging"
+        - "Fourier optics approach to imaging"
+        - "CCD and CMOS detectors"
+        - "Noise sources: shot noise, read noise, dark noise"
+        - "Signal to noise ratio"
+        - "Nyquist sampling criterion in microscopy"
+
+    - module: 7
+      title: "Fundamentals of Digital Image Processing and Analysis"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Digital image representation and bit depth"
+        - "Histogram analysis and contrast enhancement"
+        - "Spatial filtering (mean, Gaussian, median)"
+        - "Edge detection (Sobel, Canny)"
+        - "Frequency-domain filtering"
+        - "Basic deconvolution concepts"
+        - "Thresholding, segmentation, and particle tracking fundamentals"
+        - "Open-source image processing tools"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Fundamentals of Light Microscopy and Electronic Imaging"
+        authors: "D. B. Murphy and M. W. Davidson"
+        publisher: "Wiley, 2nd Edition (2013)"
+        isbn: "9780471692140"
+
+      - title: "Digital Image Processing"
+        authors: "R. C. Gonzalez and R. E. Woods"
+        publisher: "Pearson, 4th Edition (2018)"
+        isbn: "978-0133356724"
+
+    references:
+
+      - title: "Introduction to Fourier Optics"
+        authors: "J. W. Goodman"
+        publisher: "Roberts & Company, 3rd Edition (2005)"
+        isbn: "978-0974707723"
+
+      - title: "Handbook of Biological Confocal Microscopy"
+        authors: "J. B. Pawley (Ed.)"
+        publisher: "Springer, 3rd Edition (2006)"
+        isbn: "978-0387455242"
+
+      - title: "Principles of Fluorescence Spectroscopy"
+        authors: "J. R. Lakowicz"
+        publisher: "Springer, 3rd Edition (2006)"
+        isbn: "978-0387312781"
+
+      - title: "Principles of Optics"
+        authors: "M. Born and E. Wolf"
+        publisher: "Cambridge University Press, 7th Edition (1999)"
+        isbn: "978-1108769914"
+
+
+# ==============================================================================================================
+
+#  Monte Carlo Methods in Statistical Physics
+- code: 6008
+  title: Monte Carlo Methods in Statistical Physics
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Introduction"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Statistical Mechanics: basic concepts"
+        - "Monte Carlo (MC) method for sampling and importance sampling"
+        - "Detailed balance, Metropolis algorithm, acceptance criterion"
+        - "Random numbers"
+
+    - module: 2
+      title: "Monte Carlo simulation of lattice and off-lattice systems"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The Lennard-Jones system, boundary conditions, truncation of potential, neighbourlist"
+        - "Trial moves, calculation of thermodynamic averages"
+        - "The Ising model and its phase behavior"
+        - "MC simulations in various ensembles: NVT, NPT, μVT"
+
+    - module: 3
+      title: "Free energy calculation and phase equilibria"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Thermodynamic integration"
+        - "Widom insertion method for chemical potential"
+        - "Gibbs ensemble, Gibbs-Duhem integration"
+
+    - module: 4
+      title: "Histogram Methods"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Rare events, estimation of free energy barriers and rates"
+        - "Umbrella sampling, histogram reweighting"
+        - "Wang-Landau sampling"
+
+    - module: 5
+      title: "Optimization, biased and accelerated sampling"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Simulated annealing"
+        - "Replica exchange MC (parallel tempering)"
+        - "Configuration bias MC, restricted ensemble MC, swap MC"
+        - "Cluster algorithms and critical behavior (finite size scaling)"
+        - "Hybrid MC"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Understanding Molecular Simulation: From Algorithms to Applications"
+        authors: "Daan Frenkel and Berend Smit"
+        publisher: ""
+        isbn: "0122673514"
+
+      - title: "Computer Simulation of Liquids"
+        authors: "Michael P. Allen and Dominic J. Tildesley"
+        publisher: "2nd Edition"
+        isbn: "0198803206"
+
+    references:
+
+      - title: "A Guide to Monte Carlo Simulations in Statistical Physics"
+        authors: "David P. Landau and Kurt Binder"
+        publisher: "4th Edition"
+        isbn: "1107074029"
+
+      - title: "Monte Carlo Methods in Statistical Physics"
+        authors: "M. E. J. Newman and G. T. Barkema"
+        publisher: ""
+        isbn: "0198517971"
+
+
+# ==============================================================================================================
+
+#  Fundamentals and Applications of Superconductivity
+#  NOTE: New course proforma (proposed 19/11/2025, not yet approved as of source PDF).
+#  Course code was given only as the placeholder "PH6xxxx" in the proforma - assign the
+#  department's actual code here before publishing.
+- code:  # TBD - PH6xxx per proforma, not yet assigned
+  title: Fundamentals and Applications of Superconductivity
+  program: msc
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: dop
+  link:
+  status: proposed
+  course_type: PME
+  prerequisites: 5009
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Basic aspects of superconductivity"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Zero resistance state and Meissner effect"
+        - "Experimental signatures in electrical transport, magnetic, and thermodynamic measurements"
+        - "London equations; penetration depth, critical magnetic field, and critical current"
+        - "Type I and type II superconductors"
+        - "Applications of Type II superconductors; superconducting magnets"
+
+    - module: 2
+      title: "Phenomenological and microscopic theory of superconductivity"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Phenomenological model: Ginzburg-Landau theory, flux quantisation"
+        - "Microscopic theory: isotope effect, BCS theory of superconductivity, Cooper pairs, electron-phonon interaction"
+        - "BCS predictions for critical temperature, energy gap, and critical field"
+        - "Temperature dependence of properties: heat capacity, thermal conductivity"
+
+    - module: 3
+      title: "Josephson effect and superconducting devices"
+      lectures: 9
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Supercurrent tunnelling, phase of the macroscopic wave function"
+        - "DC and AC Josephson effect"
+        - "Applications of the Josephson effect: SQUID magnetometer, basic superconducting quantum circuits, superconducting qubit"
+
+    - module: 4
+      title: "Unconventional superconductivity"
+      lectures: 9
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Pairing mechanisms, symmetry of the order parameter"
+        - "Material classes: heavy-fermion, cuprate, iron-based, and organic superconductors"
+        - "Applications of high-Tc superconductors"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Superconductivity"
+        authors: "Charles P. Poole, Horacio A. Farach, Richard J. Creswick, Ruslan Prozorov"
+        publisher: "Elsevier, 2nd Edition (2010)"
+        isbn: "9780080550480"
+
+      - title: "Superconductivity: Fundamentals and Applications"
+        authors: "Werner Buckel and Reinhold Kleiner"
+        publisher: "WILEY-VCH Verlag GmbH & Co. KGaA, 2nd Edition (2004)"
+        isbn: "9783527403493"
+
+      - title: "Introduction to Superconductivity"
+        authors: "Michael Tinkham"
+        publisher: "Dover Publications, 2nd Edition (2004)"
+        isbn: "9780486435039"
+
+    references:
+
+      - title: "Superconductivity, Superfluids, and Condensates"
+        authors: "James F. Annett"
+        publisher: "Oxford University Press, Oxford Series in Condensed Matter Physics (2004)"
+        isbn: "9780198507567"
+
+
+# ==============================================================================================================
+
+#  Project 2
+- code: 5120
+  title: Project 2
+  program: msc
+  category: elective
+  ltpc:
+  credit: 6
+  type: theory
+  year: 2
+  semester: 4
+  offered_by: dop
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+
+
+
+
+
+
+
+
+
+#======================
+# NPTEL
+#======================
+
+- code: 5612
+  title: Group Theory Methods in Physics
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+
+- code: 5613
+  title: Introduction To Atmospheric And Space Sciences
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+- code: 5614
+  title: Introduction to LASER
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+- code: 5615
+  title: Physics of Biological Systems
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5006
+  basket:
+  senate:
+
+- code: 5616
+  title: Quantum Transport
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+- code: 5617
+  title: The Joy of Computing using Python
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites:
+  basket:
+  senate:
+
+- code: 5620
+  title: Introduction to Quantum Field Theory
+  program: msc
+  category: elective
+  ltpc:
+  credit: 3
+  type: theory
+  year: 2
+  semester:
+  offered_by: nptel
+  link:
+  status: approved
+  course_type: PME
+  prerequisites: 5001, 5003, 5007
+  basket:
+  senate:
+
+
+
+#=============================================================================================================================================================================================================================================================================================
+# All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses || All BTech Courses ||
+#=============================================================================================================================================================================================================================================================================================
+
+
+#======================
+# Btech Core
+#======================
+
+- code: 1030
+  title: Physics
+  program: btech
+  category: core
+  ltpc: "2-1-0-3"
+  credit: 3
+  type: theory
+  year: 1
+  semester: 1
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Newton's Laws of motion in vector form"
+      lectures: 9
+      tutorials: 5
+      labs: 0
+
+      topics:
+        - "Vectors, coordinate transformation and transformation properties of vectors"
+        - "Motion in polar, cylindrical, and spherical coordinate system"
+        - "Motion in central forces"
+        - "Non-inertial frames of reference"
+
+    - module: 2
+      title: "Introduction to physics of fields"
+      lectures: 8
+      tutorials: 4
+      labs: 0
+
+      topics:
+        - "Concept of fields: scalar and vector fields"
+        - "Gradient of a scalar potential, Divergence and Curl of vector fields"
+        - "Equipotential surfaces, Conservative force-field, the concept of equilibrium"
+        - "Stokes theorem, Divergence theorem"
+        - "Applications in gravitation, electrostatics and magnetostatics: Gauss's law and Ampere's law"
+
+    - module: 3
+      title: "Special Relativity"
+      lectures: 5
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Equivalence of inertial frames, constant speed of light, Michelson-Morley experiment"
+        - "Postulates of special theory of relativity"
+        - "Simultaneity, Lorentz transformations"
+        - "Length contraction, time dilation, invariant interval"
+        - "Energy-momentum relation"
+
+    - module: 4
+      title: "Quantum Mechanics"
+      lectures: 6
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Wave particle duality (historical experiments), De Broglie's hypothesis"
+        - "Uncertainty Principle"
+        - "Wave function and wave packets"
+        - "Schrödinger Equation, Eigenvalues and eigenfunctions"
+        - "Probabilities and Normalization, Expectation values"
+        - "Particle in a box, qualitative overview of H atom, finite potential step and tunneling"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "An Introduction to Mechanics"
+        authors: "Daniel Kleppner and Robert Kolenkow"
+        publisher: "Tata McGraw-Hill (2007)"
+        isbn: "978-0070647787"
+
+      - title: "Introduction to Electrodynamics"
+        authors: "D. J. Griffiths"
+        publisher: "PHI Learning (2012)"
+        isbn: "978-9332550445"
+
+      - title: "Introduction to Quantum Mechanics"
+        authors: "D. J. Griffiths"
+        publisher: "Cambridge India (2016)"
+        isbn: "978-1316646519"
+
+    references:
+
+      - title: "Introduction to Classical Mechanics, with Problems and Solutions"
+        authors: "David Morin"
+        publisher: "Cambridge University Press (2008)"
+        isbn: "978-0521876223"
+
+      - title: "Classical Mechanics"
+        authors: "J R Taylor"
+        publisher: "University Science Books (2004)"
+        isbn: "978-1891389207"
+
+      - title: "Mechanics (Berkeley Physics Course, Vol. 1)"
+        authors: "C. Kittel, W. Knight, M. Ruderman et al."
+        publisher: "McGraw Hill Education (India) Pvt Ltd (2011)"
+        isbn: "978-0070702134"
+
+      - title: "The Feynman Lectures of Physics (Vol. 1)"
+        authors: "R. P. Feynman, R. B. Leighton, M. Sands"
+        publisher: "Narosa Publishing House (2008)"
+        isbn: "978-8185015828"
+
+      - title: "Electricity and Magnetism (Berkeley Physics Course, Vol. 2)"
+        authors: "E. M. Purcell"
+        publisher: "McGraw Hill Education India (2011)"
+        isbn: "9780070702141"
+
+      - title: "Introduction to Special Relativity"
+        authors: "R. Resnick"
+        publisher: "John Wiley (2007)"
+        isbn: "8126511001"
+
+      - title: "Special Relativity: For the Enthusiastic Beginner"
+        authors: "D J Morin"
+        publisher: "Createspace Independent Publishers"
+        isbn: "978-1542323512"
+
+      - title: "Quantum Mechanics"
+        authors: "B. H. Bransden and C. J. Joachain"
+        publisher: "Pearson (2000)"
+        isbn: "978-0582356911"
+
+- code: 1130
+  title: Physics Lab
+  program: btech
+  category: core
+  ltpc: "0-0-3-2"
+  credit: 2
+  type: lab
+  year: 1
+  semester: "1, 2"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Basic Experiments in Physics"
+      lectures: 0
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basic experiments covering the fields: Mechanics, Quantum mechanics, Optics, Electrodynamics and Electronics"
+        - "Students perform a total of 8 to 9 experiments from the above fields in a semester"
+        - "Specific experiments and the detailed manual, together with the lab report booklet, are made available to students at the beginning of the semester"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Introduction To Error Analysis: The Study of Uncertainties in Physical Measurements"
+        authors: "John R. Taylor"
+        publisher: "University Science Books (1997)"
+        isbn: "978-0935702750"
+
+#======================
+# Btech Elective
+#======================
+
+- code: 3601
+  title: Quantum Mechanics for Engineers
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Principles and Formalism of Quantum Mechanics"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Introduction to Quantum Mechanics: wavefunctions, quantum uncertainties, and energy quantization"
+        - "Introduction to Mathematical Formalism: linear vector spaces"
+        - "Functions in a linear vector space"
+        - "Linear operations in a linear vector space"
+        - "Self adjoint operators and their eigenvalues & eigenvectors"
+
+    - module: 2
+      title: "Tunnelling and Periodic Potentials"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Tunnelling: simple rectangular barrier, tunneling probability"
+        - "Transmission as a function of energy"
+        - "Tunneling across multiple barriers, resonant tunneling"
+        - "Periodic potentials, the potential barrier in the delta-function limit"
+        - "The Kronig-Penney model, Bloch's theorem, energy bands"
+
+    - module: 3
+      title: "Harmonic Oscillator and Wave Packets"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "The harmonic oscillator wave functions, factorization method"
+        - "Time development - motion of a wave packet"
+        - "Quantizing the LC-circuit"
+        - "The vibrating lattice"
+
+    - module: 4
+      title: "Approximation Methods"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Stationary perturbation theory"
+        - "The perturbation series"
+        - "Some examples of application of perturbation theory"
+
+    - module: 5
+      title: "Foundations of Quantum Mechanics"
+      lectures: 7
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Entanglement, the EPR paradox, Bell's inequality"
+        - "Entanglement as a resource for applications"
+        - "No-cloning theorem"
+        - "Quantum teleportation"
+        - "Quantum Information"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Introduction to Quantum Mechanics"
+        authors: "David J. Griffiths"
+        publisher: "Cambridge India (2016)"
+        isbn: "978-1316646519"
+
+      - title: "Quantum Mechanics for Scientists and Engineers"
+        authors: "D. A. B. Miller"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "0-521-89783-1"
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "Michael A. Nielsen and Isaac L. Chuang"
+        publisher: "Cambridge University Press, 10th Anniversary Edition (2010)"
+        isbn: "978-1107002173"
+
+    references:
+
+      - title: "Quantum Mechanics for Nanostructures"
+        authors: "Vladimir V. Mitin, Dmitry I. Sementsov, Nizami Z. Vagidov"
+        publisher: "Cambridge University Press (2010)"
+        isbn: "0-521-76366-5"
+
+      - title: "Quantum Mechanics: An Introduction for Device Physicists and Electrical Engineers"
+        authors: "David K. Ferry"
+        publisher: "Taylor and Francis, 2nd Edition (2001)"
+        isbn: "0-750-30725-0"
+
+# ==============================================================================================================
+
+- code: 3602
+  title: Basics of Quantum Information, Communication, and Computation
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Basic Quantum Mechanics"
+      lectures: 20
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Postulates of quantum mechanics, bra-ket notation"
+        - "Linear algebra: state vectors, vector space and Hilbert space, matrices and operators, tensor product"
+        - "Hamiltonian, evolution of state vectors, density matrix, pure and mixed states"
+        - "Projection measurements, qubit and Bloch sphere"
+        - "States and Hilbert spaces of multiple qubits"
+        - "Trace, partial trace, and partial transposition"
+
+    - module: 2
+      title: "Quantum Gates and Circuits"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Revisiting classical gates"
+        - "Single-qubit quantum gates (X, Y, Z, H, T, and S gates)"
+        - "Basic quantum circuit diagrams"
+        - "Controlled gates (controlled-X and controlled-Z gates)"
+
+    - module: 3
+      title: "Entanglement"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Definition of entangled pure states"
+        - "Schmidt decomposition"
+        - "von Neumann entropy"
+        - "Entangling gates"
+        - "Entanglement in mixed states"
+
+    - module: 4
+      title: "Quantum Communication"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "No cloning theorem"
+        - "Quantum dense coding, quantum teleportation, entanglement swapping"
+        - "Basic quantum cryptography protocols (BB84 and Ekert protocol)"
+
+    - module: 5
+      title: "Quantum Error Correction"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Single-qubit errors"
+        - "Idea of quantum error detection and error correction"
+        - "Correction of single-qubit bit-flip error"
+
+    - module: 6
+      title: "Quantum Algorithms"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Introducing quantum parallelism and function evaluation"
+        - "Deutsch-Jozsa algorithm"
+        - "Grover's algorithm"
+        - "Introduction to Shor's algorithm"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Quantum Computation and Quantum Information"
+        authors: "M. A. Nielsen and I. L. Chuang"
+        publisher: "Cambridge University Press (2007)"
+        isbn: "978-81-7596-092-3"
+
+      - title: "Quantum Information Theory"
+        authors: "M. M. Wilde"
+        publisher: "Cambridge University Press (2013)"
+        isbn: "978-1107034259"
+
+    references:
+
+      - title: "Lecture Notes by John Preskill (ph229, ph219)"
+        authors: "John Preskill"
+        publisher: "http://www.theory.caltech.edu/people/preskill/ph229/ ; http://www.theory.caltech.edu/~preskill/ph219/"
+        isbn:
+
+- code: 3603
+  title: Electromagnetic Theory
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Electrostatics"
+      lectures: 15
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Force and electric field due to continuous charge distribution, field lines, flux, Gauss's law"
+        - "Electric potential due to continuous charge distribution, equipotential line/surface"
+        - "Poisson's equation and its solution, work done in assembling a charge distribution"
+        - "Conductors and capacitors"
+        - "Electric displacement vector, dielectric permittivity and susceptibility, Gauss's law in materials"
+        - "Electric dipole, force and torque on a dipole due to external static electric field, interaction energy between two dipoles, multipole expansion"
+
+    - module: 2
+      title: "Magnetostatics"
+      lectures: 15
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Force law due to line current, surface current and volume current densities"
+        - "Biot-Savart law and properties of magnetic field, magnetic flux, divergence of B"
+        - "Magnetic vector potential A, scalar potential, Ampere's law, multipole expansion"
+        - "Magnetic dipole moment, force and torque on a magnetic dipole due to external static magnetic field"
+        - "Magnetization: bound volume and surface current densities"
+        - "Auxiliary field H, magnetic susceptibility and permeability, general information about paramagnetism, diamagnetism and ferromagnetism"
+        - "Boundary conditions, force on a charged particle under electric and magnetic fields"
+
+    - module: 3
+      title: "Electromagnetics"
+      lectures: 12
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Electromotive force, Faraday's law of electromagnetic induction"
+        - "Self and mutual inductance, resonance and oscillations in electrical circuits"
+        - "Displacement current, Maxwell's equations in free space and in linear media"
+        - "Scalar and vector potentials, gauges"
+        - "Plane electromagnetic waves, electromagnetic energy density, Poynting vector"
+        - "Reflection and transmission of electromagnetic radiation at boundary, wave guides"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Introduction to Electrodynamics"
+        authors: "D. J. Griffiths"
+        publisher: ""
+        isbn: "978-9332550445"
+
+      - title: "Electricity and Magnetism"
+        authors: "E. M. Purcell and D. J. Morin"
+        publisher: ""
+        isbn: "978-1107014022"
+
+      - title: "The Feynman Lectures on Physics, Vol. 2"
+        authors: "R. P. Feynman, R. B. Leighton, M. Sands"
+        publisher: ""
+        isbn: "8182091101"
+
+- code: 4601
+  title: Magnetic Materials and its Applications
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Introduction to Magnetism"
+      lectures: 0
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Magnetic field, magnetization and magnetic materials"
+        - "Origin of magnetism: para-, dia-, ferro-, antiferro- and ferri-magnetism"
+        - "Soft and hard magnetic materials"
+
+    - module: 2
+      title: "Magnetic Phenomena"
+      lectures: 0
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Magnetic anisotropy, nanoparticles and thin films"
+        - "Magnetoresistances: anisotropic magnetoresistance (AMR), giant magnetoresistance (GMR), colossal magnetoresistance (CMR), tunneling magnetoresistance (TMR)"
+
+    - module: 3
+      title: "Applications"
+      lectures: 0
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Applications in transformers, flux-gate magnetometers, recording heads, magnetic shielding, anti-theft systems"
+        - "Spin engineering, spin valves (magnetic data storage), magneto-optics and magneto-optic recording"
+        - "Multi-ferroics: a basic introduction to multi-ferroics that combine magnetism and ferroelectricity"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Magnetic Materials: Fundamentals and Applications"
+        authors: "Nicola A. Spaldin"
+        publisher: "Cambridge University Press, 2nd Edition"
+        isbn: "978-0521886697"
+
+      - title: "Magnetism and Magnetic Materials"
+        authors: "J. M. D. Coey"
+        publisher: "Cambridge University Press, 1st Edition (2010)"
+        isbn: "978-0521816144"
+
+      - title: "Magnetoelectronics"
+        authors: "Ed. Mark Johnson"
+        publisher: "Academic Press, 1st Edition (2004)"
+        isbn: "978-0120884872"
+
+      - title: "Principles of Magnetism and Magnetic Materials"
+        authors: "K. H. J. Buschow and F. R. de Boer"
+        publisher: "Kluwer Academic Publisher, New York (2004)"
+        isbn: "978-0306474217"
+
+- code: 4602
+  title: Introduction to Special Relativity
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: approved
+  course_type: SME
+  prerequisites:
+  basket:
+  senate:
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Newtonian Relativity"
+      lectures: 3
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Inertial frames, Galilean invariance"
+        - "Michelson-Morley experiment and constancy of light"
+
+    - module: 2
+      title: "Principles of Special Relativity"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Postulates of relativity"
+        - "Simultaneity"
+        - "Concept of 4-vectors"
+        - "Lorentz transformation"
+
+    - module: 3
+      title: "Relativistic Kinematics"
+      lectures: 8
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Proper time, proper length, time dilation/length contraction"
+        - "Examples, some paradoxes"
+        - "Doppler effect"
+        - "Addition of velocities"
+
+    - module: 4
+      title: "Relativistic Dynamics"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Generalized momentum and force"
+        - "Energy and mass relation"
+
+    - module: 5
+      title: "Geometry of Spacetime"
+      lectures: 4
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Spacetime diagrams, light cones"
+        - "Spacelike intervals and timelike intervals"
+
+    - module: 6
+      title: "Electrodynamics Revisited"
+      lectures: 6
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Transformation of electric and magnetic fields"
+        - "Maxwell's equations in 4-vector notation"
+        - "4-dimensional vector potential"
+        - "Field of a point charge in uniform motion"
+        - "Thomas precession"
+
+    - module: 7
+      title: "Lagrangian Formulation"
+      lectures: 5
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Formalism and uses"
+        - "Lagrangian formulation for Newtonian mechanics, relativistic mechanics, and electrodynamics"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Introduction to Special Relativity"
+        authors: "Robert Resnick"
+        publisher: ""
+        isbn: "8126511001"
+
+      - title: "The Geometry of Spacetime"
+        authors: "James J. Callahan"
+        publisher: ""
+        isbn: "0387986413"
+
+    references:
+
+      - title: "Introduction to Electrodynamics"
+        authors: "D. J. Griffiths"
+        publisher: ""
+        isbn: "978-9332550445"
+
+      - title: "Gravity: An Introduction to Einstein's General Relativity"
+        authors: "James B. Hartle"
+        publisher: ""
+        isbn: "9332535086"
+
+      - title: "Classical Electrodynamics"
+        authors: "J. D. Jackson"
+        publisher: ""
+        isbn: "978-8126510948"
+
+# ==============================================================================================================
+
+#  Introduction to Statistical Mechanics
+#  NOTE: New course proforma (proposed 15-11-2023, not yet approved as of source PDF).
+#  Course code was given only as the placeholder "PHXXXX" - assign the department's actual
+#  code here before publishing. year/semester/course_type/status below are ASSUMED to match
+#  the pattern of sibling BTech electives (3601-4602) since the proforma does not state them -
+#  please confirm.
+- code:  # TBD - not assigned in proforma
+  title: Introduction to Statistical Mechanics
+  program: btech
+  category: elective
+  ltpc: "3-0-0-3"
+  credit: 3
+  type: theory
+  year: "2-4"
+  semester: "3-8"
+  offered_by: dop
+  link:
+  status: proposed
+  course_type: SME
+  prerequisites: 1030
+  basket:
+  senate: 
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Review of thermodynamics"
+      lectures: 10
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Equilibrium and state quantities, ideal gas, kinetic theory of gases, distribution of molecular speeds"
+        - "Pressure, work, chemical potential, heat, heat capacity, specific heat, entropy"
+        - "Equation of state of an ideal and non-ideal gas"
+        - "Laws of thermodynamics, thermodynamic potentials, free energy, phase transitions"
+
+    - module: 2
+      title: "Probability theory and the statistical foundations of mechanics"
+      lectures: 9
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Basics of probability theory and different probability distributions"
+        - "Central limit theorem, random walk, Brownian motion"
+        - "Connecting statistics with mechanics: phase space concept, evolution in phase space"
+        - "Many-body interactions leading to steady state and equilibrium"
+
+    - module: 3
+      title: "Statistical Mechanics and Ensemble Theory"
+      lectures: 23
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Counting microstates, statistical definition of entropy, Gibbs paradox"
+        - "Phase space density and ergodicity, Liouville's theorem"
+        - "Microcanonical, canonical and grand canonical ensembles and partition functions"
+        - "Calculations of physical properties and equivalence of ensembles"
+        - "Review and derivation of thermodynamic relations from ensemble theory"
+        - "Fluctuations and correlations"
+        - "Examples: ideal gas, non-interacting magnetic systems"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "Thermodynamics and Statistical Mechanics"
+        authors: "Walter Greiner, Ludwig Neise, Horst Stoecker"
+        publisher: "Springer"
+        isbn: "978-0-387-94299-5"
+
+    references:
+
+      - title: "Statistical Mechanics"
+        authors: "R. K. Pathria and Paul D. Beale"
+        publisher: "Academic Press (Elsevier), 3rd Edition"
+        isbn: "978-0123821881"
+
+      - title: "Statistical Physics"
+        authors: "F. Reif"
+        publisher: "Berkeley Physics Course (Volume 5), McGraw Hill Education (India) Pvt Ltd"
+        isbn: "978-0-07-070219-6"
+
+      - title: "Statistical Physics of Particles"
+        authors: "M. Kardar"
+        publisher: "Cambridge University Press"
+        isbn: "978-1108448239"
+
+
+#=============================================================================================================================================================================================================================================================================================
+# Preparatory Physics Courses || Preparatory Physics Courses || Preparatory Physics Courses || Preparatory Physics Courses || Preparatory Physics Courses || Preparatory Physics Courses || Preparatory Physics Courses || Preparatory Physics Courses
+# Source: Annexures_37th_Senate_Part_A_B.pdf. The proforma left Category, Target Programme,
+# and Target Discipline BLANK, so those metadata fields are kept empty here per instruction -
+# do not infer program/category values for these two entries without confirming with the
+# department. Course codes are also not assigned in the source and are left blank (TBD).
+#=============================================================================================================================================================================================================================================================================================
+
+- code:  # TBD - not assigned in proforma
+  title: Preparatory Physics 1
+  program:
+  category:
+  ltpc: "2-1-0-3"
+  credit: 3
+  type: theory
+  year:
+  semester:
+  offered_by: dop
+  link:
+  status: proposed
+  course_type:
+  prerequisites: Nil
+  basket:
+  senate: 
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Physics and measurement"
+      lectures: 1
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Units and dimensions, dimensional analysis"
+        - "Least count, significant figures"
+        - "Methods of measurement and error analysis for physical quantities"
+
+    - module: 2
+      title: "Mechanics"
+      lectures: 5
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Kinematics in one and two dimensions (Cartesian coordinates only), projectiles"
+        - "Uniform circular motion, relative velocity"
+        - "Newton's laws of motion; inertial and uniformly accelerated frames of reference"
+        - "Static and dynamic friction"
+        - "Conservation of momentum, centre of mass and its motion, impulse"
+        - "Elastic and inelastic collisions"
+        - "Mechanical equilibrium of a particle, common forces in mechanics"
+
+    - module: 3
+      title: "Work, Energy and Power"
+      lectures: 3
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Kinetic and potential energy, work and power"
+        - "Conservation of mechanical energy"
+        - "Work-energy theorem (including variable force)"
+        - "Elastic and inelastic collisions in one and two dimensions"
+
+    - module: 4
+      title: "Systems of particles"
+      lectures: 2
+      tutorials: 1
+      labs: 0
+
+      topics:
+        - "Rigid body, moment of inertia"
+        - "Parallel and perpendicular axes theorems"
+        - "Moment of inertia of uniform bodies with simple geometrical shapes"
+
+    - module: 5
+      title: "Angular momentum and rotational dynamics"
+      lectures: 3
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Angular momentum, torque, conservation of angular momentum"
+        - "Dynamics of rigid bodies with fixed axis of rotation"
+        - "Rolling without slipping (example rings, cylinders and spheres)"
+        - "Equilibrium of rigid bodies"
+
+    - module: 6
+      title: "Properties of Bulk Matter"
+      lectures: 3
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Simple harmonic motion, Hooke's law, Young's modulus"
+        - "Pressure in a fluid, Pascal's law, buoyancy"
+        - "Surface energy and surface tension, viscosity, Stoke's law"
+        - "Terminal velocity, streamline flow, equation of continuity, Bernoulli's theorem and its applications"
+
+    - module: 7
+      title: "Gravitation"
+      lectures: 2
+      tutorials: 1
+      labs: 0
+
+      topics:
+        - "Gravitational potential and field, acceleration due to gravity"
+        - "Motion of planets and satellites in circular orbits"
+        - "Escape velocity"
+
+    - module: 8
+      title: "Waves"
+      lectures: 4
+      tutorials: 1
+      labs: 0
+
+      topics:
+        - "Wave motion (plane waves only), longitudinal and transverse waves, superposition of waves"
+        - "Progressive and stationary waves, vibration of strings and air columns"
+        - "Resonance, beats"
+        - "Speed of sound in gases, Doppler effect (in sound)"
+
+    - module: 9
+      title: "Thermodynamics"
+      lectures: 4
+      tutorials: 2
+      labs: 0
+
+      topics:
+        - "Thermal equilibrium, zeroth law of thermodynamics, ideal gas laws"
+        - "Specific heats (Cv and Cp for monoatomic and diatomic gases)"
+        - "Isothermal and adiabatic processes, equivalence of heat and work"
+        - "First law of thermodynamics and its applications (only for ideal gases)"
+        - "Entropy and second law of thermodynamics, latent heat"
+        - "Blackbody radiation: Kirchhoff's law, Wien's displacement law, Stefan's law"
+
+    - module: 10
+      title: "Kinetic Theory"
+      lectures: 1
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Equipartition theorem for ideal gas, mean free path"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    textbooks:
+
+      - title: "NCERT Physics, Class XI, Part 1"
+        authors: "NCERT"
+        publisher: ""
+        isbn: "9788174505088"
+
+      - title: "NCERT Physics, Class XI, Part 2"
+        authors: "NCERT"
+        publisher: ""
+        isbn: "978-8174505668"
+
+      - title: "Concepts of Physics (Part 1)"
+        authors: "H. C. Verma"
+        publisher: ""
+        isbn: "978-8177091878"
+
+
+# ==============================================================================================================
+
+- code:  # TBD - not assigned in proforma
+  title: Preparatory Physics 2
+  program:
+  category:
+  ltpc: "2-1-0-3"
+  credit: 3
+  type: theory
+  year:
+  semester:
+  offered_by: dop
+  link:
+  status: proposed
+  course_type:
+  prerequisites: Nil
+  basket:
+  senate: 
+  #=============
+  # Syllabus
+  #=============
+  syllabus:
+
+    - module: 1
+      title: "Electrostatics"
+      lectures: 5
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Coulomb's law, electric field and potential"
+        - "Electrical potential energy of a system of point charges and of electrical dipoles in a uniform electrostatic field"
+        - "Electric field lines, flux of electric field, Gauss's law and its application"
+        - "Conductors, insulators and dielectrics: capacitance"
+        - "Parallel plate capacitor with and without dielectrics"
+        - "Capacitors in series and parallel, energy stored in a capacitor"
+
+    - module: 2
+      title: "Electric current"
+      lectures: 3
+      tutorials: 1
+      labs: 0
+
+      topics:
+        - "Ohm's law"
+        - "Series and parallel arrangements of resistances and cells"
+        - "Kirchhoff's laws and simple applications"
+        - "Heating effect of current"
+
+    - module: 3
+      title: "Magnetostatics"
+      lectures: 5
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Biot-Savart's law and Ampere's law"
+        - "Force on a moving charge and on a current-carrying wire in a uniform magnetic field"
+        - "Magnetic moment of a current loop, effect of a uniform magnetic field on a current loop"
+        - "Moving coil galvanometer, voltmeter, ammeter and their conversions"
+
+    - module: 4
+      title: "Electromagnetic induction"
+      lectures: 3
+      tutorials: 1
+      labs: 0
+
+      topics:
+        - "Faraday's law, Lenz's law"
+        - "Self and mutual inductance"
+        - "RC, LR and LC circuits with d.c. and a.c. sources"
+
+    - module: 5
+      title: "Electromagnetic Waves"
+      lectures: 2
+      tutorials: 0
+      labs: 0
+
+      topics:
+        - "Electromagnetic waves and their characteristics"
+        - "Electromagnetic spectrum (radio waves, microwaves, infrared, visible, ultraviolet, x-rays, gamma rays) including elementary facts about their uses"
+
+    - module: 6
+      title: "Optics"
+      lectures: 5
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Rectilinear propagation of light; reflection and refraction at plane and spherical surfaces"
+        - "Total internal reflection, deviation and dispersion of light by a prism"
+        - "Thin lenses, combinations of mirrors and thin lenses, magnification"
+        - "Wave nature of light: Huygen's principle, interference limited to Young's double-slit experiment"
+
+    - module: 7
+      title: "Modern Physics"
+      lectures: 5
+      tutorials: 3
+      labs: 0
+
+      topics:
+        - "Atomic nucleus; alpha, beta and gamma radiations"
+        - "Law of radioactive decay, decay constant, half-life and mean life"
+        - "Binding energy and its calculation; fission and fusion processes, energy calculation in these processes"
+        - "Photoelectric effect, Bohr's theory of hydrogen-like atoms"
+        - "Characteristic and continuous X-rays, Moseley's law"
+        - "de Broglie wavelength of matter waves"
+
+  # ===============
+  # Study Materials
+  # ===============
+  study_materials:
+
+    references:
+
+      - title: "NCERT Physics, Class XII, Part 1"
+        authors: "NCERT"
+        publisher: ""
+        isbn: "978-8174506313"
+
+      - title: "NCERT Physics, Class XII, Part 2"
+        authors: "NCERT"
+        publisher: ""
+        isbn: "978-8174506719"
+
+      - title: "Concepts of Physics (Part 2)"
+        authors: "H. C. Verma"
+        publisher: ""
+        isbn: "978-8177092325"
