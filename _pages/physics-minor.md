@@ -14,7 +14,9 @@ The Minor in Physics Basket
 
 The Minor in Physics was approved in the 35th meeting of the Senate. 
 
-<table class="student-table">
+{% include btech-minor-course-table.html %}
+
+<!--<table class="student-table">
   <thead>
     <tr>
       <th width="10%">No.</th>
@@ -50,12 +52,8 @@ The Minor in Physics was approved in the 35th meeting of the Senate.
       <td>Introduction to special relativity</td>
     </tr>
   </tbody>
-</table>
+</table>-->
 
 
 
-{% include btech-minor-course-table.html %}
-
-
-
-For details about the courses in the basket, see the course catalogues for [Btech](btech_courses.md) and [MSc](msc_courses.md) courses.
+<!--For details about the courses in the basket, see the course catalogues for [Btech](btech_courses.md) and [MSc](msc_courses.md) courses.-->
