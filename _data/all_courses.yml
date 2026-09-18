@@ -4852,7 +4852,7 @@
   link:
   status: approved
   course_type:
-  prerequisites: Nil
+  prerequisites: 
   basket:
   senate: 37
   #=============
@@ -5017,7 +5017,7 @@
   link:
   status: approved
   course_type:
-  prerequisites: Nil
+  prerequisites: 
   basket:
   senate: 37
   #=============
