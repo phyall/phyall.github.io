@@ -45,6 +45,12 @@ layout: default
           <h1 class="page__title">{{ page.title }}</h1>
         {% endunless %}
 
+        {% if course.program == "msc" %}
+          <p class="course-back-link"><a href="{{ site.baseurl }}/msccourses/">&larr; All MSc Courses</a></p>
+        {% else %}
+          <p class="course-back-link"><a href="{{ site.baseurl }}/btechcourses/">&larr; All BTech Courses</a></p>
+        {% endif %}
+
         {% include course-metadata.html %}
 
         {% include course-syllabus.html %}
@@ -64,6 +70,12 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <h1 class="page__title">{{ page.title }}</h1>
       {% endunless %}
+
+      {% if course.program == "msc" %}
+        <p class="course-back-link"><a href="{{ site.baseurl }}/msccourses/">&larr; All MSc Courses</a></p>
+      {% else %}
+        <p class="course-back-link"><a href="{{ site.baseurl }}/btechcourses/">&larr; All BTech Courses</a></p>
+      {% endif %}
 
       {% include course-metadata.html %}
 
