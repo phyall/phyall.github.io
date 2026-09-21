@@ -5,12 +5,12 @@ title: "Former Ph.D. Students"
 sidebar: quicklinks
 ---
 
-## Primary Affiliation
+## Supervised by Regular Faculty
 
-{% include former_phd_table.html students=site.data.phd_students affiliation="primary" %}
+{% include former_phd_table.html students=site.data.all_phd_students affiliation="primary" %}
 
-## Secondary Affiliation
+## Supervised by Associated Faculty
 
-{% include former_phd_table.html students=site.data.phd_students affiliation="secondary" %}
+{% include former_phd_table.html students=site.data.all_phd_students affiliation="secondary" %}
 
 (Year implies graduation year)
