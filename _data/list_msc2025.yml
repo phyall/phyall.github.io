@@ -4,6 +4,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -13,6 +14,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -22,6 +24,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -31,6 +34,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -40,6 +44,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -49,6 +54,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next: 
 
@@ -58,6 +64,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -67,6 +74,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -76,6 +84,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Ajeesh M O
   next:
 
@@ -85,6 +94,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next:
 
@@ -94,6 +104,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next:
 
@@ -103,6 +114,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next:
 
@@ -112,6 +124,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next:
 
@@ -120,7 +133,8 @@
   gender: male
   year_joined: 2025
   year_graduated: 2027
-  degree: 
+  degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next: 
 
@@ -130,6 +144,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next:
   
@@ -140,6 +155,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next:
 
@@ -149,6 +165,7 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next: 
 
@@ -158,5 +175,6 @@
   year_joined: 2025
   year_graduated: 2027
   degree: true
+  upgraded: false
   fa: Manoj Gopalakrishnan
   next: 
