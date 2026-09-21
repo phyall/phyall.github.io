@@ -1,16 +1,8 @@
-{% assign ongoing_key = "ongoing" %}
-{% assign submitted_key = "submitted" %}
-{% assign primary_key = "primary" %}
-{% assign secondary_key = "secondary" %}
+{% assign ongoing_students = include.students | where: "status", "ongoing" %}
+{% assign submitted_students = include.students | where: "status", "submitted" %}
+{% assign matched = ongoing_students | concat: submitted_students %}
 
-{% assign matched = include.students | where_exp: "s", "s.status == ongoing_key or s.status == submitted_key" %}
-
-{% if include.affiliation == "other" %}
-  {% assign students = matched | where_exp: "s", "s.guide_affiliation != primary_key and s.guide_affiliation != secondary_key" %}
-{% else %}
-  {% assign students = matched | where: "guide_affiliation", include.affiliation %}
-{% endif %}
-
+{% assign students = matched | where: "guide_affiliation", include.affiliation %}
 {% assign students = students | sort: "roll" %}
 
 {% if students.size > 0 %}
