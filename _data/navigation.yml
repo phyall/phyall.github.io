@@ -64,6 +64,9 @@ main:
       - title: PhD Students
         url: /phdstudents/
 
+      - title: MS by Research Students
+        url: /msstudents/  
+
       - title: MSc Students
         url: /mscstudents/     
 
