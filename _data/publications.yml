@@ -27,6 +27,36 @@
 # CONFIRMED DOIs
 #-----------------------------------------------------------------------
 
+- title: "Gravitational edge mode in asymptotically AdS2: JT gravity revisited"
+  authors: "E. Joung, Prithvi Narayan P, and J. Yoon"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP05(2024)244"
+  year: 2024
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20240101
+
+- title: "Chaos in Three-dimensional Higher Spin Gravity"
+  authors: "Prithvi Narayan P and J. Yoon"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP07(2019)046"
+  year: 2019
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20190101
+
+- title: "Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction"
+  authors: "M. Berkooz, Prithvi Narayan P, and J. Simon"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP08(2018)192"
+  year: 2018
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20180101
+
 - title: "Pressure evolution of coplanar antiferromagnetism in heavy-fermion Ce2CoAl7Ge4"
   authors: "M. O. Ajeesh (Ajeesh M. Omanakuttan), A. O. Scheie, Yu Liu, L. Keller, S. M. Thomas, P. F. S. Rosa, and E. D. Bauer"
   journal: "Physical Review B"
