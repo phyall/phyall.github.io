@@ -1,0 +1,140 @@
+##################################
+# 2019
+##################################
+
+- name: Abinash Das
+  roll: 221905001
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: PhD at IIT Guwahati 
+  note: 
+
+- name: Biplab Biswas
+  roll: 221905003
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: PhD at TCG Crest Kolkata
+  note:
+
+- name: Dinu T S
+  roll: 221905004
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: 
+  note: 
+
+- name: Hridya R
+  roll: 221905005
+  gender: female
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: PhD at TIFR Mumbai
+  note:
+
+- name: Neeraj Kumar
+  roll: 221905008
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: 
+  note:
+
+- name: Pram Milan P Robin
+  roll: 221905009
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: PhD at IIT Hyderabad
+  note:
+
+- name: Rahul Kumar Rajput
+  roll: 221905011
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: 
+  note:
+
+- name: Ram Sagar Sahani
+  roll: 221905013
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: PhD at IISER Mohali
+  note:
+
+- name: Shweta Saini
+  roll: 221905014
+  gender: female
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: PhD at IIT Bombay
+  note:
+
+- name: Ved Krishna
+  roll: 221905018
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: 
+  note:
+
+- name: Yash Chugh
+  roll: 221905019
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  upgraded: false
+  fa:
+  next: 
+  note:
+
+- name: Suganthan
+  roll: 221905017
+  gender: male
+  year_joined: 2019
+  year_graduated: 2022
+  degree: true
+  upgraded: true
+  fa:  
+  next: Upgraded to PhD at IIT Palakkad
+  note: Upgraded to PhD in 2021, graduated with MSc in 2022
+
+
+##################################
+# 2020
+##################################
