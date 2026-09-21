@@ -1,0 +1,607 @@
+- name: Manju C.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Uma Divakaran
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [cmp_theory]
+  roll: 222004003
+  next_position: 
+
+- name: Swathi T. S.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Prithvi Narayan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [string]
+  roll: 222004008
+  next_position: 
+
+- name: Reshna Elsa Philip
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 
+  supervisor: Jayakumar Balakrishnan
+  guide_affiliation: primary
+  joint_supervisor: Soham Manni
+  cycle: December
+  research_area: [cmp_experiment]
+  roll: 222004005
+  next_position: 
+
+- name: Asha Ann Abraham
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 
+  supervisor: Soham Manni
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [cmp_experiment]
+  roll: 222004001
+  next_position: 
+
+- name: Nikhil Joseph Joy
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Jayakumar Balakrishnan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [cmp_experiment]
+  roll: 222004004
+  next_position: 
+
+- name: Shivadas P.
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 
+  supervisor: Sovan Lal Das (ME)
+  guide_affiliation: 
+  joint_supervisor: 
+  cycle: December
+  research_area: [softmat_theory]
+  roll: 222004006
+  next_position: 
+
+- name: Indrajit Bhattacherjee
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 2021
+  graduation_year: 2026
+  supervisor: Bibhu Ranjan Sarangi
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: August
+  research_area: [softmat_experiment]
+  roll: 222014001
+  next_position: 
+
+- name: Jithin G. Krishnan
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 2021
+  graduation_year: 2026
+  supervisor: Amit Kumar Pal
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [cmp_theory]
+  roll: 222104001
+  next_position: 
+
+- name: Harikrishnan K J
+  gender: male
+  funding: pmrf
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2021
+  graduation_year: 
+  supervisor: Amit Kumar Pal
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [cmp_theory]
+  roll: 222204002
+  next_position: 
+
+- name: Chandrima B. Pushpan
+  gender: female
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  degree: MSc-PhD Dual Degree
+  joining_year: 2022
+  graduation_year: 
+  supervisor: Amit Kumar Pal
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: March
+  research_area: [cmp_theory]
+  roll: 222204004
+  next_position: 
+
+- name: Olivia Vincent
+  gender: female
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  degree: MSc-PhD Dual Degree
+  joining_year: 2022
+  graduation_year: 
+  supervisor: Bibhu Ranjan Sarangi
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: March
+  research_area: [softmat_experiment]
+  roll: 222204005
+  next_position: 
+
+- name: Athul Krishna P. V.
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2022
+  graduation_year: 
+  supervisor: Debarati Chatterjee
+  guide_affiliation: secondary
+  joint_supervisor: 
+  cycle: January
+  research_area: 
+  roll: 222204001
+  next_position: 
+
+- name: Sathishkumar M.
+  gender: male
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  degree: MSc-PhD Dual Degree
+  joining_year: 2023
+  graduation_year: 
+  supervisor: Soham Manni
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: April
+  research_area: [cmp_experiment]
+  roll: 222304002
+  next_position: 
+
+- name: Souvik Kumar Rana
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2023
+  graduation_year: 
+  supervisor: Soham Manni
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [cmp_experiment]
+  roll: 222314007
+  next_position: 
+
+- name: Greeshma R
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2023
+  graduation_year: 
+  supervisor: Jayakumar Balakrishnan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [cmp_experiment]
+  roll: 222314005
+  next_position: 
+
+- name: Pranav U S
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2023
+  graduation_year: 
+  supervisor: Uma Divakaran
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [cmp_theory]
+  roll: 222314006
+  next_position: 
+
+- name: Elsa Baby
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2023
+  graduation_year: 
+  supervisor: Vishwas Venkatesh
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [softmat_theory]
+  roll: 222314004
+  next_position: 
+
+- name: Athira K
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2023
+  graduation_year: 
+  supervisor: Bibhu Ranjan Sarangi
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [softmat_experiment]
+  roll: 222314003
+  next_position: 
+
+- name: Muhammed Anees K T
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2024
+  graduation_year: 
+  supervisor: Soham Manni
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: January
+  research_area: [cmp_experiment]
+  roll: 222404006
+  next_position: 
+
+- name: Anjaly C
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2024
+  graduation_year: 
+  supervisor: Vishwas Venkatesh
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: January
+  research_area: [softmat_theory]
+  roll: 222404003
+  next_position: 
+
+- name: Ashique T
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2024
+  graduation_year: 
+  supervisor: Projjwal Banerjee
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: January
+  research_area: [astro_theory]
+  roll: 222404005
+  next_position: 
+
+- name: Lakshmija N K
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2024
+  graduation_year: 
+  supervisor: Uma Divakaran
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [cmp_theory]
+  roll: 222414004
+  next_position: 
+
+- name: Mechelo Mero
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2024
+  graduation_year: 
+  supervisor: Jayakumar Balakrishnan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: December
+  research_area: [cmp_experiment]
+  roll: 222504001
+  next_position: 
+
+- name: Athira S
+  gender: female
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  degree: MSc-PhD Dual Degree
+  joining_year: 2024
+  graduation_year: 
+  supervisor: Swaroop Sahoo
+  guide_affiliation: secondary
+  joint_supervisor: 
+  cycle: August
+  research_area: 
+  roll: 222414005
+  next_position: 
+
+- name: Mahima Chaudhary
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2025
+  graduation_year: 
+  supervisor: Projjwal Banerjee
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: April
+  research_area: [astro_theory]
+  roll: 222504002
+  next_position: 
+
+- name: Jishnu P
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2025
+  graduation_year: 
+  supervisor: Ajeesh M. Omanakuttan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: July
+  research_area: [cmp_experiment]
+  roll: 222514001
+  next_position: 
+
+- name: Medha R
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2025
+  graduation_year: 
+  supervisor: Debarati Chatterjee
+  guide_affiliation: secondary
+  joint_supervisor: 
+  cycle: July
+  research_area: 
+  roll: 222514002
+  next_position: 
+
+- name: Vimal Sreekanth
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2026
+  graduation_year: 
+  supervisor: Amit Kumar Pal
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: January
+  research_area: [cmp_theory]
+  roll: 222604002
+  next_position: 
+
+- name: Najma Nazrin
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2026
+  graduation_year: 
+  supervisor: Bibhu Ranjan Sarangi
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: January
+  research_area: [softmat_experiment]
+  roll: 222604001
+  next_position: 
+
+- name: Abhisekh Das
+  gender: male
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  degree: MSc-PhD Dual Degree
+  joining_year: 2026
+  graduation_year: 
+  supervisor: Vishwas Venkatesh
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: April
+  research_area: [softmat_theory]
+  roll: 222614001
+  next_position: 
+
+- name: Nandana P
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2026
+  graduation_year: 
+  supervisor: Jayakumar Balakrishnan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: August
+  research_area: [cmp_experiment]
+  roll: 222614004
+  next_position: 
+
+- name: Vishnupriya K
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2026
+  graduation_year: 
+  supervisor: Amit Kumar Pal
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: August
+  research_area: [cmp_theory]
+  roll: 222614006
+  next_position: 
+
+- name: Nirupam Sen
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  degree: PhD
+  joining_year: 2026
+  graduation_year: 
+  supervisor: Amit Kumar Pal
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: August
+  research_area: [cmp_theory]
+  roll: 222614007
+  next_position: 
+
+- name: Revathy B. S.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 
+  graduation_year: 2022
+  supervisor: Uma Divakaran
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [cmp_theory]
+  roll: 
+  next_position: PostDoc, RRI Bengaluru
+
+- name: Aathira Murali
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 
+  graduation_year: 2024
+  supervisor: PB Sunil Kumar
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [softmat_theory]
+  roll: 
+  next_position: 
+
+- name: Diljith T.
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 
+  graduation_year: 2024
+  supervisor: Debarati Chatterjee
+  guide_affiliation: secondary
+  joint_supervisor: 
+  cycle: 
+  research_area: 
+  roll: 
+  next_position: 
+
+- name: Ranjuna M. K.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 
+  graduation_year: 2024
+  supervisor: Jayakumar Balakrishnan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [cmp_experiment]
+  roll: 
+  next_position: PostDoc, IISER Pune
+
+- name: Jeena S. K.
+  gender: female
+  funding: csir
+  status: finished
+  program: PhD
+  degree: PhD
+  joining_year: 2019
+  graduation_year: 2025
+  supervisor: Projjwal Banerjee
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [astro_theory]
+  roll: 
+  next_position: PostDoc, IIA Bengaluru
