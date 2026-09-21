@@ -9,6 +9,7 @@
   guide_affiliation: primary
   email: gayathriv@iitpkd.ac.in
   gender: female
+  research_area: [cmp_experiment]
 
 - name: Aparna Sreekumari
   status: ongoing
@@ -21,6 +22,7 @@
   guide_affiliation: primary
   email: prj183@iitpkd.ac.in
   gender: female
+  research_area: [softmat_theory]
 
 - name: Nisha Gupta
   status: finished
@@ -33,6 +35,7 @@
   guide_affiliation: primary
   email:
   gender: female
+  research_area: [softmat_theory]
 
 - name: Sayani Chatterjee
   status: finished
@@ -45,6 +48,7 @@
   guide_affiliation: primary
   email:
   gender: female
+  research_area: [softmat_theory]
 
 - name: Arya Mohan
   status: finished
@@ -57,3 +61,4 @@
   guide_affiliation: primary
   email:
   gender: female
+  research_area: [cmp_experiment]
