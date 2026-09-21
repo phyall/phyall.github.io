@@ -11,4 +11,6 @@ sidebar: quicklinks
 
 {% include topic-phd-list.html topic_id="cmp_theory" %}
 
+{% include topic-ms-list.html topic_id="cmp_theory" %}
+
 {% include topic-publications-list.html topic_id="cmp_theory" %}
