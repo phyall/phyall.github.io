@@ -4,6 +4,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: PhD at IIT Guwahati 
 
@@ -13,6 +14,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: PhD at TCG Crest Kolkata
 
@@ -22,6 +24,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -31,6 +34,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: PhD at TIFR Mumbai
 
@@ -40,6 +44,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -49,6 +54,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: PhD at IIT Hyderabad
 
@@ -58,6 +64,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -67,6 +74,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: PhD at IISER Mohali
 
@@ -76,6 +84,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: PhD at IIT Bombay
 
@@ -85,6 +94,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -94,6 +104,7 @@
   year_joined: 2019
   year_graduated: 2021
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -103,5 +114,6 @@
   year_joined: 2019
   year_graduated: 2021
   degree: false
+  upgraded: true
   fa:  
   next: Upgraded to PhD
