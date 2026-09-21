@@ -4,6 +4,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -13,6 +14,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: false
+  upgraded: true
   fa:
   next: Upgraded to PhD 
 
@@ -21,7 +23,8 @@
   gender: male
   year_joined: 2021
   year_graduated: 2023
-  degree: false
+  degree: true
+  upgraded: false
   fa:
   next: PhD at Institute of Science and Technology Austria
 
@@ -31,6 +34,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: false
+  upgraded: true
   fa:
   next: Upgraded to MS
 
@@ -40,6 +44,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: Working at MultiCoreWare
 
@@ -49,6 +54,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -58,6 +64,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -67,6 +74,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -76,6 +84,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -85,6 +94,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -94,6 +104,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: PhD at University of Notre Dame USA
 
@@ -103,6 +114,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -112,6 +124,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: PhD at ICTS Bengaluru 
 
@@ -121,6 +134,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next:
 
@@ -130,6 +144,7 @@
   year_joined: 2021
   year_graduated: 2023
   degree: true
+  upgraded: false
   fa:
   next: 
 
@@ -139,5 +154,6 @@
   year_joined: 2021
   year_graduated: 2023
   degree: false
+  upgraded: true
   fa:
   next: Upgraded to PhD
