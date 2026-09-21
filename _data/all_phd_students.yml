@@ -1,0 +1,586 @@
+#- name: Siji S. Saju
+#  gender: female
+#  funding: htra
+#  status: ongoing
+#  program: PhD
+#  joining_year:
+#  graduation_year:
+#  supervisor: "P. B. Sunil Kumar (now in IITM)"
+#  joint_supervisor:
+#  cycle:
+#  research_area: Theoretical Soft Matter
+#  roll: 221704005
+#  thesis_title:
+#  next_position:
+
+- name: Manju C.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  joined_iit: 2019
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle: December
+  research_area: Quantum Chaos
+  roll: 222004003
+  thesis_title:
+  next_position:
+
+- name: Swathi T. S.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Prithvi Narayan
+  joint_supervisor:
+  cycle: December
+  research_area: Theoretical High Energy Physics
+  roll: 222004008
+  thesis_title:
+  next_position:
+
+- name: Reshna Elsa Philip
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor: Soham Manni
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  roll: 222004005
+  thesis_title:
+  next_position:
+
+- name: Asha Ann Abraham
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  roll: 222004001
+  thesis_title:
+  next_position:
+
+- name: Nikhil Joseph Joy
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year: 2019
+  graduation_year: 2026
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  roll: 222004004
+  thesis_title:
+  next_position:
+
+- name: Shivadas P.
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2019
+  graduation_year:
+  supervisor: Sovan Lal Das (ME)
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Biophysics
+  roll: 222004006
+  thesis_title:
+  next_position:
+
+- name: Indrajit Bhattacherjee
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year: 2021
+  graduation_year: 2026
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: August
+  research_area: Experimental Biophysics
+  roll: 222014001
+  thesis_title:
+  next_position:
+
+- name: Jithin G. Krishnan
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year: 2021
+  graduation_year: 2026
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: December
+  research_area: Quantum Entanglement
+  roll: 222104001
+  thesis_title: "Localizable entanglement: Bounds and special features"
+  next_position:
+
+- name: Harikrishnan K J
+  gender: male
+  funding: pmrf
+  status: ongoing
+  program: PhD
+  joining_year: 2021
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: December
+  research_area: Topological Quantum Codes
+  roll: 222204002
+  thesis_title:
+  next_position:
+
+- name: Chandrima B. Pushpan
+  gender: female
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2022
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: March
+  research_area: "Measurement-assisted Quantum Protocols"
+  roll: 222204004
+  thesis_title:
+  next_position:
+
+- name: Olivia Vincent
+  gender: female
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2022
+  graduation_year:
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: March
+  research_area: Experimental Biophysics
+  roll: 222204005
+  thesis_title:
+  next_position:
+
+- name: Athul Krishna P. V.
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2022
+  graduation_year:
+  supervisor: Debarati Chatterjee
+  joint_supervisor:
+  cycle: January
+  research_area: Theoretical Soft Matter 
+  roll: 222204001
+  thesis_title:
+  next_position:
+
+- name: Sathishkumar M.
+  gender: male
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2023
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor:
+  cycle: April
+  research_area: Experimental Condensed Matter Physics
+  roll: 222304002
+  thesis_title:
+  next_position:
+
+- name: Souvik Kumar Rana
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor: 
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  roll: 222314007
+  thesis_title:
+  next_position:
+
+- name: Greeshma R
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  roll: 222314005
+  thesis_title:
+  next_position:
+
+- name: Pranav U S
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle: July
+  research_area: Nonequilibrium quantum dynamics
+  roll: 222314006
+  thesis_title:
+  next_position:
+
+- name: Elsa Baby
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Vishwas V
+  joint_supervisor:
+  cycle: July
+  research_area: Nonequilibrium Statistical Physics
+  roll: 222314004
+  thesis_title:
+  next_position:
+
+- name: Athira K
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2023
+  graduation_year:
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Biophysics
+  roll: 222314003
+  thesis_title:
+  next_position:
+
+
+- name: Muhammed Anees K T
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Soham Manni
+  joint_supervisor: 
+  cycle: January
+  research_area: Experimental Condensed Matter Physics
+  roll: 222404006
+  thesis_title:
+  next_position:
+
+- name: Anjaly C
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Vishwas V
+  joint_supervisor:
+  cycle: January
+  research_area: Rheology of Amorphous Solids
+  roll: 222404003
+  thesis_title:
+  next_position:
+
+- name: Ashique T
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Projjwal Banerjee
+  joint_supervisor:
+  cycle: January
+  research_area: Theoretical Astrophysics
+  roll: 222404005
+  thesis_title:
+  next_position:
+
+- name: Lakshmija N K
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle: July
+  research_area: Quantum Batteries
+  roll: 222414004
+  thesis_title:
+  next_position:
+
+- name: Mechelo Mero
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2024
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: December
+  research_area: Experimental Condensed Matter Physics
+  roll: 222504001
+  thesis_title:
+  next_position:
+
+- name: Athira S
+  gender: female
+  funding: htra
+  status: ongoing
+  program: MSc-PhD Dual Degree
+  joining_year: 2024
+  graduation_year:
+  supervisor: Swaroop Sahoo
+  joint_supervisor:
+  cycle: August
+  research_area:
+  roll: 222414005
+  thesis_title:
+  next_position:
+
+- name: Mahima Chaudhary
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2025
+  graduation_year:
+  supervisor: Projjwal Banerjee
+  joint_supervisor:
+  cycle: April
+  research_area: Theoretical Astrophysics
+  roll: 222504002
+  thesis_title:
+  next_position:
+
+- name: Jishnu P
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2025
+  graduation_year:
+  supervisor: Ajeesh M O
+  joint_supervisor:
+  cycle: July
+  research_area: Experimental Condensed Matter Physics
+  roll: 222514001
+  thesis_title:
+  next_position:
+
+- name: Medha R
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2025
+  graduation_year:
+  supervisor: Debarati Chatterjee
+  joint_supervisor:
+  cycle: July
+  research_area:
+  roll: 222514002
+  thesis_title:
+  next_position:
+
+- name: Vimal Sreekanth
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: January
+  research_area: Quantum Information 
+  roll: 222604002
+  thesis_title:
+  next_position:
+
+- name: Najma Nazrin
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Bibhu Ranjan Sarangi
+  joint_supervisor:
+  cycle: January
+  research_area: 
+  roll: 222604001
+  thesis_title:
+  next_position:
+
+- name: Abhishek Das
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Vishwas V
+  joint_supervisor:
+  cycle: April
+  research_area:
+  roll: 222614001
+  thesis_title:
+  next_position:
+
+- name: Nandana P
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle: August
+  research_area:
+  roll: 222614004
+  thesis_title:
+  next_position:
+
+- name: Vishnupriya K
+  gender: female
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: August
+  research_area: Quantum Information
+  roll: 222614006
+  thesis_title:
+  next_position:
+
+- name: Nirupam Sen
+  gender: male
+  funding: htra
+  status: ongoing
+  program: PhD
+  joining_year: 2026
+  graduation_year:
+  supervisor: Amit Kumar Pal
+  joint_supervisor:
+  cycle: August
+  research_area: Quantum Information
+  roll: 222614007
+  thesis_title:
+  next_position:
+
+- name: Revathy B. S.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2022
+  supervisor: Uma Divakaran
+  joint_supervisor:
+  cycle:
+  research_area:
+  roll:
+  thesis_title: Quantum Engines close to criticality
+  next_position: PostDoc, RRI Bengaluru
+
+- name: Aathira Murali
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2024
+  supervisor: P. B. Sunil Kumar
+  joint_supervisor:
+  cycle:
+  research_area:
+  roll:
+  thesis_title: Shape morphism and swelling kinetics of vapor responsive polymer
+  next_position: 
+
+- name: Diljith T.
+  gender: male
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2024
+  supervisor: Debarati Chatterjee
+  joint_supervisor:
+  cycle:
+  research_area:
+  roll:
+  thesis_title:
+  next_position:
+
+- name: Ranjuna M. K.
+  gender: female
+  funding: htra
+  status: finished
+  program: PhD
+  joining_year:
+  graduation_year: 2024
+  supervisor: Jayakumar Balakrishnan
+  joint_supervisor:
+  cycle:
+  research_area:
+  roll:
+  thesis_title: "Thermal transport and temperature induced optical responses in 2D materials: A study on modified graphene and molybdenum disulfide"
+  next_position: PostDoc, IISER Pune
+
+- name: Jeena S. K.
+  gender: female
+  funding: csir
+  status: finished
+  program: PhD
+  joining_year: 2019
+  graduation_year: 2025
+  supervisor: Projjwal Banerjee
+  joint_supervisor:
+  cycle:
+  research_area:
+  roll:
+  thesis_title: Origin of elements in the early galaxy
+  next_position: PostDoc, IIA Bengaluru
