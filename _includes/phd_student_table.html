@@ -1,9 +1,12 @@
-{% assign matched = include.students
-    | where_exp: "s", "s.status == 'ongoing' or s.status == 'submitted'" %}
+{% assign ongoing_key = "ongoing" %}
+{% assign submitted_key = "submitted" %}
+{% assign primary_key = "primary" %}
+{% assign secondary_key = "secondary" %}
+
+{% assign matched = include.students | where_exp: "s", "s.status == ongoing_key or s.status == submitted_key" %}
 
 {% if include.affiliation == "other" %}
-  {% assign students = matched
-      | where_exp: "s", "s.guide_affiliation != 'primary' and s.guide_affiliation != 'secondary'" %}
+  {% assign students = matched | where_exp: "s", "s.guide_affiliation != primary_key and s.guide_affiliation != secondary_key" %}
 {% else %}
   {% assign students = matched | where: "guide_affiliation", include.affiliation %}
 {% endif %}
