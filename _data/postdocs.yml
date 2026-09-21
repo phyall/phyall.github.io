@@ -3,7 +3,7 @@
   program: postdoc
   joining_year: 2024
   finishing_year: 
-  research_area: "Experimental Condensed Matter Physics"
+  research_area: [cmp_experiment]
   next_position:
   with: Soham Manni
   email: gayathriv@iitpkd.ac.in 
@@ -15,9 +15,9 @@
   program: postdoc
   joining_year: 2022
   finishing_year: 
-  research_area: "Nonequilibrium/Out-of-Equilibrium Physics"
+  research_area: [softmat_theory]
   next_position:
-  with: Vishwas V
+  with: Vishwas Venkatesh
   email: prj183@iitpkd.ac.in
   gender: female
 
@@ -27,9 +27,9 @@
   program: postdoc
   joining_year: 2020
   finishing_year: 2022
-  research_area: "Computational Soft Matter Physics"
+  research_area: [softmat_theory]
   next_position:
-  with: "P. B. Sunil Kumar (Now in IITM)"
+  with: PB Sunil Kumar
   email: 
   gender: female
 
@@ -39,9 +39,9 @@
   program: postdoc
   joining_year: 2021
   finishing_year: 2022
-  research_area: "Nonequilibrium/Out-of-Equilibrium Physics"
+  research_area: [softmat_theory]
   next_position:
-  with: Vishwas V
+  with: Vishwas Venkatesh
   email: 
   gender: female
 
@@ -50,7 +50,7 @@
   program: postdoc
   joining_year: 2024
   finishing_year: 2024
-  research_area: "Experimental Condensed Matter Physics"
+  research_area: [cmp_experiment]
   next_position:
   with: Jayakumar Balakrishnan
   email: 
