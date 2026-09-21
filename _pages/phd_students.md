@@ -5,16 +5,12 @@ title: "Ph.D. Students"
 sidebar: quicklinks
 ---
 
-{% assign ongoing_key = "ongoing" %}
-{% assign submitted_key = "submitted" %}
-{% assign primary_key = "primary" %}
-{% assign secondary_key = "secondary" %}
-
-{% assign current_students = site.data.all_phd_students | where_exp: "s", "s.status == ongoing_key or s.status == submitted_key" %}
+{% assign ongoing_students = site.data.all_phd_students | where: "status", "ongoing" %}
+{% assign submitted_students = site.data.all_phd_students | where: "status", "submitted" %}
+{% assign current_students = ongoing_students | concat: submitted_students %}
 
 {% assign associated_students = current_students | where: "guide_affiliation", "secondary" %}
-
-{% assign other_students = current_students | where_exp: "s", "s.guide_affiliation != primary_key and s.guide_affiliation != secondary_key" %}
+{% assign other_students = current_students | where: "guide_affiliation", "other" %}
 
 ## Supervised by Regular Faculty
 
