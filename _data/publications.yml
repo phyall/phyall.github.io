@@ -204,7 +204,7 @@
   year: 2024
   type: article
   faculty: [prithvi-narayan, amit-kumar-pal]
-  areas: [cmp_theory]
+  areas: [cmp_theory,string]
   sort: 20240909
 
 - title: "Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins"
@@ -334,7 +334,7 @@
   year: 2022
   type: article
   faculty: [kusum-dhochak, uma-divakaran, prithvi-narayan, amit-kumar-pal]
-  areas: [cmp_theory]
+  areas: [cmp_theory,string]
   sort: 20220101
 
 - title: "Residual stress in athermal soft disordered solids: insights from microscopic and mesoscale models"
