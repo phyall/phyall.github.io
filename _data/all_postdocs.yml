@@ -2,25 +2,25 @@
   status: ongoing
   program: postdoc
   joining_year: 2024
-  finishing_year: 
+  finishing_year:
   research_area: [cmp_experiment]
   next_position:
   with: Soham Manni
-  email: gayathriv@iitpkd.ac.in 
+  guide_affiliation: primary
+  email: gayathriv@iitpkd.ac.in
   gender: female
-  
 
 - name: Aparna Sreekumari
   status: ongoing
   program: postdoc
   joining_year: 2022
-  finishing_year: 
+  finishing_year:
   research_area: [softmat_theory]
   next_position:
   with: Vishwas Venkatesh
+  guide_affiliation: primary
   email: prj183@iitpkd.ac.in
   gender: female
-
 
 - name: Nisha Gupta
   status: finished
@@ -30,9 +30,9 @@
   research_area: [softmat_theory]
   next_position:
   with: PB Sunil Kumar
-  email: 
+  guide_affiliation: primary
+  email:
   gender: female
-
 
 - name: Sayani Chatterjee
   status: finished
@@ -42,7 +42,8 @@
   research_area: [softmat_theory]
   next_position:
   with: Vishwas Venkatesh
-  email: 
+  guide_affiliation: primary
+  email:
   gender: female
 
 - name: Arya Mohan
@@ -53,8 +54,6 @@
   research_area: [cmp_experiment]
   next_position:
   with: Jayakumar Balakrishnan
-  email: 
+  guide_affiliation: primary
+  email:
   gender: female
-
-
-  
