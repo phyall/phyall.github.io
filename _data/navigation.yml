@@ -81,10 +81,13 @@ main:
       - title: Former Postdocs
         url: /formerpostdocs/    
 
-      - title: Former PhD
+      - title: Former PhD Students
         url: /formerphd/
+
+      - title: Former MS Students
+        url: /formerms/       
    
-      - title: Former MSc
+      - title: Former MSc Students
         url: /formermsc/        
 
   - title: Forums
