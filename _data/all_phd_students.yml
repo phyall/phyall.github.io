@@ -1,17 +1,4 @@
-#- name: Siji S. Saju
-#  gender: female
-#  funding: htra
-#  status: ongoing
-#  program: PhD
-#  joining_year:
-#  graduation_year:
-#  supervisor: "P. B. Sunil Kumar (now in IITM)"
-#  joint_supervisor:
-#  cycle:
-#  research_area: Theoretical Soft Matter
-#  roll: 221704005
-#  thesis_title:
-#  next_position:
+
 
 - name: Manju C.
   gender: female
@@ -21,10 +8,11 @@
   joined_iit: 2019
   joining_year: 2019
   graduation_year: 2026
+  degree: PhD
   supervisor: Uma Divakaran
   joint_supervisor:
   cycle: December
-  research_area: Quantum Chaos
+  research_area: [cmp_theory]
   roll: 222004003
   thesis_title:
   next_position:
@@ -39,7 +27,7 @@
   supervisor: Prithvi Narayan
   joint_supervisor:
   cycle: December
-  research_area: Theoretical High Energy Physics
+  research_area: [string]
   roll: 222004008
   thesis_title:
   next_position:
@@ -54,7 +42,7 @@
   supervisor: Jayakumar Balakrishnan
   joint_supervisor: Soham Manni
   cycle: December
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222004005
   thesis_title:
   next_position:
@@ -69,7 +57,7 @@
   supervisor: Soham Manni
   joint_supervisor:
   cycle: December
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222004001
   thesis_title:
   next_position:
@@ -84,7 +72,7 @@
   supervisor: Jayakumar Balakrishnan
   joint_supervisor:
   cycle: December
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222004004
   thesis_title:
   next_position:
@@ -99,7 +87,7 @@
   supervisor: Sovan Lal Das (ME)
   joint_supervisor:
   cycle: December
-  research_area: Experimental Biophysics
+  research_area: [softmat_theory]
   roll: 222004006
   thesis_title:
   next_position:
@@ -114,7 +102,7 @@
   supervisor: Bibhu Ranjan Sarangi
   joint_supervisor:
   cycle: August
-  research_area: Experimental Biophysics
+  research_area: [softmat_experiment]
   roll: 222014001
   thesis_title:
   next_position:
@@ -129,7 +117,7 @@
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: December
-  research_area: Quantum Entanglement
+  research_area: [cmp_theory]
   roll: 222104001
   thesis_title: "Localizable entanglement: Bounds and special features"
   next_position:
@@ -144,22 +132,27 @@
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: December
-  research_area: Topological Quantum Codes
+  research_area: [cmp_theory]
   roll: 222204002
   thesis_title:
   next_position:
+
+
+
 
 - name: Chandrima B. Pushpan
   gender: female
   funding: htra
   status: ongoing
   program: MSc-PhD Dual Degree
+  joined_iit: 2020
   joining_year: 2022
   graduation_year:
+  degree:
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: March
-  research_area: "Measurement-assisted Quantum Protocols"
+  research_area: [cmp_theory]
   roll: 222204004
   thesis_title:
   next_position:
@@ -174,7 +167,7 @@
   supervisor: Bibhu Ranjan Sarangi
   joint_supervisor:
   cycle: March
-  research_area: Experimental Biophysics
+  research_area: [softmat_experiment]
   roll: 222204005
   thesis_title:
   next_position:
@@ -189,7 +182,7 @@
   supervisor: Debarati Chatterjee
   joint_supervisor:
   cycle: January
-  research_area: Theoretical Soft Matter 
+  research_area: [softmat_theory]
   roll: 222204001
   thesis_title:
   next_position:
@@ -204,7 +197,7 @@
   supervisor: Soham Manni
   joint_supervisor:
   cycle: April
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222304002
   thesis_title:
   next_position:
@@ -219,7 +212,7 @@
   supervisor: Soham Manni
   joint_supervisor: 
   cycle: July
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222314007
   thesis_title:
   next_position:
@@ -234,7 +227,7 @@
   supervisor: Jayakumar Balakrishnan
   joint_supervisor:
   cycle: July
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222314005
   thesis_title:
   next_position:
@@ -249,7 +242,7 @@
   supervisor: Uma Divakaran
   joint_supervisor:
   cycle: July
-  research_area: Nonequilibrium quantum dynamics
+  research_area: [cmp_theory]
   roll: 222314006
   thesis_title:
   next_position:
@@ -264,7 +257,7 @@
   supervisor: Vishwas V
   joint_supervisor:
   cycle: July
-  research_area: Nonequilibrium Statistical Physics
+  research_area: [softmat_theory]
   roll: 222314004
   thesis_title:
   next_position:
@@ -279,7 +272,7 @@
   supervisor: Bibhu Ranjan Sarangi
   joint_supervisor:
   cycle: July
-  research_area: Experimental Biophysics
+  research_area: [softmat_experiment]
   roll: 222314003
   thesis_title:
   next_position:
@@ -295,7 +288,7 @@
   supervisor: Soham Manni
   joint_supervisor: 
   cycle: January
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222404006
   thesis_title:
   next_position:
@@ -310,7 +303,7 @@
   supervisor: Vishwas V
   joint_supervisor:
   cycle: January
-  research_area: Rheology of Amorphous Solids
+  research_area: [softmat_theory]
   roll: 222404003
   thesis_title:
   next_position:
@@ -325,7 +318,7 @@
   supervisor: Projjwal Banerjee
   joint_supervisor:
   cycle: January
-  research_area: Theoretical Astrophysics
+  research_area: [astro_theory]
   roll: 222404005
   thesis_title:
   next_position:
@@ -340,7 +333,7 @@
   supervisor: Uma Divakaran
   joint_supervisor:
   cycle: July
-  research_area: Quantum Batteries
+  research_area: [cmp_theory]
   roll: 222414004
   thesis_title:
   next_position:
@@ -355,7 +348,7 @@
   supervisor: Jayakumar Balakrishnan
   joint_supervisor:
   cycle: December
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222504001
   thesis_title:
   next_position:
@@ -370,7 +363,7 @@
   supervisor: Swaroop Sahoo
   joint_supervisor:
   cycle: August
-  research_area:
+  research_area: [secondary]
   roll: 222414005
   thesis_title:
   next_position:
@@ -385,7 +378,7 @@
   supervisor: Projjwal Banerjee
   joint_supervisor:
   cycle: April
-  research_area: Theoretical Astrophysics
+  research_area: [astro_theory]
   roll: 222504002
   thesis_title:
   next_position:
@@ -400,7 +393,7 @@
   supervisor: Ajeesh M O
   joint_supervisor:
   cycle: July
-  research_area: Experimental Condensed Matter Physics
+  research_area: [cmp_experiment]
   roll: 222514001
   thesis_title:
   next_position:
@@ -415,7 +408,7 @@
   supervisor: Debarati Chatterjee
   joint_supervisor:
   cycle: July
-  research_area:
+  research_area: [secondary]
   roll: 222514002
   thesis_title:
   next_position:
@@ -430,7 +423,7 @@
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: January
-  research_area: Quantum Information 
+  research_area: [cmp_theory]
   roll: 222604002
   thesis_title:
   next_position:
@@ -445,7 +438,7 @@
   supervisor: Bibhu Ranjan Sarangi
   joint_supervisor:
   cycle: January
-  research_area: 
+  research_area: [softmat_experiment]
   roll: 222604001
   thesis_title:
   next_position:
@@ -454,13 +447,13 @@
   gender: male
   funding: htra
   status: ongoing
-  program: PhD
+  program: MSc-PhD Dual Degree
   joining_year: 2026
   graduation_year:
   supervisor: Vishwas V
   joint_supervisor:
   cycle: April
-  research_area:
+  research_area: [softmat_theory]
   roll: 222614001
   thesis_title:
   next_position:
@@ -475,7 +468,7 @@
   supervisor: Jayakumar Balakrishnan
   joint_supervisor:
   cycle: August
-  research_area:
+  research_area: [cmp_experiment]
   roll: 222614004
   thesis_title:
   next_position:
@@ -490,7 +483,7 @@
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: August
-  research_area: Quantum Information
+  research_area: [cmp_theory]
   roll: 222614006
   thesis_title:
   next_position:
@@ -505,7 +498,7 @@
   supervisor: Amit Kumar Pal
   joint_supervisor:
   cycle: August
-  research_area: Quantum Information
+  research_area: [cmp_theory]
   roll: 222614007
   thesis_title:
   next_position:
@@ -520,9 +513,9 @@
   supervisor: Uma Divakaran
   joint_supervisor:
   cycle:
-  research_area:
+  research_area: [cmp_theory]
   roll:
-  thesis_title: Quantum Engines close to criticality
+  thesis_title: 
   next_position: PostDoc, RRI Bengaluru
 
 - name: Aathira Murali
@@ -535,9 +528,9 @@
   supervisor: P. B. Sunil Kumar
   joint_supervisor:
   cycle:
-  research_area:
+  research_area: [softmat_theory]
   roll:
-  thesis_title: Shape morphism and swelling kinetics of vapor responsive polymer
+  thesis_title: 
   next_position: 
 
 - name: Diljith T.
@@ -550,7 +543,7 @@
   supervisor: Debarati Chatterjee
   joint_supervisor:
   cycle:
-  research_area:
+  research_area: [secondary]
   roll:
   thesis_title:
   next_position:
@@ -565,9 +558,9 @@
   supervisor: Jayakumar Balakrishnan
   joint_supervisor:
   cycle:
-  research_area:
+  research_area: [cmp_experiment]
   roll:
-  thesis_title: "Thermal transport and temperature induced optical responses in 2D materials: A study on modified graphene and molybdenum disulfide"
+  thesis_title: 
   next_position: PostDoc, IISER Pune
 
 - name: Jeena S. K.
@@ -580,7 +573,7 @@
   supervisor: Projjwal Banerjee
   joint_supervisor:
   cycle:
-  research_area:
+  research_area: [astro_theory]
   roll:
   thesis_title: Origin of elements in the early galaxy
   next_position: PostDoc, IIA Bengaluru
