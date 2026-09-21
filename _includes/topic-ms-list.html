@@ -1,0 +1,42 @@
+{% assign ongoing_students = site.data.all_ms_students | where: "status", "ongoing" %}
+{% assign submitted_students = site.data.all_ms_students | where: "status", "submitted" %}
+{% assign current_students = ongoing_students | concat: submitted_students %}
+{% assign students = current_students | where: "research_area", include.topic_id | sort: "roll" %}
+
+{% if students.size > 0 %}
+### MS by Research Students
+
+<div class="people-table-wrap">
+  <table class="people-table">
+
+    <thead>
+      <tr>
+        <th style="width:24%">Name</th>
+        <th style="width:14%">Roll No.</th>
+        <th style="width:12%">Year Joined</th>
+        <th style="width:25%">Supervisor</th>
+        <th style="width:25%">Cosupervisor</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% for student in students %}
+      <tr>
+        <td>{{ student.name }}</td>
+        <td>{{ student.roll }}</td>
+        <td>{{ student.joining_year }}</td>
+        <td>{{ student.supervisor }}</td>
+        <td>
+          {% if student.joint_supervisor %}
+            {{ student.joint_supervisor }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+
+  </table>
+</div>
+{% endif %}
