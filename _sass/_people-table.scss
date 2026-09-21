@@ -1,0 +1,88 @@
+/* ==========================================================
+   People Table — sleek, reusable roster/table component
+   (for PhD/MSc alumni and similar student/staff rosters
+   across multiple pages)
+   ========================================================== */
+
+.people-table-wrap {
+  width: 100%;
+  margin: 1.75rem 0;
+  border: 1px solid #e3e7eb;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+}
+
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #fff;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.people-table thead th {
+  padding: 0.85rem 1.1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #45505c;
+  background: #f4f6f8;
+  border-bottom: 1px solid #e3e7eb;
+}
+
+.people-table tbody td {
+  padding: 0.85rem 1.1rem;
+  text-align: left;
+  border-bottom: 1px solid #eef1f4;
+  vertical-align: top;
+  word-wrap: break-word;
+  color: #3a4147;
+}
+
+.people-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.people-table tbody tr:nth-child(even) {
+  background: #fafbfc;
+}
+
+.people-table tbody tr:hover {
+  background: #f2f7ff;
+}
+
+.people-table td:first-child {
+  font-weight: 600;
+  color: #1d2733;
+}
+
+.people-table-empty {
+  margin: 1.25rem 0;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* ----------------------------------------------------------
+   Responsive — scroll instead of squeeze on tablets/phones
+   ---------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .people-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .people-table {
+    table-layout: auto;
+    font-size: 0.88rem;
+  }
+
+  .people-table th,
+  .people-table td {
+    padding: 0.65rem 0.9rem;
+    white-space: nowrap;
+  }
+}
