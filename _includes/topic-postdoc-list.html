@@ -1,0 +1,32 @@
+{% assign postdocs = site.data.all_postdocs
+    | where: "status", "ongoing"
+    | where: "research_area", include.topic_id
+    | sort: "joining_year" %}
+
+{% if postdocs.size > 0 %}
+### Postdoctoral Researchers
+
+<div class="people-table-wrap">
+  <table class="people-table">
+
+    <thead>
+      <tr>
+        <th style="width:40%">Name</th>
+        <th style="width:40%">Host Faculty</th>
+        <th style="width:20%">Year Joined</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% for postdoc in postdocs %}
+      <tr>
+        <td>{{ postdoc.name }}</td>
+        <td>{{ postdoc.with }}</td>
+        <td>{{ postdoc.joining_year }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+
+  </table>
+</div>
+{% endif %}
