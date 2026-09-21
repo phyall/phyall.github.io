@@ -10,13 +10,15 @@
   border: 1px solid #e3e7eb;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
-  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .people-table {
   width: 100%;
+  min-width: 640px;
   border-collapse: collapse;
-  table-layout: fixed;
+  table-layout: auto;
   background: #fff;
   font-size: 0.85rem;
   line-height: 1.5;
@@ -32,6 +34,7 @@
   color: #45505c;
   background: #f4f6f8;
   border-bottom: 1px solid #e3e7eb;
+  white-space: nowrap;
 }
 
 .people-table tbody td {
@@ -58,6 +61,7 @@
 .people-table td:first-child {
   font-weight: 600;
   color: #1d2733;
+  white-space: nowrap;
 }
 
 .people-table-empty {
@@ -67,22 +71,17 @@
 }
 
 /* ----------------------------------------------------------
-   Responsive — scroll instead of squeeze on tablets/phones
+   Tighter padding on small screens — the wrapper already
+   scrolls horizontally at every width, so columns never
+   squeeze; this just keeps rows compact on a phone.
    ---------------------------------------------------------- */
 @media (max-width: 1024px) {
-  .people-table-wrap {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
   .people-table {
-    table-layout: auto;
     font-size: 0.88rem;
   }
 
   .people-table th,
   .people-table td {
     padding: 0.65rem 0.9rem;
-    white-space: nowrap;
   }
 }
