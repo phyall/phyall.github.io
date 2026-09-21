@@ -1,0 +1,59 @@
+{% assign ongoing_students = include.students | where: "status", "ongoing" %}
+{% assign submitted_students = include.students | where: "status", "submitted" %}
+{% assign matched = ongoing_students | concat: submitted_students %}
+
+{% assign students = matched | where: "guide_affiliation", include.affiliation %}
+{% assign students = students | sort: "roll" %}
+
+{% if students.size > 0 %}
+<div class="people-table-wrap">
+  <table class="people-table">
+
+    <thead>
+      <tr>
+        <th style="width:24%">Name</th>
+        <th style="width:12%">Roll No.</th>
+        <th style="width:9%">Joined</th>
+        <th style="width:20%">Supervisor</th>
+        <th style="width:20%">Cosupervisor</th>
+        <th style="width:15%">Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% for student in students %}
+      <tr>
+
+        <td>{{ student.name }}</td>
+
+        <td>{{ student.roll }}</td>
+
+        <td>{{ student.joining_year }}</td>
+
+        <td>{{ student.supervisor }}</td>
+
+        <td>
+          {% if student.joint_supervisor %}
+            {{ student.joint_supervisor }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+
+        <td>
+          {% if student.status == "ongoing" %}
+            Ongoing
+          {% elsif student.status == "submitted" %}
+            Submitted
+          {% endif %}
+        </td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+
+  </table>
+</div>
+{% else %}
+<p class="people-table-empty">No students to display yet.</p>
+{% endif %}
