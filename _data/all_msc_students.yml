@@ -350,12 +350,12 @@
   gender: female
   year_joined: 2020
   year_graduated: 2022
-  degree: false
+  degree: true
   upgraded: true
   upgraded_to: "MSc-PhD Dual Degree"
-  upgradation_year: 
+  upgradation_year: 2022
   fa: 
-  next: 
+  next: PhD at IIT Palakkad
   note: 
 
 - name: Olivia Vincent
@@ -363,12 +363,12 @@
   gender: female
   year_joined: 2020
   year_graduated: 2022
-  degree: false
+  degree: true
   upgraded: true
   upgraded_to: "MSc-PhD Dual Degree"
-  upgradation_year: 
+  upgradation_year: 2022
   fa: 
-  next: 
+  next: PhD at IIT Palakkad
   note: 
 
 
@@ -394,12 +394,12 @@
   gender: female
   year_joined: 2021
   year_graduated: 2023
-  degree: false
+  degree: true
   upgraded: true
   upgraded_to: "MSc-PhD Dual Degree"
-  upgradation_year: 
+  upgradation_year: 2023
   fa: 
-  next: 
+  next: PhD at IIT Palakkad 
   note: 
 
 - name: Debasish Dutta
@@ -419,11 +419,11 @@
   roll: 222105004
   gender: male
   year_joined: 2021
-  year_graduated: 2023
-  degree: false
+  year_graduated: 2024
+  degree: true
   upgraded: true
-  upgraded_to: 
-  upgradation_year: 
+  upgraded_to: "MS by Research"
+  upgradation_year: 2023
   fa: 
   next: Upgraded to MS
   note: 
@@ -575,8 +575,8 @@
   roll: 222105014
   gender: male
   year_joined: 2021
-  year_graduated: 2023
-  degree: false
+  year_graduated: 2028
+  degree: true
   upgraded: true
   upgraded_to: "MSc-PhD Dual Degree"
   upgradation_year: 
@@ -749,13 +749,13 @@
   roll: 222205025
   gender: male
   year_joined: 2022
-  year_graduated: 2024
-  degree: false
+  year_graduated: 2029
+  degree: true
   upgraded: true
-  upgraded_to: 
-  upgradation_year: 
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 2024
   fa: 
-  next: Upgraded to PhD
+  next: PhD at IIT Palakkad
   note: 
 
 - name: P. Arundhathi Nair
@@ -917,6 +917,20 @@
   upgradation_year: 
   fa: 
   next: PhD at IISER Trivandrum
+  note: 
+
+
+- name: Tamizhselvan S
+  roll: 222305012
+  gender: male
+  year_joined: 2023
+  year_graduated: 2026
+  degree: true
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 
+  fa: 
+  next: 
   note: 
 
 - name: Vikas M D
