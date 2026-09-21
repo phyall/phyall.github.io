@@ -1,22 +1,23 @@
-<table class="student-table">
+{% assign postdocs = include.postdocs
+    | where: "status", "ongoing"
+    | where: "guide_affiliation", include.affiliation
+    | sort: "joining_year" %}
 
-  <thead>
-    <tr>
-      <th style="width:38%">Name</th>
-      <th style="width:12%">From</th>
-      <th style="width:12%">To</th>
-      <th style="width:38%">Host Faculty</th>
-    </tr>
-  </thead>
+{% if postdocs.size > 0 %}
+<div class="people-table-wrap">
+  <table class="people-table">
 
-  <tbody>
+    <thead>
+      <tr>
+        <th style="width:38%">Name</th>
+        <th style="width:12%">From</th>
+        <th style="width:12%">To</th>
+        <th style="width:38%">Host Faculty</th>
+      </tr>
+    </thead>
 
-    {% assign postdocs = include.postdocs
-        | where: "status", "ongoing"
-        | sort: "joining_year" %}
-
+    <tbody>
     {% for postdoc in postdocs %}
-
       <tr>
 
         <td>{{ postdoc.name }}</td>
@@ -28,9 +29,11 @@
         <td>{{ postdoc.with }}</td>
 
       </tr>
-
     {% endfor %}
+    </tbody>
 
-  </tbody>
-
-</table>
+  </table>
+</div>
+{% else %}
+<p class="people-table-empty">No postdocs to display yet.</p>
+{% endif %}
