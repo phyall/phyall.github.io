@@ -5,7 +5,10 @@ title: "Former Postdocs in Physics"
 sidebar: quicklinks
 ---
 
+## Hosted by Regular Faculty
 
-{% assign current = site.data.postdocs | where: "status", "finished" %}
+{% include former-postdoc-table.html postdocs=site.data.all_postdocs affiliation="primary" %}
 
-{% include former-postdoc-table.html postdocs=current %}
+## Hosted by Associated Faculty
+
+{% include former-postdoc-table.html postdocs=site.data.all_postdocs affiliation="secondary" %}
