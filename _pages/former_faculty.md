@@ -5,12 +5,12 @@ permalink: /formerfaculty/
 sidebar: quicklinks
 ---
 
-{% assign former_regular = site.data.faculty_details
+{% assign former_regular = site.data.all_faculty
    | where: "status", "former"
    | where: "position", "regular"
    | sort: "date_joined" %}
 
-{% assign former_temporary = site.data.faculty_details
+{% assign former_temporary = site.data.all_faculty
    | where: "status", "former"
    | where: "position", "temporary"
    | sort: "date_joined" %}
