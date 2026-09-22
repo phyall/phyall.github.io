@@ -117,8 +117,4 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
 
 </div>
 
-## Department Statistics
 
-{% include dept-overview-charts.html %}
-
-{% include department-stats.html %}
