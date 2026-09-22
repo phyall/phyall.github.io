@@ -1,0 +1,805 @@
+#=============================================================================
+# Department Publications
+#=============================================================================
+# Scope: papers with at least one author who is a primary-affiliation
+# faculty member (current or former) per faculty_details.yml. Secondary
+# faculty (Debarati Chatterjee, Swaroop Sahoo) are excluded.
+#
+# Merged with Amit Kumar Pal's personal publication record
+# (papers-2.yml) on top of the annual-report-derived entries below;
+# duplicates (matched by DOI) were skipped. Four preprints from that
+# file with no DOI yet are listed at the very end, unadded to the
+# active list, pending publication.
+#
+# Author names: department faculty are spelled out in full, matching
+# faculty_details.yml. External co-authors are given in full where a
+# full name could be found; where a collaborator's own publication
+# record only ever uses initials (e.g. "A. Sen(De)", "S. K. Jeena"),
+# that is preserved as-is rather than guessed.
+#
+# Cross-referencing: `faculty` lists the slug of every department
+# co-author; `areas` lists the union of those co-authors' research
+# areas. A paper with two department co-authors from different areas
+# will appear under both.
+#=============================================================================
+
+#-----------------------------------------------------------------------
+# CONFIRMED DOIs
+#-----------------------------------------------------------------------
+
+- title: "Gravitational edge mode in asymptotically AdS2: JT gravity revisited"
+  authors: "E. Joung, Prithvi Narayan P, and J. Yoon"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP05(2024)244"
+  year: 2024
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20240101
+
+- title: "Chaos in Three-dimensional Higher Spin Gravity"
+  authors: "Prithvi Narayan P and J. Yoon"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP07(2019)046"
+  year: 2019
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20190101
+
+- title: "Chord diagrams, exact correlators in spin glasses and black hole bulk reconstruction"
+  authors: "M. Berkooz, Prithvi Narayan P, and J. Simon"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP08(2018)192"
+  year: 2018
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20180101
+
+- title: "Pressure evolution of coplanar antiferromagnetism in heavy-fermion Ce2CoAl7Ge4"
+  authors: "M. O. Ajeesh (Ajeesh M. Omanakuttan), A. O. Scheie, Yu Liu, L. Keller, S. M. Thomas, P. F. S. Rosa, and E. D. Bauer"
+  journal: "Physical Review B"
+  doi: "10.1103/73sf-r86t"
+  year: 2025
+  type: article
+  faculty: [ajeesh-omanakuttan]
+  areas: [cmp_experiment]
+  sort: 20250101
+
+- title: "Recovery of resources through sequential noisy measurements"
+  authors: "Sudipta Mondal, Pritam Halder, Amit Kumar Pal, and Aditi Sen(De)"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.111.042401"
+  year: 2025
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20250101
+
+- title: "Entanglement and fidelity across quantum phase transitions in locally perturbed topological codes with open boundaries"
+  authors: "Harikrishnan K. J. and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.111.032401"
+  year: 2025
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20250301
+
+- title: "Mapping the L-tryptophan Capped Copper Nanocluster Mediated Binding and Targeted pH-Responsive Release of Doxorubicin via Fluorescence Resonance Energy Transfer (FRET)"
+  authors: "Anna Sebastian, Kavya Pandarathodi, Indrajit Bhattacharjee, Abhishek Singh Shekhawat, Bibhu Ranjan Sarangi, Supratik Sen Mojumdar"
+  journal: "Materials Advances"
+  doi: "10.1039/D5MA00397K"
+  year: 2025
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20250101
+
+- title: "p-Cymene-Ru(II)-organometallic conjugates based on 'V-shaped' 4-amino-1,8-naphthalimide Tröger's base scaffolds: Synthesis, photophysics, bioimaging, and BSA/HSA binding studies"
+  authors: "Binduja Mohan, Anna Jose, Indrajit Bhattacharjee, Saravanan Raju, Mannanthara Kunhumon Noushija, Mintu Porel, Bibhu Ranjan Sarangi, Sankarasekaran Shanmugaraju"
+  journal: "Dalton Transactions"
+  doi: "10.1039/D5DT00769K"
+  year: 2025
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20250101
+
+- title: "Cellular mechanosensing on a cell-scale stiffness gradient substrate"
+  authors: "Indrajit Bhattacharjee, Gautam V. Soni, and Bibhu Ranjan Sarangi"
+  journal: "Soft Matter"
+  doi: "10.1039/D5SM00592B"
+  year: 2026
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20260211
+
+- title: "Fast direct write laser lithography for large area van der Waals devices"
+  authors: "Nikhil Joseph Joy and Jayakumar Balakrishnan"
+  journal: "Journal of Micromechanics and Microengineering"
+  doi: "10.1088/1361-6439/ae3578"
+  year: 2026
+  type: article
+  faculty: [jayakumar-balakrishnan]
+  areas: [cmp_experiment]
+  sort: 20260101
+
+- title: "Solvable models of heat transport in quantum mechanics"
+  authors: "R. Loganayagam, Prithvi Narayan P, and Swathi T. S."
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP12(2025)071"
+  year: 2025
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20251210
+
+- title: "HR-GO. II. Chemical Abundances of Low-E Retrograde Dynamically Tagged Groups: Revealing Thamnos as a Very Metal-poor Substructure"
+  authors: "Renjing Xie, Zhen Yuan, Haining Li, Tadafumi Matsuno, Nicolas F. Martin, Ruizhi Zhang, Zhiqiang Yan, Federico Sestito, Guillaume F. Thomas, Projjwal Banerjee, Ruizheng Jiang, Linda Lombardo, David S. Aguado, Kohei Hattori, Gang Zhao"
+  journal: "The Astrophysical Journal"
+  doi: "10.3847/1538-4357/ae39c8"
+  year: 2026
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20260101
+
+- title: "Electronic and magnetic ground state of 4d3 double perovskite ruthenates A2LaRuO6 (A = Ca, Sr, Ba)"
+  authors: "Asha Ann Abraham, Roumita Roy, Ruta Kulkarni, Sudipta Kanungo, and Soham Manni"
+  journal: "Journal of Physics: Condensed Matter"
+  doi: "10.1088/1361-648X/adfb3d"
+  year: 2025
+  type: article
+  faculty: [soham-manni]
+  areas: [cmp_experiment]
+  sort: 20250801
+
+- title: "Cavity based sensing of antiferromagnetic canting and nonzero-momentum spin waves in a van der Waals cavity-magnon-polariton system"
+  authors: "Supriya Mandal, Krishnendu Maji, Lucky N. Kapoor, Souvik Sasmal, Soham Manni, John Jesudasan, Pratap Raychaudhuri, Arumugam Thamizhavel, and Mandar M. Deshmukh"
+  journal: "Physical Review B"
+  doi: "10.1103/bdd1-b8ys"
+  year: 2025
+  type: article
+  faculty: [soham-manni]
+  areas: [cmp_experiment]
+  sort: 20250101
+
+- title: "Electron Doping in Single-Crystalline BaBiO3: BaBiO3-xFx"
+  authors: "Sathishkumar M, Asha Ann Abraham, Rajesh Kumar Sahu, Manisha Srivastava, Soma Banik, Soham Manni"
+  journal: "Physica Status Solidi A"
+  doi: "10.1002/pssa.202500600"
+  year: 2026
+  type: article
+  faculty: [soham-manni]
+  areas: [cmp_experiment]
+  sort: 20260101
+
+- title: "Chaos controlled and disorder driven phase transitions induced by breaking permutation symmetry"
+  authors: "Manju C, Arul Lakshminarayan, and Uma Divakaran"
+  journal: "Scientific Reports"
+  doi: "10.1038/s41598-025-18895-x"
+  year: 2025
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20250101
+
+- title: "Disordering a permutation symmetric system: Revivals, thermalization, and chaos"
+  authors: "Manju C, Uma Divakaran, and Arul Lakshminarayan"
+  journal: "Physical Review E"
+  doi: "10.1103/8kgb-c2xb"
+  year: 2025
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20250101
+
+- title: "Breakdown of the Stokes-Einstein relation in Stillinger-Weber silicon"
+  authors: "Himani Rautela, Shiladitya Sengupta, and Vishwas V. Vasisht"
+  journal: "The Journal of Chemical Physics"
+  doi: "10.1063/5.0256328"
+  year: 2025
+  type: article
+  faculty: [vishwas-venkatesh]
+  areas: [softmat_theory]
+  sort: 20250414
+
+- title: "Curvature-dependent dynamics of a bacterium confined in a giant unilamellar vesicle"
+  authors: "Olivia Vincent, Aparna Sreekumari, Manoj Gopalakrishnan, Vishwas V. Vasisht, and Bibhu Ranjan Sarangi"
+  journal: "Physical Review E"
+  doi: "10.1103/n3td-t9lk"
+  year: 2025
+  type: article
+  faculty: [manoj-gopalakrishnan, vishwas-venkatesh, bibhu-ranjan-sarangi]
+  areas: [softmat_theory, softmat_experiment]
+  sort: 20250801
+
+- title: "Quantum state transfer on 2D lattices: A low-energy effective Hamiltonian approach"
+  authors: "Chandrima B. Pushpan, Harikrishnan K. J., and Amit Kumar Pal"
+  journal: "Physics Letters A"
+  doi: "10.1016/j.physleta.2024.129543"
+  year: 2024
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20240101
+
+- title: "Estimating correlations and entanglement in the two-dimensional Heisenberg model in the strong-rung-coupling limit"
+  authors: "Chandrima B. Pushpan, Harikrishnan K. J., Prithvi Narayan P, and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.110.032408"
+  year: 2024
+  type: article
+  faculty: [prithvi-narayan, amit-kumar-pal]
+  areas: [cmp_theory,string]
+  sort: 20240909
+
+- title: "Logarithmic growth of peripheral entanglement concentrated via noisy measurements in a star network of spins"
+  authors: "J. G. Krishnan, Harikrishnan K. J., and Amit Kumar Pal"
+  journal: "Physics Letters A"
+  doi: "10.1016/j.physleta.2024.130170"
+  year: 2025
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20250101
+
+- title: "Wearable threads for monitoring sanitizer quality using dye displacement assay"
+  authors: "Pratham Joshi, Akhiya Shinde, Sukanya Sudhiram, Bibhu Ranjan Sarangi, and Naresh Kumar Mani"
+  journal: "RSC Advances"
+  doi: "10.1039/d4ra04379k"
+  year: 2024
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20241120
+
+- title: "Interface-controlled thermal transport in monolayer molybdenum disulfide"
+  authors: "Aswathi Sampanraj, Lavudya Devendar, Bhagyalaxmi Pothal, Manu Jaiswal, and Jayakumar Balakrishnan"
+  journal: "Physical Review B"
+  doi: "10.1103/PhysRevB.111.075423"
+  year: 2025
+  type: article
+  faculty: [jayakumar-balakrishnan]
+  areas: [cmp_experiment]
+  sort: 20250219
+
+- title: "SDSS J0018-0939: A Clear Signature of Sub-Chandrasekhar Mass Type 1a Supernova"
+  authors: "S. K. Jeena and Projjwal Banerjee"
+  journal: "The Astrophysical Journal"
+  doi: "10.3847/1538-4357/ad7a74"
+  year: 2024
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20241001
+
+- title: "Can Supernovae from Runaway Stars Mimic the Signs of Absorbing 'Supervirial' Gas?"
+  authors: "M. S. Bisht, Projjwal Banerjee, B. B. Nath, and Y. Shchekinov"
+  journal: "The Astrophysical Journal"
+  doi: "10.3847/1538-4357/ad77be"
+  year: 2024
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20241001
+
+- title: "Origin of LAMOST J1010+2358 Revisited"
+  authors: "S. K. Jeena and Projjwal Banerjee"
+  journal: "The Open Journal of Astrophysics"
+  doi: "10.33232/001c.124113"
+  year: 2024
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20241001
+
+- title: "HR-GO-I. Comprehensive NLTE abundance analysis of the Cetus stream"
+  authors: "T. M. Sitnova, Z. Yuan, T. Matsuno, L. I. Mashonkina, S. A. Alexeeva, E. Holmbeck, F. Sestito, L. Lombardo, Projjwal Banerjee, N. F. Martin, F. Jiang"
+  journal: "Astronomy & Astrophysics"
+  doi: "10.1051/0004-6361/202450981"
+  year: 2024
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20241001
+
+- title: "The promises and challenges of many-body quantum technologies: A focus on quantum engines"
+  authors: "Victor Mukherjee and Uma Divakaran"
+  journal: "Nature Communications"
+  doi: "10.1038/s41467-024-47638-1"
+  year: 2024
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20240412
+
+- title: "Improving performance of quantum heat engines using modified Otto cycle"
+  authors: "Revathy B. S, Harsh Sharma, and Uma Divakaran"
+  journal: "Journal of Physics A: Mathematical and Theoretical"
+  doi: "10.1088/1751-8121/ad38ee"
+  year: 2024
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20240101
+
+- title: "Quantum critical engine at finite temperatures"
+  authors: "Revathy B. S, Victor Mukherjee, and Uma Divakaran"
+  journal: "The European Physical Journal B"
+  doi: "10.1140/epjb/s10051-024-00721-4"
+  year: 2024
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20240101
+
+- title: "Designing refrigerators in higher dimensions using quantum spin models"
+  authors: "T. K. Konar, S. Ghosh, Amit Kumar Pal, and Aditi Sen(De)"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.107.032602"
+  year: 2023
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20230101
+
+- title: "Circulating genuine multiparty entanglement in quantum network"
+  authors: "P. Halder, R. Banerjee, S. Ghosh, Amit Kumar Pal, and Aditi Sen(De)"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.106.032604"
+  year: 2022
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20220101
+
+- title: "Exactly solvable one-dimensional quantum models with gamma matrices"
+  authors: "Y. Chugh, Kusum Dhochak, Uma Divakaran, Prithvi Narayan P, and Amit Kumar Pal"
+  journal: "Physical Review E"
+  doi: "10.1103/PhysRevE.106.024114"
+  year: 2022
+  type: article
+  faculty: [kusum-dhochak, uma-divakaran, prithvi-narayan, amit-kumar-pal]
+  areas: [cmp_theory,string]
+  sort: 20220101
+
+- title: "Residual stress in athermal soft disordered solids: insights from microscopic and mesoscale models"
+  authors: "Vishwas V. Vasisht, P. Chaudhuri, and K. Martens"
+  journal: "Soft Matter"
+  doi: "10.1039/d2sm00615d"
+  year: 2022
+  type: article
+  faculty: [vishwas-venkatesh]
+  areas: [softmat_theory]
+  sort: 20220831
+
+- title: "Diffusion mediated rigidity-gradient hydrogel substrate for cellular mechanosensing"
+  authors: "I. Bhattacharjee, S. Sudhiram, M. Nithya, B. Kumar, and Bibhu Ranjan Sarangi"
+  journal: "The European Physical Journal Special Topics"
+  doi: "10.1140/epjs/s11734-024-01125-2"
+  year: 2024
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20240101
+
+- title: "High temperature anomalous Raman and photoluminescence response of molybdenum disulfide with sulfur vacancies"
+  authors: "Ranjuna M. K. and Jayakumar Balakrishnan"
+  journal: "Scientific Reports"
+  doi: "10.1038/s41598-023-43756-w"
+  year: 2023
+  type: article
+  faculty: [jayakumar-balakrishnan]
+  areas: [cmp_experiment]
+  sort: 20231001
+
+- title: "Distinguishing phases via non-Markovian dynamics of entanglement in topological quantum codes under parallel magnetic field"
+  authors: "Harikrishnan K. J. and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.105.052421"
+  year: 2022
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20220101
+
+- title: "Bath Engineering Enhanced Quantum Critical Engines"
+  authors: "Revathy B. S, Victor Mukherjee, and Uma Divakaran"
+  journal: "Entropy"
+  doi: "10.3390/e24101458"
+  year: 2022
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20221013
+
+- title: "Memory of shear flow in soft jammed materials"
+  authors: "H. A. Vinutha, Manon Marchand, Marco Caggioni, Vishwas V. Vasisht, Emanuela Del Gado, and Veronique Trappe"
+  journal: "PNAS Nexus"
+  doi: "10.1093/pnasnexus/pgae441"
+  year: 2024
+  type: article
+  faculty: [vishwas-venkatesh]
+  areas: [softmat_theory]
+  sort: 20241001
+
+- title: "Bridging the daemonic gap en route to charge multi-mode batteries via a single auxiliary"
+  authors: "Chandrima B. Pushpan and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/jr71-mkfl"
+  year: 2026
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20261101
+
+- title: "Block entanglement bounds distribution of regionally localized entanglement"
+  authors: "J. G. Krishnan, A. Sen(De), and Amit Kumar Pal"
+  journal: "Physics Letters A"
+  doi: "10.1016/j.physleta.2026.132132"
+  year: 2026
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20260801
+
+- title: "Scaling of entanglement entropy and correlations in the variable-range extended Ising model"
+  authors: "Harikrishnan K. J., D. Sadhukhan, and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/vgrd-dg8j"
+  year: 2026
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20260401
+
+- title: "Developing a universal logical state-purification strategy"
+  authors: "Chandrima B. Pushpan, T. K. Konar, A. Sen(De), and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/k49w-qx4p"
+  year: 2026
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20260201
+
+- title: "Simultaneous cooling of qubits via a quantum absorption refrigerator and beyond"
+  authors: "J. G. Krishnan, Chandrima B. Pushpan, and Amit Kumar Pal"
+  journal: "Physics Letters A"
+  doi: "10.1016/j.physleta.2026.131871"
+  year: 2026
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20261001
+
+- title: "Scalable and deterministic Greenberger-Horne-Zeilinger state generation via graph states-assisted measurements"
+  authors: "Harikrishnan K. J. and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/p2bp-mjk2"
+  year: 2026
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20261002
+
+- title: "Localizing genuine multiparty entanglement in noisy stabilizer states"
+  authors: "Harikrishnan K. J. and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.108.032404"
+  year: 2023
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20231101
+
+- title: "Controlling gain with loss: Bounds of localizable entanglement in multi-qubit systems"
+  authors: "J. G. Krishnan, Harikrishnan K. J., and Amit Kumar Pal"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.107.042411"
+  year: 2023
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20230601
+
+- title: "Designing robust quantum refrigerators in disordered spin models"
+  authors: "T. K. Konar, S. Ghosh, Amit Kumar Pal, and A. Sen(De)"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.105.022214"
+  year: 2022
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20220701
+
+- title: "Relaxation times do not capture logical qubit dynamics"
+  authors: "Amit Kumar Pal, P. Schindler, A. Erhard, Á. Rivas, M. A. Martin-Delgado, R. Blatt, T. Monz, and M. Müller"
+  journal: "Quantum"
+  doi: "10.22331/q-2022-01-24-632"
+  year: 2022
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20221201
+
+- title: "Three qubits in less than three baths: Beyond two-body system-bath interactions in quantum refrigerators"
+  authors: "A. Ghoshal, S. Das, Amit Kumar Pal, A. Sen(De), and U. Sen"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.104.042208"
+  year: 2021
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20211202
+
+- title: "Photoinduced morphological transformation in azobenzene-cored hybrid peptides"
+  authors: "Navdeep Singh Thayat, Hanuman Singh, Sameer Dhawan, Janeesh M. George, Bibhu Ranjan Sarangi, and V. Haridas"
+  journal: "Chemical Communications"
+  doi: "10.1039/D6CC02086K"
+  year: 2026
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20260703
+
+- title: "Disorder mediated fully compensated ferrimagnetic spin-gapless semiconducting behavior in Cr3Al Heusler alloy"
+  authors: "Reshna Elsa Philip, Pooja Vyas, Nikhil Joseph Joy, Sandip Kumar Kuila, Sonia Beniwal, Akshata Magar, Dinesh Kumar Shukla, Partha Pratim Jana, Amit Kumar, Aftab Alam, Jayakumar Balakrishnan, and Soham Manni"
+  journal: "Advanced Functional Materials"
+  doi: "10.1002/adfm.75194"
+  year: 2026
+  type: article
+  faculty: [jayakumar-balakrishnan, soham-manni]
+  areas: [cmp_experiment]
+  sort: 20260101
+
+- title: "Measurement of gamma using B->DK and B->Dpi decays with D->KsPiPi and D->KsKK"
+  authors: "R. Aaij et al. (LHCb Collaboration)"
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP08(2026)037"
+  year: 2026
+  type: article
+  faculty: [resmi-pk]
+  areas: [hep_experiment]
+  sort: 20260801
+
+- title: "Floquet thermalization by power-law induced permutation symmetry breaking"
+  authors: "Manju C and Uma Divakaran"
+  journal: "Physical Review E"
+  doi: "10.1103/5dwc-mqgp"
+  year: 2026
+  type: article
+  faculty: [uma-divakaran]
+  areas: [cmp_theory]
+  sort: 20260413
+
+#-----------------------------------------------------------------------
+# CONSTRUCTED DOIs — built from the publisher's standard DOI pattern
+# for this journal/era, but NOT individually confirmed by search.
+# Please double-check these before publishing.
+#-----------------------------------------------------------------------
+
+- title: "Hierarchies of localizable entanglement due to spatial distribution of local noise"
+  authors: "Ratul Banerjee, Amit Kumar Pal, and Aditi Sen(De)"
+  journal: "Physical Review Research"
+  doi: "10.1103/PhysRevResearch.4.023035"   # confirmed via papers-2.yml
+  year: 2022
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20220101
+
+- title: "Layer number and stacking order dependent thermal transport in molybdenum disulfide with sulfur vacancies"
+  authors: "Ranjuna M. K. and Jayakumar Balakrishnan"
+  journal: "Physical Review B"
+  doi: "10.1103/PhysRevB.108.245411"   # CONSTRUCTED — verify
+  year: 2023
+  type: article
+  faculty: [jayakumar-balakrishnan]
+  areas: [cmp_experiment]
+  sort: 20231201
+
+- title: "Anomalous resistivity upturn in Co intercalated TaS2"
+  authors: "Moumita Nandi, Surajit Dutta, Arumugam Thamizhavel, and S. K. Dhar"
+  journal: "Physical Review B"
+  doi: "10.1103/PhysRevB.110.165107"   # CONSTRUCTED — verify
+  year: 2024
+  type: article
+  faculty: [moumita-nandi]
+  areas: [cmp_experiment]
+  sort: 20240716
+
+- title: "Single crystal growth of 1T-VSe2 by molten salt flux method"
+  authors: "Muhammed Anees K. T., Souvik Kumar Rana, Abinash Das, and Moumita Nandi"
+  journal: "Journal of Crystal Growth"
+  doi: "10.1016/j.jcrysgro.2025.128135"
+  year: 2025
+  type: article
+  faculty: [moumita-nandi]
+  areas: [cmp_experiment]
+  sort: 20250601
+
+- title: "Lysozyme protected copper nano-cluster: A photo-switch for the selective sensing of Fe2+"
+  authors: "Anna Sebastian, Aarya, Bibhu Ranjan Sarangi, and Supratik Sen Mojumdar"
+  journal: "Journal of Photochemistry and Photobiology A: Chemistry"
+  doi: "10.1016/j.jphotochem.2022.114378"
+  year: 2023
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20230301
+
+- title: "A simple and robust machine learning assisted process flow for the layer number identification of TMDs using optical contrast spectroscopy"
+  authors: "Nikhil Joseph Joy, Ranjuna M. K., and Jayakumar Balakrishnan"
+  journal: "Journal of Physics: Condensed Matter"
+  doi: "10.1088/1361-648X/ac9f96"
+  year: 2023
+  type: article
+  faculty: [jayakumar-balakrishnan]
+  areas: [cmp_experiment]
+  sort: 20230101
+
+- title: "Permanent shear localization in dense disordered materials due to microscopic inertia"
+  authors: "Vishwas V. Vasisht, Magali Le Goff, Kirsten Martens, and Jean-Louis Barrat"
+  journal: "The European Physical Journal E"
+  doi: "10.1140/epje/s10189-023-00367-7"
+  year: 2023
+  type: article
+  faculty: [vishwas-venkatesh]
+  areas: [softmat_theory]
+  sort: 20231001
+
+- title: "SYK Model with global symmetries in the double scaling limit"
+  authors: "R. Loganayagam, Prithvi Narayan P, and Swathi T. S."
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP05(2023)083"
+  year: 2023
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20230501
+
+- title: "Quantum groups, non-commutative AdS2, and chords in the double-scaled SYK model"
+  authors: "M. Berkooz, M. Isachenkov, Prithvi Narayan P, et al."
+  journal: "Journal of High Energy Physics"
+  doi: "10.1007/JHEP08(2023)076"
+  year: 2023
+  type: article
+  faculty: [prithvi-narayan]
+  areas: [string]
+  sort: 20230801
+
+- title: "The Pristine survey - XXII. A serendipitous discovery of an extremely Li-rich very metal-poor giant and a new method of 6Li/7Li isotope measurement"
+  authors: "T. M. Sitnova, T. Matsuno, Z. Yuan, N. F. Martin, Projjwal Banerjee, F. Sestito, K. A. Venn, and J. I. Gonzalez Hernandez"
+  journal: "Monthly Notices of the Royal Astronomical Society"
+  doi: "10.1093/mnras/stad3141"
+  year: 2023
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20231013
+
+- title: "Rapidly rotating massive Population III stars: a solution for high carbon enrichment in CEMP-no stars"
+  authors: "S. K. Jeena, Projjwal Banerjee, Gen Chiaki, and Alexander Heger"
+  journal: "Monthly Notices of the Royal Astronomical Society"
+  doi: "10.1093/mnras/stad3028"
+  year: 2023
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20231005
+
+- title: "Origin of alpha-poor Very Metal-poor Stars"
+  authors: "S. K. Jeena and Projjwal Banerjee"
+  journal: "The Astrophysical Journal"
+  doi: "10.3847/1538-4357/adb0c5"
+  year: 2025
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20250101
+
+- title: "Stars and stellar populations in Milky Way and the nearby galaxies"
+  authors: "T. Sivarani, Smitha Subramanian, Avrajit Bandyopadhyay, Projjwal Banerjee, Souradeep Bhattacharya, Samyaday Choudhury, Soumavo Ghosh, B. P. Hema, Chanda Jog, Ananda Hota, Yogesh Joshi, Drisya Karinkuzhi, Chandreyee Maitra, Khyati Malhan, Prasanta Kumar Nayak, Gajendra Pandey, Eswar Reddy, Suchira Sarkar, Mahavir Sharma, Gaurav Singh, Kuldeep Verma, and Bharat Kumar Yerra"
+  journal: "Journal of Astrophysics and Astronomy"
+  doi: "10.1007/s12036-024-10030-y"
+  year: 2024
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20240101
+
+- title: "Rapid Detection of Ag(I) via Size-Induced Photoluminescence Quenching of Biocompatible Green-Emitting, l-Tryptophan-Scaffolded Copper Nanoclusters"
+  authors: "Aarya, Telna Thomas, Bibhu Ranjan Sarangi, and Supratik Sen Mojumdar"
+  journal: "ACS Omega"
+  doi: "10.1021/acsomega.3c00462"
+  year: 2023
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20230412
+
+- title: "Kinetics of Nisin-Induced Pore Formation in Giant Unilamellar Vesicles"
+  authors: "Nithya M, Olivia Vincent, Bibhu Ranjan Sarangi, and Bharat Kumar"
+  journal: "Langmuir"
+  doi: "10.1021/acs.langmuir.3c00515"
+  year: 2023
+  type: article
+  faculty: [bibhu-ranjan-sarangi]
+  areas: [softmat_experiment]
+  sort: 20230801
+
+- title: "Collisions among elongated settling particles: The twofold role of turbulence"
+  authors: "Andela Grujic, Akshyay Bhatnagar, Gaetano Sardina, and Luca Brandt"
+  journal: "Physics of Fluids"
+  doi: "10.1063/5.0177893"
+  year: 2024
+  type: article
+  faculty: [akshyay-bhatnagar]
+  areas: [softmat_theory]
+  sort: 20240101
+
+- title: "The production of actinides in neutron star mergers"
+  authors: "M.-R. Wu and Projjwal Banerjee"
+  journal: "Association of Asia Pacific Physical Societies Bulletin"
+  doi: "10.1007/s43673-022-00048-1"
+  year: 2022
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20220101
+
+- title: "Constraints on r-process nucleosynthesis from 129I and 247Cm in the early Solar system"
+  authors: "Projjwal Banerjee, Meng-Ru Wu, and Jeena S. K."
+  journal: "Monthly Notices of the Royal Astronomical Society"
+  doi: "10.1093/mnras/stac318"
+  year: 2022
+  type: article
+  faculty: [projjwal-banerjee]
+  areas: [astro_theory]
+  sort: 20220204
+
+- title: "Scalable characterization of localizable entanglement in noisy topological quantum codes"
+  authors: "D. Amaro, M. Muller, and Amit Kumar Pal"
+  journal: "New Journal of Physics"
+  doi: "10.1088/1367-2630/ab84b3"
+  year: 2020
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20200401
+
+- title: "Uniform decoherence effect on localizable entanglement in random multi-qubit pure states"
+  authors: "R. Banerjee, Amit Kumar Pal, and Aditi Sen(De)"
+  journal: "Physical Review A"
+  doi: "10.1103/PhysRevA.101.042339"
+  year: 2020
+  type: article
+  faculty: [amit-kumar-pal]
+  areas: [cmp_theory]
+  sort: 20200401
+
+- title: "Probing the magnetic ground state and magnetoelastic coupling in double perovskite ruthenate: Ca2ScRuO6"
+  authors: "Asha Ann Abraham, Anjali Kumari, Md Aktar Hossain, Sanjoy Kr Mahatha, Saikat Das, A. K. Bera, and Soham Manni"
+  journal: "Journal of Magnetism and Magnetic Materials"
+  doi: "10.1016/j.jmmm.2026.174227"  # CONSTRUCTED — verify (built from article no. 174227; not independently confirmed via search)
+  year: 2026
+  type: article
+  faculty: [soham-manni]
+  areas: [cmp_experiment]
+  sort: 20260101
+
+#-----------------------------------------------------------------------
+# NOT YET RESOLVED — could not find or confidently construct a DOI.
+# Full citations kept for whenever you're ready to fill these in.
+#-----------------------------------------------------------------------
+
+# - "Universality in Quantum Engines"
+#   Revathy B. S and Uma Divakaran
+#   Physics News (Bulletin of Indian Physics Association) Vol 53 No 1-2
+#   Likely a bulletin piece with no DOI — confirm before including.
+#   faculty: [uma-divakaran] / areas: [cmp_theory]
