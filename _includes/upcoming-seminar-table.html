@@ -1,6 +1,6 @@
 {% assign today = 'now' | date: '%Y%m%d' | plus: 0 %}
 
-{% assign seminars = site.data.seminar
+{% assign seminars = site.data.all_seminars
   | sort: "datestamp"
 %}
 
