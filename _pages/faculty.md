@@ -5,12 +5,12 @@ permalink: /faculty/
 sidebar: quicklinks
 ---
 
-{% assign primary_faculty = site.data.faculty_details
+{% assign primary_faculty = site.data.all_faculty
    | where: "affiliation", "primary"
    | where: "status", "current"
    | sort: "date_joined" %}
 
-<!--{% assign secondary_faculty = site.data.faculty_details
+<!--{% assign secondary_faculty = site.data.all_faculty
    | where: "affiliation", "secondary"
    | where: "status", "current"
    | sort: "date_joined" %}-->
