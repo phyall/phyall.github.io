@@ -5,7 +5,7 @@
   program: MS by Research
   degree: MS by Research
   joining_year: 2025
-  graduation_year: 2026
+  graduation_year: 2027
   supervisor: Uma Divakaran
   guide_affiliation: primary
   joint_supervisor: 
@@ -13,3 +13,60 @@
   research_area: [cmp_theory]
   roll: 222503001
   next_position: 
+
+
+
+- name: Amir Hamza Shaikh
+  gender: male
+  funding: htra
+  status: finished
+  program: MS by Research
+  degree: MS by Research
+  joining_year: 2023
+  graduation_year: 2025
+  supervisor: Prithvi Narayan
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [cmp_theory]
+  roll: 
+  next_position: PhD at IIT Bombay
+
+
+
+- name: Akhil Furtado
+  gender: male
+  funding: htra
+  status: finished
+  program: MS by Research
+  degree: MS by Research
+  joining_year: 2023
+  graduation_year: 2025
+  supervisor: Kusum Dhochak
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [cmp_theory]
+  roll: 
+  next_position: PhD at IISc Bengaluru
+
+
+
+
+- name: Sukanya Sudhiram
+  gender: female
+  funding: htra
+  status: finished
+  program: MS by Research
+  degree: MS by Research
+  joining_year: 2023
+  graduation_year: 2025
+  supervisor: Bibhu Ranjan Sarangi
+  guide_affiliation: primary
+  joint_supervisor: 
+  cycle: 
+  research_area: [softmat_experiment]
+  roll: 
+  next_position: 
+
+
