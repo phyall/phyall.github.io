@@ -1,29 +1,49 @@
-<table class="student-table">
-<thead>
-<tr>
-<th style="width:15%">Code</th>
-<th>Course</th>
-<th style="width:8%">Year</th>
-<th style="width:10%">Semester</th>
-<th style="width:12%">Credit</th>
-</tr>
-</thead>
-<tbody>
-{% assign courses = site.data.all_courses
-   | where: "program", "preparatory"
-   | sort: "code" %}
-{% for course in courses %}
-<tr>
-<td>
-<a href="{{ '/btech-all-courses/' | relative_url }}{{ course.code | downcase }}/">
-GN{{ course.code }}
-</a>
-</td>
-<td>{{ course.title }}</td>
-<td>{{ course.year }}</td>
-<td>{{ course.semester }}</td>
-<td>{{ course.credit }}</td>
-</tr>
-{% endfor %}
-</tbody>
+<div class="people-table-wrap">
+<table class="people-table">
+
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Course</th>
+      <th>Year</th>
+      <th>Semester</th>
+      <th>Credit</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+  {% assign courses = site.data.all_courses
+      | where: "program", "preparatory"
+      | sort: "code" %}
+
+  {% for course in courses %}
+
+    <tr>
+
+      <td>
+        <a href="{{ '/btech-all-courses/' | relative_url }}{{ course.code | downcase }}/">
+          GN{{ course.code }}
+        </a>
+      </td>
+
+      <td>{{ course.title }}</td>
+
+      <td>{{ course.year }}</td>
+
+      <td>{{ course.semester }}</td>
+
+      <td>{{ course.credit }}</td>
+
+    </tr>
+
+  {% endfor %}
+
+  {% if courses.size == 0 %}
+    <tr><td colspan="5" class="people-table-empty">No preparatory courses listed.</td></tr>
+  {% endif %}
+
+  </tbody>
+
 </table>
+</div>
