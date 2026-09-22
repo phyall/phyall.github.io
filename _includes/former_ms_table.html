@@ -1,0 +1,55 @@
+{% assign alumni = include.students
+    | where: "status", "finished"
+    | where: "guide_affiliation", include.affiliation
+    | sort: "graduation_year"
+    | reverse %}
+
+{% if alumni.size > 0 %}
+<div class="people-table-wrap">
+  <table class="people-table">
+
+    <thead>
+      <tr>
+        <th style="width:24%">Name</th>
+        <th style="width:10%">Year</th>
+        <th style="width:22%">Supervisor</th>
+        <th style="width:22%">Cosupervisor</th>
+        <th style="width:22%">Next Position</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% for student in alumni %}
+      <tr>
+
+        <td>{{ student.name }}</td>
+
+        <td>{{ student.graduation_year }}</td>
+
+        <td>{{ student.supervisor }}</td>
+
+        <td>
+          {% if student.joint_supervisor %}
+            {{ student.joint_supervisor }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+
+        <td>
+          {% if student.next_position %}
+            {{ student.next_position }}
+          {% else %}
+            &mdash;
+          {% endif %}
+        </td>
+
+      </tr>
+    {% endfor %}
+    </tbody>
+
+  </table>
+</div>
+{% else %}
+<p class="people-table-empty">No students to display yet.</p>
+{% endif %}
