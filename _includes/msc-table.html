@@ -1,10 +1,12 @@
-<table class="student-table">
+<div class="people-table-wrap">
+<table class="people-table">
 
   <thead>
     <tr>
-      <th style="width:18%">Roll</th>
       <th>Name</th>
-      <th style="width:30%">Faculty Advisor</th>
+      <th>Roll No.</th>
+      <th>Year Joined</th>
+      <th>Faculty Advisor</th>
     </tr>
   </thead>
 
@@ -15,9 +17,10 @@
   {% for student in students %}
 
     <tr>
-      <td>{{ student.roll }}</td>
       <td>{{ student.name }}</td>
-      <td>{{ student.fa }}</td>
+      <td>{{ student.roll }}</td>
+      <td>{{ student.year_joined }}</td>
+      <td>{{ student.fa | default: "—" }}</td>
     </tr>
 
   {% endfor %}
@@ -25,3 +28,4 @@
   </tbody>
 
 </table>
+</div>
