@@ -150,3 +150,58 @@
   border-color: #6b9fff;
   box-shadow: 0 0 0 3px rgba(107, 159, 255, 0.18);
 }
+
+
+/* ----------------------------------------------------------
+   Bright / muted modifiers — distinguish an "upcoming" table
+   from a "past" one (colloquia, seminars, etc.)
+   ---------------------------------------------------------- */
+.people-table-wrap--bright {
+  border-color: #cfe0f5;
+  box-shadow: 0 1px 4px rgba(74, 127, 181, 0.12);
+}
+
+.people-table-wrap--bright .people-table thead th {
+  background: #eaf2fc;
+  color: #2c5d8f;
+  border-bottom-color: #cfe0f5;
+}
+
+.people-table-wrap--bright .people-table tbody tr:nth-child(even) {
+  background: #f6faff;
+}
+
+.people-table-wrap--bright .people-table tbody tr:hover {
+  background: #eaf2fc;
+}
+
+.people-table-wrap--muted {
+  border-color: #dcdfe3;
+  background: #fafafa;
+  box-shadow: none;
+}
+
+.people-table-wrap--muted .people-table {
+  background: #fbfbfc;
+}
+
+.people-table-wrap--muted .people-table thead th {
+  background: #eceef0;
+  color: #5b6470;
+}
+
+.people-table-wrap--muted .people-table tbody td {
+  color: #5b6470;
+}
+
+.people-table-wrap--muted .people-table td:first-child {
+  color: #3a4147;
+}
+
+.people-table-wrap--muted .people-table tbody tr:nth-child(even) {
+  background: #f2f3f4;
+}
+
+.people-table-wrap--muted .people-table tbody tr:hover {
+  background: #eceef0;
+}
