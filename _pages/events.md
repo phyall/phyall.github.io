@@ -12,7 +12,7 @@ The Department of Physics organises a yearly in-house Physics symposium to provi
 
 **Upcoming Symposiums**
 
-{% assign all_symposiums = site.data.symposium | sort: "date" %}
+{% assign all_symposiums = site.data.all_symposia | sort: "date" %}
 {% assign latest_symposium = all_symposiums | last %}
 {% assign today_ts = 'now' | date: "%s" %}
 
@@ -45,32 +45,32 @@ Stay tuned
 **Past Symposiums**
 
 {::nomarkdown}
-<!--<label for="symposium-year">Select symposium year:</label>-->
-
-<select id="symposium-year"
-        class="msc-year-select"
-        onchange="if (this.value) window.open(this.value, '_blank');">
-
-<option value="">Select Symposium Year</option>
-
-{% for symposium in site.data.symposium %}
-{% assign include_in_past = false %}
-{% if symposium.ending %}
-{% assign sym_ending_ts = symposium.ending | date: "%s" %}
-{% if today_ts > sym_ending_ts %}
-{% assign include_in_past = true %}
-{% endif %}
-{% elsif symposium.status == "past" %}
-{% assign include_in_past = true %}
-{% endif %}
-{% if include_in_past %}
-<option value="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf">
-{{ symposium.date }}
-</option>
-{% endif %}
-{% endfor %}
-
-</select>
+<div class="msc-year-nav">
+  <label for="symposium-year" class="msc-year-nav__label">Select symposium year</label>
+  <div class="msc-year-select-wrap">
+    <select id="symposium-year"
+            class="msc-year-select"
+            onchange="if (this.value) window.open(this.value, '_blank');">
+    <option value="">Select Symposium Year</option>
+    {% for symposium in site.data.all_symposia %}
+    {% assign include_in_past = false %}
+    {% if symposium.ending %}
+    {% assign sym_ending_ts = symposium.ending | date: "%s" %}
+    {% if today_ts > sym_ending_ts %}
+    {% assign include_in_past = true %}
+    {% endif %}
+    {% elsif symposium.status == "past" %}
+    {% assign include_in_past = true %}
+    {% endif %}
+    {% if include_in_past %}
+    <option value="{{ site.baseurl }}/assets/pdfs/symposiums/{{ symposium.date }}.pdf">
+    {{ symposium.date }}
+    </option>
+    {% endif %}
+    {% endfor %}
+    </select>
+  </div>
+</div>
 {:/nomarkdown}
 
 
