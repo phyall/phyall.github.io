@@ -17,7 +17,7 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
   <div class="announce-card">
     <h3 class="announce-card-title">Colloquia</h3>
     {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-    {% assign upcoming_colloquia = site.data.colloquium | sort: "datestamp" %}
+    {% assign upcoming_colloquia = site.data.all_colloquia | sort: "datestamp" %}
     {% assign found = false %}
     {% for colloquium in upcoming_colloquia %}
       {% assign colloquium_date = colloquium.datestamp | plus: 0 %}
@@ -40,7 +40,7 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
   <div class="announce-card">
     <h3 class="announce-card-title">Seminars</h3>
     {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-    {% assign upcoming_seminars = site.data.seminar | sort: "datestamp" %}
+    {% assign upcoming_seminars = site.data.all_seminars | sort: "datestamp" %}
     {% assign found = false %}
     {% for seminar in upcoming_seminars %}
       {% assign seminar_date = seminar.datestamp | plus: 0 %}
@@ -62,7 +62,7 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
 
   <div class="announce-card">
     <h3 class="announce-card-title">Department Symposiums</h3>
-    {% assign all_symposiums = site.data.symposium | sort: "date" %}
+    {% assign all_symposiums = site.data.all_symposia | sort: "date" %}
     {% assign latest_symposium = all_symposiums | last %}
     {% if latest_symposium %}
       {% assign today_ts = 'now' | date: "%s" %}
@@ -92,7 +92,7 @@ The Department of Physics at IIT Palakkad started functioning in August 2015, an
   <div class="announce-card">
     <h3 class="announce-card-title">Other Department Events</h3>
     {% assign today = 'now' | date: "%Y%m%d" | plus: 0 %}
-    {% assign upcoming_events = site.data.events | sort: "date" %}
+    {% assign upcoming_events = site.data.all_events | sort: "date" %}
     {% assign found = false %}
     {% for event in upcoming_events %}
       {% if event.date %}
