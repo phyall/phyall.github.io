@@ -1,31 +1,29 @@
-<table class="student-table">
+{% assign year_students = site.data.all_msc_students | where: "year_graduated", page.year %}
+{% assign upgraded = year_students | where: "upgraded", true | sort: "roll" %}
 
+{% if upgraded.size > 0 %}
+<div class="people-table-wrap">
+<table class="people-table">
   <thead>
     <tr>
-      <th style="width:20%">Roll</th>
       <th>Name</th>
-      <th style="width:40%">Upgraded to</th>
+      <th>Roll No.</th>
+      <th>Year Joined</th>
+      <th>Upgradation Details</th>
     </tr>
   </thead>
-
   <tbody>
-
-  {% assign students = include.students | sort: "roll" %}
-
-  {% for student in students %}
-
-    {% unless student.degree %}
-
+  {% for student in upgraded %}
     <tr>
-      <td>{{ student.roll }}</td>
       <td>{{ student.name }}</td>
-      <td>{{ student.next }}</td>
+      <td>{{ student.roll }}</td>
+      <td>{{ student.year_joined }}</td>
+      <td>{{ student.upgraded_to | default: "—" }}</td>
     </tr>
-
-    {% endunless %}
-
   {% endfor %}
-
   </tbody>
-
 </table>
+</div>
+{% else %}
+<p class="people-table-empty">No students upgraded to another program in {{ page.year }}.</p>
+{% endif %}
