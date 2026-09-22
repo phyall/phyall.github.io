@@ -419,7 +419,7 @@
   roll: 222105004
   gender: male
   year_joined: 2021
-  year_graduated: 2024
+  year_graduated: 2025
   degree: true
   upgraded: true
   upgraded_to: "MS by Research"
@@ -427,6 +427,37 @@
   fa: 
   next: Upgraded to MS
   note: 
+
+
+- name: Amir Hamza Shaikh
+  roll: 222105015
+  gender: male
+  year_joined: 2021
+  year_graduated: 2025
+  degree: true
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 2023
+  fa: 
+  next: Upgraded to MS
+  note: 
+
+
+
+- name: Sukanya Sudhiram
+  roll: 
+  gender: male
+  year_joined: 2021
+  year_graduated: 2025
+  degree: true
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 2023
+  fa: 
+  next: Upgraded to MS
+  note: 
+
+  
 
 - name: Jha Jayshree Pashupati
   roll: 222105005
