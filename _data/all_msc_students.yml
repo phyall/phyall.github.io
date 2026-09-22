@@ -672,10 +672,10 @@
   year_joined: 2022
   year_graduated: 2024
   degree: true
-  degree_type: MS by Research
-  upgraded: true
-  upgraded_to: "MS by Research"
-  upgradation_year: 2024
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
   fa: 
   next: PhD at INRS Canada
   note: "Left with MSc Degree"
@@ -1147,6 +1147,22 @@
   fa: 
   next: 
   note: 
+
+
+- name: Prabin Kumar Behera
+  roll: 222205012
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note:
+  
 
 - name: Suryajith S M
   roll: 222205019
