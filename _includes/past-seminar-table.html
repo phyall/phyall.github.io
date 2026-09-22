@@ -6,11 +6,21 @@
   | reverse
 %}
 
-<table class="student-table">
+{% assign past = "" | split: "," %}
+{% for seminar in seminars %}
+  {% assign seminar_date = seminar.datestamp | plus: 0 %}
+  {% if seminar_date < today %}
+    {% assign past = past | push: seminar %}
+  {% endif %}
+{% endfor %}
+
+{% if past.size > 0 %}
+<div class="people-table-wrap people-table-wrap--muted">
+<table class="people-table">
 
   <thead>
     <tr>
-      <th style="width:15%">Date</th>
+      <th>Date</th>
       <th>Speaker</th>
       <th>Affiliation</th>
       <th>Title</th>
@@ -18,39 +28,18 @@
   </thead>
 
   <tbody>
-
-{% for seminar in seminars %}
-
-{% assign seminar_date = seminar.datestamp | plus: 0 %}
-
-{% if seminar_date < today %}
-
-<tr>
-
-  <td>
-    <!--<a href="{{ '/physics-seminar/' | relative_url }}{{ seminar.datestamp }}/">-->
-      {{ seminar.date }}
-    <!--</a>-->
-  </td>
-
-  <td>
-    {{ seminar.speaker }}
-  </td>
-
-  <td>
-    {{ seminar.affiliation }}
-  </td>
-
-  <td>
-    {{ seminar.title }}
-  </td>  
-  
-</tr>
-
-{% endif %}
-
-{% endfor %}
-
+  {% for seminar in past %}
+    <tr>
+      <td>{{ seminar.date }}</td>
+      <td>{{ seminar.speaker }}</td>
+      <td>{{ seminar.affiliation }}</td>
+      <td>{{ seminar.title }}</td>
+    </tr>
+  {% endfor %}
   </tbody>
 
 </table>
+</div>
+{% else %}
+<p class="people-table-empty">No past seminars on record.</p>
+{% endif %}
