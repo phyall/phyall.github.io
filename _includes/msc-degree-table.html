@@ -1,68 +1,29 @@
-<!--<table class="student-table">
+{% assign year_students = site.data.all_msc_students | where: "year_graduated", page.year %}
+{% assign graduated = year_students | where: "degree_type", "msc" | sort: "roll" %}
 
+{% if graduated.size > 0 %}
+<div class="people-table-wrap">
+<table class="people-table">
   <thead>
     <tr>
-      <th style="width:25%">Roll</th>
       <th>Name</th>
+      <th>Roll No.</th>
+      <th>Year Joined</th>
+      <th>Next Position</th>
     </tr>
   </thead>
-
   <tbody>
-
-  {% assign students = include.students | sort: "roll" %}
-
-  {% for student in students %}
-
-    {% if student.degree == true %}
-
+  {% for student in graduated %}
     <tr>
-      <td>{{ student.roll }}</td>
       <td>{{ student.name }}</td>
+      <td>{{ student.roll }}</td>
+      <td>{{ student.year_joined }}</td>
+      <td>{{ student.next | default: "—" }}</td>
     </tr>
-
-    {% endif %}
-
   {% endfor %}
-
   </tbody>
-
-</table>--> 
-
-<table class="student-table">
-<!--<thead>
-  <tr>
-    <th>Roll</th>
-    <th>Name</th>
-    <th>Next Position</th>
-  </tr>
-</thead>-->
-
-  <thead>
-    <tr>
-      <th style="width:20%">Roll</th>
-      <th>Name</th>
-      <th style="width:40%">Next Position</th>
-    </tr>
-  </thead>
-  
-
-<tbody>
-
-{% assign students = include.students | sort: "roll" %}
-
-{% for student in students %}
-
-{% if student.degree == true %}
-
-<tr>
-  <td>{{ student.roll }}</td>
-  <td>{{ student.name }}</td>
-  <td>{{ student.next }}</td>
-</tr>
-
+</table>
+</div>
+{% else %}
+<p class="people-table-empty">No MSc degrees were awarded in {{ page.year }}.</p>
 {% endif %}
-
-{% endfor %}
-
-</tbody>
-</table> 
