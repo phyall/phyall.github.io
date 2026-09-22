@@ -1,0 +1,1962 @@
+##################################
+# 2019
+##################################
+
+- name: Abinash Das
+  roll: 221905001
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Guwahati
+  note: 
+
+- name: Biplab Biswas
+  roll: 221905003
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at TCG Crest Kolkata
+  note: 
+
+- name: Dinu T S
+  roll: 221905004
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Hridya R
+  roll: 221905005
+  gender: female
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at TIFR Mumbai
+  note: 
+
+- name: Neeraj Kumar
+  roll: 221905008
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Pram Milan P Robin
+  roll: 221905009
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Hyderabad
+  note: 
+
+- name: Rahul Kumar Rajput
+  roll: 221905011
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Ram Sagar Sahani
+  roll: 221905013
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IISER Mohali
+  note: 
+
+- name: Shweta Saini
+  roll: 221905014
+  gender: female
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Bombay
+  note: 
+
+- name: Ved Krishna
+  roll: 221905018
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Yash Chugh
+  roll: 221905019
+  gender: male
+  year_joined: 2019
+  year_graduated: 2021
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Suganthan
+  roll: 221905017
+  gender: male
+  year_joined: 2019
+  year_graduated: 2022
+  degree: true
+  degree_type: MSc-PhD Dual Degree
+  upgraded: true
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 2021
+  fa: 
+  next: PhD at Max Plank Institute Dresden
+  note: "Left with MSc Degree"
+
+
+##################################
+# 2020
+##################################
+
+- name: Nabin Boro
+  roll: 221905007
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Ashutosh Kumar
+  roll: 222005002
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Bhilai
+  note: 
+
+- name: K Sidharth
+  roll: 222005005
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Kapil Kumar Saini
+  roll: 222005006
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: Research Assistant At MultiCoreWare
+  note: 
+
+- name: Krishnananda C.P
+  roll: 222005007
+  gender: female
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Kharagpur
+  note: 
+
+- name: Mayurakshi Deb
+  roll: 222005008
+  gender: female
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Madras
+  note: 
+
+- name: Pawar Prasad Namdev
+  roll: 222005015
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Gandhinagar
+  note: 
+
+- name: Preksha Dhananjayan
+  roll: 222005016
+  gender: female
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Saurabh Kumar Mishra
+  roll: 222005019
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT ISM Dhanbad
+  note: 
+
+- name: Vaibhav Tyagi
+  roll: 222005021
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Indore
+  note: 
+
+- name: Harsh Sharma
+  roll: 222005033
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Bombay
+  note: 
+
+- name: Niharika Majhi
+  roll: 222005010
+  gender: female
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Rahul Kumar
+  roll: 222005017
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Saifian Farooq
+  roll: 222005030
+  gender: male
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Chandrima B. Pushpan
+  roll: 222005003
+  gender: female
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: MSc-PhD Dual Degree
+  upgraded: true
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 2022
+  fa: 
+  next: PhD at IIT Palakkad
+  note: 
+
+- name: Olivia Vincent
+  roll: 222005011
+  gender: female
+  year_joined: 2020
+  year_graduated: 2022
+  degree: true
+  degree_type: MSc-PhD Dual Degree
+  upgraded: true
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 2022
+  fa: 
+  next: PhD at IIT Palakkad
+  note: 
+
+
+##################################
+# 2021
+##################################
+
+- name: Aswin R
+  roll: 222105001
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Athira S
+  roll: 222105002
+  gender: female
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: MSc-PhD Dual Degree
+  upgraded: true
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 2023
+  fa: 
+  next: PhD at IIT Palakkad 
+  note: 
+
+- name: Debasish Dutta
+  roll: 222105003
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at Institute of Science and Technology Austria
+  note: 
+
+- name: Akhil Furtado
+  roll: 222105004
+  gender: male
+  year_joined: 2021
+  year_graduated: 2025
+  degree: true
+  degree_type: MS by Research
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 2023
+  fa: 
+  next: Upgraded to MS
+  note: 
+
+
+- name: Amir Hamza Shaikh
+  roll: 222105015
+  gender: male
+  year_joined: 2021
+  year_graduated: 2025
+  degree: true
+  degree_type: MS by Research
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 2023
+  fa: 
+  next: Upgraded to MS
+  note: 
+
+
+
+- name: Sukanya Sudhiram
+  roll: 
+  gender: male
+  year_joined: 2021
+  year_graduated: 2025
+  degree: true
+  degree_type: MS by Research
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 2023
+  fa: 
+  next: Upgraded to MS
+  note: 
+
+  
+
+- name: Jha Jayshree Pashupati
+  roll: 222105005
+  gender: female
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: Working at MultiCoreWare
+  note: 
+
+- name: Mesquita Nikhil
+  roll: 222105007
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Pankaj Singh Parihar
+  roll: 222105009
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Ravi Kant Kumar
+  roll: 222105012
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sachin
+  roll: 222105013
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Shivam Shukla
+  roll: 222105017
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Som Subhra Guria
+  roll: 222105018
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at University of Notre Dame USA
+  note: 
+
+- name: Thakur Ram
+  roll: 222105020
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Thanmayee Gore
+  roll: 222105021
+  gender: female
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at ICTS Bengaluru
+  note: 
+
+- name: Kanhu Charan Das
+  roll: 222105006
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Paul M Kunju
+  roll: 222005013
+  gender: male
+  year_joined: 2021
+  year_graduated: 2023
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sathishkumar M
+  roll: 222105014
+  gender: male
+  year_joined: 2021
+  year_graduated: 2028
+  degree: true
+  degree_type: MSc-PhD Dual Degree
+  upgraded: true
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+
+##################################
+# 2022
+##################################
+
+- name: Amit Raj
+  roll: 222205002
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: MS by Research
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 2024
+  fa: 
+  next: PhD at INRS Canada
+  note: "Left with MSc Degree"
+
+- name: Anurag B V
+  roll: 222205003
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Jubanroy Lyngkhoi
+  roll: 222205006
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Jugraj Singh
+  roll: 222205007
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Mahboob Rahman U
+  roll: 222205009
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Chudmunge Sankalp Shahaji
+  roll: 222205015
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Naikwadi Shruti Gajanan
+  roll: 222205017
+  gender: female
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Vikash Kumar
+  roll: 222205018
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Anusree VP
+  roll: 222205020
+  gender: female
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: Project JRF at TIFR Hyderabad
+  note: 
+
+- name: Aman Tiwari
+  roll: 222205021
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Roorkee
+  note: 
+
+- name: Sanatan Kumar Mishra
+  roll: 222205022
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Bappa Majumdar
+  roll: 222205023
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Abhijith SS
+  roll: 222205025
+  gender: male
+  year_joined: 2022
+  year_graduated: 2029
+  degree: true
+  degree_type: MSc-PhD Dual Degree
+  upgraded: true
+  upgraded_to: "MSc-PhD Dual Degree"
+  upgradation_year: 2024
+  fa: 
+  next: PhD at IIT Palakkad
+  note: 
+
+- name: P. Arundhathi Nair
+  roll: 222205026
+  gender: female
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Padam Bahadur Chetry
+  roll: 222105008
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Ranjan  Yadav
+  roll: 222105011
+  gender: male
+  year_joined: 2022
+  year_graduated: 2024
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+
+##################################
+# 2023
+##################################
+
+- name: Adhvaith S
+  roll: 222305001
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Devadharshini D
+  roll: 222305003
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Dipin D
+  roll: 222305004
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IISER Trivandrum
+  note: 
+
+- name: Diya B S
+  roll: 222305005
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Kavi Prasad K R
+  roll: 222305006
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Nikhil Kumar Roy
+  roll: 222305008
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Prantick Halder
+  roll: 222305009
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Semmugilan V
+  roll: 222305010
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sruthi K
+  roll: 222305011
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IISER Trivandrum
+  note: 
+
+
+- name: Tamizhselvan S
+  roll: 222305012
+  gender: male
+  year_joined: 2023
+  year_graduated: 2026
+  degree: true
+  degree_type: MS by Research
+  upgraded: true
+  upgraded_to: "MS by Research"
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Vikas M D
+  roll: 222305013
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sayana K
+  roll: 222305014
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Vishnupriya K
+  roll: 222305015
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Palakkad
+  note: 
+
+- name: Akhila Jose
+  roll: 222305016
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Joshi Deep Nikulbhai
+  roll: 222305017
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Vimal Sreekanth
+  roll: 222305018
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Palakkad
+  note: 
+
+- name: Sayanth P K
+  roll: 222305019
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Palseng Ch Sangma
+  roll: 222205011
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Suryajith S M
+  roll: 222205019
+  gender: male
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Shalvika Alice
+  roll: 222105016
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Nayan S Hari
+  roll: 222305007
+  gender: female
+  year_joined: 2023
+  year_graduated: 2025
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+
+##################################
+# 2024
+##################################
+
+- name: Abhisekh Das
+  roll: 222405001
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Ankita Debnath
+  roll: 222405002
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Brahmanand Mishra
+  roll: 222405003
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Divya Singh
+  roll: 222405004
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Fathimathu Thasni K K
+  roll: 222405005
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Keerthika Pappula
+  roll: 222405006
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Leo Maria Benedict M
+  roll: 222405007
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Nandana P
+  roll: 222405008
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: PhD at IIT Palakkad
+  note: 
+
+- name: Neiheno Nakhro
+  roll: 222405009
+  gender: female
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Pathikrit Guha
+  roll: 222405010
+  gender: male
+  year_joined: 2024
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Kamble Pradipesh Prabhakar
+  roll: 222405011
+  gender: male
+  year_joined: 2024
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Priyam Sahu
+  roll: 222405012
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Priyanshu Priyam Alabiyan
+  roll: 222405013
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sabin T
+  roll: 222405014
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Saieshwar P
+  roll: 222405015
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Navneet Gulia
+  roll: 222405019
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Abhai Adithya M J
+  roll: 222405018
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sayel Chakraborty
+  roll: 222405016
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+- name: Sumit Kumar Sahgel
+  roll: 222405017
+  gender: male
+  year_joined: 2024
+  year_graduated: 2026
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: 
+  next: 
+  note: 
+
+
+##################################
+# 2025
+##################################
+
+- name: Amruta Parasappa Kittur
+  roll: 222505001
+  gender: female
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Aswini A
+  roll: 222505002
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Athullya V L
+  roll: 222505003
+  gender: female
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Devananda Sabar
+  roll: 222505004
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Devanaryanan R
+  roll: 222505005
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Haruna E
+  roll: 222505006
+  gender: female
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Kshitij Trivedi
+  roll: 222505007
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Lokhesh B
+  roll: 222505008
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Magudeeswaran L
+  roll: 222505009
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Ajeesh M O
+  next: 
+  note: 
+
+- name: Nandana S
+  roll: 222505010
+  gender: female
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Nandu Manoj P K
+  roll: 222505011
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Nikita Naik
+  roll: 222505012
+  gender: female
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Saivallabha P Nayak
+  roll: 222505013
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Sayan Paul
+  roll: 222505014
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Shamalulu C K
+  roll: 222505015
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Shivam Chaturvedi
+  roll: 222505016
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Tanuj Joshi
+  roll: 222505017
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+- name: Ch Venkata Sesha Sai Pavan
+  roll: 222505018
+  gender: male
+  year_joined: 2025
+  year_graduated: 2027
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Manoj Gopalakrishnan
+  next: 
+  note: 
+
+
+##################################
+# 2026
+##################################
+
+- name: Anusree J
+  roll: 222605001
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Arjun A K
+  roll: 222605002
+  gender: male
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Bapeelu Kri
+  roll: 222605003
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Harinandana P M
+  roll: 222605005
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Libi Veroni Lincoln
+  roll: 222605006
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Megha
+  roll: 222605007
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Midhuna Sajikumar
+  roll: 222605008
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Nilutpal Saikia
+  roll: 222605010
+  gender: male
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Akanksha Bhardwaj
+  next: 
+  note: 
+
+- name: Pandit Diksha Avadhoot
+  roll: 222605004
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Pawar Vaishnavi Atul
+  roll: 222605017
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Pooja D N
+  roll: 222605011
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Prajakta Mukund Dugal
+  roll: 222605012
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Samoudrajit Dev Choudhury
+  roll: 222605013
+  gender: male
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Shahan Ali S S
+  roll: 222605014
+  gender: male
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Sudhanshu Mishra
+  roll: 222605016
+  gender: male
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Vibha. C. P
+  roll: 222605018
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note: 
+
+- name: Shomei L Konyak
+  roll: 222605015
+  gender: female
+  year_joined: 2026
+  year_graduated: 2028
+  degree: true
+  degree_type: msc
+  upgraded: false
+  upgraded_to: 
+  upgradation_year: 
+  fa: Resmi PK
+  next: 
+  note:
