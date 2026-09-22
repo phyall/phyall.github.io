@@ -2,7 +2,7 @@
 
 <p class="topic-back-link"><a href="{{ site.baseurl }}/topics/">&larr; All Research Topics</a></p>
 
-{% assign primary = site.data.faculty_details
+{% assign primary = site.data.all_faculty
   | where_exp: "item", "item.area contains include.topic_id"
   | where: "affiliation", "primary"
   | where: "status", "current"
