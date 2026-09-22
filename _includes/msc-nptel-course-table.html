@@ -12,7 +12,7 @@
 
   <tbody>
 
-  {% assign courses = site.data.msc_courses
+  {% assign courses = site.data.all_courses
       | where: "program", "msc"
       | where: "offered_by", "nptel"
       | sort: "code" %}
