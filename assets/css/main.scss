@@ -87,3 +87,14 @@
     float: none !important;
     margin: 0 auto !important;
 }
+
+
+
+/* ====================================================
+   Widen the overall site
+   ==================================================== */
+
+#main,
+.masthead__inner-wrap {
+    max-width: 1400px !important;
+}
