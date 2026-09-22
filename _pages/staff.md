@@ -8,7 +8,7 @@ sidebar: quicklinks
 
 <div class="staff-grid">
 
-{% assign staff = site.data.staff_details | sort: "position" %}
+{% assign staff = site.data.all_staff | sort: "position" %}
 
 {% for person in staff %}
     {% include staff-card.html person=person %}
