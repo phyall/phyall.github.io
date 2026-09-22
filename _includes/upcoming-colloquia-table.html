@@ -4,11 +4,21 @@
   | sort: "datestamp"
 %}
 
-<table class="student-table">
+{% assign upcoming = "" | split: "," %}
+{% for seminar in seminars %}
+  {% assign seminar_date = seminar.datestamp | plus: 0 %}
+  {% if seminar_date >= today %}
+    {% assign upcoming = upcoming | push: seminar %}
+  {% endif %}
+{% endfor %}
+
+{% if upcoming.size > 0 %}
+<div class="people-table-wrap people-table-wrap--bright">
+<table class="people-table">
 
   <thead>
     <tr>
-      <th style="width:15%">Date</th>
+      <th>Date</th>
       <th>Speaker</th>
       <th>Affiliation</th>
       <th>Title</th>
@@ -16,39 +26,18 @@
   </thead>
 
   <tbody>
-
-{% for seminar in seminars %}
-
-{% assign seminar_date = seminar.datestamp | plus: 0 %}
-
-{% if seminar_date >= today %}
-
-<tr>
-
-  <td>
-    <a href="{{ '/physics-colloquium/' | relative_url }}{{ seminar.datestamp }}/">
-      {{ seminar.date }}
-    </a>
-  </td>
-
-  <td>
-    {{ seminar.speaker }}
-  </td>
-
-  <td>
-    {{ seminar.affiliation }}
-  </td>
-
-  <td>
-    {{ seminar.title }}
-  </td>  
-
-</tr>
-
-{% endif %}
-
-{% endfor %}
-
+  {% for seminar in upcoming %}
+    <tr>
+      <td><a href="{{ '/physics-colloquium/' | relative_url }}{{ seminar.datestamp }}/">{{ seminar.date }}</a></td>
+      <td>{{ seminar.speaker }}</td>
+      <td>{{ seminar.affiliation }}</td>
+      <td>{{ seminar.title }}</td>
+    </tr>
+  {% endfor %}
   </tbody>
 
 </table>
+</div>
+{% else %}
+<p class="people-table-empty">No upcoming colloquia scheduled.</p>
+{% endif %}
