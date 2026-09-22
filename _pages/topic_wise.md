@@ -11,7 +11,7 @@ sidebar: quicklinks
 
 ### {{ group.title }}
 
-{% assign primary = site.data.faculty_details
+{% assign primary = site.data.all_faculty
   | where_exp: "item", "item.area contains group.id"
   | where: "affiliation", "primary"
   | where: "status", "current"
