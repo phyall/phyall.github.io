@@ -84,3 +84,69 @@
     padding: 0.65rem 0.9rem;
   }
 }
+
+
+
+/* ----------------------------------------------------------
+   MSc "browse by year" navigator — sleeker dropdown used on
+   the Former MSc Students page
+   ---------------------------------------------------------- */
+.msc-year-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 320px;
+  margin: 1.5rem 0 2rem;
+}
+
+.msc-year-nav__label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #45505c;
+}
+
+.msc-year-select-wrap {
+  position: relative;
+}
+
+.msc-year-select-wrap::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 0.55em;
+  height: 0.55em;
+  border-right: 2px solid #45505c;
+  border-bottom: 2px solid #45505c;
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+.msc-year-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  padding: 0.75rem 2.5rem 0.75rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #1d2733;
+  background: #fff;
+  border: 1px solid #e3e7eb;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  cursor: pointer;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.msc-year-select:hover {
+  border-color: #c7ced6;
+}
+
+.msc-year-select:focus {
+  outline: none;
+  border-color: #6b9fff;
+  box-shadow: 0 0 0 3px rgba(107, 159, 255, 0.18);
+}
