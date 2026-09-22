@@ -5,7 +5,7 @@ title: Publications
 sidebar: quicklinks
 ---
 
-{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% assign by_year = site.data.all_publications | group_by: "year" | sort: "name" | reverse %}
 
 {% for group in by_year %}
 
