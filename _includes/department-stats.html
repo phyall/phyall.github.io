@@ -23,18 +23,9 @@
   </div>
 </section>
 
-{% assign msc_all = "" | split: "," %}
-{% for y in site.data.msc_years %}
-  {% assign key = "list_msc" | append: y %}
-  {% assign yr_data = site.data[key] %}
-  {% if yr_data %}
-    {% assign msc_all = msc_all | concat: yr_data %}
-  {% endif %}
-{% endfor %}
-
 {% assign current_year = site.time | date: "%Y" | plus: 0 %}
 
-{% assign msc_grads = msc_all | where: "degree", true %}
+{% assign msc_grads = site.data.all_msc_students | where: "degree_type", "msc" %}
 {% assign msc_grads = msc_grads | where_exp: "item", "item.year_graduated" %}
 {% assign msc_grads = msc_grads | where_exp: "item", "item.year_graduated <= current_year" %}
 
