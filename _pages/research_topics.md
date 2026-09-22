@@ -11,7 +11,7 @@ Faculty in the Department of Physics perform state-of-the-art research in divers
 
 <ul class="topics-list">
   {% assign research_groups = site.data.research_groups | sort: "alphabet" %}
-  {% assign current_primary_faculty = site.data.faculty_details
+  {% assign current_primary_faculty = site.data.all_faculty
     | where: "affiliation", "primary"
     | where: "status", "current" %}
   {% for group in research_groups %}
