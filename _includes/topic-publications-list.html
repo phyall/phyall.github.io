@@ -1,4 +1,4 @@
-{% assign area_pubs = site.data.publications | where_exp: "item", "item.areas contains include.topic_id" %}
+{% assign area_pubs = site.data.all_publications | where_exp: "item", "item.areas contains include.topic_id" %}
 
 {% if area_pubs.size > 0 %}
 <h2 class="pub-year-heading">Publications</h2>
