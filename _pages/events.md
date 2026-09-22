@@ -42,7 +42,7 @@ Stay tuned
 <p>No upcoming symposium.</p>
 {% endif %}
 
-**Past Symposiums**
+**Past Symposia**
 
 {::nomarkdown}
 <div class="msc-year-nav">
