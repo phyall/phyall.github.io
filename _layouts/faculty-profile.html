@@ -1,0 +1,127 @@
+---
+layout: archive
+---
+
+{% assign faculty = site.data.all_faculty | where: "slug", page.slug | first %}
+
+<div class="faculty-profile">
+
+  <div class="faculty-profile-header">
+    <div class="faculty-profile-photo-container">
+      <img
+        src="{{ '/images/faculty_large/' | relative_url }}{{ faculty.photo }}"
+        alt="{{ faculty.name }}"
+        class="faculty-profile-photo">
+    </div>
+
+    <div class="faculty-profile-content">
+
+      <h1 class="faculty-profile-name">{{ faculty.name }}</h1>
+
+      <p class="faculty-profile-designation">
+        {{ faculty.designation }}
+        {% if faculty.head %}
+          <span class="faculty-separator">&middot;</span>
+          <span class="faculty-head-inline">Head</span>
+        {% endif %}
+      </p>
+
+      <div class="faculty-links">
+        {% if faculty.iit_url %}
+          <a href="{{ faculty.iit_url }}" target="_blank" rel="noopener">IIT</a>
+        {% endif %}
+        {% assign website = faculty.personal_url | default: "" | strip %}
+        {% if website != "" %}
+          <a href="{{ website }}" target="_blank" rel="noopener">Website</a>
+        {% endif %}
+        {% if faculty.email %}
+          <a href="mailto:{{ faculty.email }}">Email</a>
+        {% endif %}
+      </div>
+
+      {% if faculty.office or faculty.phone %}
+        <div class="faculty-contact">
+          {% if faculty.office %}
+            <span class="faculty-office"><i class="fas fa-map-marker-alt"></i> {{ faculty.office }}</span>
+          {% endif %}
+          {% if faculty.office and faculty.phone %}
+            <span class="faculty-contact-separator">&middot;</span>
+          {% endif %}
+          {% if faculty.phone %}
+            <span class="faculty-phone"><i class="fas fa-phone"></i> {{ faculty.phone }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+
+      <p class="faculty-joined"><strong>Joined:</strong> {{ faculty.year_joined }}</p>
+
+      {% if faculty.research %}
+        <p class="faculty-research"><strong>Research:</strong> {{ faculty.research }}</p>
+      {% endif %}
+
+    </div>
+  </div>
+
+  <h2>Current Group Members</h2>
+
+  {% assign phd_members = site.data.all_phd_students
+      | where: "status", "ongoing"
+      | where_exp: "item", "item.supervisor == faculty.name or item.joint_supervisor == faculty.name"
+      | sort: "joining_year" %}
+
+  {% assign ms_members = site.data.all_ms_students
+      | where: "status", "ongoing"
+      | where_exp: "item", "item.supervisor == faculty.name or item.joint_supervisor == faculty.name"
+      | sort: "joining_year" %}
+
+  {% assign postdoc_members = site.data.all_postdocs
+      | where: "status", "ongoing"
+      | where_exp: "item", "item.with == faculty.name"
+      | sort: "joining_year" %}
+
+  <ul class="faculty-group-list">
+
+    {% for student in phd_members %}
+      <li>{{ student.name }} &mdash; PhD Student (joined {{ student.joining_year }})</li>
+    {% endfor %}
+
+    {% for student in ms_members %}
+      <li>{{ student.name }} &mdash; MS Student (joined {{ student.joining_year }})</li>
+    {% endfor %}
+
+    {% for postdoc in postdoc_members %}
+      <li>{{ postdoc.name }} &mdash; Postdoc (joined {{ postdoc.joining_year }})</li>
+    {% endfor %}
+
+    {% assign group_count = phd_members.size | plus: ms_members.size | plus: postdoc_members.size %}
+    {% if group_count == 0 %}
+      <li class="people-table-empty">No current group members.</li>
+    {% endif %}
+
+  </ul>
+
+  <h2>Publications</h2>
+
+  {% assign faculty_pubs = site.data.all_publications
+      | where_exp: "item", "item.faculty contains faculty.slug"
+      | sort: "sort"
+      | reverse %}
+
+  <ul class="faculty-pub-list">
+    {% for pub in faculty_pubs %}
+      <li>
+        <span class="pub-title">{{ pub.title }}</span><br>
+        <span class="pub-authors">{{ pub.authors }}</span><br>
+        <span class="pub-venue">{{ pub.journal }} ({{ pub.year }})</span>
+        {% if pub.doi %}
+          &middot; <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+
+    {% if faculty_pubs.size == 0 %}
+      <li class="people-table-empty">No publications listed.</li>
+    {% endif %}
+  </ul>
+
+</div>
