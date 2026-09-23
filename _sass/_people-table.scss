@@ -221,12 +221,14 @@
 
 .faculty-profile-photo-container {
   flex: 0 0 auto;
+  max-width: 420px;
 }
 
 .faculty-profile-photo {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
   border-radius: 10px;
   box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
 }
@@ -235,20 +237,85 @@
   flex: 1 1 320px;
 }
 
-.faculty-profile-name {
-  margin-bottom: 0.25rem;
+.faculty-group-wrap {
+  width: 100%;
+  margin: 1rem 0 2rem;
+  border: 1px solid #e3e7eb;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+  background: #fff;
 }
 
-.faculty-group-list,
+.faculty-group-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.faculty-group-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.faculty-group-item:last-child {
+  border-bottom: none;
+}
+
+.faculty-group-item:nth-child(even) {
+  background: #fafbfc;
+}
+
+.faculty-group-item:hover {
+  background: #f2f7ff;
+}
+
+.faculty-group-name {
+  font-weight: 600;
+  color: #1d2733;
+  flex: 1 1 auto;
+}
+
+.faculty-group-role {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.faculty-group-role.role-phd {
+  background: #e7edf9;
+  color: #2c4c8f;
+}
+
+.faculty-group-role.role-ms {
+  background: #e3f3f0;
+  color: #1f6e5f;
+}
+
+.faculty-group-role.role-postdoc {
+  background: #f1e9f7;
+  color: #6b3f96;
+}
+
+.faculty-group-year {
+  color: #6b7280;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
 .faculty-pub-list {
   list-style: none;
   margin: 1rem 0 2rem;
   padding: 0;
-}
-
-.faculty-group-list li {
-  padding: 0.6rem 0;
-  border-bottom: 1px solid #eef1f4;
 }
 
 .faculty-pub-list li {
