@@ -1,0 +1,88 @@
+{% assign website = include.person.personal_url | default: "" | strip %}
+
+<div class="faculty-card">
+
+  <div class="faculty-photo-container">
+    <img
+      src="{{ '/images/faculty/' | relative_url }}{{ include.person.photo }}"
+      alt="{{ include.person.name }}"
+      class="faculty-photo">
+  </div>
+
+  <div class="faculty-content">
+
+    <h3 class="faculty-name">
+      {% if include.person.slug %}
+        <a href="{{ '/faculty/' | relative_url }}{{ include.person.slug }}/" class="faculty-name-link">{{ include.person.name }}</a>
+      {% else %}
+        {{ include.person.name }}
+      {% endif %}
+    </h3>
+
+    <p class="faculty-designation">
+      {{ include.person.designation }}
+      {% if include.person.head %}
+        <span class="faculty-separator">&middot;</span>
+        <span class="faculty-head-inline">Head</span>
+      {% endif %}
+    </p>
+
+    {% if include.person.affiliation == "secondary" and include.person.note %}
+      <p class="faculty-note">{{ include.person.note }}</p>
+    {% endif %}
+
+    <div class="faculty-links">
+
+      {% if include.person.iit_url %}
+        <a href="{{ include.person.iit_url }}" target="_blank" rel="noopener">
+          IIT
+        </a>
+      {% endif %}
+
+      {% if website != "" %}
+        <a href="{{ website }}" target="_blank" rel="noopener">
+          Website
+        </a>
+      {% endif %}
+
+      {% if include.person.email %}
+        <a href="mailto:{{ include.person.email }}">
+          Email
+        </a>
+      {% endif %}
+
+    </div>
+
+    {% if include.person.office or include.person.phone %}
+      <div class="faculty-contact">
+        {% if include.person.office %}
+          <span class="faculty-office">
+            <i class="fas fa-map-marker-alt"></i>
+            {{ include.person.office }}
+          </span>
+        {% endif %}
+        {% if include.person.office and include.person.phone %}
+          <span class="faculty-contact-separator">&middot;</span>
+        {% endif %}
+        {% if include.person.phone %}
+          <span class="faculty-phone">
+            <i class="fas fa-phone"></i>
+            {{ include.person.phone }}
+          </span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <p class="faculty-joined">
+      <strong>Joined:</strong> {{ include.person.year_joined }}
+    </p>
+
+    {% if include.person.research %}
+      <p class="faculty-research">
+        <strong>Research:</strong> {{ include.person.research }}
+      </p>
+    {% endif %}
+
+  </div>
+
+</div>
