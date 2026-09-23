@@ -84,7 +84,7 @@ layout: archive
         <li class="faculty-group-item">
           <span class="faculty-group-name">{{ student.name }}</span>
           <span class="faculty-group-role role-phd">PhD Student</span>
-          <span class="faculty-group-year">joined {{ student.joining_year }}</span>
+          <span class="faculty-group-year">Joined {{ student.joining_year }}</span>
         </li>
         {% assign group_count = group_count | plus: 1 %}
       {% endif %}
@@ -95,7 +95,7 @@ layout: archive
         <li class="faculty-group-item">
           <span class="faculty-group-name">{{ student.name }}</span>
           <span class="faculty-group-role role-ms">MS Student</span>
-          <span class="faculty-group-year">joined {{ student.joining_year }}</span>
+          <span class="faculty-group-year">Joined {{ student.joining_year }}</span>
         </li>
         {% assign group_count = group_count | plus: 1 %}
       {% endif %}
@@ -106,7 +106,7 @@ layout: archive
         <li class="faculty-group-item">
           <span class="faculty-group-name">{{ postdoc.name }}</span>
           <span class="faculty-group-role role-postdoc">Postdoc</span>
-          <span class="faculty-group-year">joined {{ postdoc.joining_year }}</span>
+          <span class="faculty-group-year">Joined {{ postdoc.joining_year }}</span>
         </li>
         {% assign group_count = group_count | plus: 1 %}
       {% endif %}
