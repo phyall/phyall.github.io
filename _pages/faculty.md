@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Faculty"
+title: "Regular Faculty"
 permalink: /faculty/
 sidebar: quicklinks
 ---
