@@ -190,6 +190,18 @@
   font-style: italic;
 }
 
+
+.faculty-name-link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover,
+  &:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
 /* ==========================================================
    Responsive
    ========================================================== */
