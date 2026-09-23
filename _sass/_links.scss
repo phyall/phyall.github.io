@@ -1,9 +1,15 @@
 a {
+  color: #1a6fc4;
   text-decoration: none;
 
   &:hover,
-  &:focus,
+  &:focus {
+    color: #1558a0;
+    text-decoration: none;
+  }
+
   &:visited {
+    color: #1a6fc4;
     text-decoration: none;
   }
 }
