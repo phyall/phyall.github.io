@@ -16,8 +16,6 @@ layout: archive
 
     <div class="faculty-profile-content">
 
-      <h1 class="faculty-profile-name">{{ faculty.name }}</h1>
-
       <p class="faculty-profile-designation">
         {{ faculty.designation }}
         {% if faculty.head %}
@@ -68,27 +66,40 @@ layout: archive
   {% assign ms_members = site.data.all_ms_students | where: "status", "ongoing" | sort: "joining_year" %}
   {% assign postdoc_members = site.data.all_postdocs | where: "status", "ongoing" | sort: "joining_year" %}
 
+  <div class="faculty-group-wrap">
   <ul class="faculty-group-list">
 
     {% assign group_count = 0 %}
 
     {% for student in phd_members %}
       {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
-        <li>{{ student.name }} &mdash; PhD Student (joined {{ student.joining_year }})</li>
+        <li class="faculty-group-item">
+          <span class="faculty-group-name">{{ student.name }}</span>
+          <span class="faculty-group-role role-phd">PhD Student</span>
+          <span class="faculty-group-year">joined {{ student.joining_year }}</span>
+        </li>
         {% assign group_count = group_count | plus: 1 %}
       {% endif %}
     {% endfor %}
 
     {% for student in ms_members %}
       {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
-        <li>{{ student.name }} &mdash; MS Student (joined {{ student.joining_year }})</li>
+        <li class="faculty-group-item">
+          <span class="faculty-group-name">{{ student.name }}</span>
+          <span class="faculty-group-role role-ms">MS Student</span>
+          <span class="faculty-group-year">joined {{ student.joining_year }}</span>
+        </li>
         {% assign group_count = group_count | plus: 1 %}
       {% endif %}
     {% endfor %}
 
     {% for postdoc in postdoc_members %}
       {% if postdoc.with == faculty.name %}
-        <li>{{ postdoc.name }} &mdash; Postdoc (joined {{ postdoc.joining_year }})</li>
+        <li class="faculty-group-item">
+          <span class="faculty-group-name">{{ postdoc.name }}</span>
+          <span class="faculty-group-role role-postdoc">Postdoc</span>
+          <span class="faculty-group-year">joined {{ postdoc.joining_year }}</span>
+        </li>
         {% assign group_count = group_count | plus: 1 %}
       {% endif %}
     {% endfor %}
@@ -98,6 +109,7 @@ layout: archive
     {% endif %}
 
   </ul>
+  </div>
 
   <h2>Publications</h2>
 
