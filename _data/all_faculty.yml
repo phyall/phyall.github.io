@@ -21,6 +21,7 @@
   office:
   phone: 
   note:
+  slug:
 
 
 - name: Uma Divakaran
@@ -46,6 +47,7 @@
   office: "D03 GF" #"D03 GF, B03-119 (Head)"
   phone: "1515" #"1515, 1500 (Head)"
   note:
+  slug: uma-divakaran
            
 
 - name: Jayakumar Balakrishnan
@@ -71,6 +73,7 @@
   office: 
   phone: "1507"
   note:
+  slug: jayakumar-balakrishnan
 
 - name: Prithvi Narayan P
   last_name: narayan
@@ -95,6 +98,7 @@
   office: "D03 GF"
   phone: "1512"
   note:
+  slug: prithvi-narayan
 
 - name: Soham Manni
   last_name: manni
@@ -119,6 +123,7 @@
   office: "B03-122/123"
   phone: "1514"
   note:
+  slug: soham-manni
 
 - name: Kusum Dhochak
   last_name: dhochak
@@ -143,6 +148,7 @@
   office: "D03 GF"
   phone: "1508"
   note:
+  slug: kusum-dhochak
 
 - name: Bibhu Ranjan Sarangi
   last_name: sarangi
@@ -167,6 +173,7 @@
   office: 
   phone: "1505"
   note:
+  slug: bibhu-ranjan-sarangi
   
 
 - name: Projjwal Banerjee
@@ -192,6 +199,7 @@
   office: "D03 GF"
   phone: "1513"
   note:
+  slug: projjwal-banerjee
 
 
 
@@ -218,6 +226,7 @@
   office: "D03 GF" 
   phone: "1503"
   note:
+  slug: amit-kumar-pal
 
 - name: Vishwas Venkatesh
   last_name: venkatesh
@@ -242,6 +251,7 @@
   office: 
   phone: "1516"
   note:
+  slug: vishwas-venkatesh
 
 - name: Anil Kumar Dasanna
   last_name: dasanna
@@ -266,6 +276,7 @@
   office: 
   phone:   
   note:
+  slug:
 
 
 - name: Akshyay Bhatnagar
@@ -291,6 +302,7 @@
   office: 
   phone:    
   note:
+  slug:
 
 
 - name: Ajeesh M. Omanakuttan
@@ -316,6 +328,7 @@
   office: "D03 FF"
   phone: "1517"
   note:
+  slug: ajeesh-omanakuttan
 
 
 - name: Manoj Gopalakrishnan
@@ -341,6 +354,7 @@
   office: "D03 FF"
   phone: "1509"
   note:
+  slug: manoj-gopalakrishnan
 
 
 - name: Akanksha Bhardwaj
@@ -366,6 +380,7 @@
   office: "D03 FF"
   phone: "1518"
   note:
+  slug: akanksha-bhardwaj
 
 - name: Resmi PK
   last_name: pk
@@ -390,6 +405,7 @@
   office: "D03 FF"
   phone: "1519"
   note:
+  slug: resmi-pk
 
 
 
@@ -422,6 +438,7 @@
   office: "D03 FF"
   phone: "1052"
   note: "Primary affiliation: Department of Chemistry"
+  slug:
 
 
 - name: Swaroop Sahoo
@@ -447,6 +464,7 @@
   office: 
   phone: "1265"
   note: "Primary affiliation: Department of Electrical Engineering"
+  slug:
 
 
 
