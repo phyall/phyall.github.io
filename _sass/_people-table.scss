@@ -205,3 +205,65 @@
 .people-table-wrap--muted .people-table tbody tr:hover {
   background: #eceef0;
 }
+
+
+
+/* ==========================================================
+   Faculty profile page
+   ========================================================== */
+
+.faculty-profile-header {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.faculty-profile-photo-container {
+  flex: 0 0 auto;
+}
+
+.faculty-profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.12);
+}
+
+.faculty-profile-content {
+  flex: 1 1 320px;
+}
+
+.faculty-profile-name {
+  margin-bottom: 0.25rem;
+}
+
+.faculty-group-list,
+.faculty-pub-list {
+  list-style: none;
+  margin: 1rem 0 2rem;
+  padding: 0;
+}
+
+.faculty-group-list li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eef1f4;
+}
+
+.faculty-pub-list li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid #eef1f4;
+  line-height: 1.5;
+}
+
+.faculty-pub-list .pub-title {
+  font-weight: 600;
+  color: #1d2733;
+}
+
+.faculty-pub-list .pub-authors,
+.faculty-pub-list .pub-venue {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
