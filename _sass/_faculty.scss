@@ -190,14 +190,18 @@
   font-style: italic;
 }
 
-
 .faculty-name-link {
-  color: inherit;
+  color: #1a6fc4;
   text-decoration: none;
 
   &:hover,
+  &:focus {
+    color: #1558a0;
+    text-decoration: none;
+  }
+
   &:visited {
-    color: inherit;
+    color: #1a6fc4;
     text-decoration: none;
   }
 }
