@@ -224,7 +224,7 @@ collections:
   #courses:
   #  output: true
   #  permalink: /msc-courses/:name/
-  faculty:
+  faculty_profiles:
     output: true
     permalink: /faculty/:name/
   msc_courses:
