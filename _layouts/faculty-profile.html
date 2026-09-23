@@ -2,6 +2,12 @@
 layout: archive
 ---
 
+<style>
+  body:has(.faculty-profile) .page__title {
+    display: none;
+  }
+</style>
+
 {% assign faculty = site.data.all_faculty | where: "slug", page.slug | first %}
 
 <div class="faculty-profile">
@@ -15,6 +21,8 @@ layout: archive
     </div>
 
     <div class="faculty-profile-content">
+
+      <h1 class="faculty-profile-name">{{ faculty.name }}</h1>
 
       <p class="faculty-profile-designation">
         {{ faculty.designation }}
