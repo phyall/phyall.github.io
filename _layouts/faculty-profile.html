@@ -68,83 +68,103 @@ layout: archive
     </div>
   </div>
 
-  <h2>Current Group Members</h2>
-
   {% assign phd_members = site.data.all_phd_students | where: "status", "ongoing" | sort: "joining_year" %}
   {% assign ms_members = site.data.all_ms_students | where: "status", "ongoing" | sort: "joining_year" %}
   {% assign postdoc_members = site.data.all_postdocs | where: "status", "ongoing" | sort: "joining_year" %}
 
-  <div class="faculty-group-wrap">
-  <ul class="faculty-group-list">
+  {% assign group_count = 0 %}
 
-    {% assign group_count = 0 %}
-
-    {% for student in phd_members %}
-      {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
-        <li class="faculty-group-item">
-          <span class="faculty-group-name">{{ student.name }}</span>
-          <span class="faculty-group-role role-phd">PhD Student</span>
-          <span class="faculty-group-year">Joined {{ student.joining_year }}</span>
-        </li>
-        {% assign group_count = group_count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-
-    {% for student in ms_members %}
-      {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
-        <li class="faculty-group-item">
-          <span class="faculty-group-name">{{ student.name }}</span>
-          <span class="faculty-group-role role-ms">MS Student</span>
-          <span class="faculty-group-year">Joined {{ student.joining_year }}</span>
-        </li>
-        {% assign group_count = group_count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-
-    {% for postdoc in postdoc_members %}
-      {% if postdoc.with == faculty.name %}
-        <li class="faculty-group-item">
-          <span class="faculty-group-name">{{ postdoc.name }}</span>
-          <span class="faculty-group-role role-postdoc">Postdoc</span>
-          <span class="faculty-group-year">Joined {{ postdoc.joining_year }}</span>
-        </li>
-        {% assign group_count = group_count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-
-    {% if group_count == 0 %}
-      <li class="people-table-empty">No current group members.</li>
+  {% for student in phd_members %}
+    {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
+      {% assign group_count = group_count | plus: 1 %}
     {% endif %}
+  {% endfor %}
 
-  </ul>
-  </div>
+  {% for student in ms_members %}
+    {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
+      {% assign group_count = group_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
 
-  <h2>Publications</h2>
+  {% for postdoc in postdoc_members %}
+    {% if postdoc.with == faculty.name %}
+      {% assign group_count = group_count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  {% if group_count > 0 %}
+
+    <h2>Current Group Members</h2>
+
+    <div class="faculty-group-wrap">
+    <ul class="faculty-group-list">
+
+      {% for student in phd_members %}
+        {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
+          <li class="faculty-group-item">
+            <span class="faculty-group-name">{{ student.name }}</span>
+            <span class="faculty-group-role role-phd">PhD Student</span>
+            <span class="faculty-group-year">joined {{ student.joining_year }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+      {% for student in ms_members %}
+        {% if student.supervisor == faculty.name or student.joint_supervisor == faculty.name %}
+          <li class="faculty-group-item">
+            <span class="faculty-group-name">{{ student.name }}</span>
+            <span class="faculty-group-role role-ms">MS Student</span>
+            <span class="faculty-group-year">joined {{ student.joining_year }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+      {% for postdoc in postdoc_members %}
+        {% if postdoc.with == faculty.name %}
+          <li class="faculty-group-item">
+            <span class="faculty-group-name">{{ postdoc.name }}</span>
+            <span class="faculty-group-role role-postdoc">Postdoc</span>
+            <span class="faculty-group-year">joined {{ postdoc.joining_year }}</span>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+    </div>
+
+  {% endif %}
 
   {% assign all_pubs = site.data.all_publications | sort: "sort" | reverse %}
 
-  <ul class="faculty-pub-list">
+  {% assign pub_count = 0 %}
 
-    {% assign pub_count = 0 %}
-
-    {% for pub in all_pubs %}
-      {% if pub.faculty contains faculty.slug %}
-        <li>
-          <span class="pub-title">{{ pub.title }}</span><br>
-          <span class="pub-authors">{{ pub.authors }}</span><br>
-          <span class="pub-venue">{{ pub.journal }} ({{ pub.year }})</span>
-          {% if pub.doi %}
-            &middot; <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
-          {% endif %}
-        </li>
-        {% assign pub_count = pub_count | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-
-    {% if pub_count == 0 %}
-      <li class="people-table-empty">No publications listed.</li>
+  {% for pub in all_pubs %}
+    {% if pub.faculty contains faculty.slug %}
+      {% assign pub_count = pub_count | plus: 1 %}
     {% endif %}
+  {% endfor %}
 
-  </ul>
+  {% if pub_count > 0 %}
+
+    <h2>Publications <span class="faculty-pub-subheading">(With IIT Palakkad affiliation)</span></h2>
+
+    <ul class="faculty-pub-list">
+
+      {% for pub in all_pubs %}
+        {% if pub.faculty contains faculty.slug %}
+          <li>
+            <span class="pub-title">{{ pub.title }}</span><br>
+            <span class="pub-authors">{{ pub.authors }}</span><br>
+            <span class="pub-venue">{{ pub.journal }} ({{ pub.year }})</span>
+            {% if pub.doi %}
+              &middot; <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+
+  {% endif %}
 
 </div>
