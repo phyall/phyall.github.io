@@ -26,7 +26,7 @@
 .dept-nav-item>a,
 .dept-nav-item>.dept-nav-parent{
   display:block;
-  color:white;
+  color:white !important;
   text-decoration:none;
   font-size:.98rem;
   font-weight:500;
@@ -37,6 +37,11 @@
 }
 .dept-nav-item>a:hover{
   background:#1e4d7b;
+}
+.dept-nav-item>a:hover,
+.dept-nav-item>a:visited,
+.dept-nav-item>a:focus{
+  color:white !important;
 }
 .dept-nav-item>.dept-nav-parent{
   cursor:default;
