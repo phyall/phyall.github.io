@@ -795,7 +795,7 @@
 #  course_type: PMC
 #  prerequisites:
 
-- code: 5004
+- code: 5015
   title: Electronics and Instrumentation
   program: msc
   category: core
@@ -3957,7 +3957,7 @@
 # ==============================================================================================================
 
 #  Fundamentals and Applications of Superconductivity
-- code: 6609
+- code: 6601
   title: Fundamentals and Applications of Superconductivity
   program: msc
   category: elective
