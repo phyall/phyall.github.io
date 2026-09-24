@@ -1215,14 +1215,14 @@
   roll: 222405001
   gender: male
   year_joined: 2024
-  year_graduated: 2026
+  year_graduated: 
   degree: true
   degree_type: msc
-  upgraded: false
-  upgraded_to: 
-  upgradation_year: 
+  upgraded: true
+  upgraded_to: MSc-PhD Dual Degree
+  upgradation_year: 2026
   fa: 
-  next: 
+  next: PhD at IIT Palakkad
   note: 
 
 - name: Ankita Debnath
