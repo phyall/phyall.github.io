@@ -11,12 +11,14 @@
 
     <thead>
       <tr>
-        <th style="width:24%">Name</th>
-        <th style="width:12%">Roll No.</th>
-        <th style="width:9%">Joined</th>
-        <th style="width:20%">Supervisor</th>
-        <th style="width:20%">Cosupervisor</th>
-        <th style="width:15%">Status</th>
+        <th>Name</th>
+        <th>Roll No.</th>
+        <th>Program</th>
+        <th>Year Joined</th>
+        <th>Cycle</th>
+        <th>Supervisor</th>
+        <th>Cosupervisor</th>
+        <th>Status</th>
       </tr>
     </thead>
 
@@ -28,7 +30,11 @@
 
         <td>{{ student.roll }}</td>
 
+        <td>{{ student.program }}</td>
+
         <td>{{ student.joining_year }}</td>
+
+        <td>{{ student.cycle }}</td>
 
         <td>{{ student.supervisor }}</td>
 
