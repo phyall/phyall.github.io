@@ -4,12 +4,12 @@
   status: finished
   program: PhD
   degree: PhD
-  joining_year: 2019
+  joining_year: 2020
   graduation_year: 2026
   supervisor: Uma Divakaran
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [cmp_theory]
   roll: 222004003
   next_position: 
@@ -20,12 +20,12 @@
   status: finished
   program: PhD
   degree: PhD
-  joining_year: 2019
+  joining_year: 2020
   graduation_year: 2026
   supervisor: Prithvi Narayan
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [string]
   roll: 222004008
   next_position: 
@@ -36,12 +36,12 @@
   status: ongoing
   program: PhD
   degree: PhD
-  joining_year: 2019
+  joining_year: 2020
   graduation_year: 
   supervisor: Jayakumar Balakrishnan
   guide_affiliation: primary
   joint_supervisor: Soham Manni
-  cycle: December
+  cycle: January
   research_area: [cmp_experiment]
   roll: 222004005
   next_position: 
@@ -52,12 +52,12 @@
   status: ongoing
   program: PhD
   degree: PhD
-  joining_year: 2019
+  joining_year: 2020
   graduation_year: 
   supervisor: Soham Manni
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [cmp_experiment]
   roll: 222004001
   next_position: 
@@ -68,12 +68,12 @@
   status: finished
   program: PhD
   degree: PhD
-  joining_year: 2019
+  joining_year: 2020
   graduation_year: 2026
   supervisor: Jayakumar Balakrishnan
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [cmp_experiment]
   roll: 222004004
   next_position: 
@@ -84,12 +84,12 @@
   status: ongoing
   program: PhD
   degree: PhD
-  joining_year: 2019
+  joining_year: 2020
   graduation_year: 
   supervisor: Sovan Lal Das (ME, IIT Palakkad)
   guide_affiliation: other
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [softmat_theory]
   roll: 222004006
   next_position: 
@@ -116,12 +116,12 @@
   status: finished
   program: PhD
   degree: PhD
-  joining_year: 2021
+  joining_year: 2022
   graduation_year: 2026
   supervisor: Amit Kumar Pal
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [cmp_theory]
   roll: 222104001
   next_position: 
@@ -132,12 +132,12 @@
   status: ongoing
   program: PhD
   degree: PhD
-  joining_year: 2021
+  joining_year: 2022
   graduation_year: 
   supervisor: Amit Kumar Pal
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [cmp_theory]
   roll: 222204002
   next_position: 
@@ -201,7 +201,7 @@
   supervisor: Soham Manni
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: April
+  cycle: March
   research_area: [cmp_experiment]
   roll: 222304002
   next_position: 
@@ -217,7 +217,7 @@
   supervisor: Soham Manni
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [cmp_experiment]
   roll: 222314007
   next_position: 
@@ -233,7 +233,7 @@
   supervisor: Jayakumar Balakrishnan
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [cmp_experiment]
   roll: 222314005
   next_position: 
@@ -249,7 +249,7 @@
   supervisor: Uma Divakaran
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [cmp_theory]
   roll: 222314006
   next_position: 
@@ -265,7 +265,7 @@
   supervisor: Vishwas Venkatesh
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [softmat_theory]
   roll: 222314004
   next_position: 
@@ -281,7 +281,7 @@
   supervisor: Bibhu Ranjan Sarangi
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [softmat_experiment]
   roll: 222314003
   next_position: 
@@ -345,7 +345,7 @@
   supervisor: Uma Divakaran
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [cmp_theory]
   roll: 222414004
   next_position: 
@@ -356,12 +356,12 @@
   status: ongoing
   program: PhD
   degree: PhD
-  joining_year: 2024
+  joining_year: 2025
   graduation_year: 
   supervisor: Jayakumar Balakrishnan
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: December
+  cycle: January
   research_area: [cmp_experiment]
   roll: 222504001
   next_position: 
@@ -393,7 +393,7 @@
   supervisor: Projjwal Banerjee
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: April
+  cycle: March
   research_area: [astro_theory]
   roll: 222504002
   next_position: 
@@ -409,7 +409,7 @@
   supervisor: Ajeesh M. Omanakuttan
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: [cmp_experiment]
   roll: 222514001
   next_position: 
@@ -425,7 +425,7 @@
   supervisor: Debarati Chatterjee
   guide_affiliation: secondary
   joint_supervisor: 
-  cycle: July
+  cycle: August
   research_area: 
   roll: 222514002
   next_position: 
@@ -473,7 +473,7 @@
   supervisor: Vishwas Venkatesh
   guide_affiliation: primary
   joint_supervisor: 
-  cycle: April
+  cycle: March
   research_area: [softmat_theory]
   roll: 222614001
   next_position: 
