@@ -2,7 +2,7 @@
 layout: archive
 permalink: /physics-minor/
 title: "BTech with Minor in Physics"
-sidebar: quicklinks
+sidebar: 
 ---
 
 The Minor in Physics consists of a basket of courses designed by the Department of Physics. A student pursuing BTech in IIT Palakkad is awarded a
