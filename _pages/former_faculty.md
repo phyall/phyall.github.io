@@ -2,7 +2,7 @@
 layout: archive
 title: "Former Faculty"
 permalink: /formerfaculty/
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign former_regular = site.data.all_faculty
