@@ -79,17 +79,17 @@ sections:
       - title: Club Catalogue
         url: https://iitpkd.ac.in/student-clubs
 
-      - title: For Girl Students
+      - title: For Prospective Girl Students
         url: https://iitpkd.ac.in/help-desk-prospective-girl-students
 
   - title: Recruitment
     type: links
     items:
-      - title: Faculty
+      - title: Prospective Faculty
         url: https://facap.iitpkd.ac.in
 
-      - title: Postdoc
+      - title: Prospective Postdoc
         url: https://resap.iitpkd.ac.in
 
-      - title: Staff
+      - title: Prospective Staff
         url: https://joinus.iitpkd.ac.in
