@@ -2,7 +2,7 @@
 layout: archive
 permalink: /msc/
 title: "M.Sc. in Physics"
-sidebar: quicklinks
+sidebar: 
 ---
 
 Starting from August, 2019, the Department of Physics runs a two-years Masters programme in Physics providing students with a strong foundation in modern physics while exposing them to cutting-edge topics through carefully designed courses. It offers advanced theoretical as well as experimental training in Physics to students interested to pursue a career in science and technology. Along with the core courses in Physics, the programme includes a set of elective courses designed specifically in accordance with the current world-wide trends of research in different streams in Physics. It also fosters a research-oriented mindset through project-based learning by providing students with opportunity to take up, as a part of the course, short-term as well as extended projects on contemporary topics in different areas of the subject so that they can have a flavour of cutting edge research. The curriculum is reviewed and updated regularly to keep pace with emerging developments in physics and the evolving needs of the academic and scientific community.
