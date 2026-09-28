@@ -7,16 +7,6 @@ copyright:
 
 sections:
 
-  - title: Department of Physics 
-    type: text
-    items:
-      - Department of Physics, IIT Palakkad
-      - Kanjikode West, Palakkad – 678623, Kerala, India
-      - label: Phone
-        value: "+91-491-209-1501"
-      - label: Email
-        value: "office_ph@iitpkd.ac.in"
-
   - title: Systems
     type: links
     items:
