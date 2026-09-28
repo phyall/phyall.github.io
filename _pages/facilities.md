@@ -2,7 +2,7 @@
 layout: archive
 permalink: /facilities/
 title: "Facilities"
-sidebar: quicklinks
+sidebar: 
 ---
 
 (Under construction)
