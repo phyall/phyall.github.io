@@ -2,7 +2,7 @@
 layout: archive
 permalink: /postdocs/
 title: "Postdocs in Physics"
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign associated_postdocs = site.data.all_postdocs
