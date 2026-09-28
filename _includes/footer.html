@@ -1,22 +1,6 @@
 <footer class="dept-footer">
 
-  <div class="footer-bottom">
-
-    <div>
-      © {{ site.time | date: "%Y" }}
-      {{ site.data.footer.copyright.text }}
-    </div>
-
-    <div class="footer-last-updated">
-      Last updated:
-      {{ site.time | date: "%d %B %Y" }}
-    </div>
-
-  </div>
-
-</footer>  
-
-  <!--<div class="footer-container">
+  <div class="footer-container">
 
     {% for section in site.data.footer.sections %}
 
@@ -32,13 +16,12 @@
             <p>{{ line }}</p>
           {% endfor %}
 
-
         {% when "links" %}
 
           <ul>
             {% for item in section.items %}
               <li>
-                <a
+                
                   href="{{ item.url }}"
                   {% if item.url contains "http" %}
                     target="_blank"
@@ -50,7 +33,6 @@
               </li>
             {% endfor %}
           </ul>
-
 
         {% when "contact" %}
 
@@ -93,14 +75,26 @@
 
           {% endfor %}
 
-
         {% endcase %}
 
       </div>
 
     {% endfor %}
 
-  </div>-->
+  </div>
 
+  <div class="footer-bottom">
 
+    <div>
+      © {{ site.time | date: "%Y" }}
+      {{ site.data.footer.copyright.text }}
+    </div>
 
+    <div class="footer-last-updated">
+      Last updated:
+      {{ site.time | date: "%d %B %Y" }}
+    </div>
+
+  </div>
+
+</footer>
