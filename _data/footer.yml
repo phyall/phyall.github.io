@@ -7,7 +7,7 @@ copyright:
 
 sections:
 
-  = title: Institute
+  - title: Institute
     type: links
     items: 
       - title: IIT Palakkad
