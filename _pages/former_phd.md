@@ -2,7 +2,7 @@
 layout: archive
 permalink: /formerphd/
 title: "Former Ph.D. Students"
-sidebar: quicklinks
+sidebar: 
 ---
 
 ## Supervised by Regular Faculty
