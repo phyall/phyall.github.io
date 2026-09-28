@@ -2,7 +2,7 @@
 layout: archive
 permalink: /seminars/
 title: "Physics Seminars"
-sidebar: quicklinks
+sidebar: 
 ---
 
 **Upcoming Seminars**
