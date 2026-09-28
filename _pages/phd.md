@@ -2,7 +2,7 @@
 layout: archive
 permalink: /phd/
 title: "Ph.D. in Physics"
-sidebar: quicklinks
+sidebar: 
 ---
 
 The members of the Department of Physics at IIT Palakkad are engaged in cutting edge research in different domains of Physics, 
