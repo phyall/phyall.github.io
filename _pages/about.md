@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-sidebar: quicklinks
+sidebar: 
 title: Home
 redirect_from:
   - /about/
