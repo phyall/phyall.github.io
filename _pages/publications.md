@@ -2,7 +2,7 @@
 layout: archive
 permalink: /publications/
 title: Publications
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign by_year = site.data.all_publications | group_by: "year" | sort: "name" | reverse %}
