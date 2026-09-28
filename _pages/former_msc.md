@@ -2,7 +2,7 @@
 layout: archive
 permalink: /formermsc/
 title: Former MSc Students
-sidebar: quicklinks
+sidebar: 
 ---
 
 {::nomarkdown}
