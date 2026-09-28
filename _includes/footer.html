@@ -13,7 +13,11 @@
         {% when "text" %}
 
           {% for line in section.items %}
-            <p>{{ line }}</p>
+            {% if line.label %}
+              <p><span>{{ line.label }}:</span> {{ line.value }}</p>
+            {% else %}
+              <p>{{ line }}</p>
+            {% endif %}
           {% endfor %}
 
         {% when "links" %}
