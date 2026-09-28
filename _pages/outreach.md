@@ -2,7 +2,7 @@
 layout: archive
 permalink: /outreach/
 title: "Outreach Programs"
-sidebar: quicklinks
+sidebar: 
 ---
 
 Science Quest
