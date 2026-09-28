@@ -2,7 +2,7 @@
 layout: archive
 permalink: /events/
 title: "Department Events and Activities"
-sidebar: quicklinks
+sidebar: 
 ---
 
 Physics Symposium
