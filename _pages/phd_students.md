@@ -2,7 +2,7 @@
 layout: archive
 permalink: /phdstudents/
 title: "Ph.D. Students"
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign ongoing_students = site.data.all_phd_students | where: "status", "ongoing" %}
