@@ -2,7 +2,7 @@
 layout: archive
 title: "Regular Faculty"
 permalink: /faculty/
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign primary_faculty = site.data.all_faculty
