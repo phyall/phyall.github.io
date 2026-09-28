@@ -2,7 +2,7 @@
 layout: archive
 permalink: /committees/
 title: "Committees and Point Persons"
-sidebar: quicklinks
+sidebar: 
 ---
 
 Department Research Committee (DRC)
