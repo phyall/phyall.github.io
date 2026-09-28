@@ -7,13 +7,34 @@ copyright:
 
 sections:
 
-  - title: Systems
+  = title: Institute
+    type: links
+    items: 
+      - title: IIT Palakkad
+        url: https://iitpkd.ac.in
+
+      - title: Telephone Directory 
+        url: https://iitpkd.ac.in/TelephoneDirectory
+
+      - title: Charitable Trust
+        url: https://sites.google.com/iitpkd.ac.in/iitpkdcharitable-trust/home
+
+      - title: Career Development Center
+        url: https://cdc.iitpkd.ac.in
+
+      - title: Center for Education Technology 
+        url: https://cet.iitpkd.ac.in
+
+      - title: ICSR
+        url: https://icsr.iitpkd.ac.in
+
+  - title: Systems and Facilities
     type: links
     items:
       - title: Room Booking
         url: https://mrbs.iitpkd.ac.in/
 
-      - title: Records
+      - title: Records Portal
         url: https://records.iitpkd.ac.in/
 
       - title: LMS | Moodle
@@ -22,17 +43,8 @@ sections:
       - title: Support
         url: https://support.iitpkd.ac.in
 
-  - title: Central Facilities
-    type: links
-    items:
       - title: Central Library
         url: https://lib.iitpkd.ac.in
-
-      - title: HPC
-        url: https://cet.iitpkd.ac.in/hpc
-
-      - title: CIF and CMFF
-        url: "https://cif.iitpkd.ac.in"
 
   - title: Guidelines and Forms
     type: links
@@ -57,6 +69,18 @@ sections:
 
       - title: Scholarships
         url: https://iitpkd.ac.in/scholarships-and-financial-assistance
+
+      - title: Student Affairs Council
+        url: https://iitpkd.ac.in/student-affairs-council
+
+      - title: Wellness Hub
+        url: https://iitpkd.ac.in/wellness-hub
+
+      - title: Club Catalogue
+        url: https://iitpkd.ac.in/student-clubs
+
+      - title: For Girl Students
+        url: https://iitpkd.ac.in/help-desk-prospective-girl-students
 
   - title: Recruitment
     type: links
