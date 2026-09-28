@@ -2,7 +2,7 @@
 layout: archive
 permalink: /formerms/
 title: Former MS by Research Students
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign finished_students = site.data.all_ms_students | where: "status", "finished" %}
