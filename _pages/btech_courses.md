@@ -2,7 +2,7 @@
 layout: archive
 title: "B.Tech. Course Catalogue"
 permalink: /btechcourses/
-sidebar: quicklinks
+sidebar: 
 ---
 
 **Core Courses**
