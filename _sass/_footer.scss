@@ -19,7 +19,7 @@
    ========================================================== */
 
 .footer-container {
-    width: min(1400px, 94%);
+    width: min(1300px, 94%);
 
     margin: 0 auto;
 
@@ -39,8 +39,7 @@
 
 
 .footer-column {
-    flex: 1 1 160px;
-    max-width: 220px;
+    flex: 1 1 0;
 
     text-align: left;
 }
@@ -97,7 +96,7 @@
    ========================================================== */
 
 .footer-bottom {
-    max-width: 1400px;
+    max-width: 1300px;
 
     margin: 0 auto;
 
