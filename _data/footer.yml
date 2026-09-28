@@ -16,9 +16,66 @@ sections:
         value: "+91-491-209-1501"
       - label: Email
         value: "office_ph@iitpkd.ac.in"
-            
 
+  - title: Systems
+    type: links
+    items:
+      - title: Room Booking
+        url: https://mrbs.iitpkd.ac.in/
 
+      - title: Records
+        url: https://records.iitpkd.ac.in/
 
+      - title: LMS | Moodle
+        url: https://lms.iitpkd.ac.in/login/index.php
 
+      - title: Support
+        url: https://support.iitpkd.ac.in
 
+  - title: Central Facilities
+    type: links
+    items:
+      - title: Central Library
+        url: https://lib.iitpkd.ac.in
+
+      - title: HPC
+        url: https://cet.iitpkd.ac.in/hpc
+
+      - title: CIF and CMFF
+        url: "https://cif.iitpkd.ac.in"
+
+  - title: Guidelines and Forms
+    type: links
+    items:
+      - title: Academic
+        url: https://iitpkd.ac.in/academics-downloads
+
+      - title: Employees
+        url: https://iitpkd.ac.in/downloads-employees
+
+      - title: Administration
+        url: https://iitpkd.ac.in/Administration-Section
+
+  - title: For Students
+    type: links
+    items:
+      - title: PG Admission
+        url: https://pgadmit.iitpkd.ac.in
+
+      - title: Research Admission
+        url: https://resap.iitpkd.ac.in
+
+      - title: Scholarships
+        url: https://iitpkd.ac.in/scholarships-and-financial-assistance
+
+  - title: Recruitment
+    type: links
+    items:
+      - title: Faculty
+        url: https://facap.iitpkd.ac.in
+
+      - title: Postdoc
+        url: https://resap.iitpkd.ac.in
+
+      - title: Staff
+        url: https://joinus.iitpkd.ac.in
