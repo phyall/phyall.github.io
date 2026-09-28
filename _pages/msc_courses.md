@@ -2,7 +2,7 @@
 layout: archive
 title: "M.Sc. Course Catalogue"
 permalink: /msccourses/
-sidebar: quicklinks
+sidebar: 
 ---
 
 
