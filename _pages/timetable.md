@@ -2,7 +2,7 @@
 layout: archive
 permalink: /timetable/
 title: "Timetable and Schedule"
-sidebar: quicklinks
+sidebar: 
 ---
 
 Current Semester Course Allocation
