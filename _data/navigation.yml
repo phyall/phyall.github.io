@@ -133,8 +133,8 @@ main:
         url: /howtoreach/
 
 
-  - title: IIT Palakkad
-    url: https://iitpkd.ac.in
+  #- title: IIT Palakkad
+  #  url: https://iitpkd.ac.in
 
-  - title: Telephone Directory
-    url: https://iitpkd.ac.in/TelephoneDirectory
+  #- title: Telephone Directory
+  #  url: https://iitpkd.ac.in/TelephoneDirectory
