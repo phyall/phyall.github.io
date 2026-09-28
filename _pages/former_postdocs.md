@@ -2,7 +2,7 @@
 layout: archive
 permalink: /formerpostdocs/
 title: "Former Postdocs in Physics"
-sidebar: quicklinks
+sidebar: 
 ---
 
 ## Hosted by Regular Faculty
