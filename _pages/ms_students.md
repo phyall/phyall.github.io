@@ -2,7 +2,7 @@
 layout: archive
 permalink: /msstudents/
 title: "MS by Research Students"
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign ongoing_students = site.data.all_ms_students | where: "status", "ongoing" %}
