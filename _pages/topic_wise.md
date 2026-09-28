@@ -2,7 +2,7 @@
 layout: archive
 permalink: /topic-wise/
 title: Topic-wise groups of Faculty
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign research_groups = site.data.research_groups | sort: "alphabet" %}
