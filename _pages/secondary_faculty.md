@@ -2,7 +2,7 @@
 layout: archive
 title: "Associated Faculty"
 permalink: /associated-faculty/
-sidebar: quicklinks
+sidebar: 
 ---
 
 **Faculty members with secondary affiliation to the Department of Physics, IIT Palakkad**
