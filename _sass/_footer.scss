@@ -19,7 +19,7 @@
    ========================================================== */
 
 .footer-container {
-    width: min(1200px, 92%);
+    width: min(1400px, 94%);
 
     margin: 0 auto;
 
@@ -27,19 +27,20 @@
 
     display: flex;
 
-    justify-content: center;
+    justify-content: space-between;
 
     /* All columns start at the same vertical position */
     align-items: flex-start;
 
     flex-wrap: wrap;
 
-    gap: 3rem;
+    gap: 2rem;
 }
 
 
 .footer-column {
-    flex: 0 0 220px;
+    flex: 1 1 160px;
+    max-width: 220px;
 
     text-align: left;
 }
@@ -78,16 +79,16 @@
 
 
 .footer-column a {
-    color: #dfe8f2;
+    color: #8ec5ff !important;
 
-    text-decoration: none;
+    text-decoration: none !important;
 
     transition: color .2s ease;
 }
 
 
 .footer-column a:hover {
-    color: white;
+    color: white !important;
 }
 
 
@@ -118,4 +119,20 @@
     font-size: 0.85rem;
 
     opacity: 0.8;
+}
+
+
+/* ==========================================================
+   Mobile — stack columns
+   ========================================================== */
+
+@media (max-width: 700px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-column {
+        max-width: none;
+    }
 }
