@@ -2,7 +2,7 @@
 layout: archive
 permalink: /topics/
 title: Research Areas
-sidebar: quicklinks
+sidebar: 
 ---
 
 <!--{% include faculty-area-chart.html %}-->
