@@ -737,15 +737,6 @@
   areas: [astro_theory]
   sort: 20190102
 
-- title: "Three-Dimensional Simulations of Neutrino-Driven Core-Collapse Supernovae from Low-Mass Single and Binary Star Progenitors"
-  authors: "B. Müller, T. M. Tauris, A. Heger, Projjwal Banerjee, Y.-Z. Qian, J. Powell, C. Chan, D. W. Gay, and Norbert Langer"
-  journal: "Monthly Notices of the Royal Astronomical Society"
-  doi: "10.1093/mnras/stz216"
-  year: 2019
-  type: article
-  faculty: [projjwal-banerjee]
-  areas: [astro_theory]
-  sort: 20190103
 
 - title: "Finding the Remnants of the Milky Way's Last Neutron Star Mergers"
   authors: "M.-R. Wu, Projjwal Banerjee, B. D. Metzger, G. Martinez-Pinedo, T. Aramaki, E. Burns, C. J. Halye, J. Barnes, and G. Karagiorgi"
