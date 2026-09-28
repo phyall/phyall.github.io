@@ -2,7 +2,7 @@
 layout: archive
 permalink: /mscstudents/
 title: "M.Sc. Students"
-sidebar: quicklinks
+sidebar: 
 ---
 
 {% assign current_year = site.time | date: '%Y' | plus: 0 %}
