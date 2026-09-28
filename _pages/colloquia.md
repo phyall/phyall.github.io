@@ -2,7 +2,7 @@
 layout: archive
 permalink: /colloquia/
 title: "Physics Colloquia"
-sidebar: quicklinks
+sidebar: 
 ---
 
 **Upcoming Colloquia**
