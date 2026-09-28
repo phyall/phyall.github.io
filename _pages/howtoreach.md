@@ -2,7 +2,7 @@
 layout: archive
 permalink: /howtoreach/
 title: "How to Reach"
-sidebar: quicklinks
+sidebar: 
 ---
 
 IIT Palakkad currently operates from two side-by-side campuses -- Nila Campus, and Sahyadri Campus. The offices of the members of the Department are located in Sahyadri, while the facilities are distributed over both campuses. The office numbers and the phone numbers of the Department members can be found [here](faculty.md).
