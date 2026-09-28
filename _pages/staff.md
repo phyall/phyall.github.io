@@ -2,7 +2,7 @@
 layout: archive
 title: "Staff"
 permalink: /staff/
-sidebar: quicklinks
+sidebar: 
 ---
 
 
