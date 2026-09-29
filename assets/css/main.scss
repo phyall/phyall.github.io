@@ -1,0 +1,97 @@
+---
+---
+
+/*
+ * This file controls what is imported from /_sass
+ *
+ * Note that the files are processed in the order they are imported, so they are partly
+   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ */
+
+@import
+    "vendor/breakpoint/breakpoint",
+
+    "themes",
+    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+
+    "include/mixins",
+    "vendor/susy/susy",
+
+    "layout/reset",
+    "layout/base",
+
+    "include/utilities",
+    "layout/tables",
+    "layout/buttons",
+    "layout/notices",
+    "layout/masthead",
+    "layout/navigation",
+    "layout/footer",
+    "syntax",
+
+    "layout/forms",
+
+    "layout/page",
+    "layout/archive",
+    "layout/sidebar",
+    "layout/json_cv",
+    "faculty",
+    "footer",
+    "navigation",
+    "header",
+    "quicklinks",
+    "slideshow",
+    "coursetables",
+    "facultymini",
+    "staff",
+    "current-student-table",
+    "alumni-table",
+    "year",
+    "frontpage_columns",
+    "timetable",
+    "frontpage",
+    "calendar",
+    "maps",
+    "department-stats",
+    "announcements",
+    "topics-list",
+    "topic-stats",
+    "course",
+    "publications",
+    "people-table",
+    "links",
+    "home-hero"
+;
+
+
+
+
+/* ====================================================
+   Remove Academic Pages sidebar layout 
+   ==================================================== */
+
+.sidebar {
+    display: none !important;
+}
+
+.page,
+.archive,
+.page__inner-wrap,
+.initial-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    float: none !important;
+    margin: 0 auto !important;
+}
+
+
+
+/* ====================================================
+   Widen the overall site
+   ==================================================== */
+
+#main,
+.masthead__inner-wrap {
+    max-width: 1250px !important;
+}
