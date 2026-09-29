@@ -81,7 +81,10 @@ redirect_from:
                 <div class="announce-item">
                   <div class="announce-item-row">
                     <span class="announce-speaker">{{ colloquium.speaker }}</span>
-                    <a class="announce-detail-link" href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}">Details</a>
+                    <span class="announce-detail-wrap">
+                      <span class="announce-sep">|</span>
+                      <a class="announce-detail-link" href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}">Details</a>
+                    </span>
                   </div>
                   <div class="announce-item-meta">{{ colloquium.affiliation }} &middot; {{ colloquium.date | date: "%d %b %Y" }}</div>
                 </div>
@@ -104,7 +107,10 @@ redirect_from:
                 <div class="announce-item">
                   <div class="announce-item-row">
                     <span class="announce-speaker">{{ seminar.speaker }}</span>
-                    <a class="announce-detail-link" href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}">Details</a>
+                    <span class="announce-detail-wrap">
+                      <span class="announce-sep">|</span>
+                      <a class="announce-detail-link" href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}">Details</a>
+                    </span>
                   </div>
                   <div class="announce-item-meta">{{ seminar.affiliation }} &middot; {{ seminar.date | date: "%d %b %Y" }}</div>
                 </div>
@@ -157,11 +163,11 @@ redirect_from:
      Research areas
      ============================================================ -->
 
-<section class="home-section home-section-alt">
+<section class="home-section home-section-research">
   <div class="home-section-inner">
 
     <h2 class="home-section-title">Research Areas</h2>
-    <p class="home-section-sub">A snapshot of the department's active research groups &mdash; refresh the page to see others.</p>
+    <p class="home-section-sub">A snapshot of the department's active research areas</p>
 
     {% assign research_groups_sorted = site.data.research_groups | sort: "alphabet" %}
 
@@ -206,6 +212,8 @@ redirect_from:
 
     <div class="faculty-mini-grid home-faculty-grid" id="home-faculty-grid" data-randomize="4">
       {% for person in spotlight_faculty %}
+        {% assign person_area_groups = site.data.research_groups | where_exp: "grp", "person.area contains grp.id" %}
+        {% assign person_area_titles = person_area_groups | map: "title" | join: ", " %}
         <a class="faculty-mini-card" href="{{ '/faculty/' | append: person.slug | append: '/' | relative_url }}">
           <div class="faculty-mini-photo">
             <img src="{{ '/images/faculty/' | relative_url }}{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
@@ -213,6 +221,9 @@ redirect_from:
           <div class="faculty-mini-info">
             <h3 class="faculty-mini-name">{{ person.name }}</h3>
             <div class="faculty-mini-designation">{{ person.designation }}</div>
+            {% if person_area_titles != "" %}
+              <div class="faculty-mini-area">{{ person_area_titles }}</div>
+            {% endif %}
           </div>
         </a>
       {% endfor %}
@@ -236,15 +247,15 @@ redirect_from:
     {% assign recent_pubs = site.data.all_publications | sort: "sort" | reverse %}
 
     {% assign current_year_num = site.time | date: "%Y" | plus: 0 %}
-    {% assign current_year_pub_count = site.data.all_publications | where: "year", current_year_num | size %}
-    {% assign pub_show_count = 5 %}
-    {% if current_year_pub_count > 5 %}
-      {% assign pub_show_count = current_year_pub_count %}
+    {% assign current_year_pubs = recent_pubs | where: "year", current_year_num %}
+    {% if current_year_pubs.size >= 5 %}
+      {% assign pubs_to_show = current_year_pubs | slice: 0, 5 %}
+    {% else %}
+      {% assign pubs_to_show = recent_pubs | slice: 0, 5 %}
     {% endif %}
 
     <ol class="home-pub-list">
-      {% for pub in recent_pubs %}
-        {% if forloop.index > pub_show_count %}{% break %}{% endif %}
+      {% for pub in pubs_to_show %}
         <li class="home-pub-item">
           <div class="home-pub-year">{{ pub.year }}</div>
           <div>
