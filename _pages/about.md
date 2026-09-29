@@ -23,8 +23,8 @@ redirect_from:
   </svg>
   <div class="home-hero-inner">
     <span class="home-hero-eyebrow">Indian Institute of Technology Palakkad</span>
-    <h1 class="home-hero-title">Department of Physics</h1>
-    <p class="home-hero-text">The Department of Physics at IIT Palakkad started functioning in August 2015, and is currently engaged in teaching and research at the forefront of experimental and theoretical physics, sharing the institute's stated purpose to create, communicate, and apply knowledge for the benefit of society. Its faculty pursue work in diverse domains, spanning astrophysics, condensed matter physics, high energy physics, quantum information science and technology, soft matter and statistical physics, and string theory.</p>
+    <h1 class="home-hero-title">Teaching and Research at the Frontier of Physics</h1>
+    <p class="home-hero-text">Started in August 2015, the department is engaged in teaching and research at the forefront of experimental and theoretical physics, sharing the institute's stated purpose to create, communicate, and apply knowledge for the benefit of society. Its faculty pursue work in diverse domains, spanning astrophysics, condensed matter physics, high energy physics, quantum information science and technology, soft matter and statistical physics, and string theory.</p>
     <div class="home-hero-actions">
       <a href="{{ '/topics/' | relative_url }}" class="home-btn home-btn-primary">Explore Research</a>
       <a href="{{ '/msc/' | relative_url }}" class="home-btn home-btn-outline">Prospective Students</a>
@@ -75,40 +75,22 @@ redirect_from:
   <div class="home-section-inner">
 
     <h2 class="home-section-title">Research Areas</h2>
-    <p class="home-section-sub">Faculty pursue work across six broad domains of physics.</p>
+    <p class="home-section-sub">A snapshot of the department's active research groups &mdash; refresh the page to see others.</p>
 
-    <div class="home-research-grid">
+    {% assign research_groups_sorted = site.data.research_groups | sort: "alphabet" %}
 
-      <div class="home-research-card">
-        <h3>Astrophysics</h3>
-        <p>Compact objects, gravitational-wave sources, and the large-scale structure of the cosmos.</p>
-      </div>
-
-      <div class="home-research-card">
-        <h3>Condensed Matter Physics</h3>
-        <p>Quantum materials, topological phases, and emergent phenomena in correlated systems.</p>
-      </div>
-
-      <div class="home-research-card">
-        <h3>High Energy Physics</h3>
-        <p>Particle phenomenology and physics beyond the Standard Model.</p>
-      </div>
-
-      <div class="home-research-card">
-        <h3>Quantum Information Science &amp; Technology</h3>
-        <p>Quantum metrology, sensing, and information-processing protocols.</p>
-      </div>
-
-      <div class="home-research-card">
-        <h3>Soft Matter &amp; Statistical Physics</h3>
-        <p>Collective and non-equilibrium behaviour in complex, disordered systems.</p>
-      </div>
-
-      <div class="home-research-card">
-        <h3>String Theory</h3>
-        <p>Quantum gravity, holography, and the mathematics of fundamental interactions.</p>
-      </div>
-
+    <div class="home-research-grid" id="home-research-grid" data-randomize="3">
+      {% for group in research_groups_sorted %}
+        {% if group.slug %}
+          {% assign group_faculty_count = current_primary_faculty | where_exp: "item", "item.area contains group.id" | size %}
+          {% if group_faculty_count > 0 %}
+            <a class="home-research-card" href="{{ '/topics/' | append: group.slug | append: '/' | relative_url }}">
+              <h3>{{ group.title }}</h3>
+              <p>{{ group_faculty_count }} faculty member{% if group_faculty_count != 1 %}s{% endif %}</p>
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
     </div>
 
     <div class="home-section-link">
@@ -249,10 +231,17 @@ redirect_from:
 
     {% assign spotlight_faculty = current_primary_faculty | sort: "date_joined" %}
 
-    <div class="faculty-mini-grid home-faculty-grid">
+    <div class="faculty-mini-grid home-faculty-grid" id="home-faculty-grid" data-randomize="3">
       {% for person in spotlight_faculty %}
-        {% if forloop.index > 3 %}{% break %}{% endif %}
-        {% include faculty-mini-card.html faculty=person %}
+        <a class="faculty-mini-card" href="{{ '/faculty/' | append: person.slug | append: '/' | relative_url }}">
+          <div class="faculty-mini-photo">
+            <img src="{{ '/images/faculty/' | relative_url }}{{ person.photo }}" alt="{{ person.name }}" loading="lazy">
+          </div>
+          <div class="faculty-mini-info">
+            <h3 class="faculty-mini-name">{{ person.name }}</h3>
+            <div class="faculty-mini-designation">{{ person.designation }}</div>
+          </div>
+        </a>
       {% endfor %}
     </div>
 
@@ -294,3 +283,33 @@ redirect_from:
 
   </div>
 </section>
+
+<!-- ============================================================
+     Randomize the Research Areas and Meet Our Faculty picks on
+     every page load. Both grids render their FULL real list above
+     (so nothing is missing with JS off) -- this just narrows each
+     down to a handful, chosen fresh each visit.
+     ============================================================ -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  function randomizeGrid(containerId, cardSelector) {
+    var container = document.getElementById(containerId);
+    if (!container) return;
+    var count = parseInt(container.getAttribute('data-randomize'), 10) || 3;
+    var cards = Array.prototype.slice.call(container.querySelectorAll(cardSelector));
+    if (cards.length <= count) return;
+    for (var i = cards.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = cards[i];
+      cards[i] = cards[j];
+      cards[j] = tmp;
+    }
+    cards.forEach(function (card) { card.style.display = 'none'; });
+    cards.slice(0, count).forEach(function (card) { card.style.display = ''; });
+  }
+
+  randomizeGrid('home-research-grid', '.home-research-card');
+  randomizeGrid('home-faculty-grid', '.faculty-mini-card');
+});
+</script>
