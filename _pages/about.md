@@ -9,28 +9,10 @@ redirect_from:
 ---
 
 <!-- ============================================================
-     Hero
+     (The hero banner now lives in the department header itself —
+     see _includes/department_header.html — instead of repeating
+     "Department of Physics" a second time here.)
      ============================================================ -->
-
-<section class="home-hero">
-  <svg class="home-hero-decor" width="560" height="560" viewBox="0 0 560 560" fill="none" aria-hidden="true">
-    <circle cx="280" cy="280" r="220" stroke="rgba(255,255,255,0.14)" stroke-width="1"></circle>
-    <ellipse cx="280" cy="280" rx="240" ry="90" stroke="rgba(255,255,255,0.14)" stroke-width="1"></ellipse>
-    <ellipse cx="280" cy="280" rx="90" ry="240" stroke="rgba(255,255,255,0.14)" stroke-width="1"></ellipse>
-    <circle cx="280" cy="280" r="6" fill="#2f7f93"></circle>
-    <circle cx="500" cy="280" r="5" fill="#7fa8c9"></circle>
-    <circle cx="280" cy="40" r="4" fill="#7fa8c9"></circle>
-  </svg>
-  <div class="home-hero-inner">
-    <span class="home-hero-eyebrow">Indian Institute of Technology Palakkad</span>
-    <h1 class="home-hero-title">Teaching and Research at the Frontier of Physics</h1>
-    <p class="home-hero-text">Started in August 2015, the department is engaged in teaching and research at the forefront of experimental and theoretical physics, sharing the institute's stated purpose to create, communicate, and apply knowledge for the benefit of society. Its faculty pursue work in diverse domains, spanning astrophysics, condensed matter physics, high energy physics, quantum information science and technology, soft matter and statistical physics, and string theory.</p>
-    <div class="home-hero-actions">
-      <a href="{{ '/topics/' | relative_url }}" class="home-btn home-btn-primary">Explore Research</a>
-      <a href="{{ '/msc/' | relative_url }}" class="home-btn home-btn-outline">Prospective Students</a>
-    </div>
-  </div>
-</section>
 
 <!-- ============================================================
      Stats strip (counts are computed live from site data)
