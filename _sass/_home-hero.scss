@@ -333,3 +333,116 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================================
+   Dark mode
+   (site already switches to dark automatically at night via
+   isNightAtPalakkad() in assets/js/_main.js, or when a visitor
+   toggles it themselves -- this matches that existing behavior
+   using the same CSS custom properties the rest of the theme
+   uses under html[data-theme="dark"])
+   ========================================================== */
+
+html[data-theme="dark"] {
+
+  /* Hero already reads fine as-is (navy on white text), but pull
+     the accent dot color from the theme's base accent so it stays
+     consistent with dark-mode links elsewhere. */
+  .home-hero-decor circle:last-child {
+    fill: var(--global-base-color, #2f7f93);
+  }
+
+  /* Stats strip */
+  .home-stats {
+    background: var(--global-bg-color, #2d2d2d);
+    border-bottom-color: var(--global-border-color, #5a5a5a);
+  }
+
+  .home-stat-number {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-stat-label {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  @media (min-width: 901px) {
+    .home-stat:not(:first-child) {
+      border-left-color: var(--global-border-color, #5a5a5a);
+    }
+  }
+
+  /* Section shells */
+  .home-section-alt {
+    background: var(--global-footer-bg-color, #383838);
+  }
+
+  .home-section-title {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-section-sub {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  .home-section-link-inline,
+  .home-section-link a {
+    color: var(--global-base-color, #2f7f93);
+  }
+
+  .home-section-link-inline:hover,
+  .home-section-link a:hover {
+    color: var(--global-link-color-hover, #fff);
+  }
+
+  /* Research area cards */
+  .home-research-card {
+    background: var(--global-footer-bg-color, #383838);
+    border-color: var(--global-border-color, #5a5a5a);
+  }
+
+  .home-research-card:hover {
+    border-color: var(--global-base-color, #2f7f93);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .35);
+  }
+
+  .home-research-card h3 {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-research-card p {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  /* Faculty spotlight card text (photo/card chrome itself comes
+     from the pre-existing .faculty-mini-card styles, which are
+     left untouched) */
+  #home-faculty-grid .faculty-mini-card {
+    color: var(--global-text-color, #fff);
+  }
+
+  /* Recent publications */
+  .home-pub-item {
+    border-bottom-color: var(--global-border-color, #5a5a5a);
+  }
+
+  .home-pub-year {
+    color: var(--global-base-color, #2f7f93);
+  }
+
+  .home-pub-title {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-pub-journal {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  .home-pub-journal a {
+    color: var(--global-link-color, #0ea1c5);
+  }
+
+  .home-pub-journal a:hover {
+    color: var(--global-link-color-hover, #fff);
+  }
+}
