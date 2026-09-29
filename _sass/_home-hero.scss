@@ -14,59 +14,67 @@
 }
 
 /* ==========================================================
-   Hero
+   Department header, homepage variant
+   (the department header itself becomes the "hero" on the
+   homepage only -- every other page keeps the plain white
+   .dept-header it always had, see _sass/_header.scss)
    ========================================================== */
 
-.home-hero {
+.dept-header--home {
   position: relative;
   overflow: hidden;
   background: #163b63;
-  padding: 4rem 1.5rem 4.5rem;
+  padding: 3rem 1.5rem 3.5rem;
 }
 
-.home-hero-decor {
+.dept-header--home .dept-header-container {
+  position: relative;
+  z-index: 1;
+  align-items: flex-start;
+}
+
+.dept-header-decor {
   position: absolute;
   top: -80px;
   right: -100px;
   pointer-events: none;
+  z-index: 0;
 }
 
-.home-hero-inner {
-  position: relative;
-  z-index: 1;
-  max-width: 1400px;
-  margin: 0 auto;
+.dept-header--home .dept-logo-link {
+  flex-shrink: 0;
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  padding: .6rem;
 }
 
-.home-hero-eyebrow {
-  display: inline-block;
-  font-size: .82rem;
-  font-weight: 700;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  color: #8fc1d1;
-}
-
-.home-hero-title {
-  margin: .75rem 0 1.1rem;
-  font-size: 2.75rem;
-  font-weight: 700;
-  line-height: 1.15;
+.dept-header--home .dept-title h1 {
   color: #fff;
 }
 
-.home-hero-text {
+.dept-header--home .dept-title h2 {
+  color: #a9c3dc;
+}
+
+.dept-title-desc {
   max-width: 660px;
-  margin: 0 0 2rem;
-  font-size: 1.05rem;
+  margin: 1rem 0 1.5rem;
+  font-size: 1.02rem;
   line-height: 1.65;
   color: #cfd9e6;
 }
 
-.home-hero-actions {
+.dept-title-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+@media (max-width: 700px) {
+  .dept-header--home .dept-header-container {
+    flex-direction: column;
+  }
 }
 
 .home-btn {
@@ -314,8 +322,8 @@
    ========================================================== */
 
 @media (max-width: 900px) {
-  .home-hero-title {
-    font-size: 2.15rem;
+  .dept-header--home .dept-title h1 {
+    font-size: 1.6rem;
   }
 
   .home-stats-grid {
@@ -345,10 +353,10 @@
 
 html[data-theme="dark"] {
 
-  /* Hero already reads fine as-is (navy on white text), but pull
-     the accent dot color from the theme's base accent so it stays
-     consistent with dark-mode links elsewhere. */
-  .home-hero-decor circle:last-child {
+  /* Header hero already reads fine as-is (navy on white text), but
+     pull the accent dot color from the theme's base accent so it
+     stays consistent with dark-mode links elsewhere. */
+  .dept-header-decor circle:last-child {
     fill: var(--global-base-color, #2f7f93);
   }
 
