@@ -24,62 +24,6 @@ body {
 }
 
 /* ==========================================================
-   Department header, homepage variant
-   (the department header itself becomes the "hero" on the
-   homepage only -- every other page keeps the plain white
-   .dept-header it always had, see _sass/_header.scss)
-   ========================================================== */
-
-.dept-header--home {
-  position: relative;
-  overflow: hidden;
-  background: #102a47;
-  padding: 3rem 1.5rem 3.5rem;
-}
-
-.dept-header--home .dept-header-container {
-  position: relative;
-  z-index: 1;
-  align-items: flex-start;
-}
-
-.dept-header-decor {
-  position: absolute;
-  top: -80px;
-  right: -100px;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.dept-header--home .dept-logo-link {
-  flex-shrink: 0;
-  display: block;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, .35));
-}
-
-.dept-header--home .dept-title h1 {
-  color: #fff;
-}
-
-.dept-header--home .dept-title h2 {
-  color: #f7a601;
-}
-
-.dept-title-desc {
-  max-width: 660px;
-  margin: 1rem 0 0;
-  font-size: .95rem;
-  line-height: 1.65;
-  color: #eaf1f9;
-}
-
-@media (max-width: 700px) {
-  .dept-header--home .dept-header-container {
-    flex-direction: column;
-  }
-}
-
-/* ==========================================================
    Stats strip
    ========================================================== */
 
@@ -288,10 +232,6 @@ body {
    ========================================================== */
 
 @media (max-width: 900px) {
-  .dept-header--home .dept-title h1 {
-    font-size: 1.6rem;
-  }
-
   .home-stats-grid {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
@@ -319,9 +259,9 @@ body {
 
 html[data-theme="dark"] {
 
-  /* Header hero already reads fine as-is (navy on white text), but
-     pull the accent dot color from the theme's base accent so it
-     stays consistent with dark-mode links elsewhere. */
+  /* Header decoration already reads fine as-is (navy on white
+     text), but pull the accent dot color from the theme's base
+     accent so it stays consistent with dark-mode links elsewhere. */
   .dept-header-decor circle:last-child {
     fill: var(--global-base-color, #2f7f93);
   }
