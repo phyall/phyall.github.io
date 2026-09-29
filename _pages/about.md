@@ -23,6 +23,7 @@ redirect_from:
 
 {% assign current_phd = site.data.all_phd_students | where: "status", "ongoing" %}
 {% assign current_ms = site.data.all_ms_students | where: "status", "ongoing" %}
+{% assign current_postdocs = site.data.all_postdocs | where: "status", "ongoing" %}
 {% assign current_scholars = current_phd | concat: current_ms %}
 {% assign scholar_count = current_scholars | size %}
 
@@ -66,9 +67,13 @@ redirect_from:
         {% if group.slug %}
           {% assign group_faculty_count = current_primary_faculty | where_exp: "item", "item.area contains group.id" | size %}
           {% if group_faculty_count > 0 %}
+            {% assign group_postdoc_count = current_postdocs | where_exp: "item", "item.research_area contains group.id" | size %}
+            {% assign group_phd_count = current_phd | where_exp: "item", "item.research_area contains group.id" | size %}
+            {% assign group_ms_count = current_ms | where_exp: "item", "item.research_area contains group.id" | size %}
+            {% assign group_people_count = group_faculty_count | plus: group_postdoc_count | plus: group_phd_count | plus: group_ms_count %}
             <a class="home-research-card" href="{{ '/topics/' | append: group.slug | append: '/' | relative_url }}">
               <h3>{{ group.title }}</h3>
-              <p>{{ group_faculty_count }} faculty member{% if group_faculty_count != 1 %}s{% endif %}</p>
+              <p>{{ group_people_count }} member{% if group_people_count != 1 %}s{% endif %}</p>
             </a>
           {% endif %}
         {% endif %}
@@ -213,7 +218,7 @@ redirect_from:
 
     {% assign spotlight_faculty = current_primary_faculty | sort: "date_joined" %}
 
-    <div class="faculty-mini-grid home-faculty-grid" id="home-faculty-grid" data-randomize="3">
+    <div class="faculty-mini-grid home-faculty-grid" id="home-faculty-grid" data-randomize="4">
       {% for person in spotlight_faculty %}
         <a class="faculty-mini-card" href="{{ '/faculty/' | append: person.slug | append: '/' | relative_url }}">
           <div class="faculty-mini-photo">
@@ -244,9 +249,16 @@ redirect_from:
 
     {% assign recent_pubs = site.data.all_publications | sort: "sort" | reverse %}
 
+    {% assign current_year_num = site.time | date: "%Y" | plus: 0 %}
+    {% assign current_year_pub_count = site.data.all_publications | where: "year", current_year_num | size %}
+    {% assign pub_show_count = 5 %}
+    {% if current_year_pub_count > 5 %}
+      {% assign pub_show_count = current_year_pub_count %}
+    {% endif %}
+
     <ol class="home-pub-list">
       {% for pub in recent_pubs %}
-        {% if forloop.index > 5 %}{% break %}{% endif %}
+        {% if forloop.index > pub_show_count %}{% break %}{% endif %}
         <li class="home-pub-item">
           <div class="home-pub-year">{{ pub.year }}</div>
           <div>
