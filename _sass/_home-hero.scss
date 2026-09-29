@@ -117,6 +117,52 @@ body {
 }
 
 /* ==========================================================
+   Slideshow + Announcements row
+   (the shared Swiper hero-swiper component is centered/fixed-
+   width by default in _sass/_slideshow.scss -- this scopes it
+   to fill its column here instead, imported after that file so
+   it wins the cascade)
+   ========================================================== */
+
+.home-media-row {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.home-media-row-slideshow {
+  min-width: 0;
+}
+
+.home-media-row-slideshow .hero-swiper {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  margin: 0;
+}
+
+.home-media-row-announcements {
+  min-width: 0;
+}
+
+.announce-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .home-media-row {
+    grid-template-columns: 1fr;
+  }
+
+  .home-media-row-slideshow .hero-swiper {
+    height: 300px;
+  }
+}
+
+/* ==========================================================
    Research area cards
    ========================================================== */
 
