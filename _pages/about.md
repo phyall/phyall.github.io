@@ -19,7 +19,10 @@ redirect_from:
      ============================================================ -->
 
 {% assign current_primary_faculty = site.data.all_faculty | where: "affiliation", "primary" | where: "status", "current" %}
-{% assign faculty_count = current_primary_faculty | size %}
+{% assign regular_faculty_count = current_primary_faculty | size %}
+
+{% assign current_associated_faculty = site.data.all_faculty | where: "affiliation", "secondary" | where: "status", "current" %}
+{% assign associated_faculty_count = current_associated_faculty | size %}
 
 {% assign current_phd = site.data.all_phd_students | where: "status", "ongoing" %}
 {% assign current_ms = site.data.all_ms_students | where: "status", "ongoing" %}
@@ -27,25 +30,29 @@ redirect_from:
 {% assign current_scholars = current_phd | concat: current_ms %}
 {% assign scholar_count = current_scholars | size %}
 
-{% assign pub_count = site.data.all_publications | size %}
+{% assign msc_current_year = site.time | date: "%Y" | plus: 0 %}
+{% assign msc_previous_year = msc_current_year | minus: 1 %}
+{% assign msc_first_year = site.data.all_msc_students | where: "year_joined", msc_current_year %}
+{% assign msc_second_year = site.data.all_msc_students | where: "year_joined", msc_previous_year %}
+{% assign msc_count = msc_first_year.size | plus: msc_second_year.size %}
 
 <section class="home-stats">
   <div class="home-stats-grid">
     <div class="home-stat">
-      <div class="home-stat-number">{{ faculty_count }}</div>
-      <div class="home-stat-label">Faculty Members</div>
+      <div class="home-stat-number">{{ regular_faculty_count }}</div>
+      <div class="home-stat-label">Regular Faculty</div>
+    </div>
+    <div class="home-stat">
+      <div class="home-stat-number">{{ associated_faculty_count }}</div>
+      <div class="home-stat-label">Associated Faculty</div>
     </div>
     <div class="home-stat">
       <div class="home-stat-number">{{ scholar_count }}</div>
       <div class="home-stat-label">PhD &amp; MS Scholars</div>
     </div>
     <div class="home-stat">
-      <div class="home-stat-number">{{ pub_count }}</div>
-      <div class="home-stat-label">Publications</div>
-    </div>
-    <div class="home-stat">
-      <div class="home-stat-number">2015</div>
-      <div class="home-stat-label">Established</div>
+      <div class="home-stat-number">{{ msc_count }}</div>
+      <div class="home-stat-label">MSc Students</div>
     </div>
   </div>
 </section>
@@ -163,11 +170,16 @@ redirect_from:
      Research areas
      ============================================================ -->
 
-<section class="home-section home-section-research">
+<section class="home-section home-section-alt">
   <div class="home-section-inner">
 
-    <h2 class="home-section-title">Research Areas</h2>
-    <p class="home-section-sub">A snapshot of the department's active research areas</p>
+    <div class="home-section-header">
+      <div class="home-section-header-text">
+        <h2 class="home-section-title">Research Areas</h2>
+        <p class="home-section-sub">A snapshot of the department's active research areas</p>
+      </div>
+      <a class="home-section-link-inline" href="{{ '/topics/' | relative_url }}">View all research areas &rarr;</a>
+    </div>
 
     {% assign research_groups_sorted = site.data.research_groups | sort: "alphabet" %}
 
@@ -187,10 +199,6 @@ redirect_from:
           {% endif %}
         {% endif %}
       {% endfor %}
-    </div>
-
-    <div class="home-section-link">
-      <a href="{{ '/topics/' | relative_url }}">View all research areas &rarr;</a>
     </div>
 
   </div>
