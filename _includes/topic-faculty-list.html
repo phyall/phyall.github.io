@@ -9,9 +9,11 @@
   | sort: "date_joined" %}
 
 {% if primary.size > 0 %}
+  <div class="faculty-grid">
   {% for faculty in primary %}
     {% include faculty-card-simple.html faculty=faculty %}
   {% endfor %}
+  </div>
 {% else %}
   <p class="topic-empty">No primary faculty currently listed in this area.</p>
 {% endif %}
