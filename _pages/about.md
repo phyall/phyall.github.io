@@ -254,13 +254,23 @@ redirect_from:
 
     {% assign recent_pubs = site.data.all_publications | sort: "sort" | reverse %}
 
-    {% assign current_year_num = site.time | date: "%Y" | plus: 0 %}
-    {% assign current_year_pubs = recent_pubs | where: "year", current_year_num %}
-    {% if current_year_pubs.size >= 5 %}
-      {% assign pubs_to_show = current_year_pubs | slice: 0, 5 %}
-    {% else %}
-      {% assign pubs_to_show = recent_pubs | slice: 0, 5 %}
-    {% endif %}
+    <!-- One publication per research area: the most recent paper
+         tagged with each currently-active area (same areas shown
+         in the Research Areas section above), so the count here
+         always matches the number of research areas. An area with
+         no publications yet simply contributes none. -->
+    {% assign pubs_to_show = "" | split: "," %}
+    {% for group in research_groups_sorted %}
+      {% if group.slug %}
+        {% assign group_active_faculty_count = current_primary_faculty | where_exp: "item", "item.area contains group.id" | size %}
+        {% if group_active_faculty_count > 0 %}
+          {% assign group_pubs = recent_pubs | where_exp: "item", "item.areas contains group.id" %}
+          {% assign latest_group_pub = group_pubs | slice: 0, 1 %}
+          {% assign pubs_to_show = pubs_to_show | concat: latest_group_pub %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pubs_to_show = pubs_to_show | sort: "sort" | reverse %}
 
     <ol class="home-pub-list">
       {% for pub in pubs_to_show %}
