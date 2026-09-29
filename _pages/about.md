@@ -144,7 +144,10 @@ redirect_from:
               <div class="announce-item">
                 <div class="announce-item-row">
                   <span class="announce-speaker">{{ latest_symposium.date }} Edition</span>
-                  <a class="announce-detail-link" href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ latest_symposium.date }}.pdf">Details</a>
+                  <span class="announce-detail-wrap">
+                    <span class="announce-sep">|</span>
+                    <a class="announce-detail-link" href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ latest_symposium.date }}.pdf">Details</a>
+                  </span>
                 </div>
                 {% if ended %}
                   <div class="announce-item-meta">Stay tuned for the next edition</div>
