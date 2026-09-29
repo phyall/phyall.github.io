@@ -67,15 +67,10 @@ body {
   padding: 3.5rem 1.5rem;
 }
 
+/* Shared by Research Areas and Recent Publications -- a bit darker
+   than plain white so the white cards/rows inside them stand out. */
 .home-section-alt {
-  background: #f7f9fb;
-}
-
-/* Slightly darker than .home-section-alt, used just for Research
-   Areas so its white cards stand out more against the section
-   background. Publications keeps the lighter .home-section-alt. */
-.home-section-research {
-  background: #e9edf3;
+  background: #e4e9ef;
 }
 
 .home-section-inner {
@@ -121,6 +116,18 @@ body {
 
 .home-section-link {
   margin-top: 2rem;
+}
+
+/* Lets a section header pack a title + subtitle on the left with
+   the "View all" link staying inline on the right (used by
+   Research Areas, which -- unlike Faculty/Publications -- also has
+   a subtitle line). */
+.home-section-header-text .home-section-title {
+  margin-bottom: .3rem;
+}
+
+.home-section-header-text .home-section-sub {
+  margin: 0;
 }
 
 /* ==========================================================
@@ -267,12 +274,14 @@ body {
   color: inherit;
 }
 
+/* Matches .faculty-mini-designation's color (defined in
+   _facultymini.scss), a size step smaller. */
 .faculty-mini-area {
   margin-top: .3rem;
-  font-size: .8rem;
+  font-size: .78rem;
   line-height: 1.4;
-  color: #2f7f93;
-  font-weight: 500;
+  color: #666;
+  font-weight: 400;
 }
 
 /* ==========================================================
@@ -392,10 +401,6 @@ html[data-theme="dark"] {
     background: var(--global-footer-bg-color, #383838);
   }
 
-  .home-section-research {
-    background: var(--global-footer-bg-color, #383838);
-  }
-
   .announce-speaker {
     color: var(--global-text-color, #fff);
   }
@@ -410,10 +415,6 @@ html[data-theme="dark"] {
 
   .announce-detail-link:hover {
     color: var(--global-link-color-hover, #fff);
-  }
-
-  .faculty-mini-area {
-    color: var(--global-base-color, #2f7f93);
   }
 
   .home-section-title {
