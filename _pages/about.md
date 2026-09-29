@@ -51,10 +51,113 @@ redirect_from:
 </section>
 
 <!-- ============================================================
-     Research areas
+     Slideshow + Announcements
      ============================================================ -->
 
 <section class="home-section">
+  <div class="home-section-inner">
+
+    <div class="home-media-row">
+
+      <div class="home-media-row-slideshow">
+        {% include slideshow.html %}
+      </div>
+
+      <div class="home-media-row-announcements">
+
+        <h2 class="home-section-title">Announcements</h2>
+
+        <div class="announce-stack">
+
+          <div class="announce-card">
+            <h3 class="announce-card-title">Colloquia</h3>
+            {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+            {% assign upcoming_colloquia = site.data.all_colloquia | sort: "datestamp" %}
+            {% assign found = false %}
+            {% for colloquium in upcoming_colloquia %}
+              {% assign colloquium_date = colloquium.datestamp | plus: 0 %}
+              {% if colloquium_date >= today %}
+                {% assign found = true %}
+                <div class="announce-item">
+                  <div class="announce-item-row">
+                    <span class="announce-speaker">{{ colloquium.speaker }}</span>
+                    <a class="announce-detail-link" href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}">Details</a>
+                  </div>
+                  <div class="announce-item-meta">{{ colloquium.affiliation }} &middot; {{ colloquium.date | date: "%d %b %Y" }}</div>
+                </div>
+              {% endif %}
+            {% endfor %}
+            {% unless found %}
+              <p class="announce-empty">No upcoming colloquia</p>
+            {% endunless %}
+          </div>
+
+          <div class="announce-card">
+            <h3 class="announce-card-title">Seminars</h3>
+            {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+            {% assign upcoming_seminars = site.data.all_seminars | sort: "datestamp" %}
+            {% assign found = false %}
+            {% for seminar in upcoming_seminars %}
+              {% assign seminar_date = seminar.datestamp | plus: 0 %}
+              {% if seminar_date >= today %}
+                {% assign found = true %}
+                <div class="announce-item">
+                  <div class="announce-item-row">
+                    <span class="announce-speaker">{{ seminar.speaker }}</span>
+                    <a class="announce-detail-link" href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}">Details</a>
+                  </div>
+                  <div class="announce-item-meta">{{ seminar.affiliation }} &middot; {{ seminar.date | date: "%d %b %Y" }}</div>
+                </div>
+              {% endif %}
+            {% endfor %}
+            {% unless found %}
+              <p class="announce-empty">No upcoming seminars</p>
+            {% endunless %}
+          </div>
+
+          <div class="announce-card">
+            <h3 class="announce-card-title">Department Symposiums</h3>
+            {% assign all_symposiums = site.data.all_symposia | sort: "date" %}
+            {% assign latest_symposium = all_symposiums | last %}
+            {% if latest_symposium %}
+              {% assign today_ts = 'now' | date: "%s" %}
+              {% assign ended = false %}
+              {% if latest_symposium.ending %}
+                {% assign ending_ts = latest_symposium.ending | date: "%s" %}
+                {% if today_ts > ending_ts %}
+                  {% assign ended = true %}
+                {% endif %}
+              {% endif %}
+              <div class="announce-item">
+                <div class="announce-item-row">
+                  <span class="announce-speaker">{{ latest_symposium.date }} Edition</span>
+                  <a class="announce-detail-link" href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ latest_symposium.date }}.pdf">Details</a>
+                </div>
+                {% if ended %}
+                  <div class="announce-item-meta">Stay tuned for the next edition</div>
+                {% else %}
+                  <div class="announce-item-meta">{{ latest_symposium.starting | date: "%d %b %Y" }} &ndash; {{ latest_symposium.ending | date: "%d %b %Y" }}</div>
+                {% endif %}
+              </div>
+            {% else %}
+              <p class="announce-empty">No symposium information available</p>
+            {% endif %}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     Research areas
+     ============================================================ -->
+
+<section class="home-section home-section-alt">
   <div class="home-section-inner">
 
     <h2 class="home-section-title">Research Areas</h2>
@@ -82,123 +185,6 @@ redirect_from:
 
     <div class="home-section-link">
       <a href="{{ '/topics/' | relative_url }}">View all research areas &rarr;</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ============================================================
-     Announcements
-     ============================================================ -->
-
-<section class="home-section home-section-alt">
-  <div class="home-section-inner">
-
-    <h2 class="home-section-title">Announcements</h2>
-
-    <div class="announce-grid">
-
-      <div class="announce-card">
-        <h3 class="announce-card-title">Colloquia</h3>
-        {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-        {% assign upcoming_colloquia = site.data.all_colloquia | sort: "datestamp" %}
-        {% assign found = false %}
-        {% for colloquium in upcoming_colloquia %}
-          {% assign colloquium_date = colloquium.datestamp | plus: 0 %}
-          {% if colloquium_date >= today %}
-            {% assign found = true %}
-            <div class="announce-item">
-              <div class="announce-item-row">
-                <span class="announce-speaker">{{ colloquium.speaker }}</span>
-                <a class="announce-detail-link" href="{{ site.baseurl }}/physics-colloquium/{{ colloquium.datestamp }}">Details</a>
-              </div>
-              <div class="announce-item-meta">{{ colloquium.affiliation }} &middot; {{ colloquium.date | date: "%d %b %Y" }}</div>
-            </div>
-          {% endif %}
-        {% endfor %}
-        {% unless found %}
-          <p class="announce-empty">No upcoming colloquia</p>
-        {% endunless %}
-      </div>
-
-      <div class="announce-card">
-        <h3 class="announce-card-title">Seminars</h3>
-        {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
-        {% assign upcoming_seminars = site.data.all_seminars | sort: "datestamp" %}
-        {% assign found = false %}
-        {% for seminar in upcoming_seminars %}
-          {% assign seminar_date = seminar.datestamp | plus: 0 %}
-          {% if seminar_date >= today %}
-            {% assign found = true %}
-            <div class="announce-item">
-              <div class="announce-item-row">
-                <span class="announce-speaker">{{ seminar.speaker }}</span>
-                <a class="announce-detail-link" href="{{ site.baseurl }}/physics-seminar/{{ seminar.datestamp }}">Details</a>
-              </div>
-              <div class="announce-item-meta">{{ seminar.affiliation }} &middot; {{ seminar.date | date: "%d %b %Y" }}</div>
-            </div>
-          {% endif %}
-        {% endfor %}
-        {% unless found %}
-          <p class="announce-empty">No upcoming seminars</p>
-        {% endunless %}
-      </div>
-
-      <div class="announce-card">
-        <h3 class="announce-card-title">Department Symposiums</h3>
-        {% assign all_symposiums = site.data.all_symposia | sort: "date" %}
-        {% assign latest_symposium = all_symposiums | last %}
-        {% if latest_symposium %}
-          {% assign today_ts = 'now' | date: "%s" %}
-          {% assign ended = false %}
-          {% if latest_symposium.ending %}
-            {% assign ending_ts = latest_symposium.ending | date: "%s" %}
-            {% if today_ts > ending_ts %}
-              {% assign ended = true %}
-            {% endif %}
-          {% endif %}
-          <div class="announce-item">
-            <div class="announce-item-row">
-              <span class="announce-speaker">{{ latest_symposium.date }} Edition</span>
-              <a class="announce-detail-link" href="{{ site.baseurl }}/assets/pdfs/symposiums/{{ latest_symposium.date }}.pdf">Details</a>
-            </div>
-            {% if ended %}
-              <div class="announce-item-meta">Stay tuned for the next edition</div>
-            {% else %}
-              <div class="announce-item-meta">{{ latest_symposium.starting | date: "%d %b %Y" }} &ndash; {{ latest_symposium.ending | date: "%d %b %Y" }}</div>
-            {% endif %}
-          </div>
-        {% else %}
-          <p class="announce-empty">No symposium information available</p>
-        {% endif %}
-      </div>
-
-      <div class="announce-card">
-        <h3 class="announce-card-title">Other Department Events</h3>
-        {% assign today = 'now' | date: "%Y%m%d" | plus: 0 %}
-        {% assign upcoming_events = site.data.all_events | sort: "date" %}
-        {% assign found = false %}
-        {% for event in upcoming_events %}
-          {% if event.date %}
-            {% assign event_date = event.date | date: "%Y%m%d" | plus: 0 %}
-            {% if event_date >= today %}
-              {% assign found = true %}
-              <div class="announce-item">
-                <div class="announce-item-title">{{ event.title }}</div>
-                <div class="announce-item-meta">
-                  {{ event.date | date: "%d %b %Y" }}
-                  {% if event.time %}&middot; {{ event.time }}{% endif %}
-                  {% if event.venue %}&middot; {{ event.venue }}{% endif %}
-                </div>
-              </div>
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% unless found %}
-          <p class="announce-empty">No upcoming department event</p>
-        {% endunless %}
-      </div>
-
     </div>
 
   </div>
