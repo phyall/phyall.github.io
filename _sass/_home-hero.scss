@@ -67,58 +67,16 @@ body {
 
 .dept-title-desc {
   max-width: 660px;
-  margin: 1rem 0 1.5rem;
+  margin: 1rem 0 0;
   font-size: .95rem;
   line-height: 1.65;
   color: #eaf1f9;
-}
-
-.dept-title-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
 
 @media (max-width: 700px) {
   .dept-header--home .dept-header-container {
     flex-direction: column;
   }
-}
-
-.home-btn {
-  display: inline-block;
-  padding: .85rem 1.75rem;
-  border-radius: 6px;
-  font-size: .95rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition:
-    background .2s ease,
-    border-color .2s ease,
-    color .2s ease;
-}
-
-.home-btn-primary {
-  background: #2f7f93;
-  border: 1px solid #2f7f93;
-  color: #fff !important;
-}
-
-.home-btn-primary:hover {
-  background: #256777;
-  border-color: #256777;
-  color: #fff !important;
-}
-
-.home-btn-outline {
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, .55);
-  color: #fff !important;
-}
-
-.home-btn-outline:hover {
-  background: rgba(255, 255, 255, .12);
-  color: #fff !important;
 }
 
 /* ==========================================================
