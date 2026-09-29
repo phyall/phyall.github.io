@@ -1,6 +1,5 @@
-<header class="dept-header{% if page.url == "/" %} dept-header--home{% endif %}">
+<header class="dept-header">
 
-  {% if page.url == "/" %}
   <svg class="dept-header-decor" width="560" height="560" viewBox="0 0 560 560" fill="none" aria-hidden="true">
     <circle cx="280" cy="280" r="220" stroke="rgba(255,255,255,0.14)" stroke-width="1"></circle>
     <ellipse cx="280" cy="280" rx="240" ry="90" stroke="rgba(255,255,255,0.14)" stroke-width="1"></ellipse>
@@ -9,7 +8,6 @@
     <circle cx="500" cy="280" r="5" fill="#7fa8c9"></circle>
     <circle cx="280" cy="40" r="4" fill="#7fa8c9"></circle>
   </svg>
-  {% endif %}
 
   <div class="dept-header-container">
 
@@ -36,24 +34,6 @@
         {{ site.data.department.institution }}
 
       </h2>
-
-      {% if page.url == "/" %}
-
-      <p class="dept-title-desc">
-
-        Started in August 2015, the department is engaged in teaching and research at the forefront of experimental and theoretical physics, sharing the institute's stated purpose to create, communicate, and apply knowledge for the benefit of society. Its faculty pursue work in diverse domains, spanning astrophysics, condensed matter physics, high energy physics, quantum information science and technology, soft matter and statistical physics, and string theory.
-
-      </p>
-
-      {% elsif site.data.department.tagline %}
-
-      <p>
-
-        {{ site.data.department.tagline }}
-
-      </p>
-
-      {% endif %}
 
     </div>
 
