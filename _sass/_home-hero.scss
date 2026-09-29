@@ -71,6 +71,13 @@ body {
   background: #f7f9fb;
 }
 
+/* Slightly darker than .home-section-alt, used just for Research
+   Areas so its white cards stand out more against the section
+   background. Publications keeps the lighter .home-section-alt. */
+.home-section-research {
+  background: #e9edf3;
+}
+
 .home-section-inner {
   max-width: 1400px;
   margin: 0 auto;
@@ -152,6 +159,46 @@ body {
   gap: 1.1rem;
 }
 
+/* Speaker name / Details link row inside each announcement item --
+   the shared _announcements.scss defines no rules at all for these
+   three classes, so they need full layout here. */
+.announce-item-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.announce-speaker {
+  font-size: .95rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.announce-detail-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: .5rem;
+  white-space: nowrap;
+}
+
+.announce-sep {
+  color: #c7ccd1;
+}
+
+.announce-detail-link {
+  font-size: .85rem;
+  font-weight: 600;
+  color: #2f7f93;
+  text-decoration: none;
+}
+
+.announce-detail-link:hover {
+  color: #163b63;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .home-media-row {
     grid-template-columns: 1fr;
@@ -218,6 +265,14 @@ body {
 #home-faculty-grid .faculty-mini-card {
   text-decoration: none;
   color: inherit;
+}
+
+.faculty-mini-area {
+  margin-top: .3rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  color: #2f7f93;
+  font-weight: 500;
 }
 
 /* ==========================================================
@@ -305,9 +360,9 @@ body {
 
 html[data-theme="dark"] {
 
-  /* Header decoration already reads fine as-is (navy on white
-     text), but pull the accent dot color from the theme's base
-     accent so it stays consistent with dark-mode links elsewhere. */
+  /* Header hero already reads fine as-is (navy on white text), but
+     pull the accent dot color from the theme's base accent so it
+     stays consistent with dark-mode links elsewhere. */
   .dept-header-decor circle:last-child {
     fill: var(--global-base-color, #2f7f93);
   }
@@ -335,6 +390,30 @@ html[data-theme="dark"] {
   /* Section shells */
   .home-section-alt {
     background: var(--global-footer-bg-color, #383838);
+  }
+
+  .home-section-research {
+    background: var(--global-footer-bg-color, #383838);
+  }
+
+  .announce-speaker {
+    color: var(--global-text-color, #fff);
+  }
+
+  .announce-sep {
+    color: var(--global-border-color, #5a5a5a);
+  }
+
+  .announce-detail-link {
+    color: var(--global-base-color, #2f7f93);
+  }
+
+  .announce-detail-link:hover {
+    color: var(--global-link-color-hover, #fff);
+  }
+
+  .faculty-mini-area {
+    color: var(--global-base-color, #2f7f93);
   }
 
   .home-section-title {
