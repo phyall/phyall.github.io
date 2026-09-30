@@ -408,6 +408,33 @@
   slug: resmi-pk
 
 
+- name: Nirmal Roy
+  last_name: roy
+  gender: male
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  position: regular
+  status: current
+  now:
+  head: false
+  year_joined: 2026
+  year_left:
+  date_joined: 20260930
+  email: 
+  iit_url: 
+  personal_url: 
+  photo: blank.png
+  type: experiment
+  area: [cmp_experiment]
+  research: 
+  office: 
+  phone: 
+  note:
+  slug: nirmal-roy
+
+
+
 
 ######################################################################
 # Associated Faculty
