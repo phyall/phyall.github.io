@@ -12,7 +12,11 @@
 
   <div class="faculty-content">
     <h3 class="faculty-name">
-      {{ faculty.name }}
+      {% if faculty.slug %}
+        <a href="{{ '/faculty/' | relative_url }}{{ faculty.slug }}/" class="faculty-name-link">{{ faculty.name }}</a>
+      {% else %}
+        {{ faculty.name }}
+      {% endif %}
     </h3>
     <p class="faculty-designation">
       {{ faculty.designation }}
