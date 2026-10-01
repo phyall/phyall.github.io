@@ -67,15 +67,20 @@ body {
   padding: 3.5rem 1.5rem;
 }
 
-/* Shared by Research Areas and Recent Publications -- a bit darker
-   than plain white so the white cards/rows inside them stand out. */
-.home-section-alt {
-  background: #e4e9ef;
-}
-
 .home-section-inner {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+/* Shared by Research Areas and Recent Publications -- a bit darker
+   than plain white so the white cards/rows inside them stand out.
+   Applied to the (already width-capped, centered) inner box rather
+   than the full-bleed <section> itself, so it reads as a rounded
+   inset card instead of an edge-to-edge strip. */
+.home-section-alt .home-section-inner {
+  background: #e4e9ef;
+  border-radius: 16px;
+  padding: 2.5rem;
 }
 
 .home-section-title {
@@ -356,6 +361,11 @@ body {
   .home-stats-grid {
     grid-template-columns: 1fr;
   }
+
+  .home-section-alt .home-section-inner {
+    padding: 1.75rem 1.25rem;
+    border-radius: 12px;
+  }
 }
 
 /* ==========================================================
@@ -397,7 +407,7 @@ html[data-theme="dark"] {
   }
 
   /* Section shells */
-  .home-section-alt {
+  .home-section-alt .home-section-inner {
     background: var(--global-footer-bg-color, #383838);
   }
 
