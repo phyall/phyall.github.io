@@ -70,8 +70,14 @@ layout: archive
     </div>
   </div>
 
-  {% assign phd_members = site.data.all_phd_students | where: "status", "ongoing" | sort: "joining_year" %}
-  {% assign ms_members = site.data.all_ms_students | where: "status", "ongoing" | sort: "joining_year" %}
+  {% assign phd_members_ongoing = site.data.all_phd_students | where: "status", "ongoing" %}
+  {% assign phd_members_submitted = site.data.all_phd_students | where: "status", "submitted" %}
+  {% assign phd_members = phd_members_ongoing | concat: phd_members_submitted | sort: "joining_year" %}
+
+  {% assign ms_members_ongoing = site.data.all_ms_students | where: "status", "ongoing" %}
+  {% assign ms_members_submitted = site.data.all_ms_students | where: "status", "submitted" %}
+  {% assign ms_members = ms_members_ongoing | concat: ms_members_submitted | sort: "joining_year" %}
+
   {% assign postdoc_members = site.data.all_postdocs | where: "status", "ongoing" | sort: "joining_year" %}
 
   {% assign group_count = 0 %}
