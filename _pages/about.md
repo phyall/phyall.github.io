@@ -69,13 +69,19 @@ redirect_from:
 
 <section class="home-section">
   <div class="home-section-inner">
+
     <div class="home-media-row">
+
       <div class="home-media-row-slideshow">
         {% include slideshow.html %}
       </div>
+
       <div class="home-media-row-announcements">
+
         <h2 class="home-section-title">Announcements</h2>
+
         <div class="announce-stack">
+
           <div class="announce-card">
             <h3 class="announce-card-title">Colloquia</h3>
             {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
@@ -101,6 +107,7 @@ redirect_from:
               <p class="announce-empty">No upcoming colloquia</p>
             {% endunless %}
           </div>
+
           <div class="announce-card">
             <h3 class="announce-card-title">Seminars</h3>
             {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
@@ -126,6 +133,7 @@ redirect_from:
               <p class="announce-empty">No upcoming seminars</p>
             {% endunless %}
           </div>
+
           <div class="announce-card">
             <h3 class="announce-card-title">Department Symposiums</h3>
             {% assign all_symposiums = site.data.all_symposia | sort: "date" %}
@@ -157,9 +165,13 @@ redirect_from:
               <p class="announce-empty">No symposium information available</p>
             {% endif %}
           </div>
+
         </div>
+
       </div>
+
     </div>
+
   </div>
 </section>
 
@@ -169,14 +181,14 @@ redirect_from:
 
 <section class="home-section home-section-alt">
   <div class="home-section-inner">
+
     <div class="home-section-header">
-      <div class="home-section-header-text">
-        <h2 class="home-section-title">Research Areas</h2>
-        <p class="home-section-sub">A snapshot of the department's active research areas</p>
-      </div>
+      <h2 class="home-section-title">Research Areas</h2>
       <a class="home-section-link-inline" href="{{ '/topics/' | relative_url }}">View all research areas &rarr;</a>
     </div>
+
     {% assign research_groups_sorted = site.data.research_groups | sort: "alphabet" %}
+
     <!-- Conveyor-belt: the full set of cards is rendered twice in a
          row inside one flex track, which is then animated leftward
          forever. Because the content repeats exactly once, the
@@ -219,6 +231,7 @@ redirect_from:
         {% endfor %}
       </div>
     </div>
+
   </div>
 </section>
 
@@ -228,11 +241,14 @@ redirect_from:
 
 <section class="home-section">
   <div class="home-section-inner">
+
     <div class="home-section-header">
       <h2 class="home-section-title">Meet Our Faculty</h2>
       <a class="home-section-link-inline" href="{{ '/faculty/' | relative_url }}">View all members &rarr;</a>
     </div>
+
     {% assign spotlight_faculty = current_primary_faculty | sort: "date_joined" %}
+
     <!-- Same conveyor-belt technique as the Research Areas section
          above: the full faculty list rendered twice in one flex
          track, animated leftward on a continuous loop. The second
@@ -273,6 +289,7 @@ redirect_from:
         {% endfor %}
       </div>
     </div>
+
   </div>
 </section>
 
@@ -282,11 +299,14 @@ redirect_from:
 
 <section class="home-section home-section-alt">
   <div class="home-section-inner">
+
     <div class="home-section-header">
       <h2 class="home-section-title">Recent Publications</h2>
       <a class="home-section-link-inline" href="{{ '/publications/' | relative_url }}">View all publications &rarr;</a>
     </div>
+
     {% assign recent_pubs = site.data.all_publications | sort: "sort" | reverse %}
+
     <!-- One publication per research area: the most recent paper
          tagged with each currently-active area (same areas shown
          in the Research Areas section above), so the count here
@@ -304,6 +324,7 @@ redirect_from:
       {% endif %}
     {% endfor %}
     {% assign pubs_to_show = pubs_to_show | sort: "sort" | reverse %}
+
     <ol class="home-pub-list">
       {% for pub in pubs_to_show %}
         <li class="home-pub-item">
@@ -321,5 +342,6 @@ redirect_from:
         </li>
       {% endfor %}
     </ol>
+
   </div>
 </section>
