@@ -1,0 +1,576 @@
+/* ==========================================================
+   Homepage facelift
+   Uses the site's brand colors:
+     - navy  #102a47  (header / nav bar / footer)
+     - teal  #2f7f93  ($primary-color)
+     - gold  #f7a601  (sampled from the IIT Palakkad logo)
+   ========================================================== */
+
+/* Hides the generic "page__title" H1 when a page (like the
+   homepage) leaves its title blank, so our own hero heading
+   is the only H1 on the page. Harmless on every other page,
+   since they all set a real title. */
+.page__title:empty {
+  display: none;
+}
+
+/* The theme reserves $masthead-height (70px) of top padding on
+   <body> for its own fixed .masthead component, which this site
+   doesn't use (department_header.html + navigation.html replace
+   it, and neither is fixed-position) -- so it was just leaving a
+   blank strip above the header on every page. */
+body {
+  padding-top: 0 !important;
+}
+
+/* ==========================================================
+   Stats strip
+   ========================================================== */
+
+.home-stats {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 2.25rem 1.5rem;
+}
+
+.home-stats-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+@media (min-width: 901px) {
+  .home-stat:not(:first-child) {
+    border-left: 1px solid #e5e7eb;
+  }
+}
+
+.home-stat-number {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #163b63;
+}
+
+.home-stat-label {
+  margin-top: .25rem;
+  font-size: .85rem;
+  color: #666;
+}
+
+/* ==========================================================
+   Generic homepage section shell
+   ========================================================== */
+
+.home-section {
+  padding: 3.5rem 1.5rem;
+}
+
+.home-section-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Shared by Research Areas and Recent Publications -- a bit darker
+   than plain white so the white cards/rows inside them stand out.
+   Applied to the (already width-capped, centered) inner box rather
+   than the full-bleed <section> itself, so it reads as a rounded
+   inset card instead of an edge-to-edge strip. */
+.home-section-alt .home-section-inner {
+  background: #e4e9ef;
+  border-radius: 16px;
+  padding: 2.5rem;
+}
+
+.home-section-title {
+  margin: 0 0 .5rem;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #163b63;
+}
+
+.home-section-sub {
+  margin: 0 0 2rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+.home-section-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.home-section-link-inline,
+.home-section-link a {
+  font-size: .95rem;
+  font-weight: 600;
+  color: #2f7f93;
+  text-decoration: none;
+}
+
+.home-section-link-inline:hover,
+.home-section-link a:hover {
+  color: #163b63;
+  text-decoration: underline;
+}
+
+.home-section-link {
+  margin-top: 2rem;
+}
+
+/* Lets a section header pack a title + subtitle on the left with
+   the "View all" link staying inline on the right (used by
+   Research Areas, which -- unlike Faculty/Publications -- also has
+   a subtitle line). */
+.home-section-header-text .home-section-title {
+  margin-bottom: .3rem;
+}
+
+.home-section-header-text .home-section-sub {
+  margin: 0;
+}
+
+/* ==========================================================
+   Slideshow + Announcements row
+   (the shared Swiper hero-swiper component is centered/fixed-
+   width by default in _sass/_slideshow.scss -- this scopes it
+   to fill its column here instead, imported after that file so
+   it wins the cascade)
+   ========================================================== */
+
+.home-media-row {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.home-media-row-slideshow {
+  min-width: 0;
+}
+
+.home-media-row-slideshow .hero-swiper {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  margin: 0;
+}
+
+.home-media-row-announcements {
+  min-width: 0;
+}
+
+.announce-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+/* Speaker name / Details link row inside each announcement item --
+   the shared _announcements.scss defines no rules at all for these
+   three classes, so they need full layout here. */
+.announce-item-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.announce-speaker {
+  font-size: .95rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.announce-detail-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: .5rem;
+  white-space: nowrap;
+}
+
+.announce-sep {
+  color: #c7ccd1;
+}
+
+.announce-detail-link {
+  font-size: .85rem;
+  font-weight: 600;
+  color: #2f7f93;
+  text-decoration: none;
+}
+
+.announce-detail-link:hover {
+  color: #163b63;
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .home-media-row {
+    grid-template-columns: 1fr;
+  }
+
+  .home-media-row-slideshow .hero-swiper {
+    height: 300px;
+  }
+}
+
+/* ==========================================================
+   Conveyor-belt marquee
+   (shared by Research Areas and Meet Our Faculty -- each
+   renders its full card list twice in a row inside one flex
+   track, which is then animated leftward forever. Because the
+   content repeats exactly once, the loop point lines up
+   perfectly and the belt looks endless. Hovering or focusing it
+   pauses the scroll so it stays readable/usable; a soft fade at
+   each edge hints that there's more off-screen.)
+   ========================================================== */
+
+.marquee-wrap {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent);
+}
+
+.marquee-track {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  will-change: transform;
+}
+
+.marquee-wrap:hover .marquee-track,
+.marquee-wrap:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.home-research-marquee .marquee-track {
+  animation: marquee-scroll 36s linear infinite;
+}
+
+.home-faculty-marquee .marquee-track {
+  gap: 22px;
+  animation: marquee-scroll 48s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none !important;
+    transform: none !important;
+  }
+
+  .marquee-wrap {
+    overflow-x: auto;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
+
+/* ==========================================================
+   Research area cards
+   ========================================================== */
+
+.home-research-marquee .home-research-card {
+  flex: 0 0 300px;
+  width: 300px;
+}
+
+.home-research-card {
+  display: block;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease;
+}
+
+.home-research-card:hover {
+  transform: translateY(-2px);
+  border-color: #d9d9d9;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, .08);
+}
+
+.home-research-card h3 {
+  margin: 0 0 .6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #163b63;
+}
+
+.home-research-card p {
+  margin: 0;
+  font-size: .92rem;
+  line-height: 1.55;
+  color: #666;
+}
+
+/* ==========================================================
+   Faculty spotlight (reuses .faculty-mini-card, here used as an
+   <a> so the whole card links to the profile, and given a fixed
+   width so it works as a flex child of the marquee track)
+   ========================================================== */
+
+.home-faculty-marquee .faculty-mini-card {
+  flex: 0 0 360px;
+  width: 360px;
+  margin-bottom: 0;
+}
+
+.home-faculty-marquee .faculty-mini-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Matches .faculty-mini-designation's color (defined in
+   _facultymini.scss), a size step smaller. */
+.faculty-mini-area {
+  margin-top: .3rem;
+  font-size: .78rem;
+  line-height: 1.4;
+  color: #666;
+  font-weight: 400;
+}
+
+/* ==========================================================
+   Recent publications
+   ========================================================== */
+
+.home-pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-pub-item {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.home-pub-item:last-child {
+  border-bottom: none;
+}
+
+.home-pub-year {
+  min-width: 52px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2f7f93;
+}
+
+.home-pub-title {
+  margin: 0 0 .25rem;
+  font-size: .95rem;
+  line-height: 1.55;
+  color: #333;
+}
+
+.home-pub-journal {
+  margin: 0;
+  font-size: .85rem;
+  color: #666;
+}
+
+.home-pub-journal a {
+  color: #163b63;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-pub-journal a:hover {
+  color: #1d5fa7;
+  text-decoration: underline;
+}
+
+/* ==========================================================
+   Responsive
+   ========================================================== */
+
+@media (max-width: 900px) {
+  .home-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+  }
+
+  .home-research-marquee .home-research-card {
+    flex-basis: 260px;
+    width: 260px;
+  }
+
+  .home-faculty-marquee .faculty-mini-card {
+    flex-basis: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-section-alt .home-section-inner {
+    padding: 1.75rem 1.25rem;
+    border-radius: 12px;
+  }
+
+  .home-research-marquee .home-research-card {
+    flex-basis: 230px;
+    width: 230px;
+  }
+
+  .home-faculty-marquee .faculty-mini-card {
+    flex-basis: 270px;
+    width: 270px;
+  }
+}
+
+/* ==========================================================
+   Dark mode
+   (site already switches to dark automatically at night via
+   isNightAtPalakkad() in assets/js/_main.js, or when a visitor
+   toggles it themselves -- this matches that existing behavior
+   using the same CSS custom properties the rest of the theme
+   uses under html[data-theme="dark"])
+   ========================================================== */
+
+html[data-theme="dark"] {
+
+  /* Header hero already reads fine as-is (navy on white text), but
+     pull the accent dot color from the theme's base accent so it
+     stays consistent with dark-mode links elsewhere. */
+  .dept-header-decor circle:last-child {
+    fill: var(--global-base-color, #2f7f93);
+  }
+
+  /* Stats strip */
+  .home-stats {
+    background: var(--global-bg-color, #2d2d2d);
+    border-bottom-color: var(--global-border-color, #5a5a5a);
+  }
+
+  .home-stat-number {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-stat-label {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  @media (min-width: 901px) {
+    .home-stat:not(:first-child) {
+      border-left-color: var(--global-border-color, #5a5a5a);
+    }
+  }
+
+  /* Section shells */
+  .home-section-alt .home-section-inner {
+    background: var(--global-footer-bg-color, #383838);
+  }
+
+  .announce-speaker {
+    color: var(--global-text-color, #fff);
+  }
+
+  .announce-sep {
+    color: var(--global-border-color, #5a5a5a);
+  }
+
+  .announce-detail-link {
+    color: var(--global-base-color, #2f7f93);
+  }
+
+  .announce-detail-link:hover {
+    color: var(--global-link-color-hover, #fff);
+  }
+
+  .home-section-title {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-section-sub {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  .home-section-link-inline,
+  .home-section-link a {
+    color: var(--global-base-color, #2f7f93);
+  }
+
+  .home-section-link-inline:hover,
+  .home-section-link a:hover {
+    color: var(--global-link-color-hover, #fff);
+  }
+
+  /* Research area cards */
+  .home-research-card {
+    background: var(--global-footer-bg-color, #383838);
+    border-color: var(--global-border-color, #5a5a5a);
+  }
+
+  .home-research-card:hover {
+    border-color: var(--global-base-color, #2f7f93);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .35);
+  }
+
+  .home-research-card h3 {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-research-card p {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  /* Faculty spotlight card text (photo/card chrome itself comes
+     from the pre-existing .faculty-mini-card styles, which are
+     left untouched) */
+  .home-faculty-marquee .faculty-mini-card {
+    color: var(--global-text-color, #fff);
+  }
+
+  /* Recent publications */
+  .home-pub-item {
+    border-bottom-color: var(--global-border-color, #5a5a5a);
+  }
+
+  .home-pub-year {
+    color: var(--global-base-color, #2f7f93);
+  }
+
+  .home-pub-title {
+    color: var(--global-text-color, #fff);
+  }
+
+  .home-pub-journal {
+    color: var(--global-text-color-light, #cfcfcf);
+  }
+
+  .home-pub-journal a {
+    color: var(--global-link-color, #0ea1c5);
+  }
+
+  .home-pub-journal a:hover {
+    color: var(--global-link-color-hover, #fff);
+  }
+}
