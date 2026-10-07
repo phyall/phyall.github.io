@@ -2943,7 +2943,7 @@
   link:
   status: approved
   course_type: PME
-  prerequisites: 5006
+  prerequisites: 5006, 5007
   basket:
   senate:
   #=============
