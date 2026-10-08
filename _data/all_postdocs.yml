@@ -1,3 +1,16 @@
+- name: Karthika S
+  status: ongoing
+  program: postdoc
+  joining_year: 2025
+  finishing_year:
+  research_area: [softmat_theory]
+  next_position:
+  with: Vishwas Venkatesh
+  guide_affiliation: primary
+  email: karthikas@iitpkd.ac.in
+  gender: female
+
+
 - name: Gayathri V
   status: ongoing
   program: postdoc
@@ -9,7 +22,7 @@
   guide_affiliation: primary
   email: gayathriv@iitpkd.ac.in
   gender: female
-  research_area: [cmp_experiment]
+
 
 - name: Aparna Sreekumari
   status: ongoing
@@ -22,7 +35,7 @@
   guide_affiliation: primary
   email: prj183@iitpkd.ac.in
   gender: female
-  research_area: [softmat_theory]
+
 
 - name: Nisha Gupta
   status: finished
@@ -35,7 +48,7 @@
   guide_affiliation: primary
   email:
   gender: female
-  research_area: [softmat_theory]
+
 
 - name: Sayani Chatterjee
   status: finished
@@ -48,7 +61,7 @@
   guide_affiliation: primary
   email:
   gender: female
-  research_area: [softmat_theory]
+
 
 - name: Arya Mohan
   status: finished
@@ -61,4 +74,4 @@
   guide_affiliation: primary
   email:
   gender: female
-  research_area: [cmp_experiment]
+
