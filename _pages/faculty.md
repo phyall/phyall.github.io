@@ -10,6 +10,10 @@ sidebar:
    | where: "status", "current"
    | sort: "date_joined" %}
 
+<div style="text-align: right; margin-bottom: 1.5rem;">
+  <a class="topic-side-link" href="{{ site.baseurl }}/formerfaculty/">Former Faculty &rarr;</a>
+</div>   
+
 <!--{% assign secondary_faculty = site.data.all_faculty
    | where: "affiliation", "secondary"
    | where: "status", "current"
