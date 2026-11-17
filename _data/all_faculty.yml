@@ -434,6 +434,30 @@
   slug: nirmal-roy
 
 
+- name: Suman Kundu
+  last_name: kundu
+  gender: male
+  designation: Assistant Professor
+  affiliation: primary
+  other_affiliation: 
+  position: regular
+  status: current
+  now:
+  head: false
+  year_joined: 2026
+  year_left:
+  date_joined: 20261101
+  email: suman@iitpkd.ac.in
+  iit_url: "https://iitpkd.ac.in/people/suman"
+  personal_url: 
+  photo: blank.png
+  type: theory
+  area: [string]
+  research: ""
+  office: "D03 SF"
+  phone: 
+  note:
+  slug: suman-kundu
 
 
 ######################################################################
