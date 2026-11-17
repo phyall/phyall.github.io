@@ -9,6 +9,9 @@ sidebar:
     | where: "status", "ongoing"
     | where: "guide_affiliation", "secondary" %}
 
+<div style="text-align: right; margin-bottom: 1.5rem;">
+  <a class="topic-side-link" href="{{ site.baseurl }}/formerpostdocs/">Former Postdocs &rarr;</a>
+</div>
 ## Hosted by Regular Faculty
 
 {% include postdoc_table.html postdocs=site.data.all_postdocs affiliation="primary" %}
