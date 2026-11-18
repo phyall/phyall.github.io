@@ -5,6 +5,8 @@ permalink: /formerfaculty/
 sidebar: 
 ---
 
+<a href="{{ '/faculty/' | relative_url }}" class="faculty-back-link">&larr; Back to Regular Faculty</a>
+
 {% assign former_regular = site.data.all_faculty
    | where: "status", "former"
    | where: "position", "regular"
