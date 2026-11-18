@@ -5,6 +5,8 @@ title: "Former Postdocs in Physics"
 sidebar: 
 ---
 
+<a href="{{ '/postdocs/' | relative_url }}" class="faculty-back-link">&larr; Back to Current Postdocs</a>
+
 ## Hosted by Regular Faculty
 
 {% include former-postdoc-table.html postdocs=site.data.all_postdocs affiliation="primary" %}
